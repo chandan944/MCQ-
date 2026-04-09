@@ -9111,19 +9111,44 @@ function renderHome() {
 function renderSubjectGrid() {
   const stats = state.globalStats;
   DOM.subjectGrid.innerHTML = QUESTION_BANK.map(subj => {
-    const sStats = stats.subjects[subj.subject] || { attempted: 0, correct: 0 };
-    const pct = sStats.attempted > 0 ? Math.round((sStats.correct / sStats.attempted) * 100) : 0;
-    const attempted = sStats.attempted > 0;
+    const sStats = stats.subjects[subj.subject] || { attempted: 0, correct: 0, chunks: {} };
     const totalQ = subj.questions.length;
-    const chunks = Math.ceil(totalQ / state.chunkSize);
+    const CHUNK  = state.chunkSize;
+    const numChunks = Math.ceil(totalQ / CHUNK);
+
+    // Count how many chunks have been attempted (best-attempt tracking)
+    const chunksData = sStats.chunks || {};
+    const chunksDone = Object.keys(chunksData)
+      .filter(k => k !== 'all' && chunksData[k] && chunksData[k].attempted > 0).length;
+
+    // Compute accuracy from stored subject totals (already best-per-chunk)
+    const acc = sStats.attempted > 0 ? Math.round((sStats.correct / sStats.attempted) * 100) : null;
+
+    // Coverage = questions covered by completed chunks / total questions
+    let coveredQ = 0;
+    for (let ci = 0; ci < numChunks; ci++) {
+      if (chunksData[ci] && chunksData[ci].attempted > 0) {
+        const start = ci * CHUNK;
+        coveredQ += Math.min(CHUNK, totalQ - start);
+      }
+    }
+    // If "practice all" was done and covers more, use that
+    if (chunksData['all'] && chunksData['all'].attempted > coveredQ) {
+      coveredQ = chunksData['all'].attempted;
+    }
+    const coveragePct = totalQ > 0 ? Math.round((coveredQ / totalQ) * 100) : 0;
+
+    const statusText = acc !== null
+      ? `${chunksDone}/${numChunks} parts · ${acc}% accuracy`
+      : `${totalQ} questions · ${numChunks} parts`;
 
     return `
       <button class="subject-card" data-subject="${subj.subject}" aria-label="Start ${subj.subject} quiz" style="--card-accent: ${subj.color}">
         <span class="subject-emoji">${subj.emoji}</span>
         <span class="subject-name">${subj.subject}</span>
-        <span class="subject-count">${totalQ} questions · ${chunks} parts${attempted ? ` · ${pct}%` : ''}</span>
+        <span class="subject-count">${statusText}</span>
         <div class="subject-progress-bar">
-          <div class="subject-progress-fill" style="width:${pct}%; background: ${subj.color}"></div>
+          <div class="subject-progress-fill" style="width:${coveragePct}%; background: ${subj.color}"></div>
         </div>
       </button>`;
   }).join('');
@@ -9205,7 +9230,7 @@ function renderChunkPicker(subjectName) {
     playSelectSound();
     modal.classList.remove('visible');
     setTimeout(() => modal.remove(), 250);
-    startQuiz(subjectName, false, -1); // -1 = all questions
+    startQuiz(subjectName, false, 'all'); // 'all' = all questions
   });
 }
 
@@ -9241,10 +9266,12 @@ function startQuiz(subjectName, wrongOnly = false, chunkIndex = 0) {
   const CHUNK = state.chunkSize;
   let pool;
 
-  if (wrongOnly && state.answers) {
-    pool = subj.questions.filter((_, i) => state.answers[i] === 'wrong');
-    if (pool.length === 0) pool = [...subj.questions];
-  } else if (chunkIndex === -1) {
+  if (wrongOnly && state.answers && state.questions.length > 0) {
+    // Filter wrong answers from the previously played questions (correct pool for the chunk)
+    const prevQuestions = state.questions;
+    pool = prevQuestions.filter((_, i) => state.answers[i] === 'wrong');
+    if (pool.length === 0) pool = [...prevQuestions];
+  } else if (chunkIndex === 'all') {
     // All questions
     pool = [...subj.questions];
   } else {
@@ -9260,7 +9287,7 @@ function startQuiz(subjectName, wrongOnly = false, chunkIndex = 0) {
   state.maxStreak    = 0;
   state.answered     = false;
 
-  const chunkLabel = chunkIndex === -1 ? 'All' : `Part ${chunkIndex + 1}`;
+  const chunkLabel = chunkIndex === 'all' ? 'All' : `Part ${chunkIndex + 1}`;
   DOM.quizSubjectTag.textContent = `${subj.emoji} ${subj.subject} · ${chunkLabel}`;
   DOM.qTotal.textContent = state.questions.length;
 
@@ -9452,9 +9479,7 @@ function finishQuiz() {
   const accuracy  = total > 0 ? Math.round((correct / total) * 100) : 0;
 
   const s = state.globalStats;
-  s.totalAttempted += total;
-  s.totalCorrect   += correct;
-  s.sessions       += 1;
+  s.sessions += 1;
 
   // Track session history for line chart
   if (!s.sessionHistory) s.sessionHistory = [];
@@ -9471,17 +9496,68 @@ function finishQuiz() {
   const sName = state.currentSubject.subject;
   if (!s.subjects[sName]) s.subjects[sName] = { attempted: 0, correct: 0, chunks: {} };
   if (!s.subjects[sName].chunks) s.subjects[sName].chunks = {};
-  s.subjects[sName].attempted += total;
-  s.subjects[sName].correct   += correct;
 
-  // Save per-chunk stats (only for named chunks, not "all")
-  if (state.currentChunk !== -1) {
+  // Save per-chunk stats — keep only the BEST attempt per chunk (not cumulative)
+  if (state.currentChunk !== 'all') {
     const ci = state.currentChunk;
-    if (!s.subjects[sName].chunks[ci]) s.subjects[sName].chunks[ci] = { attempted: 0, correct: 0 };
-    s.subjects[sName].chunks[ci].attempted += total;
-    s.subjects[sName].chunks[ci].correct   += correct;
+    const prev = s.subjects[sName].chunks[ci];
+    // Store best accuracy attempt for this chunk
+    if (!prev || correct > prev.correct) {
+      s.subjects[sName].chunks[ci] = { attempted: total, correct: correct };
+    }
   }
 
+  // Recompute subject-level totals from best-per-chunk results
+  // This prevents retries from inflating the attempted/correct counts
+  const subjObj = QUESTION_BANK.find(sb => sb.subject === sName);
+  const CHUNK = state.chunkSize;
+  const totalQ = subjObj ? subjObj.questions.length : 0;
+  const numChunks = Math.ceil(totalQ / CHUNK);
+
+  if (state.currentChunk !== 'all') {
+    // Rebuild totals from chunks only
+    let sumAttempted = 0, sumCorrect = 0;
+    for (let ci = 0; ci < numChunks; ci++) {
+      const cs = s.subjects[sName].chunks[ci];
+      if (cs) {
+        sumAttempted += cs.attempted;
+        sumCorrect   += cs.correct;
+      }
+    }
+    s.subjects[sName].attempted = sumAttempted;
+    s.subjects[sName].correct   = sumCorrect;
+  } else {
+    // "Practice All" — store as a special 'all' key
+    // Only update subject totals if this full-run is better than current
+    const prevAll = s.subjects[sName].chunks['all'];
+    if (!prevAll || correct > prevAll.correct) {
+      s.subjects[sName].chunks['all'] = { attempted: total, correct: correct };
+    }
+    // For "all", use the best full-run result vs best chunk-by-chunk — take whichever covers more
+    const bestAll = s.subjects[sName].chunks['all'];
+    let chunkSumAttempted = 0, chunkSumCorrect = 0;
+    for (let ci = 0; ci < numChunks; ci++) {
+      const cs = s.subjects[sName].chunks[ci];
+      if (cs) { chunkSumAttempted += cs.attempted; chunkSumCorrect += cs.correct; }
+    }
+    // Use chunk-sum if more questions covered, else the full-run
+    if (chunkSumAttempted >= bestAll.attempted) {
+      s.subjects[sName].attempted = chunkSumAttempted;
+      s.subjects[sName].correct   = chunkSumCorrect;
+    } else {
+      s.subjects[sName].attempted = bestAll.attempted;
+      s.subjects[sName].correct   = bestAll.correct;
+    }
+  }
+
+  // Recompute global totals from all subjects' best-per-chunk data
+  let globalAttempted = 0, globalCorrect = 0;
+  for (const subName of Object.keys(s.subjects)) {
+    globalAttempted += s.subjects[subName].attempted || 0;
+    globalCorrect   += s.subjects[subName].correct   || 0;
+  }
+  s.totalAttempted = globalAttempted;
+  s.totalCorrect   = globalCorrect;
   saveStats(s);
   state.globalStats = s;
 
