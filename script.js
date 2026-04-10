@@ -20,7 +20,8 @@ const QUESTION_BANK = [
       "C": "Correlation with data accuracy 📊",
       "D": "Relationship with network speed 🌐"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 More power-efficient hardware consumes less energy, directly extending IoT device battery lifespan."
   },
   {
     "question": "What is a common issue related to the wireless medium access in IoT communication? 📡",
@@ -30,7 +31,8 @@ const QUESTION_BANK = [
       "C": "Large bandwidth availability 📶",
       "D": "Low data transmission speed 🐢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Wireless IoT devices are battery-powered, so limited battery life is the key medium access challenge."
   },
   {
     "question": "Which MAC protocol is commonly used in IoT networks for low power consumption? 💤",
@@ -40,7 +42,8 @@ const QUESTION_BANK = [
       "C": "Code Division Multiple Access (CDMA) 🔢",
       "D": "Frequency Division Multiple Access (FDMA) 📶"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 CSMA checks for channel activity before transmitting, reducing collisions and wasting less energy."
   },
   {
     "question": "What is a primary concern when surveying routing protocols for IoT applications? 🗺️",
@@ -50,7 +53,8 @@ const QUESTION_BANK = [
       "C": "Hardware complexity 🧩",
       "D": "Real-time data processing ⚡"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Scalability is the standard definition for this concept in the field."
   },
   {
     "question": "When deploying sensors in IoT networks, what is crucial for effective coverage and data collection? 📍",
@@ -60,7 +64,8 @@ const QUESTION_BANK = [
       "C": "Randomly scattering sensors 🎲",
       "D": "Strategic sensor placement 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Strategic placement ensures every area is monitored without costly overlap or blind spots."
   },
   {
     "question": "What is a key challenge associated with node discovery in IoT environments? 🔍",
@@ -70,7 +75,8 @@ const QUESTION_BANK = [
       "C": "Nodes being too easily detectable 👁️",
       "D": "Node mobility 🚶‍♂️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Node mobility is the standard definition for this concept in the field."
   },
   {
     "question": "In IoT, which type of routing protocol is commonly used for constrained devices with low power? 🔋",
@@ -80,7 +86,8 @@ const QUESTION_BANK = [
       "C": "Hybrid 🔀",
       "D": "Static 📌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Reactive protocols build routes only when needed, avoiding the energy cost of maintaining full tables."
   },
   {
     "question": "What is a disadvantage of using contention-based MAC protocols in IoT networks? ⚠️",
@@ -90,7 +97,8 @@ const QUESTION_BANK = [
       "C": "Simplified device synchronization 🔄",
       "D": "Increased data throughput 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 High collision rates is the standard definition for this concept in the field."
   },
   {
     "question": "Which technology in IoT is used for the unique identification and tracking of items using radio waves? 📡",
@@ -100,7 +108,8 @@ const QUESTION_BANK = [
       "C": "RFID (Radio Frequency Identification) 🏷️",
       "D": "GPS (Global Positioning System) 🛰️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 RFID uses radio waves to read tags on objects from a distance, enabling automatic item identification."
   },
   {
     "question": "What type of networks are commonly used in IoT for connecting various devices wirelessly? 🌐",
@@ -110,7 +119,8 @@ const QUESTION_BANK = [
       "C": "Wireless Sensor Networks (WSNs) 📡",
       "D": "Metropolitan Area Networks (MANs) 🏙️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
   },
   {
     "question": "Participatory sensing technology in IoT involves: 👥",
@@ -120,7 +130,8 @@ const QUESTION_BANK = [
       "C": "Centralized data processing 💻",
       "D": "Real-time data transmission ⚡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 In participatory sensing, users actively contribute data through their own mobile devices."
   },
   {
     "question": "Which of the following is NOT an example of an embedded computing basic in the context of IoT? 💻",
@@ -130,7 +141,8 @@ const QUESTION_BANK = [
       "C": "Real-time operating systems ⏰",
       "D": "Firmware 🔧"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Real-time operating systems are software, not a hardware embedded computing basic like sensors or microcontrollers."
   },
   {
     "question": "What is the primary role of hardware platforms in IoT ecosystems? 🖥️",
@@ -140,7 +152,8 @@ const QUESTION_BANK = [
       "C": "Cloud storage management ☁️",
       "D": "Software development 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Physical computing and data collection is the standard definition for this concept in the field."
   },
   {
     "question": "Which type of embedded platform is specifically designed to support IoT applications and technologies? 🔧",
@@ -150,7 +163,8 @@ const QUESTION_BANK = [
       "C": "Single-board computers 🖥️",
       "D": "Gaming consoles 🎮"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Single-board computers integrate CPU, memory, and I/O on one board, perfect for IoT development."
   },
   {
     "question": "What does an embedded computing system use to interact with the outside world? 🌍",
@@ -160,7 +174,8 @@ const QUESTION_BANK = [
       "C": "USB ports 🔌",
       "D": "HDMI cables 🖥️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 GPIO pins allow embedded systems to electrically connect to and control physical sensors and actuators."
   },
   {
     "question": "In IoT, what is the purpose of a power management system in embedded platforms? 🔋",
@@ -170,7 +185,8 @@ const QUESTION_BANK = [
       "C": "Regulating power consumption ⚡",
       "D": "Communication with cloud servers ☁️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Power management systems regulate energy consumption, keeping battery-powered IoT devices running longer."
   },
   {
     "question": "Which MAC protocol is known for its simplicity and effectiveness in IoT networks with low traffic? 📡",
@@ -180,7 +196,8 @@ const QUESTION_BANK = [
       "C": "Reservation ALOHA 📅",
       "D": "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) 🚦"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Pure ALOHA is the simplest MAC protocol and works well when transmissions are infrequent."
   },
   {
     "question": "What is a benefit of using proactive routing protocols in IoT networks? ⚡",
@@ -190,7 +207,8 @@ const QUESTION_BANK = [
       "C": "Quick response to network changes 🔄",
       "D": "Low initial setup complexity 🔧"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Quick response to network changes is the standard definition for this concept in the field."
   },
   {
     "question": "When choosing a MAC protocol for IoT, what impact does contention-based protocols have on network efficiency? 📡",
@@ -200,7 +218,8 @@ const QUESTION_BANK = [
       "C": "Improved real-time data transmission ⚡",
       "D": "Enhanced scalability 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Contention-based access causes frequent collisions and retransmissions, increasing overall energy consumption."
   },
   {
     "question": "How does node discovery contribute to energy efficiency in IoT networks? 🔍",
@@ -210,7 +229,8 @@ const QUESTION_BANK = [
       "C": "Extending device battery life 🔋",
       "D": "Enhancing data encryption 🔐"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Knowing active nodes avoids sending data through unnecessary hops, reducing wasteful transmissions."
   },
   {
     "question": "Which factor is crucial for successful deployment of IoT sensor nodes? 📍",
@@ -220,7 +240,8 @@ const QUESTION_BANK = [
       "C": "Continuous data backups 💾",
       "D": "Adequate power supply 🔋"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Without a reliable power source, IoT sensor nodes simply stop operating in the field."
   },
   {
     "question": "What is a common example of a home automation application using IoT technology? 🏠",
@@ -230,7 +251,8 @@ const QUESTION_BANK = [
       "C": "Agricultural irrigation systems 🚜",
       "D": "Airline reservation systems ✈️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated lighting is a classic IoT home use case, adjusting based on presence or time schedules."
   },
   {
     "question": "Which of the following is an industry application of IoT? 🏭",
@@ -240,7 +262,8 @@ const QUESTION_BANK = [
       "C": "Predictive maintenance in manufacturing equipment 🔧",
       "D": "Social media networks 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
   },
   {
     "question": "What is a common surveillance application of IoT technology? 📹",
@@ -250,7 +273,8 @@ const QUESTION_BANK = [
       "C": "Video monitoring systems 🎥",
       "D": "E-commerce platforms 🛒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT-connected cameras let users remotely monitor locations through live video feeds."
   },
   {
     "question": "Which of the following is NOT typically considered an IoT application? ❌",
@@ -260,7 +284,8 @@ const QUESTION_BANK = [
       "C": "Music streaming services 🎵",
       "D": "Smart grid technology ⚡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Music streaming is a software service with no physical sensing component, so it is not an IoT application."
   },
   {
     "question": "What is a critical aspect of securing IoT devices? 🔐",
@@ -270,7 +295,8 @@ const QUESTION_BANK = [
       "C": "Regularly updating device software and implementing strong authentication 🔄",
       "D": "Blaming security breaches on aliens 👽"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Regular firmware updates fix security holes, and strong authentication stops unauthorized device access."
   },
   {
     "question": "Which technology is fundamental for enabling IoT applications in remote locations? 🏔️",
@@ -280,7 +306,8 @@ const QUESTION_BANK = [
       "C": "Carrier pigeons 🐦",
       "D": "Telepathy 🧠"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Satellites provide global radio coverage in areas where ground-based networks do not exist."
   },
   {
     "question": "What does the term 'Edge Computing' refer to in IoT? ⚡",
@@ -290,7 +317,8 @@ const QUESTION_BANK = [
       "C": "Creating data processing centers in outer space 🚀",
       "D": "Using a knife to cut your internet connection 🔪"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Edge computing processes data near the source, cutting latency and reducing cloud bandwidth needs."
   },
   {
     "question": "Which of the following is an example of wearable IoT technology? ⌚",
@@ -300,7 +328,8 @@ const QUESTION_BANK = [
       "C": "Cowboy hats 🤠",
       "D": "Flip phones 📱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smartwatches are wearable IoT devices that track health metrics and sync data wirelessly."
   },
   {
     "question": "What is the primary purpose of IoT technology in agriculture? 🚜",
@@ -310,7 +339,8 @@ const QUESTION_BANK = [
       "C": "Teaching cows to dance 🐄💃",
       "D": "Broadcasting karaoke shows in the fields 🎤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "What type of technology is commonly used in IoT for detecting and monitoring physical phenomena? 📡",
@@ -320,7 +350,8 @@ const QUESTION_BANK = [
       "C": "Resistors ⚡",
       "D": "Amplifiers 🔊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Sensors convert physical signals like temperature, light, and pressure into measurable electrical data."
   },
   {
     "question": "Which of the following is an example of a digital sensor used in IoT applications? 🔢",
@@ -330,7 +361,8 @@ const QUESTION_BANK = [
       "C": "Accelerometer 📳",
       "D": "Light-dependent resistor 🌞"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Accelerometers output digital values for orientation and motion, making them key digital IoT sensors."
   },
   {
     "question": "In the context of IoT, what are actuators primarily responsible for? 🎮",
@@ -340,7 +372,8 @@ const QUESTION_BANK = [
       "C": "Storing data 💾",
       "D": "Executing actions ⚙️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Actuators receive digital commands and physically execute actions like opening valves or spinning motors."
   },
   {
     "question": "Which factor is essential to consider when planning sensor deployment in IoT systems? 📍",
@@ -350,7 +383,8 @@ const QUESTION_BANK = [
       "C": "Sensory data storage capacity 💾",
       "D": "Communication range 📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Sensors must be within communication range of a gateway or each other to relay data reliably."
   },
   {
     "question": "When selecting a MAC protocol for an IoT network, what should be a priority for high device connectivity? 📡",
@@ -360,7 +394,8 @@ const QUESTION_BANK = [
       "C": "Device synchronization 🔄",
       "D": "Energy efficiency 🔋"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Energy efficiency is critical when many devices share a network, to prevent rapid battery drain."
   },
   {
     "question": "What is a critical consideration when evaluating the performance of routing protocols in IoT? 🗺️",
@@ -370,7 +405,8 @@ const QUESTION_BANK = [
       "C": "Network topology changes 🔄",
       "D": "Data encryption methods 🔐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Network topology changes is the standard definition for this concept in the field."
   },
   {
     "question": "Which routing protocol is designed to address the dynamic nature and scalability of IoT networks? 🔄",
@@ -380,7 +416,8 @@ const QUESTION_BANK = [
       "C": "Ad hoc On-Demand Distance Vector (AODV) 🚀",
       "D": "Routing Information Protocol (RIP) 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 AODV builds routes on demand and adapts to topology changes, suiting dynamic IoT deployments."
   },
   {
     "question": "What is a common characteristic of sensor nodes in IoT applications? 📡",
@@ -390,7 +427,8 @@ const QUESTION_BANK = [
       "C": "Long battery life 🔋",
       "D": "Limited processing and memory resources 🧩"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 IoT sensor nodes sacrifice processing power and memory to stay small, cheap, and energy-efficient."
   },
   {
     "question": "Why is node discovery important in IoT networks? 🔍",
@@ -400,7 +438,8 @@ const QUESTION_BANK = [
       "C": "To establish network connectivity 🌐",
       "D": "To reduce data latency ⏱️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Discovering nodes establishes who is in the network, enabling devices to route data to each other."
   },
   {
     "question": "In IoT, which routing protocol is more suitable for networks with changing topologies? 🔄",
@@ -410,7 +449,8 @@ const QUESTION_BANK = [
       "C": "Hybrid 🔀",
       "D": "Proactive ⚡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Hybrid protocols combine proactive and reactive routing, adapting well to frequently changing network layouts."
   },
   {
     "question": "When deploying sensors in urban environments for IoT applications, what should be considered to enhance communication reliability? 🏙️",
@@ -420,7 +460,8 @@ const QUESTION_BANK = [
       "C": "Height of sensor placement 📈",
       "D": "Random sensor placement 🎲"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Raising sensors above obstructions improves line-of-sight radio communication in dense urban environments."
   },
   {
     "question": "How does IoT impact data collection and analysis? 📊",
@@ -430,7 +471,8 @@ const QUESTION_BANK = [
       "C": "It enhances data collection and analysis capabilities 📈",
       "D": "It only works on weekends 📅"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT floods systems with continuous sensor data, vastly expanding the scope and speed of data analysis."
   },
   {
     "question": "What does the conceptual framework of IoT outline? 🏗️",
@@ -440,7 +482,8 @@ const QUESTION_BANK = [
       "C": "The rules of IoT chess ♟️",
       "D": "The history of IoT legends 📜"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The conceptual framework defines the structure, layers, and relationships that make up an IoT system."
   },
   {
     "question": "Which statement best describes the vision of IoT? 👁️",
@@ -450,7 +493,8 @@ const QUESTION_BANK = [
       "C": "To create more confusion in the world 😵",
       "D": "To move all devices to outer space 🚀"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 IoT's vision is a fully connected world where physical devices share data seamlessly over the internet."
   },
   {
     "question": "What is the significance of the architectural view in IoT systems? 🏛️",
@@ -460,7 +504,8 @@ const QUESTION_BANK = [
       "C": "It predicts the future of IoT technologies 🔮",
       "D": "It is purely decorative 🎨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The architectural view is a design blueprint showing how IoT components are structured and connected."
   },
   {
     "question": "Which sector benefits most from IoT applications? 📈",
@@ -470,7 +515,8 @@ const QUESTION_BANK = [
       "C": "Various industries like healthcare, agriculture, and transportation 🏥🚜🚚",
       "D": "The bubble gum industry 🍬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT spans every sector — from patient monitoring in healthcare to precision farming in agriculture."
   },
   {
     "question": "How do IoT devices communicate with each other? 📡",
@@ -480,7 +526,8 @@ const QUESTION_BANK = [
       "C": "Over a network using protocols 🌐",
       "D": "Through interpretive dance 💃"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT devices follow network protocols to format and send data reliably over wired or wireless networks."
   },
   {
     "question": "What role do sensors play in IoT systems? 📡",
@@ -490,7 +537,8 @@ const QUESTION_BANK = [
       "C": "Predicting the future 🔮",
       "D": "Creating chaos 🌪️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Sensors capture real-world data like temperature, motion, and humidity for IoT systems to process."
   },
   {
     "question": "Which phrase best describes the concept of 'smart cities' in the context of IoT? 🏙️",
@@ -500,7 +548,8 @@ const QUESTION_BANK = [
       "C": "Cities made of candy 🍭",
       "D": "Cities run entirely by robots 🤖"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Smart cities deploy IoT sensors and connected infrastructure to make urban services more efficient."
   },
   {
     "question": "How does IoT technology contribute to environmental sustainability? 🌍",
@@ -510,7 +559,8 @@ const QUESTION_BANK = [
       "C": "By depleting natural resources ⛏️",
       "D": "By encouraging pollution 🏭"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 By optimizing energy consumption — this is how this process works according to established principles."
   },
   {
     "question": "Which of the following is a benefit of using IoT in supply chain management? 📦",
@@ -520,7 +570,8 @@ const QUESTION_BANK = [
       "C": "Improved inventory tracking 📊",
       "D": "Limited access to real-time data 🚫"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Supply chain management coordinates the flow of goods, information, and money from supplier to customer."
   },
   {
     "question": "In which sector are smart meters commonly used as an IoT application? ⚡",
@@ -530,7 +581,8 @@ const QUESTION_BANK = [
       "C": "Utilities 💧",
       "D": "Hospitality 🏨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart meters in utilities allow two-way data flow, giving real-time consumption feedback to providers and customers."
   },
   {
     "question": "What is a common smart city application of IoT technology? 🏙️",
@@ -540,7 +592,8 @@ const QUESTION_BANK = [
       "C": "Social media platforms 📱",
       "D": "Online shopping websites 🛒"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Noise pollution sensors are a smart city IoT tool that monitor urban sound levels continuously."
   },
   {
     "question": "Which industry often utilizes IoT for condition monitoring of equipment? 🔧",
@@ -550,7 +603,8 @@ const QUESTION_BANK = [
       "C": "Travel ✈️",
       "D": "Food service 🍔"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
   },
   {
     "question": "How does IoT technology facilitate remote monitoring in the field of oil and gas? 🛢️",
@@ -560,7 +614,8 @@ const QUESTION_BANK = [
       "C": "By increasing manual inspections 🔍",
       "D": "By limiting communication channels 📡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 By enabling real-time data collection — this is how this process works according to established principles."
   },
   {
     "question": "What is an example of an IoT application in smart grid technology? ⚡",
@@ -570,7 +625,8 @@ const QUESTION_BANK = [
       "C": "Real-time energy consumption monitoring 📊",
       "D": "Social networking sites 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Real-time energy consumption monitoring is the standard definition for this concept in the field."
   },
   {
     "question": "Why is data integration important in IoT architecture? 🔗",
@@ -580,7 +636,8 @@ const QUESTION_BANK = [
       "C": "To enhance decision-making and insights 💡",
       "D": "To hinder communication 🚫"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Integrating data from diverse IoT sources enables holistic analysis and better-informed decisions."
   },
   {
     "question": "How do standards considerations impact the scalability of IoT solutions? 📏",
@@ -590,7 +647,8 @@ const QUESTION_BANK = [
       "C": "They promote interoperability and scalability 📈",
       "D": "They increase security risks ⚠️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Common standards let different IoT devices interoperate and allow the network to grow without redesign."
   },
   {
     "question": "Which architectural approach is more focused on real-time data processing? ⚡",
@@ -600,7 +658,8 @@ const QUESTION_BANK = [
       "C": "Both are equally focused on real-time processing ⚖️",
       "D": "Neither focus on real-time data processing 🚫"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "What does IoT stand for? 🔤",
@@ -610,7 +669,8 @@ const QUESTION_BANK = [
       "C": "Internet on Television 📺",
       "D": "Internet of Thinking 🧠"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 IoT stands for Internet of Things — the network of physical devices connected to the internet."
   },
   {
     "question": "Which of the following is a key component of IoT architecture? 🏗️",
@@ -620,7 +680,8 @@ const QUESTION_BANK = [
       "C": "Musical instruments 🎵",
       "D": "Gardening tools 🌱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Microprocessors is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "What is M2M communication in the context of IoT? 🤖",
@@ -630,7 +691,8 @@ const QUESTION_BANK = [
       "C": "Mind to Mind communication 🧠",
       "D": "Map to Map communication 🗺️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which technology is commonly used for wireless communication in IoT devices? 📡",
@@ -640,7 +702,8 @@ const QUESTION_BANK = [
       "C": "Smoke Signals 💨",
       "D": "Carrier Pigeons 🐦"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Zigbee is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Which of the following is NOT a potential source of IoT data? ❌",
@@ -650,7 +713,8 @@ const QUESTION_BANK = [
       "C": "Social Media 💬",
       "D": "Refrigerators 🧊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "In the IoT world, what does the 'Internet' refer to? 🌐",
@@ -660,7 +724,8 @@ const QUESTION_BANK = [
       "C": "A secret underground society 🤫",
       "D": "A magical portal ✨"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The 'Internet' in IoT refers to the global network linking computers and devices worldwide."
   },
   {
     "question": "What is a common example of IoT technology in everyday life? 🏠",
@@ -670,7 +735,8 @@ const QUESTION_BANK = [
       "C": "Horse-drawn carriages 🐴",
       "D": "Abacus 🧮"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smart thermostats is the standard definition for this concept in the field."
   },
   {
     "question": "In which industry is IoT technology commonly used for asset tracking? 📦",
@@ -680,7 +746,8 @@ const QUESTION_BANK = [
       "C": "Logistics 🚚",
       "D": "Tourism ✈️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
   },
   {
     "question": "What is an example of an IoT application in healthcare? 🏥",
@@ -690,7 +757,8 @@ const QUESTION_BANK = [
       "C": "Weather forecasting 🌤️",
       "D": "Ride-sharing services 🚗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Remote patient monitoring is the standard definition for this concept in the field."
   },
   {
     "question": "How does IoT technology enhance energy efficiency in buildings? 🏢",
@@ -700,7 +768,8 @@ const QUESTION_BANK = [
       "C": "By promoting excessive energy consumption ⚡",
       "D": "By encouraging paper wastage 📄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 By optimizing HVAC systems based on occupancy — this is how this process works according to established principles."
   },
   {
     "question": "What is a key benefit of using IoT in agriculture? 🚜",
@@ -710,7 +779,8 @@ const QUESTION_BANK = [
       "C": "Decreased food production 📉",
       "D": "Enhanced soil erosion 🌪️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Improved crop monitoring and management is the standard definition for this concept in the field."
   },
   {
     "question": "Which of the following is an example of an industrial IoT use case? 🏭",
@@ -720,7 +790,8 @@ const QUESTION_BANK = [
       "C": "Fleet management for transportation companies 🚚",
       "D": "Social media applications 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Fleet management for transportation companies is a concrete real-world example of the concept described."
   },
   {
     "question": "What is a potential challenge of implementing IoT in smart cities? 🏙️",
@@ -730,7 +801,8 @@ const QUESTION_BANK = [
       "C": "Privacy and security concerns 🔐",
       "D": "Enhanced communication networks 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart cities deploy IoT sensors and connected infrastructure to make urban services more efficient."
   },
   {
     "question": "Which industry commonly utilizes IoT for predictive maintenance of machinery? 🔧",
@@ -740,7 +812,8 @@ const QUESTION_BANK = [
       "C": "Manufacturing 🏭",
       "D": "Entertainment 🎬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
   },
   {
     "question": "What is a unique feature of IoT applications in the automotive industry? 🚗",
@@ -750,7 +823,8 @@ const QUESTION_BANK = [
       "C": "Weather forecasting 🌤️",
       "D": "Food delivery services 🍔"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Autonomous driving technologies is the standard definition for this concept in the field."
   },
   {
     "question": "What is an example of an IoT application in retail? 🛒",
@@ -760,7 +834,8 @@ const QUESTION_BANK = [
       "C": "Fitness tracking apps ⌚",
       "D": "Online dating websites 💕"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Real-time inventory tracking is the standard definition for this concept in the field."
   },
   {
     "question": "Which of the following is NOT a typical capability needed in an IoT architecture? ❌",
@@ -770,7 +845,8 @@ const QUESTION_BANK = [
       "C": "Unlimited energy usage 🔋",
       "D": "Remote monitoring 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Unlimited energy usage does not fit because the other options all belong to the same category."
   },
   {
     "question": "What should be considered when outlining an IoT architecture with regards to security? 🔐",
@@ -780,7 +856,8 @@ const QUESTION_BANK = [
       "C": "Security should be integrated from the beginning 🔒",
       "D": "Security can be added at the end 🏁"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Security must be designed into IoT systems from the start, not added as an afterthought later."
   },
   {
     "question": "Which of the following is a common standard in IoT technology? 📏",
@@ -790,7 +867,8 @@ const QUESTION_BANK = [
       "C": "Wi-Fi and Bluetooth only 📶",
       "D": "MQTT and CoAP 📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 MQTT and CoAP is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "What is the main benefit of having a Reference Architecture in IoT? 🏛️",
@@ -800,7 +878,8 @@ const QUESTION_BANK = [
       "C": "It provides a common framework for development 🏗️",
       "D": "It increases complexity 🧩"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 It provides a common framework for development is the standard definition for this concept in the field."
   },
   {
     "question": "How does a Reference Model aid in the development of IoT solutions? 📐",
@@ -810,7 +889,8 @@ const QUESTION_BANK = [
       "C": "It helps to establish common terminology and concepts 📚",
       "D": "It causes confusion 😵"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "In M2M vs IoT architecture, which tends to have more diverse devices to manage? 🤖 vs 🌐",
@@ -820,7 +900,8 @@ const QUESTION_BANK = [
       "C": "Both have the same amount ⚖️",
       "D": "Neither have any devices to manage 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 IoT encompasses far more types of devices than traditional M2M, from wearables to industrial sensors."
   },
   {
     "question": "Which of the following is NOT a primary consideration in M2M vs IoT architectural design? ❌",
@@ -830,7 +911,8 @@ const QUESTION_BANK = [
       "C": "Data Privacy 🤫",
       "D": "Consumption of data 📊"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Consumption of data does not fit because the other options all belong to the same category."
   },
   {
     "question": "What plays a crucial role in the success of IoT deployments? 🏆",
@@ -840,7 +922,8 @@ const QUESTION_BANK = [
       "C": "Standardized architectures and interfaces 📏",
       "D": "Vendor lock-in 🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Standardized architectures and interfaces is the primary function or purpose of this component in the system."
   },
   {
     "question": "What is a key challenge when developing an M2M architecture? 🤖",
@@ -850,7 +933,8 @@ const QUESTION_BANK = [
       "C": "Ensuring low latency ⚡",
       "D": "None of the above 🚫"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 None of the above is the standard definition for this concept in the field."
   },
   {
     "question": "Which of the following is an example of an IoT supported hardware platform that provides a comprehensive development environment? 🖥️",
@@ -860,7 +944,8 @@ const QUESTION_BANK = [
       "C": "Laptop 💻",
       "D": "Smartwatch ⌚"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Arduino is a concrete real-world example of the concept described."
   },
   {
     "question": "What hardware component is essential for an embedded device to communicate wirelessly in IoT applications? 📡",
@@ -870,7 +955,8 @@ const QUESTION_BANK = [
       "C": "Thermal paste 🧴",
       "D": "Power supply 🔋"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
   },
   {
     "question": "In the context of IoT, what role does a real-time operating system (RTOS) play in embedded platforms? ⏰",
@@ -880,7 +966,8 @@ const QUESTION_BANK = [
       "C": "Enhancing graphic performance 🎮",
       "D": "Improving battery life 🔋"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Time Objective (RTO) is the maximum time allowed to restore systems after a disruption."
   },
   {
     "question": "Which of the following statements is true about the use of firmware in embedded systems for IoT? 🔧",
@@ -890,7 +977,8 @@ const QUESTION_BANK = [
       "C": "Firmware is only used for debugging purposes 🐛",
       "D": "Firmware is interchangeable with software 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Firmware is low-level software that controls hardware behaviour directly at the device level."
   },
   {
     "question": "What is a key advantage of using embedded computing platforms for IoT applications? 💻",
@@ -900,7 +988,8 @@ const QUESTION_BANK = [
       "C": "Large form factor 📦",
       "D": "Cost-effectiveness 💰"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cost-effectiveness is the standard definition for this concept in the field."
   },
   {
     "question": "Which hardware component is crucial for enabling data storage and retrieval in IoT devices? 💾",
@@ -910,7 +999,8 @@ const QUESTION_BANK = [
       "C": "Graphics card 🎮",
       "D": "Memory module 🧠"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Memory modules store the data and program code that IoT devices need to operate."
   },
   {
     "question": "How do IoT devices utilize sensors and actuators for data acquisition and implementation? 📡⚙️",
@@ -920,7 +1010,8 @@ const QUESTION_BANK = [
       "C": "Sensors for data collection, actuators for executing actions 📊",
       "D": "Sensors for data transmission, actuators for communication 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Sensors for data collection, actuators for executing actions — this is how this process works according to established principles."
   },
   {
     "question": "Which networking technology is commonly used for connecting IoT devices over short distances? 📡",
@@ -930,7 +1021,8 @@ const QUESTION_BANK = [
       "C": "Zigbee 🐝",
       "D": "Cellular 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Zigbee is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "What is a key main design principle for M2M architecture? 🤖",
@@ -940,7 +1032,8 @@ const QUESTION_BANK = [
       "C": "Limited scalability 📉",
       "D": "Centralized data processing 💻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Low latency is the standard definition for this concept in the field."
   },
   {
     "question": "Which of the following is a needed capability in IoT architecture? 🏗️",
@@ -950,7 +1043,8 @@ const QUESTION_BANK = [
       "C": "Standardized communication protocols 📏",
       "D": "Singular data processing center for each organization 🏢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Standardised protocols let diverse IoT devices from different manufacturers communicate reliably."
   },
   {
     "question": "In IoT architecture outline, what is a common approach to data communication? 📡",
@@ -960,7 +1054,8 @@ const QUESTION_BANK = [
       "C": "Centralized data storage 💾",
       "D": "Low device interoperability 🔗"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "When considering standards in IoT architecture, why are they important? 📏",
@@ -970,7 +1065,8 @@ const QUESTION_BANK = [
       "C": "To ensure security and compatibility 🔐",
       "D": "To increase data silos 🏢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Standards ensure that IoT devices from different vendors can communicate securely and work together."
   },
   {
     "question": "Which of the following best describes a Reference Architecture in IoT? 🏛️",
@@ -980,7 +1076,8 @@ const QUESTION_BANK = [
       "C": "A rigid framework without flexibility 🔒",
       "D": "An isolated system with no connectivity 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A reference architecture provides a reusable blueprint that guides consistent IoT system design."
   },
   {
     "question": "What is the purpose of a Reference Model in IoT architecture? 📐",
@@ -990,7 +1087,8 @@ const QUESTION_BANK = [
       "C": "To provide a common language and understanding 💬",
       "D": "To stifle creativity 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What does M2M stand for in the context of Architecture? 🤖",
@@ -1000,7 +1098,8 @@ const QUESTION_BANK = [
       "C": "Machine to Machine 💻",
       "D": "Mobile to Mobile 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "How do Main design principles differ between M2M and IoT architectures? 🤖 vs 🌐",
@@ -1010,7 +1109,8 @@ const QUESTION_BANK = [
       "C": "IoT is all about energy consumption, while M2M is not 🔋",
       "D": "There are no design principles in IoT architecture 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 M2M focuses more on security, while IoT focuses on scalability — this is how this process works according to established principles."
   },
   {
     "question": "What is the main purpose of routing in IoT networks? 🗺️",
@@ -1020,7 +1120,8 @@ const QUESTION_BANK = [
       "C": "To find the best path for data to travel 🛤️",
       "D": "To make phone calls 📞"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which of these is an example of an IoT device in your home? 🏠",
@@ -1030,7 +1131,8 @@ const QUESTION_BANK = [
       "C": "A wooden chair 🪑",
       "D": "A regular pencil ✏️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A smart thermostat is a concrete real-world example of the concept described."
   },
   {
     "question": "What helps IoT devices talk to each other? 💬",
@@ -1040,7 +1142,8 @@ const QUESTION_BANK = [
       "C": "Wireless signals 📡",
       "D": "Smoke signals 💨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Why do IoT devices need to save power? 🔋",
@@ -1050,7 +1153,8 @@ const QUESTION_BANK = [
       "C": "To make them heavier ⚖️",
       "D": "To make them louder 🔊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 To help save money on electricity because this is the primary reason established in standard practice."
   },
   {
     "question": "What is a network protocol? 📡",
@@ -1060,7 +1164,8 @@ const QUESTION_BANK = [
       "C": "A kind of internet password 🔐",
       "D": "A charging cable 🔌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A set of rules for devices to communicate is the standard definition for this concept in the field."
   },
   {
     "question": "What happens when IoT devices share data? 📊",
@@ -1070,7 +1175,8 @@ const QUESTION_BANK = [
       "C": "They help each other work better 🤝",
       "D": "They turn off automatically ⚡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "What is an important feature of IoT routing? 🗺️",
@@ -1080,7 +1186,8 @@ const QUESTION_BANK = [
       "C": "It only works during daytime ☀️",
       "D": "It requires constant human help 👨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 It works with few messages is the standard definition for this concept in the field."
   },
   {
     "question": "Which is a common problem in IoT networks? ⚠️",
@@ -1090,7 +1197,8 @@ const QUESTION_BANK = [
       "C": "Devices being too heavy ⚖️",
       "D": "Networks being too colorful 🎨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Battery life running low is the primary drawback or challenge associated with this approach."
   },
   {
     "question": "How do IoT devices know where to send information? 📡",
@@ -1100,7 +1208,8 @@ const QUESTION_BANK = [
       "C": "They follow routing tables 📋",
       "D": "They always send to the same place 📍"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They follow routing tables — this is how this process works according to established principles."
   },
   {
     "question": "What makes a good IoT network? 🌟",
@@ -1110,7 +1219,8 @@ const QUESTION_BANK = [
       "C": "Having very few devices 🔢",
       "D": "Making loud beeping sounds 🔊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A good IoT network operates reliably while consuming minimal energy to extend device battery life."
   },
   {
     "question": "What is a sensor used for? 📡",
@@ -1120,7 +1230,8 @@ const QUESTION_BANK = [
       "C": "To make phone calls 📞",
       "D": "To write messages ✍️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 To detect changes in the environment is the standard definition for this concept in the field."
   },
   {
     "question": "Which of these is an example of a sensor we use every day? 📏",
@@ -1130,7 +1241,8 @@ const QUESTION_BANK = [
       "C": "A thermometer 🌡️",
       "D": "A rubber band 🩹"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A thermometer is a concrete real-world example of the concept described."
   },
   {
     "question": "Where might you find a motion sensor? 🚶",
@@ -1140,7 +1252,8 @@ const QUESTION_BANK = [
       "C": "Under a desk 🪑",
       "D": "Inside a book 📖"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Motion sensors in automatic doors detect when a person approaches and trigger the door to open."
   },
   {
     "question": "What does a temperature sensor help us know? 🌡️",
@@ -1150,7 +1263,8 @@ const QUESTION_BANK = [
       "C": "How hot or cold something is 🔥❄️",
       "D": "What color something is 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Temperature sensors convert heat measurements into electrical signals to tell us how hot or cold something is."
   },
   {
     "question": "Which sensor helps keep us safe at home? 🏠",
@@ -1160,7 +1274,8 @@ const QUESTION_BANK = [
       "C": "Smoke detector 🚨",
       "D": "Door handle 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smoke detectors use sensors to detect combustion particles and alert residents to fire danger."
   },
   {
     "question": "What can a light sensor do? 💡",
@@ -1170,7 +1285,8 @@ const QUESTION_BANK = [
       "C": "Cook food 🍳",
       "D": "Clean rooms 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Light sensors measure ambient brightness and can automatically turn lights on when it gets dark."
   },
   {
     "question": "Which device uses sensors to know when you touch it? 👆",
@@ -1180,7 +1296,8 @@ const QUESTION_BANK = [
       "C": "A tablet screen 📱",
       "D": "A paper notebook 📓"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Touchscreen tablets use capacitive sensors to detect the electrical charge from a finger touching the screen."
   },
   {
     "question": "What might a weather sensor tell us? 🌤️",
@@ -1190,7 +1307,8 @@ const QUESTION_BANK = [
       "C": "What time to go to bed ⏰",
       "D": "What to eat for lunch 🍔"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Weather sensors measure atmospheric conditions like humidity and pressure to predict if rain is coming."
   },
   {
     "question": "How do sensors help our homes be 'smart'? 🏠",
@@ -1200,7 +1318,8 @@ const QUESTION_BANK = [
       "C": "They detect when we need help 🆘",
       "D": "They paint our walls 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They detect when we need help — this is how this process works according to established principles."
   },
   {
     "question": "Which sensor helps cars park safely? 🚗",
@@ -1210,7 +1329,8 @@ const QUESTION_BANK = [
       "C": "Color sensor 🎨",
       "D": "Sound sensor 🔊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Distance sensors detect nearby obstacles and alert the driver to avoid collisions when parking."
   },
   {
     "question": "What is IoT? 🔤",
@@ -1220,7 +1340,8 @@ const QUESTION_BANK = [
       "C": "Internet of Time ⏰",
       "D": "Internet of Television 📺"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Internet of Things is the standard definition for this concept in the field."
   },
   {
     "question": "Which device helps make a home 'smart'? 🏠",
@@ -1230,7 +1351,8 @@ const QUESTION_BANK = [
       "C": "A regular doorbell 🔔",
       "D": "A standard clock ⏰"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A smart thermostat learns usage patterns and adjusts heating and cooling automatically to save energy."
   },
   {
     "question": "What can a smart doorbell do? 🔔",
@@ -1240,7 +1362,8 @@ const QUESTION_BANK = [
       "C": "Make coffee ☕",
       "D": "Clean the floor 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Smart doorbells stream live video to your phone so you can see and speak to visitors remotely."
   },
   {
     "question": "How do smart lights help at home? 💡",
@@ -1250,7 +1373,8 @@ const QUESTION_BANK = [
       "C": "They can change colors and brightness 🎨",
       "D": "They work without electricity ⚡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They can change colors and brightness — this is how this process works according to established principles."
   },
   {
     "question": "What is a common use of IoT in schools? 🏫",
@@ -1260,7 +1384,8 @@ const QUESTION_BANK = [
       "C": "Cleaning windows 🪟",
       "D": "Painting walls 🎨"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smart attendance tracking is the standard definition for this concept in the field."
   },
   {
     "question": "Which is an example of IoT in healthcare? 🏥",
@@ -1270,7 +1395,8 @@ const QUESTION_BANK = [
       "C": "Smart health monitors 📊",
       "D": "Regular watches ⌚"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart health monitors is a concrete real-world example of the concept described."
   },
   {
     "question": "How can IoT help keep a home safe? 🏠",
@@ -1280,7 +1406,8 @@ const QUESTION_BANK = [
       "C": "By cleaning windows 🪟",
       "D": "By watering plants 🌱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 IoT security cameras stream live footage and send alerts, letting you monitor your home from anywhere."
   },
   {
     "question": "What can smart kitchen appliances do? 🍳",
@@ -1290,7 +1417,8 @@ const QUESTION_BANK = [
       "C": "Clean the house 🧹",
       "D": "Drive a car 🚗"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smart appliances track inventory and notify you when food supplies are running low."
   },
   {
     "question": "How do motion sensors work in a smart home? 🚶",
@@ -1300,7 +1428,8 @@ const QUESTION_BANK = [
       "C": "They cook food 🍳",
       "D": "They clean floors 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 They detect movement — this is how this process works according to established principles."
   },
   {
     "question": "What is a smart thermostat used for? 🌡️",
@@ -1310,7 +1439,8 @@ const QUESTION_BANK = [
       "C": "Controlling home temperature 🌡️",
       "D": "Washing dishes 🍽️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Controlling home temperature is the standard definition for this concept in the field."
   },
   {
     "question": "How can IoT help in farming? 🚜",
@@ -1320,7 +1450,8 @@ const QUESTION_BANK = [
       "C": "By driving tractors 🚜",
       "D": "By cleaning barns 🧹"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 IoT sensors monitor soil moisture and temperature, automatically controlling irrigation to optimise crop growth."
   },
   {
     "question": "What is a benefit of smart lighting? 💡",
@@ -1330,7 +1461,8 @@ const QUESTION_BANK = [
       "C": "It cooks food 🍳",
       "D": "It cleans rooms 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 It saves energy is the standard definition for this concept in the field."
   },
   {
     "question": "How can IoT help with pet care? 🐾",
@@ -1340,7 +1472,8 @@ const QUESTION_BANK = [
       "C": "It monitors pet food and water 🍲💧",
       "D": "It grooms pets ✂️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT pet feeders and monitors track food, water, and activity to help you care for pets remotely."
   },
   {
     "question": "What can smart watches do? ⌚",
@@ -1350,7 +1483,8 @@ const QUESTION_BANK = [
       "C": "Clean houses 🧹",
       "D": "Drive cars 🚗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Smartwatches use sensors to continuously track heart rate, steps, and other health metrics."
   },
   {
     "question": "How do smart refrigerators help? 🧊",
@@ -1360,7 +1494,8 @@ const QUESTION_BANK = [
       "C": "They track food items 📊",
       "D": "They wash dishes 🍽️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They track food items — this is how this process works according to established principles."
   },
   {
     "question": "What is a voice assistant? 🎤",
@@ -1370,7 +1505,8 @@ const QUESTION_BANK = [
       "C": "A machine that cooks 🍳",
       "D": "A tool that paints 🎨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A device that follows voice commands is the standard definition for this concept in the field."
   },
   {
     "question": "How can IoT help save energy? ⚡",
@@ -1380,7 +1516,8 @@ const QUESTION_BANK = [
       "C": "By cleaning better 🧹",
       "D": "By painting walls 🎨"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smart sensors detect unoccupied rooms and automatically switch off unused lights and appliances."
   },
   {
     "question": "What is a smart garden system? 🌱",
@@ -1390,7 +1527,8 @@ const QUESTION_BANK = [
       "C": "A machine that picks flowers 🌸",
       "D": "A tool that cuts grass ✂️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A system that waters plants automatically is the standard definition for this concept in the field."
   },
   {
     "question": "How do smart cameras help in security? 📹",
@@ -1400,7 +1538,8 @@ const QUESTION_BANK = [
       "C": "They watch for unusual activity 👀",
       "D": "They paint walls 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They watch for unusual activity — this is how this process works according to established principles."
   },
   {
     "question": "What is a smart door lock? 🔒",
@@ -1410,7 +1549,8 @@ const QUESTION_BANK = [
       "C": "A lock that paints itself 🎨",
       "D": "A lock that makes noise 🔊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A lock you can control with your phone is the standard definition for this concept in the field."
   },
   {
     "question": "What does MAC stand for in computer networks? 🔤",
@@ -1420,7 +1560,8 @@ const QUESTION_BANK = [
       "C": "Medium Access Control 📡",
       "D": "Mobile Access Connection 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which of these is most like how MAC protocol works? 📡",
@@ -1430,7 +1571,8 @@ const QUESTION_BANK = [
       "C": "Only one person allowed to talk all day 🚫",
       "D": "Writing notes instead of talking ✍️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A MAC protocol manages who can transmit on a shared channel, like a traffic controller directing turns."
   },
   {
     "question": "What is the main job of MAC protocol in IoT devices? 📡",
@@ -1440,7 +1582,8 @@ const QUESTION_BANK = [
       "C": "To make the internet work 🌐",
       "D": "To save battery power only 🔋"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "When IoT devices want to send messages at the same time, what happens? ⏰",
@@ -1450,7 +1593,8 @@ const QUESTION_BANK = [
       "C": "The biggest device goes first 📏",
       "D": "They wait for the internet to work better ⏳"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 When multiple devices transmit simultaneously without coordination, their signals collide and are lost."
   },
   {
     "question": "Which is an example of a simple MAC protocol rule? 📏",
@@ -1460,7 +1604,8 @@ const QUESTION_BANK = [
       "C": "Never stop talking 🗣️",
       "D": "Ignore other devices 🙈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Listen before talking is a concrete real-world example of the concept described."
   },
   {
     "question": "How does MAC protocol help IoT devices save energy? 🔋",
@@ -1470,7 +1615,8 @@ const QUESTION_BANK = [
       "C": "By letting them sleep when not sending messages 💤",
       "D": "By using more battery power 🔋"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 By letting them sleep when not sending messages — this is how this process works according to established principles."
   },
   {
     "question": "What happens if IoT devices don't follow MAC protocol rules? ⚠️",
@@ -1480,7 +1626,8 @@ const QUESTION_BANK = [
       "C": "The internet stops working 🚫",
       "D": "Devices work better 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which is most important for MAC protocol in IoT? 🌟",
@@ -1490,7 +1637,8 @@ const QUESTION_BANK = [
       "C": "Helping devices work together nicely 🤝",
       "D": "Making devices bigger 📦"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Energy efficiency is the top MAC protocol priority in IoT, where devices run on limited batteries."
   },
   {
     "question": "How is MAC protocol like a traffic light? 🚦",
@@ -1500,7 +1648,8 @@ const QUESTION_BANK = [
       "C": "It uses green and red lights 🟢🔴",
       "D": "It stops all messages 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Like a traffic light, a MAC protocol takes turns letting each device transmit without crashing into others."
   },
   {
     "question": "What makes a MAC protocol good for IoT devices? 🌟",
@@ -1510,7 +1659,8 @@ const QUESTION_BANK = [
       "C": "It's simple and saves energy 💚",
       "D": "It only works with big devices 📦"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A good IoT MAC protocol uses as little energy as possible to extend the battery life of devices."
   },
   {
     "question": "What is IoT? 🔤",
@@ -1520,7 +1670,8 @@ const QUESTION_BANK = [
       "C": "A computer game 🎮",
       "D": "A type of telephone 📞"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Internet of Things-devices connected to the internet is the standard definition for this concept in the field."
   },
   {
     "question": "Which device below is NOT usually an IoT device? ❌",
@@ -1530,7 +1681,8 @@ const QUESTION_BANK = [
       "C": "Paper notebook 📓",
       "D": "Smart thermostat 🌡️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Paper notebook does not fit because the other options all belong to the same category."
   },
   {
     "question": "What do IoT devices need to work? ⚡",
@@ -1540,7 +1692,8 @@ const QUESTION_BANK = [
       "C": "A television 📺",
       "D": "A radio 📻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 IoT devices need a reliable power source — without energy, they cannot sense, compute, or communicate."
   },
   {
     "question": "What helps IoT devices talk to each other? 💬",
@@ -1550,7 +1703,8 @@ const QUESTION_BANK = [
       "C": "A camera 📷",
       "D": "A speaker 🔊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Why do we use IoT devices? 🤔",
@@ -1560,7 +1714,8 @@ const QUESTION_BANK = [
       "C": "To watch movies 🎬",
       "D": "To read books 📖"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 To make life easier and save time because this is the primary reason established in standard practice."
   },
   {
     "question": "Which is an example of an IoT device at home? 🏠",
@@ -1570,7 +1725,8 @@ const QUESTION_BANK = [
       "C": "A smart refrigerator 🧊",
       "D": "A regular doorknob 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A smart refrigerator is a concrete real-world example of the concept described."
   },
   {
     "question": "What can IoT devices help us do? 🆘",
@@ -1580,7 +1736,8 @@ const QUESTION_BANK = [
       "C": "Only open doors 🚪",
       "D": "Many different helpful tasks ✅"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 IoT devices can send emergency alerts automatically, helping people get help faster in critical situations."
   },
   {
     "question": "What is important for IoT devices to work safely? 🛡️",
@@ -1590,7 +1747,8 @@ const QUESTION_BANK = [
       "C": "They need good security 🔐",
       "D": "They need to make noise 🔊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They need good security is the standard definition for this concept in the field."
   },
   {
     "question": "How do people control IoT devices? 🎮",
@@ -1600,7 +1758,8 @@ const QUESTION_BANK = [
       "C": "By singing 🎤",
       "D": "By jumping 🤸"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Using apps on phones or tablets — this is how this process works according to established principles."
   },
   {
     "question": "What is a benefit of using IoT devices? 🌟",
@@ -1610,7 +1769,8 @@ const QUESTION_BANK = [
       "C": "They need no electricity 🔌",
       "D": "They can save energy ⚡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 They can save energy is the standard definition for this concept in the field."
   },
   {
     "question": "What is IoT mainly about? 🎯",
@@ -1620,7 +1780,8 @@ const QUESTION_BANK = [
       "C": "Writing stories ✍️",
       "D": "Making phone calls 📞"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Connecting everyday objects to the internet is the standard definition for this concept in the field."
   },
   {
     "question": "Which device below is NOT typically an IoT device? ❌",
@@ -1630,7 +1791,8 @@ const QUESTION_BANK = [
       "C": "Smart doorbell 🔔",
       "D": "Smart light bulb 💡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Paper notebook does not fit because the other options all belong to the same category."
   },
   {
     "question": "What is the main purpose of sensors in IoT devices? 📡",
@@ -1640,7 +1802,8 @@ const QUESTION_BANK = [
       "C": "To play games 🎮",
       "D": "To draw pictures 🎨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which is an example of how IoT helps at home? 🏠",
@@ -1650,7 +1813,8 @@ const QUESTION_BANK = [
       "C": "Reading a paper book 📖",
       "D": "Playing with toys 🧸"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Turning lights on/off with your voice is a concrete real-world example of the concept described."
   },
   {
     "question": "What does a smart home device need to work properly? ⚙️",
@@ -1660,7 +1824,8 @@ const QUESTION_BANK = [
       "C": "Paint 🎨",
       "D": "Water 💧"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Smart home devices need a stable internet connection and power supply to function reliably."
   },
   {
     "question": "How do IoT devices usually communicate with each other? 📡",
@@ -1670,7 +1835,8 @@ const QUESTION_BANK = [
       "C": "Through wireless networks 📶",
       "D": "Using string 🧵"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 IoT devices follow network protocols to format and send data reliably over wired or wireless networks."
   },
   {
     "question": "Which is a benefit of using IoT devices? 🌟",
@@ -1680,7 +1846,8 @@ const QUESTION_BANK = [
       "C": "They work without internet 🌐",
       "D": "They only work during daytime ☀️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 They make life easier by automating tasks is the key advantage offered by the approach described in the question."
   },
   {
     "question": "What is an important part of IoT security? 🔐",
@@ -1690,7 +1857,8 @@ const QUESTION_BANK = [
       "C": "Sharing passwords with everyone 👥",
       "D": "Never changing passwords 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Using strong passwords is the standard definition for this concept in the field."
   },
   {
     "question": "Which is a common IoT device in many homes? 🏠",
@@ -1700,7 +1868,8 @@ const QUESTION_BANK = [
       "C": "Smart speaker 🔊",
       "D": "Regular pencil ✏️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart speaker is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "How do people usually control their IoT devices? 🎮",
@@ -1710,7 +1879,8 @@ const QUESTION_BANK = [
       "C": "By yelling loudly 📢",
       "D": "Using smartphones or tablets 📱"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Using smartphones or tablets — this is how this process works according to established principles."
   },
   {
     "question": "What does M2M stand for in technology? 🔤",
@@ -1720,7 +1890,8 @@ const QUESTION_BANK = [
       "C": "Mouse-to-Machine 🖱️",
       "D": "Message-to-Message 💬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which of these is an example of M2M communication? 🤖",
@@ -1730,7 +1901,8 @@ const QUESTION_BANK = [
       "C": "Writing a letter to a friend ✉️",
       "D": "Talking on the phone 📞"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A smart thermostat automatically adjusting the temperature is a concrete real-world example of the concept described."
   },
   {
     "question": "Why is M2M communication important in our daily lives? 🌟",
@@ -1740,7 +1912,8 @@ const QUESTION_BANK = [
       "C": "It helps people write faster ✍️",
       "D": "It makes computers bigger 📦"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which device below uses M2M communication? 📱",
@@ -1750,7 +1923,8 @@ const QUESTION_BANK = [
       "C": "A smart watch tracking your steps ⌚",
       "D": "A regular wristwatch ⌚"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart meters communicate usage data directly to utility providers without any human intervention."
   },
   {
     "question": "In a smart home, what might M2M communication control? 🏠",
@@ -1760,7 +1934,8 @@ const QUESTION_BANK = [
       "C": "Smart lights 💡",
       "D": "Regular windows 🪟"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 M2M communication can automatically adjust lighting, heating, and appliances based on sensor data."
   },
   {
     "question": "How does M2M communication help in weather stations? 🌤️",
@@ -1770,7 +1945,8 @@ const QUESTION_BANK = [
       "C": "It makes clouds move ☁️",
       "D": "It changes the temperature outside 🌡️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 It helps collect and send weather data automatically — this is how this process works according to established principles."
   },
   {
     "question": "What is one benefit of M2M communication? 🌟",
@@ -1780,7 +1956,8 @@ const QUESTION_BANK = [
       "C": "It needs more human workers 👨",
       "D": "It saves time and reduces errors ✅"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 It saves time and reduces errors is the standard definition for this concept in the field."
   },
   {
     "question": "Which of these is NOT an example of M2M communication? ❌",
@@ -1790,7 +1967,8 @@ const QUESTION_BANK = [
       "C": "A security camera sending alerts 📹",
       "D": "A smart meter reading electricity usage ⚡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A person writing with a pencil does not fit because the other options all belong to the same category."
   },
   {
     "question": "What do machines need to communicate with each other? 🤖",
@@ -1800,7 +1978,8 @@ const QUESTION_BANK = [
       "C": "Paper and pencils 📄✏️",
       "D": "Books and magazines 📚"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "How does M2M communication help in schools? 🏫",
@@ -1810,7 +1989,8 @@ const QUESTION_BANK = [
       "C": "It makes chairs more comfortable 🪑",
       "D": "It makes walls stronger 🧱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 It helps attendance systems work automatically — this is how this process works according to established principles."
   },
   {
     "question": "What helps devices talk to each other? 💬",
@@ -1820,7 +2000,8 @@ const QUESTION_BANK = [
       "C": "Paper airplanes ✈️",
       "D": "Loud noises 🔊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which of these is a smart device? 🧠",
@@ -1830,7 +2011,8 @@ const QUESTION_BANK = [
       "C": "A smart speaker 🔊",
       "D": "A regular pencil ✏️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A smart speaker connects to the internet and responds to voice commands using AI."
   },
   {
     "question": "What do we call it when two devices share information? 🔄",
@@ -1840,7 +2022,8 @@ const QUESTION_BANK = [
       "C": "Walking 🚶",
       "D": "Jumping 🤸"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "Which device helps us connect to the internet at home? 🏠",
@@ -1850,7 +2033,8 @@ const QUESTION_BANK = [
       "C": "Lamp 💡",
       "D": "Clock ⏰"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A Wi-Fi router wirelessly connects all home devices to the internet through a broadband connection."
   },
   {
     "question": "What do smart devices need to work? ⚡",
@@ -1860,7 +2044,8 @@ const QUESTION_BANK = [
       "C": "Electricity ⚡",
       "D": "Paint 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Smart devices need electricity to power their hardware and internet connectivity to communicate."
   },
   {
     "question": "Which is an example of devices working together? 🤝",
@@ -1870,7 +2055,8 @@ const QUESTION_BANK = [
       "C": "A pencil in a drawer ✏️",
       "D": "A plant in the garden 🌱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A smart light turning on when you get home is a concrete real-world example of the concept described."
   },
   {
     "question": "What helps keep our smart devices safe? 🛡️",
@@ -1880,7 +2066,8 @@ const QUESTION_BANK = [
       "C": "A hat 🧢",
       "D": "A door 🚪"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Regular software updates patch security vulnerabilities, protecting smart devices from cyberattacks."
   },
   {
     "question": "What do we call a group of connected devices? 🔗",
@@ -1890,7 +2077,8 @@ const QUESTION_BANK = [
       "C": "A team ⚽",
       "D": "A crowd 🧑‍🤝‍🧑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A network is a group of interconnected devices that can share data and resources with each other."
   },
   {
     "question": "Which device can control other smart devices? 🎮",
@@ -1900,7 +2088,8 @@ const QUESTION_BANK = [
       "C": "Smartphone 📱",
       "D": "Regular doorbell 🔔"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A smart hub acts as a central controller, allowing one app or voice command to manage all devices."
   },
   {
     "question": "What do smart devices use to understand our commands? 🗣️",
@@ -1910,7 +2099,8 @@ const QUESTION_BANK = [
       "C": "Guessing 🤔",
       "D": "Drawing pictures 🎨"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Smart devices use voice recognition AI to interpret and respond to spoken instructions."
   },
   {
     "question": "What is a digital sensor used for? 📡",
@@ -1920,7 +2110,8 @@ const QUESTION_BANK = [
       "C": "To make phone calls 📞",
       "D": "To watch movies 🎬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 To detect and measure changes in the environment is the standard definition for this concept in the field."
   },
   {
     "question": "Which of these is an example of an actuator? ⚙️",
@@ -1930,7 +2121,8 @@ const QUESTION_BANK = [
       "C": "An electric motor ⚡",
       "D": "A microphone 🎤"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An electric motor is a concrete real-world example of the concept described."
   },
   {
     "question": "What does RFID stand for? 🔤",
@@ -1940,7 +2132,8 @@ const QUESTION_BANK = [
       "C": "Radio Frequency Identification 🏷️",
       "D": "Really Fun Interactive Device 🎮"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 RFID stands for Radio Frequency Identification, a technology that uses radio waves to identify objects."
   },
   {
     "question": "Where might you find RFID tags being used? 🏷️",
@@ -1950,7 +2143,8 @@ const QUESTION_BANK = [
       "C": "In pencil cases 📦",
       "D": "In paper notebooks 📓"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 RFID tags are widely used in retail stores to track inventory and prevent theft automatically."
   },
   {
     "question": "Which statement about sensors is TRUE? ✅",
@@ -1960,7 +2154,8 @@ const QUESTION_BANK = [
       "C": "Sensors can detect different types of changes 🔄",
       "D": "Sensors are only used in smartphones 📱"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Sensors detect physical changes in the environment and convert them into electrical signals for processing."
   },
   {
     "question": "What is the main purpose of a wireless sensor network? 📡",
@@ -1970,7 +2165,8 @@ const QUESTION_BANK = [
       "C": "To make phone calls 📞",
       "D": "To watch television shows 📺"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which of these could a wireless sensor help monitor in your school? 🏫",
@@ -1980,7 +2176,8 @@ const QUESTION_BANK = [
       "C": "The color of students' shoes 👟",
       "D": "What games students play at recess 🎮"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Wireless sensors can monitor temperature, air quality, or occupancy in school buildings automatically."
   },
   {
     "question": "What is one thing that makes wireless sensors special? 🌟",
@@ -1990,7 +2187,8 @@ const QUESTION_BANK = [
       "C": "They can work without being plugged in 🔋",
       "D": "They must be used underwater 💧"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They can work without being plugged in is the standard definition for this concept in the field."
   },
   {
     "question": "In a wireless sensor network, how do the sensors share information? 📡",
@@ -2000,7 +2198,8 @@ const QUESTION_BANK = [
       "C": "Through radio waves 📻",
       "D": "By flashing lights 💡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "Which of these is an example of where wireless sensors might be used? 📡",
@@ -2010,7 +2209,8 @@ const QUESTION_BANK = [
       "C": "In a library to read books 📚",
       "D": "In a kitchen to cook food 🍳"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 In a forest to detect fires is a concrete real-world example of the concept described."
   }
 ]
   },
@@ -2027,7 +2227,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Which of the following are advantages normally associated with B2B e-Commerce? 📈🤝",
@@ -2037,7 +2238,8 @@ const QUESTION_BANK = [
       "C": "Reaches wider audiences 🌍",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "If the threat of substitute products or services is low it is an: 🔄📉",
@@ -2047,7 +2249,8 @@ const QUESTION_BANK = [
       "C": "Advantage to the supplier 👍",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Low substitution threat means customers have few alternatives, giving the industry more pricing power."
   },
   {
     "question": "The threat of new entrants is high when it is: 🚪📈",
@@ -2057,7 +2260,8 @@ const QUESTION_BANK = [
       "C": "Easy for competitors to enter the market 🟢",
       "D": "Easy for customers to enter the market 🛍️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 When barriers to entry are low, new competitors can easily join the market, increasing competitive pressure."
   },
   {
     "question": "If it is easy for competitors to enter the market, the threat of new entrants is considered: 🚪⬆️",
@@ -2067,7 +2271,8 @@ const QUESTION_BANK = [
       "C": "More 📈",
       "D": "Less 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Easy market entry means competition increases quickly, making it harder for existing businesses to maintain profits."
   },
   {
     "question": "An industry is less attractive for suppliers when the rivalry among existing competitors is: ⚔️🏭",
@@ -2077,7 +2282,8 @@ const QUESTION_BANK = [
       "C": "More 📈",
       "D": "Less 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Intense rivalry among existing firms reduces margins, making the industry less profitable for all suppliers."
   },
   {
     "question": "Unique value auction is mainly applies to: 🔨💰",
@@ -2087,7 +2293,8 @@ const QUESTION_BANK = [
       "C": "Engineering products ⚙️",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Engineering products is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Paisapay is facilitated in: 💸🇮🇳",
@@ -2097,7 +2304,8 @@ const QUESTION_BANK = [
       "C": "flipkart.com 🛍️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 PaisaPay is the integrated payment system used within eBay India for secure online transactions."
   },
   {
     "question": "Which of the following is a useful security mechanism when considering business strategy and IT? 🔐💼",
@@ -2107,7 +2315,8 @@ const QUESTION_BANK = [
       "C": "firewall 🛡️",
       "D": "All the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption protects sensitive business data and customer information during transmission and storage."
   },
   {
     "question": "Which of the following is not related to security mechanism? 🚫🔐",
@@ -2117,7 +2326,8 @@ const QUESTION_BANK = [
       "C": "e-cash 💵",
       "D": "All the above 🌟"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 e-cash does not fit because the other options all belong to the same category."
   },
   {
     "question": "The best products to sell in B2C e-commerce are: 🛍️🏢👤",
@@ -2127,7 +2337,8 @@ const QUESTION_BANK = [
       "C": "speciality products ✨",
       "D": "fresh product 🥬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which of the following statements accurately reflect the impact of technology? 📡⚡",
@@ -2137,7 +2348,8 @@ const QUESTION_BANK = [
       "C": "Technology has increased the threat of substitute products and services 🔄",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Technology fundamentally transforms how businesses operate, compete, and deliver value to customers."
   },
   {
     "question": "A business cannot be all things to all people. Instead, a business must: 🎯🏢",
@@ -2147,7 +2359,8 @@ const QUESTION_BANK = [
       "C": "All of the above 🌟",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 All of the above is the exception — it does not share the property described by the other options."
   },
   {
     "question": "How do the transactions occur in e-Commerce? 💻🔄",
@@ -2157,7 +2370,8 @@ const QUESTION_BANK = [
       "C": "Using mobile phones only 📱",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which type of products is lesser purchased using e-Commerce? 🛒❌",
@@ -2167,7 +2381,8 @@ const QUESTION_BANK = [
       "C": "Softwares 💾",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Products like clothes and shoes that need physical inspection or fitting are less commonly bought online."
   },
   {
     "question": "A business competing in a commodity like environment must focus on which of the following? 📦⚡",
@@ -2177,7 +2392,8 @@ const QUESTION_BANK = [
       "C": "Ease of ordering 🖱️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 In a commodity market, businesses must compete on price and operational efficiency to survive."
   },
   {
     "question": "Which of the following refers to creating products tailored to individual customers? ✂️👤",
@@ -2187,7 +2403,8 @@ const QUESTION_BANK = [
       "C": "Direct materials 🧱",
       "D": "Reverse auction 🔻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Mass customisation creates products modified to individual customer preferences at scale."
   },
   {
     "question": "Materials used in the normal operation of a business but not related to primary business operations are called what? 🏢📦",
@@ -2197,7 +2414,8 @@ const QUESTION_BANK = [
       "C": "Indirect materials 🔧",
       "D": "Daily stuff 🗂️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Indirect materials is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Amazon.com is well-known for which e-commerce marketing technique? 📦📢",
@@ -2207,7 +2425,8 @@ const QUESTION_BANK = [
       "C": "Affiliate programs 🤝",
       "D": "Viral marketing 🦠"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Amazon pioneered personalised product recommendations, suggesting items based on each customer's browsing history."
   },
   {
     "question": "What is the name given to an interactive business providing a centralized market where many buyers and suppliers can come together for e-commerce or commerce-related activities? 🏪🌐",
@@ -2217,7 +2436,8 @@ const QUESTION_BANK = [
       "C": "B2C 🏢➡️👤",
       "D": "Electronic marketplace 💻🏪"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 An online marketplace connects multiple third-party sellers with buyers on a single platform."
   },
   {
     "question": "Which form of e-marketplace brings together buyers and sellers from multiple industries, often for MRO materials? 🔧🏭",
@@ -2227,7 +2447,8 @@ const QUESTION_BANK = [
       "C": "Integrated 🔗",
       "D": "Inclined 📐"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An e-marketplace is an online platform where multiple buyers and sellers transact together."
   },
   {
     "question": "Which form of e-marketplace brings together buyers and sellers from the same industry? 🏭↕️",
@@ -2237,7 +2458,8 @@ const QUESTION_BANK = [
       "C": "Integrated 🔗",
       "D": "Inclined 📐"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 An e-marketplace is an online platform where multiple buyers and sellers transact together."
   },
   {
     "question": "Which type of ad appears on a web page? 🖥️📢",
@@ -2247,7 +2469,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "Discount ad 💸"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Banner ads are graphical display advertisements placed on websites to attract visitor attention."
   },
   {
     "question": "What type of ad appears on top of a web page? ⬆️🖥️",
@@ -2257,7 +2480,8 @@ const QUESTION_BANK = [
       "C": "banner ad 📏",
       "D": "discount ad 💸"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Banner ads displayed at the top of a web page are called header or top banner advertisements."
   },
   {
     "question": "What type of ad appears under a web page? ⬇️🖥️",
@@ -2267,7 +2491,8 @@ const QUESTION_BANK = [
       "C": "banner ad 📏",
       "D": "discount ad 💸"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Ads placed at the bottom of a web page are called footer banner or bottom banner advertisements."
   },
   {
     "question": "Which, if any, of the following types of ads are people most willing to tolerate? 😊📢",
@@ -2277,7 +2502,8 @@ const QUESTION_BANK = [
       "C": "banner ad 📏",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Banner ads are graphical display advertisements placed on websites to attract visitor attention."
   },
   {
     "question": "Which of the following is an Internet-based company that makes it easy for one person to pay another over the Internet? 🌐💸",
@@ -2287,7 +2513,8 @@ const QUESTION_BANK = [
       "C": "conversion rates 💱",
       "D": "financial cyber mediary 🏦"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which of the following is a method of transferring money from one person's account to another? 💸🔄",
@@ -2297,7 +2524,8 @@ const QUESTION_BANK = [
       "C": "e-transfer ⚡",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 e-transfer does not fit because the other options all belong to the same category."
   },
   {
     "question": "An electronic check is one form of what? 💳📄",
@@ -2307,7 +2535,8 @@ const QUESTION_BANK = [
       "C": "e-cash 💵",
       "D": "check 💬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An electronic check is a form of electronic funds transfer (EFT) that moves money between bank accounts."
   },
   {
     "question": "If you need to transfer money to another person via the internet, which of the following methods could you use? 🌐💸",
@@ -2317,7 +2546,8 @@ const QUESTION_BANK = [
       "C": "Electronic bill presentment and payment 📄",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the exception — it does not share the property described by the other options."
   },
   {
     "question": "Which of the following permits the transmission of a bill, along with payment of that bill, to be conducted over the Internet? 📄💻",
@@ -2327,7 +2557,8 @@ const QUESTION_BANK = [
       "C": "Electronic bill presentment and payment 📑",
       "D": "All of the above 🌟"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Electronic bill presentment and payment (EBPP) systems allow bills to be sent and paid entirely online."
   },
   {
     "question": "A combination of software and information designed to provide security and information for payment is called a what? 💳🔐",
@@ -2337,7 +2568,8 @@ const QUESTION_BANK = [
       "C": "shopping cart 🛒",
       "D": "encryption 🔑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An electronic wallet (e-wallet) stores payment credentials securely for fast and safe online checkout."
   },
   {
     "question": "What is the name for direct computer-to-computer transfer of transaction information contained in standard business documents? 💻📄",
@@ -2347,7 +2579,8 @@ const QUESTION_BANK = [
       "C": "transaction information transfer 🔄",
       "D": "electronic data interchange 📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "Which of the following is used in B2B to pay for purchases? 🏢➡️🏢💸",
@@ -2357,7 +2590,8 @@ const QUESTION_BANK = [
       "C": "electronic data exchange 🔄",
       "D": "electronic checks 💳"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Public key encryption uses multiple keys. One key is used to encrypt data, while another is used to decrypt data. The key used to encrypt data is called the ___ key, while the key used to decrypt data is called the ___ key. 🔑🔐",
@@ -2367,7 +2601,8 @@ const QUESTION_BANK = [
       "C": "encryption, public 🔒🙉",
       "D": "public, private 🙉🙈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "Secure Sockets Layers does which of the following? 🔒🌐",
@@ -2377,7 +2612,8 @@ const QUESTION_BANK = [
       "C": "sends information over the internet 📡",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 SSL/TLS encrypts the data channel between a browser and web server, protecting data from eavesdropping."
   },
   {
     "question": "When a transaction is processed online, how can the merchant verify the customer's identity? 🛒🆔",
@@ -2387,7 +2623,8 @@ const QUESTION_BANK = [
       "C": "Use electronic data interchange 📡",
       "D": "Use financial electronic data interchange 💰📡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital certificates issued by a certificate authority verify the customer's identity during online transactions."
   },
   {
     "question": "The practice of forging a return address on an e-mail so that the recipient is fooled into revealing private information is termed as: ✉️🎭",
@@ -2397,7 +2634,8 @@ const QUESTION_BANK = [
       "C": "dumpster diving 🗑️",
       "D": "spoofing 🎣"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Email spoofing forges the sender's address to deceive recipients — a key technique used in phishing attacks."
   },
   {
     "question": "What is a model of a proposed product, service, or system? 🧩🆕",
@@ -2407,7 +2645,8 @@ const QUESTION_BANK = [
       "C": "Proof-of-concept prototype 🧪",
       "D": "Selling prototype 💰"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is an internal organizational Internet that is guarded against outside access by a special security feature called a firewall? 🏢🔒",
@@ -2417,7 +2656,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🌐🤝",
       "D": "Thin client 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "What is an intranet that is restricted to an organization and certain outsiders, such as customers and suppliers? 🌐🤝",
@@ -2427,7 +2667,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🔓🤝",
       "D": "Thin client 💻"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An extranet extends a company's intranet to trusted external partners like suppliers and clients."
   },
   {
     "question": "What is a detailed process for recovering information or an IT system in the event of a catastrophic disaster such as a fire or flood? 🔥🌊💻",
@@ -2437,7 +2678,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️🏢",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
   },
   {
     "question": "What is a separate facility that does not have any computer equipment but is a place where the knowledge workers can move after the disaster? 🏢❄️",
@@ -2447,7 +2689,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Cold site is the standard definition for this concept in the field."
   },
   {
     "question": "What is a separate and fully equipped facility where the company can move immediately after the disaster and resume business? 🏢🔥",
@@ -2457,7 +2700,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What charts (1) the cost to your organization of the unavailability of information and technology and (2) the cost to your organization of recovering from a disaster over time? 📉📊",
@@ -2467,7 +2711,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Which factor determines when your IT system will be available for knowledge workers to access? ⏰💻",
@@ -2477,7 +2722,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
   },
   {
     "question": "Which factor determines who has the right to access different types of IT systems and information? 🚪🔑",
@@ -2487,7 +2733,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Web accessibility ensures that people with disabilities can use and navigate a website effectively."
   },
   {
     "question": "Which factor ensures your IT systems are functioning correctly and providing accurate information? ✅💻",
@@ -2497,7 +2744,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Reliability is the primary function or purpose of this component in the system."
   },
   {
     "question": "Which factor represents how well your system can adapt to increased demands? 📈⚙️",
@@ -2507,7 +2755,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📏"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Scalability measures how well a system handles growing workloads without degrading performance."
   },
   {
     "question": "Which factor represents a system's ability to change quickly? ⚡🔄",
@@ -2517,7 +2766,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Agility describes how quickly a system or organisation can adapt to new requirements or market changes."
   },
   {
     "question": "What is a set of conditions used to measure how well a product or system functions? 📏⚙️",
@@ -2527,7 +2777,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Benchmarking compares a company's performance against industry best practices to identify improvement areas."
   },
   {
     "question": "What determines the future IT infrastructure requirements for new equipment and additional network capacity? 🖥️📈",
@@ -2537,7 +2788,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Capacity planning analyses current usage trends to forecast the future infrastructure needs of a system."
   },
   {
     "question": "What automates business processes? 🤖📋",
@@ -2547,7 +2799,8 @@ const QUESTION_BANK = [
       "C": "Workflow system ⚙️",
       "D": "EIP 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "What defines all of the steps or business rules, from beginning to end, required for a process to run correctly? 📜🔄",
@@ -2557,7 +2810,8 @@ const QUESTION_BANK = [
       "C": "Workflow system ⚙️",
       "D": "SLA 📝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "What sends work assignments through an e-mail system? ✉️📋",
@@ -2567,7 +2821,8 @@ const QUESTION_BANK = [
       "C": "Database based work flow system 🗄️",
       "D": "Messaging-based workflow system 💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "Which will not harm computer resources? 🛡️💻",
@@ -2577,7 +2832,8 @@ const QUESTION_BANK = [
       "C": "Trojan horse 🐴",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "EDI is the electronic interchange of business information using 📡💼",
@@ -2587,7 +2843,8 @@ const QUESTION_BANK = [
       "C": "Standardized Format 📏",
       "D": "Secured Server 🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which is a function of ERP? 🏢⚙️",
@@ -2597,7 +2854,8 @@ const QUESTION_BANK = [
       "C": "Scheduling 📅",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "Which of the following is the primary characteristic of an intranet? 🌐🔒",
@@ -2607,7 +2865,8 @@ const QUESTION_BANK = [
       "C": "People outside the organization can't access it 🔒",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An intranet is a private internal network used by an organisation for secure communication and data sharing."
   },
   {
     "question": "Which concept suggests that different applications and computer systems should be able to communicate with one another? 💻🔄💻",
@@ -2617,7 +2876,8 @@ const QUESTION_BANK = [
       "C": "Scalability 📏",
       "D": "Interoperability 🤝"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Interoperability does not fit because the other options all belong to the same category."
   },
   {
     "question": "Business entities conducting business electronically are called: 💼💻",
@@ -2627,7 +2887,8 @@ const QUESTION_BANK = [
       "C": "business partners 🏢",
       "D": "customers 👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Businesses that conduct transactions electronically over the internet are called e-businesses or e-commerce entities."
   },
   {
     "question": "Which process can prevent data from loss due to computer problems or human errors? 💾🛡️",
@@ -2637,7 +2898,8 @@ const QUESTION_BANK = [
       "C": "benchmarking 📊",
       "D": "data cleansing 🧹"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "Which process is used to reinstall data from a copy when the original data has been lost? 🔄💾",
@@ -2647,7 +2909,8 @@ const QUESTION_BANK = [
       "C": "benchmarking 📊",
       "D": "data cleansing 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Data restoration reinstalls data from a backup copy when the original is lost, corrupted, or deleted."
   },
   {
     "question": "What describes a process of continuously measuring results and comparing those results to optimal performance so that actual performance may be improved? 📈📊",
@@ -2657,7 +2920,8 @@ const QUESTION_BANK = [
       "C": "Benchmarking 🎯",
       "D": "Data cleansing 🧹"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Benchmarking compares a company's performance against industry best practices to identify improvement areas."
   },
   {
     "question": "Who protects system from external threats? 🛡️🌍",
@@ -2667,7 +2931,8 @@ const QUESTION_BANK = [
       "C": "ERP 🏢",
       "D": "Script kiddies 👨‍💻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "Who breaks into other people's computer systems and steals and destroys information? 👨‍💻💀",
@@ -2677,7 +2942,8 @@ const QUESTION_BANK = [
       "C": "Hacktivists ✊",
       "D": "Script kiddies 🧒"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Crackers (malicious hackers) illegally break into systems to steal, damage, or destroy data for personal gain."
   },
   {
     "question": "What is software that comes hidden in free downloadable software and tracks your online movements, mines the information stored on your computer, or uses your computer's CPU and storage for some task you know nothing about? 🕵️‍♂️💻",
@@ -2687,7 +2953,8 @@ const QUESTION_BANK = [
       "C": "Anonymous Web browsing service 🙈",
       "D": "None of the above ❌"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 None of the above is the standard definition for this concept in the field."
   },
   {
     "question": "ERP stands for: 🏢⚙️",
@@ -2697,7 +2964,8 @@ const QUESTION_BANK = [
       "C": "Enterprise resource planning 📊",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "The term FTP stands for? 📁🌐",
@@ -2707,7 +2975,8 @@ const QUESTION_BANK = [
       "C": "File transfer protocol 📁",
       "D": "File transfer protection 🛡️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 FTP stands for File Transfer Protocol, the standard method for transferring files between computers on a network."
   },
   {
     "question": "Which is not a function of ERP? 🏢❌",
@@ -2717,7 +2986,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "None of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "What is a type of virus that spreads itself, not just from file to file, but from computer to computer via e-mail and other Internet traffic? 🦠📧",
@@ -2727,7 +2997,8 @@ const QUESTION_BANK = [
       "C": "Denial-of-service attack 🚫",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "Which one of the following is the most common internet protocol? 🌐📡",
@@ -2737,7 +3008,8 @@ const QUESTION_BANK = [
       "C": "TCP/IP 🔗",
       "D": "IPX/SPX 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 TCP/IP is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Collection of hyperlinked documents on the internet forms the? 🔗📄",
@@ -2747,7 +3019,8 @@ const QUESTION_BANK = [
       "C": "Mailing list 📋",
       "D": "Hypertext markup language 📝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The World Wide Web (WWW) is the collection of interconnected hyperlinked documents accessed via the internet."
   },
   {
     "question": "What consists of the identification of risks or threats, the implementation of security measures, and the monitoring of those measures for effectiveness? ⚠️🔐",
@@ -2757,7 +3030,8 @@ const QUESTION_BANK = [
       "C": "Security 🛡️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Risk management involves identifying, evaluating, and prioritising actions to reduce cybersecurity risks."
   },
   {
     "question": "Factor that affects ethical and unethical behaviour: ⚖️😇😈",
@@ -2767,7 +3041,8 @@ const QUESTION_BANK = [
       "C": "Teamwork 🤝",
       "D": "Open communication 🗣️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Individual values, organisational culture, and legal environment all shape whether behaviour is ethical or unethical."
   },
   {
     "question": "What is the process of making a copy of the information stored on a computer? 💾📋",
@@ -2777,7 +3052,8 @@ const QUESTION_BANK = [
       "C": "Firewall 🔥",
       "D": "Biometrics 🖐️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "What is e-Commerce? 🛒💻",
@@ -2787,7 +3063,8 @@ const QUESTION_BANK = [
       "C": "Sale of goods 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Doing business electronically is the standard definition for this concept in the field."
   },
   {
     "question": "Who is part of the four main types for e-Commerce? 🛒📊",
@@ -2797,7 +3074,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Which of the following is not type of patent? 📜❌",
@@ -2807,7 +3085,8 @@ const QUESTION_BANK = [
       "C": "Design patents 🎨",
       "D": "Plant patents 🌱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Copyright does not fit because the other options all belong to the same category."
   },
   {
     "question": "Which type of e-commerce focuses on consumers dealing with each other? 👤➡️👤",
@@ -2817,7 +3096,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "Which of the following is rights of a copyright owner? ©️📜",
@@ -2827,7 +3107,8 @@ const QUESTION_BANK = [
       "C": "Prevent others from making unauthorized use of copyrighted work 🚫",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Copyright owners have the exclusive right to reproduce, distribute, and create derivative works from their content."
   },
   {
     "question": "Which type deals with auction? 🔨💰",
@@ -2837,7 +3118,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "Organizations suppliers value chain are known as: 🔗🏭",
@@ -2847,7 +3129,8 @@ const QUESTION_BANK = [
       "C": "value chain 🔗",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The value chain describes all activities a business performs to deliver a product, from production to sales."
   },
   {
     "question": "The best products to sell in B2C e-Commerce are: 🛍️🏢👤",
@@ -2857,7 +3140,8 @@ const QUESTION_BANK = [
       "C": "Speciality products ✨",
       "D": "Fresh products 🥬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which products are people most likely to be more uncomfortable buying on the Internet? 😟🛒",
@@ -2867,7 +3151,8 @@ const QUESTION_BANK = [
       "C": "Movies 🎬",
       "D": "All of the above 🌟"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Physical products like clothing, furniture, and cars require touch or inspection, making buyers uncomfortable online."
   },
   {
     "question": "Which products are people most likely to be comfortable buying on the Internet? 😊🛒",
@@ -2877,7 +3162,8 @@ const QUESTION_BANK = [
       "C": "CDs 💿",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Standardised digital products like software, books, and music are easy to describe and buy online confidently."
   },
   {
     "question": "Digital products are best suited for B2C e-Commerce because they: 💾🏢👤",
@@ -2887,7 +3173,8 @@ const QUESTION_BANK = [
       "C": "Can be delivered at the time of purchase ⏱️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "The solution for all business needs is: 🏢✅",
@@ -2897,7 +3184,8 @@ const QUESTION_BANK = [
       "C": "SCM 🔗",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "All of the following are techniques B2C e-commerce companies use to attract customers, except: 📢❌",
@@ -2907,7 +3195,8 @@ const QUESTION_BANK = [
       "C": "Online ads 🖥️",
       "D": "Virtual marketing 🌐"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which is a function of E-commerce? 🛒⚙️",
@@ -2917,7 +3206,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the primary function or purpose of this component in the system."
   },
   {
     "question": "Which is not a function of E-commerce? 🛒❌",
@@ -2927,7 +3217,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "None of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 None of the above does not fit because the other options all belong to the same category."
   },
   {
     "question": "Which term represents account of the number of people who visit one site, click on an ad, and are taken to the site of the advertiser? 🖱️📊",
@@ -2937,7 +3228,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "All of the above 🌟"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Click-through rate measures how often users click an ad or link relative to how many times it is shown."
   },
   {
     "question": "What is the percentage of customers who visit a Website and actually buy something called? 🛒📊",
@@ -2947,7 +3239,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "Conversion rate 📈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Conversion rate is the percentage of website visitors who complete a desired action like making a purchase."
   },
   {
     "question": "What are materials used in production in a manufacturing company or replaced on the shelf for sale in a retail environment? 🏭📦",
@@ -2957,7 +3250,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Direct materials is the standard definition for this concept in the field."
   },
   {
     "question": "What are materials that are necessary for running a modern corporation, but do not relate to the company's primary business activities? 🏢🔧",
@@ -2967,7 +3261,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "Which of the following is an example of e-commerce? 🛒💻",
@@ -2977,7 +3272,8 @@ const QUESTION_BANK = [
       "C": "Booking a hotel room online 🏨💻",
       "D": "Visiting a physical store to buy clothes 👕"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Booking a hotel room online is a concrete real-world example of the concept described."
   },
   {
     "question": "What is EDI name? 📡",
@@ -2987,7 +3283,8 @@ const QUESTION_BANK = [
       "C": "Electronic Data Interchange 📡",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively lower bids until there is only one seller left? 🔻💰",
@@ -2997,7 +3294,8 @@ const QUESTION_BANK = [
       "C": "Reverse auction 🔻",
       "D": "Internet 🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 In a reverse auction, sellers compete by offering the lowest price to win a buyer's business."
   },
   {
     "question": "What is B2B e-Commerce? 🏢➡️🏢",
@@ -3007,7 +3305,8 @@ const QUESTION_BANK = [
       "C": "Consumer-to-consumer e-commerce 👤➡️👤",
       "D": "Government-to-consumer e-commerce 🏛️➡️👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Most individuals are familiar with which form of e-Commerce? 👤🛒",
@@ -3017,7 +3316,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "ERP stands for: 🏢⚙️",
@@ -3027,7 +3327,8 @@ const QUESTION_BANK = [
       "C": "Enterprise resource planning 📊",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "The term FTP stands for: 📁🌐",
@@ -3037,7 +3338,8 @@ const QUESTION_BANK = [
       "C": "File transfer protocol 📁",
       "D": "File transfer protection 🛡️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 FTP stands for File Transfer Protocol, the standard method for transferring files between computers on a network."
   },
   {
     "question": "Which is not a function of ERP? 🏢❌",
@@ -3047,7 +3349,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "None of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "What is a type of virus that spreads itself, not just from file to file, but from computer to computer via e-mail and other internet traffic? 🦠📧",
@@ -3057,7 +3360,8 @@ const QUESTION_BANK = [
       "C": "Denial-of-service attack 🚫",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "Which one of the following is the most common internet protocol? 🌐📡",
@@ -3067,7 +3371,8 @@ const QUESTION_BANK = [
       "C": "TCP/IP 🔗",
       "D": "IPX/SPX 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 TCP/IP is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Collection of hyperlinked documents on the internet forms the: 🔗📄",
@@ -3077,7 +3382,8 @@ const QUESTION_BANK = [
       "C": "Mailing list 📋",
       "D": "Hypertext markup language 📝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The World Wide Web (WWW) is the collection of interconnected hyperlinked documents accessed via the internet."
   },
   {
     "question": "What consists of the identification of risks or threats, the implementation of security measures and the monitoring of those measures for effectiveness? ⚠️🔐",
@@ -3087,7 +3393,8 @@ const QUESTION_BANK = [
       "C": "Security 🛡️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Risk management involves identifying, evaluating, and prioritising actions to reduce cybersecurity risks."
   },
   {
     "question": "Factor that affects ethical and unethical behaviour is: ⚖️😇😈",
@@ -3097,7 +3404,8 @@ const QUESTION_BANK = [
       "C": "Teamwork 🤝",
       "D": "Open communication 🗣️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Individual values, organisational culture, and legal environment all shape whether behaviour is ethical or unethical."
   },
   {
     "question": "What is the process of making a copy of the information stored on a computer? 💾📋",
@@ -3107,7 +3415,8 @@ const QUESTION_BANK = [
       "C": "Firewall 🔥",
       "D": "Biometrics 🖐️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "A business cannot be all things to all people. Instead, a business must: 🎯🏢",
@@ -3117,7 +3426,8 @@ const QUESTION_BANK = [
       "C": "All of the above 🌟",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 All of the above is the exception — it does not share the property described by the other options."
   },
   {
     "question": "How the transactions occur in e-commerce? 💻🔄",
@@ -3127,7 +3437,8 @@ const QUESTION_BANK = [
       "C": "Using mobile phones only 📱",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which type of products is lesser purchased using e-commerce? 🛒❌",
@@ -3137,7 +3448,8 @@ const QUESTION_BANK = [
       "C": "Softwares 💾",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Products like clothes and shoes that need physical inspection or fitting are less commonly bought online."
   },
   {
     "question": "A business competing in a commodity like environment must focus on which of the following? 📦⚡",
@@ -3147,7 +3459,8 @@ const QUESTION_BANK = [
       "C": "Ease of ordering 🖱️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 In a commodity market, businesses must compete on price and operational efficiency to survive."
   },
   {
     "question": "Which of the following refers to creating products tailored to individual customers? ✂️👤",
@@ -3157,7 +3470,8 @@ const QUESTION_BANK = [
       "C": "Direct materials 🧱",
       "D": "Reverse auction 🔻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Mass customisation creates products modified to individual customer preferences at scale."
   },
   {
     "question": "Materials used in the normal operation of a business but not related to primary business operations are called what? 🏢📦",
@@ -3167,7 +3481,8 @@ const QUESTION_BANK = [
       "C": "Indirect materials 🔧",
       "D": "Daily stuff 🗂️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Indirect materials is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Amazon.com is well-known for which e-commerce marketing technique? 📦📢",
@@ -3177,7 +3492,8 @@ const QUESTION_BANK = [
       "C": "Affiliate programs 🤝",
       "D": "Viral marketing 🦠"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Amazon pioneered personalised product recommendations, suggesting items based on each customer's browsing history."
   },
   {
     "question": "What is the name given to an interactive business providing a centralized market where many buyers and suppliers can come together for e-commerce or commerce-related activities? 🏪🌐",
@@ -3187,7 +3503,8 @@ const QUESTION_BANK = [
       "C": "B2C 🏢➡️👤",
       "D": "Electronic marketplace 💻🏪"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 An online marketplace connects multiple third-party sellers with buyers on a single platform."
   },
   {
     "question": "An electronic check is one form of what? 💳📄",
@@ -3197,7 +3514,8 @@ const QUESTION_BANK = [
       "C": "E-cash 💵",
       "D": "Check 💬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An electronic check is a form of electronic funds transfer (EFT) that moves money between bank accounts."
   },
   {
     "question": "If you need to transfer money to another person via the internet, which of the following methods could you use? 🌐💸",
@@ -3207,7 +3525,8 @@ const QUESTION_BANK = [
       "C": "Electronic bill presentment and payment 📄",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the exception — it does not share the property described by the other options."
   },
   {
     "question": "Which of the following permits the transmission of a bill, along with payment of that bill, to be conducted over the Internet? 📄💻",
@@ -3217,7 +3536,8 @@ const QUESTION_BANK = [
       "C": "Electronic bill presentment and payment 📑",
       "D": "All of the above 🌟"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Electronic bill presentment and payment (EBPP) systems allow bills to be sent and paid entirely online."
   },
   {
     "question": "A combination of software and information designed to provide security and information for payment is called a what? 💳🔐",
@@ -3227,7 +3547,8 @@ const QUESTION_BANK = [
       "C": "Shopping cart 🛒",
       "D": "Encryption 🔑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An electronic wallet (e-wallet) stores payment credentials securely for fast and safe online checkout."
   },
   {
     "question": "What is the name for direct computer-to-computer transfer of transaction information contained in standard business documents? 💻📄",
@@ -3237,7 +3558,8 @@ const QUESTION_BANK = [
       "C": "Transaction information transfer 🔄",
       "D": "Electronic data interchange 📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "Which of the following is used in B2B to pay for purchases? 🏢➡️🏢💸",
@@ -3247,7 +3569,8 @@ const QUESTION_BANK = [
       "C": "Electronic data exchange 🔄",
       "D": "Electronic checks 💳"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Public key encryption uses multiple keys. One key is used to encrypt data, while another is used to decrypt data. The key used to encrypt data is called the ________ key, while the key used to decrypt data is called the ________ key. 🔑🔐",
@@ -3257,7 +3580,8 @@ const QUESTION_BANK = [
       "C": "encryption, public 🔒🙉",
       "D": "public, private 🙉🙈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "Which of the following is an example of e-commerce? 🛒💻",
@@ -3267,7 +3591,8 @@ const QUESTION_BANK = [
       "C": "Booking a hotel room online 🏨💻",
       "D": "Visiting a physical store to buy clothes 👕"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Booking a hotel room online is a concrete real-world example of the concept described."
   },
   {
     "question": "What is EDI name? 📡",
@@ -3277,7 +3602,8 @@ const QUESTION_BANK = [
       "C": "Electronic Data Interchange 📡",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "What is the process in which a buyer posts its interest in buying a certain quantity of items, and sellers compete for the business by submitting successively lower bids until there is only one seller left? 🔻💰",
@@ -3287,7 +3613,8 @@ const QUESTION_BANK = [
       "C": "Reverse auction 🔻",
       "D": "Internet 🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 In a reverse auction, sellers compete by offering the lowest price to win a buyer's business."
   },
   {
     "question": "What is B2B e-commerce? 🏢➡️🏢",
@@ -3297,7 +3624,8 @@ const QUESTION_BANK = [
       "C": "Consumer-to-consumer e-commerce 👤➡️👤",
       "D": "Government-to-consumer e-commerce 🏛️➡️👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Most individuals are familiar with which form of e-commerce? 👤🛒",
@@ -3307,7 +3635,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which form of e-commerce currently accounts for about 97% of all e-commerce revenues? 💰🌐",
@@ -3317,7 +3646,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "Which of the following are advantages normally associated with B2B e-commerce? 📈🤝",
@@ -3327,7 +3657,8 @@ const QUESTION_BANK = [
       "C": "Reaches wider audiences 🌍",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "If the threat of substitute products or services is low it is a(n): 🔄📉",
@@ -3337,7 +3668,8 @@ const QUESTION_BANK = [
       "C": "Advantage to the supplier 👍",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Low substitution threat means customers have few alternatives, giving the industry more pricing power."
   },
   {
     "question": "Which concept suggests that different applications and computer systems should be able to communicate with one another? 💻🔄💻",
@@ -3347,7 +3679,8 @@ const QUESTION_BANK = [
       "C": "Scalability 📏",
       "D": "Interoperability 🤝"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Interoperability does not fit because the other options all belong to the same category."
   },
   {
     "question": "Business entities conducting business electronically are called: 💼💻",
@@ -3357,7 +3690,8 @@ const QUESTION_BANK = [
       "C": "business partners 🏢",
       "D": "customers 👤"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Businesses that conduct transactions electronically over the internet are called e-businesses or e-commerce entities."
   },
   {
     "question": "Which process can prevent data from loss due to computer problems or human errors? 💾🛡️",
@@ -3367,7 +3701,8 @@ const QUESTION_BANK = [
       "C": "Benchmarking 📊",
       "D": "Data cleansing 🧹"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "Which process is used to reinstall data from a copy when the original data has been lost? 🔄💾",
@@ -3377,7 +3712,8 @@ const QUESTION_BANK = [
       "C": "Benchmarking 📊",
       "D": "Data cleansing 🧹"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Data restoration reinstalls data from a backup copy when the original is lost, corrupted, or deleted."
   },
   {
     "question": "What describes a process of continuously measuring results and comparing those results to optimal performance so that actual performance may be improved? 📈📊",
@@ -3387,7 +3723,8 @@ const QUESTION_BANK = [
       "C": "Benchmarking 🎯",
       "D": "Data cleansing 🧹"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Benchmarking compares a company's performance against industry best practices to identify improvement areas."
   },
   {
     "question": "Who protects system from external threats? 🛡️🌍",
@@ -3397,7 +3734,8 @@ const QUESTION_BANK = [
       "C": "ERP 🏢",
       "D": "Script kiddies 👨‍💻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "Who breaks into other people's computer systems and steals and destroys information? 👨‍💻💀",
@@ -3407,7 +3745,8 @@ const QUESTION_BANK = [
       "C": "Hacktivists ✊",
       "D": "Script kiddies 🧒"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Crackers (malicious hackers) illegally break into systems to steal, damage, or destroy data for personal gain."
   },
   {
     "question": "What is software that comes hidden in free downloadable software and tracks your online movements, mines the information stored on your computer, or uses your computer's CPU and storage for some task you know nothing about? 🕵️‍♂️💻",
@@ -3417,7 +3756,8 @@ const QUESTION_BANK = [
       "C": "Anonymous web browsing service 🙈",
       "D": "None of the above ❌"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 None of the above is the standard definition for this concept in the field."
   },
   {
     "question": "Secure Sockets Layers does which of the following? 🔒🌐",
@@ -3427,7 +3767,8 @@ const QUESTION_BANK = [
       "C": "Sends information over the internet 📡",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 SSL/TLS encrypts the data channel between a browser and web server, protecting data from eavesdropping."
   },
   {
     "question": "When a transaction is processed online, how can the merchant verify the customer's identity? 🛒🆔",
@@ -3437,7 +3778,8 @@ const QUESTION_BANK = [
       "C": "use electronic data interchange 📡",
       "D": "use financial electronic data interchange 💰📡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital certificates issued by a certificate authority verify the customer's identity during online transactions."
   },
   {
     "question": "The practice of forging a return address on an e-mail so that the recipient is fooled into revealing private information is termed? ✉️🎭",
@@ -3447,7 +3789,8 @@ const QUESTION_BANK = [
       "C": "Dumpster diving 🗑️",
       "D": "Spoofing 🎣"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Email spoofing forges the sender's address to deceive recipients — a key technique used in phishing attacks."
   },
   {
     "question": "What is a model of a proposed product, service, or system? 🧩🆕",
@@ -3457,7 +3800,8 @@ const QUESTION_BANK = [
       "C": "Proof-of-concept prototype 🧪",
       "D": "Selling prototype 💰"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is an internal organizational Internet that is guarded against outside access by a special security feature called a firewall (which can be software, hardware, or a combination of the two)? 🏢🔒",
@@ -3467,7 +3811,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🌐🤝",
       "D": "Thin client 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "What is an intranet that is restricted to an organization and certain outsiders, such as customers and suppliers? 🌐🤝",
@@ -3477,7 +3822,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🔓🤝",
       "D": "Thin client 💻"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An extranet extends a company's intranet to trusted external partners like suppliers and clients."
   },
   {
     "question": "What is a detailed process for recovering information or an IT system in the event of a catastrophic disaster such as a fire or flood? 🔥🌊💻",
@@ -3487,7 +3833,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️🏢",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
   },
   {
     "question": "What is a separate facility that does not have any computer equipment but is a place where the knowledge workers can move after the disaster? 🏢❄️",
@@ -3497,7 +3844,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Cold site is the standard definition for this concept in the field."
   },
   {
     "question": "What determines the future IT infrastructure requirements for new equipment and additional network capacity? 🖥️📈",
@@ -3507,7 +3855,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Capacity planning analyses current usage trends to forecast the future infrastructure needs of a system."
   },
   {
     "question": "What automates business processes? 🤖📋",
@@ -3517,7 +3866,8 @@ const QUESTION_BANK = [
       "C": "Workflow system ⚙️",
       "D": "EIP 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "What defines all of the steps or business rules, from beginning to end, required for a process to run correctly? 📜🔄",
@@ -3527,7 +3877,8 @@ const QUESTION_BANK = [
       "C": "Workflow system ⚙️",
       "D": "SLA 📝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "What sends work assignments through an e-mail system? ✉️📋",
@@ -3537,7 +3888,8 @@ const QUESTION_BANK = [
       "C": "Database-based workflow system 🗄️",
       "D": "Messaging-based workflow system 💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "Which will not harm computer resources? 🛡️💻",
@@ -3547,7 +3899,8 @@ const QUESTION_BANK = [
       "C": "Trojan horse 🐴",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "EDI is the electronic interchange of business information using: 📡💼",
@@ -3557,7 +3910,8 @@ const QUESTION_BANK = [
       "C": "Standardized Format 📏",
       "D": "Secured Server 🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which is a function of ERP? 🏢⚙️",
@@ -3567,7 +3921,8 @@ const QUESTION_BANK = [
       "C": "Scheduling 📅",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "Which of the following is the primary characteristic of an intranet? 🌐🔒",
@@ -3577,7 +3932,8 @@ const QUESTION_BANK = [
       "C": "People outside the organization can't access it 🔒",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An intranet is a private internal network used by an organisation for secure communication and data sharing."
   },
   {
     "question": "What is E-commerce? 🛒💻",
@@ -3587,7 +3943,8 @@ const QUESTION_BANK = [
       "C": "Sale of goods 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Doing business electronically is the standard definition for this concept in the field."
   },
   {
     "question": "Who is part of the four main types for e-commerce? 🛒📊",
@@ -3597,7 +3954,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Which of the following is not type of patent? 📜❌",
@@ -3607,7 +3965,8 @@ const QUESTION_BANK = [
       "C": "Design patents 🎨",
       "D": "Plant patents 🌱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Copyright does not fit because the other options all belong to the same category."
   },
   {
     "question": "Which type of e-commerce focuses on consumers dealing with each other? 👤➡️👤",
@@ -3617,7 +3976,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "Which of the following is Rights of a Copyright Owner? ©️📜",
@@ -3627,7 +3987,8 @@ const QUESTION_BANK = [
       "C": "Prevent others from making unauthorized use of copyrighted work 🚫",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Copyright owners have the exclusive right to reproduce, distribute, and create derivative works from their content."
   },
   {
     "question": "Which type deals with auction? 🔨💰",
@@ -3637,7 +3998,8 @@ const QUESTION_BANK = [
       "C": "C2B 👤➡️🏢",
       "D": "C2C 👤➡️👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "Organizations suppliers value chain are known as: 🔗🏭",
@@ -3647,7 +4009,8 @@ const QUESTION_BANK = [
       "C": "Value chain 🔗",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The value chain describes all activities a business performs to deliver a product, from production to sales."
   },
   {
     "question": "The best products to sell in B2C e-commerce are: 🛍️🏢👤",
@@ -3657,7 +4020,8 @@ const QUESTION_BANK = [
       "C": "Specialty products ✨",
       "D": "Fresh products 🥬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which products are people most likely to be more uncomfortable buying on the Internet? 😟🛒",
@@ -3667,7 +4031,8 @@ const QUESTION_BANK = [
       "C": "Movies 🎬",
       "D": "All of the above 🌟"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Physical products like clothing, furniture, and cars require touch or inspection, making buyers uncomfortable online."
   },
   {
     "question": "Which products are people most likely to be more uncomfortable buying on the Internet? 😟🛒",
@@ -3677,7 +4042,8 @@ const QUESTION_BANK = [
       "C": "CDs 💿",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Physical products like clothing, furniture, and cars require touch or inspection, making buyers uncomfortable online."
   },
   {
     "question": "The threat of new entrants is high when it is: 🚪📈",
@@ -3687,7 +4053,8 @@ const QUESTION_BANK = [
       "C": "Easy for competitors to enter the market 🟢",
       "D": "Easy for customers to enter the market 🛍️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 When barriers to entry are low, new competitors can easily join the market, increasing competitive pressure."
   },
   {
     "question": "If it is easy for competitors to enter the market, the threat of new entrants is considered: 🚪⬆️",
@@ -3697,7 +4064,8 @@ const QUESTION_BANK = [
       "C": "More 📈",
       "D": "Less 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Easy market entry means competition increases quickly, making it harder for existing businesses to maintain profits."
   },
   {
     "question": "An industry is less attractive for suppliers when the rivalry among existing competitors is: ⚔️🏭",
@@ -3707,7 +4075,8 @@ const QUESTION_BANK = [
       "C": "More 📈",
       "D": "Less 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Intense rivalry among existing firms reduces margins, making the industry less profitable for all suppliers."
   },
   {
     "question": "Unique value auction is mainly applies to: 🔨💰",
@@ -3717,7 +4086,8 @@ const QUESTION_BANK = [
       "C": "Engineering products ⚙️",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Engineering products is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "PaisaPay is facilitated in: 💸🇮🇳",
@@ -3727,7 +4097,8 @@ const QUESTION_BANK = [
       "C": "flipkart.com 🛍️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 PaisaPay is the integrated payment system used within eBay India for secure online transactions."
   },
   {
     "question": "Which of the following is a useful security mechanism when considering business strategy and IT? 🔐💼",
@@ -3737,7 +4108,8 @@ const QUESTION_BANK = [
       "C": "Firewall 🛡️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption protects sensitive business data and customer information during transmission and storage."
   },
   {
     "question": "Which of the following is not related to security mechanism? 🚫🔐",
@@ -3747,7 +4119,8 @@ const QUESTION_BANK = [
       "C": "E-cash 💵",
       "D": "All of the above 🌟"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 E-cash does not fit because the other options all belong to the same category."
   },
   {
     "question": "The best products to sell in B2C e-commerce are: 🛍️🏢👤",
@@ -3757,7 +4130,8 @@ const QUESTION_BANK = [
       "C": "Specialty products ✨",
       "D": "Fresh product 🥬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which of the following statements accurately reflect the impact of technology? 📡⚡",
@@ -3767,7 +4141,8 @@ const QUESTION_BANK = [
       "C": "Technology has increased the threat of substitute products and services 🔄",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Technology fundamentally transforms how businesses operate, compete, and deliver value to customers."
   },
   {
     "question": "Which form of e-marketplace brings together buyers and sellers from multiple industries, often for MRO materials? 🔧🏭",
@@ -3777,7 +4152,8 @@ const QUESTION_BANK = [
       "C": "Integrated 🔗",
       "D": "Inclined 📐"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An e-marketplace is an online platform where multiple buyers and sellers transact together."
   },
   {
     "question": "Which form of e-marketplace brings together buyers and sellers from the same industry? 🏭↕️",
@@ -3787,7 +4163,8 @@ const QUESTION_BANK = [
       "C": "Integrated 🔗",
       "D": "Inclined 📐"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 An e-marketplace is an online platform where multiple buyers and sellers transact together."
   },
   {
     "question": "Which type of ad appears on a web page? 🖥️📢",
@@ -3797,7 +4174,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "Discount ad 💸"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Banner ads are graphical display advertisements placed on websites to attract visitor attention."
   },
   {
     "question": "What type of ad appears on top of a web page? ⬆️🖥️",
@@ -3807,7 +4185,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "Discount ad 💸"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Banner ads displayed at the top of a web page are called header or top banner advertisements."
   },
   {
     "question": "What type of ad appears under a web page? ⬇️🖥️",
@@ -3817,7 +4196,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "Discount ad 💸"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Ads placed at the bottom of a web page are called footer banner or bottom banner advertisements."
   },
   {
     "question": "Which, if any, of the following types of ads are people most willing to tolerate? 😊📢",
@@ -3827,7 +4207,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Banner ads are graphical display advertisements placed on websites to attract visitor attention."
   },
   {
     "question": "Which of the following is an Internet-based company that makes it easy for one person to pay another over the Internet? 🌐💸",
@@ -3837,7 +4218,8 @@ const QUESTION_BANK = [
       "C": "Conversion rates 💱",
       "D": "Financial cybermediary 🏦"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which of the following is a method of transferring money from one person's account to another? 💸🔄",
@@ -3847,7 +4229,8 @@ const QUESTION_BANK = [
       "C": "E-transfer ⚡",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 E-transfer does not fit because the other options all belong to the same category."
   },
   {
     "question": "Digital products are best suited for B2C e-commerce because they: 💾🏢👤",
@@ -3857,7 +4240,8 @@ const QUESTION_BANK = [
       "C": "can be delivered at the time of purchase ⏱️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "The solution for all business needs is: 🏢✅",
@@ -3867,7 +4251,8 @@ const QUESTION_BANK = [
       "C": "SCM 🔗",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "All of the following are techniques B2C e-commerce companies use to attract customers, except: 📢❌",
@@ -3877,7 +4262,8 @@ const QUESTION_BANK = [
       "C": "Online ads 🖥️",
       "D": "Virtual marketing 🌐"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "Which is a function of E-commerce? 🛒⚙️",
@@ -3887,7 +4273,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the primary function or purpose of this component in the system."
   },
   {
     "question": "Which is not a function of E-commerce? 🛒❌",
@@ -3897,7 +4284,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "None of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 None of the above does not fit because the other options all belong to the same category."
   },
   {
     "question": "Which term represents account of the number of people who visit one site, click on an ad, and are taken to the site of the advertiser? 🖱️📊",
@@ -3907,7 +4295,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "All of the above 🌟"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Click-through rate measures how often users click an ad or link relative to how many times it is shown."
   },
   {
     "question": "What is the percentage of customers who visit a website and actually buy something called? 🛒📊",
@@ -3917,7 +4306,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "Conversion rate 📈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Conversion rate is the percentage of website visitors who complete a desired action like making a purchase."
   },
   {
     "question": "What are materials used in production in a manufacturing company or replaced on the shelf for sale in a retail environment? 🏭📦",
@@ -3927,7 +4317,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Direct materials is the standard definition for this concept in the field."
   },
   {
     "question": "What are materials that are necessary for running a modern corporation, but do not relate to the company's primary business activities? 🏢🔧",
@@ -3937,7 +4328,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is a separate and fully equipped facility where the company can move immediately after the disaster and resume business? 🏢🔥",
@@ -3947,7 +4339,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What charts (1) the cost to your organization of the unavailability of information and technology and (2) the cost to your organization of recovering from a disaster over time? 📉📊",
@@ -3957,7 +4350,8 @@ const QUESTION_BANK = [
       "C": "Cold site ❄️",
       "D": "Disaster recovery cost curve 📈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Which factor determines when your IT system will be available for knowledge workers to access? ⏰💻",
@@ -3967,7 +4361,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
   },
   {
     "question": "Which factor determines who has the right to access different types of IT systems and information? 🚪🔑",
@@ -3977,7 +4372,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Web accessibility ensures that people with disabilities can use and navigate a website effectively."
   },
   {
     "question": "Which factor ensures your IT systems are functioning correctly and providing accurate information? ✅💻",
@@ -3987,7 +4383,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Reliability is the primary function or purpose of this component in the system."
   },
   {
     "question": "Which factor represents how well your system can adapt to increased demands? 📈⚙️",
@@ -3997,7 +4394,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📏"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Scalability measures how well a system handles growing workloads without degrading performance."
   },
   {
     "question": "Which factor represents a system's ability to change quickly? ⚡🔄",
@@ -4007,7 +4405,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Agility describes how quickly a system or organisation can adapt to new requirements or market changes."
   },
   {
     "question": "What is a set of conditions used to measure how well a product or system functions? 📏⚙️",
@@ -4017,7 +4416,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Benchmarking compares a company's performance against industry best practices to identify improvement areas."
   },
   {
     "question": "Industry structure is defined as 🏭📊",
@@ -4027,7 +4427,8 @@ const QUESTION_BANK = [
       "C": "Set of planned activities designed to result in a profit in a marketplace 📈",
       "D": "How a company's product or service fulfills the needs of customers 🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Industry structure describes the competitive forces, market concentration, and barriers that shape how an industry operates."
   },
   {
     "question": "The dimension of e-commerce that enables commerce across national boundaries is called 🌐🛒",
@@ -4037,7 +4438,8 @@ const QUESTION_BANK = [
       "C": "Richness 💎",
       "D": "Ubiquity 📱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "\"Google\" is one of the most popular 🔍",
@@ -4047,7 +4449,8 @@ const QUESTION_BANK = [
       "C": "Search engine 🔎",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Google is the world's most widely used search engine, handling billions of queries every day."
   },
   {
     "question": "________ is a form of supply chain where a series of assembly operations are carried out to obtain final product 🔗🏭",
@@ -4057,7 +4460,8 @@ const QUESTION_BANK = [
       "C": "Any of these 🔄",
       "D": "None ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Supply chain management coordinates the flow of goods, information, and money from supplier to customer."
   },
   {
     "question": "________ is automated methods of recognizing a person based on a physiological or behavioral characteristic 🖐️👁️",
@@ -4067,7 +4471,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔀",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Biometric authentication verifies identity using unique physical traits like fingerprints or facial recognition."
   },
   {
     "question": "Trade mark, copyright, patent law etc comes under the purview of 📜⚖️",
@@ -4077,7 +4482,8 @@ const QUESTION_BANK = [
       "C": "Intellectual property laws 🧠",
       "D": "None ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Trademarks, copyrights, and patents fall under intellectual property law, which protects creators' rights."
   },
   {
     "question": "E-mail which contains useless material is termed as 📧🗑️",
@@ -4087,7 +4493,8 @@ const QUESTION_BANK = [
       "C": "Trunk mail 📬",
       "D": "Junk mail 🗑️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Spam is unsolicited bulk email sent to many recipients, usually for advertising or malicious purposes."
   },
   {
     "question": "________ is a kind of payment card that transfers fund directly from the consumer's bank account to the merchants account 💳🏦",
@@ -4097,7 +4504,8 @@ const QUESTION_BANK = [
       "C": "Credit card 💳",
       "D": "Any of these 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A debit card directly deducts the transaction amount from the cardholder's bank account at the time of purchase."
   },
   {
     "question": "To accept a credit card for payment, we have to open a ________ account with our bank 💳🏦",
@@ -4107,7 +4515,8 @@ const QUESTION_BANK = [
       "C": "Merchant account 🛒",
       "D": "Any of these 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "SET means 🔐💳",
@@ -4117,7 +4526,8 @@ const QUESTION_BANK = [
       "C": "Secure Electronic Transaction 🔒",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "________ is a card with a microchip that can be used instead of cash and coins for everything from vending machines to public transportation 💳🔌",
@@ -4127,7 +4537,8 @@ const QUESTION_BANK = [
       "C": "Electronic purse 👛",
       "D": "Any of these 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "This is a protocol which allows files to be transferred from one computer to another computer 📁💻",
@@ -4137,7 +4548,8 @@ const QUESTION_BANK = [
       "C": "http 🌐",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 FTP (File Transfer Protocol) is a standard protocol for transferring files between computers over a network."
   },
   {
     "question": "________ is a global web in which millions of users are communicating with each other with the help of computers 🌐💬",
@@ -4147,7 +4559,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔀",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "The user reaches this page when they specify the address of a website 🏠🌐",
@@ -4157,7 +4570,8 @@ const QUESTION_BANK = [
       "C": "Summary page 📋",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which among the following is not an example for Search engine? 🔍❌",
@@ -4167,7 +4581,8 @@ const QUESTION_BANK = [
       "C": "alta vista 🌐",
       "D": "none of these 🚫"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 none of these does not fit because the other options all belong to the same category."
   },
   {
     "question": "________ is an application layer protocol for distributed, collaborative, hypermedia information systems 🌐📄",
@@ -4177,7 +4592,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔀",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Among the alternate models of B2B e-commerce, ________ is the best means to obtain a competitive advantage in the Market place 🏢➡️🏢⚡",
@@ -4187,7 +4603,8 @@ const QUESTION_BANK = [
       "C": "Transaction based 💰",
       "D": "Any of these 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "________ is a commercial process that includes production, distribution, sales or delivery of goods and services through electronic means 🛒💻",
@@ -4197,7 +4614,8 @@ const QUESTION_BANK = [
       "C": "edi 📡",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Which of the following is not a party of SCM? 🔗❌",
@@ -4207,7 +4625,8 @@ const QUESTION_BANK = [
       "C": "distributors 🚚",
       "D": "customers 👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 customers does not fit because the other options all belong to the same category."
   },
   {
     "question": "Electronic Exchange of business documents in a standard format is known as 📄🔄",
@@ -4217,7 +4636,8 @@ const QUESTION_BANK = [
       "C": "edi 📡",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Who developed concept of value chain? 🔗👨‍🎓",
@@ -4227,7 +4647,8 @@ const QUESTION_BANK = [
       "C": "Nicoala Porter ❌",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The value chain describes all activities a business performs to deliver a product, from production to sales."
   },
   {
     "question": "What is the process of making a copy of the information stored on a computer? 💾📋",
@@ -4237,7 +4658,8 @@ const QUESTION_BANK = [
       "C": "Firewall 🔥",
       "D": "Biometrics 🖐️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "ERP stands for 🏢⚙️",
@@ -4247,7 +4669,8 @@ const QUESTION_BANK = [
       "C": "Enterprise resource planning 📊",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "Who breaks into other people's computer systems and steals and destroys information? 👨‍💻💀",
@@ -4257,7 +4680,8 @@ const QUESTION_BANK = [
       "C": "Hacktivists ✊",
       "D": "Script kiddies 🧒"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Crackers (malicious hackers) illegally break into systems to steal, damage, or destroy data for personal gain."
   },
   {
     "question": "Which of the following is the primary characteristic of an intranet? 🌐🔒",
@@ -4267,7 +4691,8 @@ const QUESTION_BANK = [
       "C": "People outside the organization can't access it 🔒",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An intranet is a private internal network used by an organisation for secure communication and data sharing."
   },
   {
     "question": "Which will not harm computer resources: 🛡️💻",
@@ -4277,7 +4702,8 @@ const QUESTION_BANK = [
       "C": "Trojan horse 🐴",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "What automates business processes? 🤖📋",
@@ -4287,7 +4713,8 @@ const QUESTION_BANK = [
       "C": "Workflow system ⚙️",
       "D": "eip 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Workflow automation sequences tasks and approvals in a business process without manual intervention."
   },
   {
     "question": "Which factor represents a systems ability to change quickly? ⚡🔄",
@@ -4297,7 +4724,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Agility describes how quickly a system or organisation can adapt to new requirements or market changes."
   },
   {
     "question": "Which factor represents how well your system can adapt to increased demands? 📈⚙️",
@@ -4307,7 +4735,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔒",
       "D": "Scalability 📏"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Scalability measures how well a system handles growing workloads without degrading performance."
   },
   {
     "question": "What is an intranet that is restricted to an organization and certain outsiders, such as customers and suppliers? 🌐🤝",
@@ -4317,7 +4746,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🔓🤝",
       "D": "Thin client 💻"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An extranet extends a company's intranet to trusted external partners like suppliers and clients."
   },
   {
     "question": "What is an internal organizational Internet that is guarded against outside access by a special security feature called a firewall? 🏢🔒",
@@ -4327,7 +4757,8 @@ const QUESTION_BANK = [
       "C": "Extranet 🌐🤝",
       "D": "Thin client 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "When a transaction is processed online, how can the merchant verify the customer's identity? 🛒🆔",
@@ -4337,7 +4768,8 @@ const QUESTION_BANK = [
       "C": "Use electronic data interchange 📡",
       "D": "Use financial electronic data interchange 💰📡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital certificates issued by a certificate authority verify the customer's identity during online transactions."
   },
   {
     "question": "Secure Sockets Layers does which of the following? 🔒🌐",
@@ -4347,7 +4779,8 @@ const QUESTION_BANK = [
       "C": "Sends information over the Internet 📡",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 SSL/TLS encrypts the data channel between a browser and web server, protecting data from eavesdropping."
   },
   {
     "question": "Public key encryption uses multiple keys. One key is used to encrypt data, while another is used to decrypt data. The key used to encrypt data is called the ________ key, while the key used to decrypt data is called the ________ key. 🔑🔐",
@@ -4357,7 +4790,8 @@ const QUESTION_BANK = [
       "C": "encryption, public 🔒🙉",
       "D": "public, private 🙉🙈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "What is the name for direct computer-to-computer transfer of transaction information contained in standard business documents? 💻📄",
@@ -4367,7 +4801,8 @@ const QUESTION_BANK = [
       "C": "Transaction information transfer 🔄",
       "D": "Electronic data interchange 📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "Which form of e-marketplace brings together buyers and sellers from the same industry? 🏭↕️",
@@ -4377,7 +4812,8 @@ const QUESTION_BANK = [
       "C": "Integrated 🔗",
       "D": "Inclined 📐"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 An e-marketplace is an online platform where multiple buyers and sellers transact together."
   },
   {
     "question": "Which type of products is lesser purchased using ecommerce? 🛒❌",
@@ -4387,7 +4823,8 @@ const QUESTION_BANK = [
       "C": "Softwares 💾",
       "D": "None ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Physical products needing touch or fitting, like furniture and clothes, are least commonly purchased online."
   },
   {
     "question": "How the transactions occur in e-commerce? 💻🔄",
@@ -4397,7 +4834,8 @@ const QUESTION_BANK = [
       "C": "Using mobile phones only 📱",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "A product or service that customers have come to expect from an industry, which must be offered by new entrants if they wish to compete and survive, is known as a(n)? 🚪🛡️",
@@ -4407,7 +4845,8 @@ const QUESTION_BANK = [
       "C": "Entry barriers 🚧",
       "D": "Affiliate programs 🤝"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A table stake is a minimum standard that every competitor must meet just to participate in an industry."
   },
   {
     "question": "Which of the following is a useful security mechanism when considering business strategy and IT? 🔐💼",
@@ -4417,7 +4856,8 @@ const QUESTION_BANK = [
       "C": "Firewall 🛡️",
       "D": "All the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Encryption protects sensitive business data and customer information during transmission and storage."
   },
   {
     "question": "Unique value auction is mainly applies to? 🔨💰",
@@ -4427,7 +4867,8 @@ const QUESTION_BANK = [
       "C": "Engineering products ⚙️",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Engineering products is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "If it is easy for competitors to enter the market, the threat of new entrants is considered: 🚪⬆️",
@@ -4437,7 +4878,8 @@ const QUESTION_BANK = [
       "C": "More 📈",
       "D": "Less 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Easy market entry means competition increases quickly, making it harder for existing businesses to maintain profits."
   },
   {
     "question": "If the threat of substitute products or services is low it is a(n): 🔄📉",
@@ -4447,7 +4889,8 @@ const QUESTION_BANK = [
       "C": "Advantage to the supplier 👍",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Low substitution threat means customers have few alternatives, giving the industry more pricing power."
   },
   {
     "question": "What are plastic cards the size of a credit card that contains an embedded chip on which digital information can be stored? 💳🔌",
@@ -4457,7 +4900,8 @@ const QUESTION_BANK = [
       "C": "Fedi cards ❌",
       "D": "Smart cards 🧠"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What is the percentage of customers who visit a Web site and actually buy something called? 🛒📊",
@@ -4467,7 +4911,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "Conversion rate 📈"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Conversion rate is the percentage of website visitors who complete a desired action like making a purchase."
   },
   {
     "question": "Which is a function of E-commerce? 🛒⚙️",
@@ -4477,7 +4922,8 @@ const QUESTION_BANK = [
       "C": "Warehousing 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the primary function or purpose of this component in the system."
   },
   {
     "question": "The solution for all business needs is 🏢✅",
@@ -4487,7 +4933,8 @@ const QUESTION_BANK = [
       "C": "scm 🔗",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "Which type deals with auction? 🔨💰",
@@ -4497,7 +4944,8 @@ const QUESTION_BANK = [
       "C": "c2b 👤➡️🏢",
       "D": "c2c 👤➡️👤"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "________ is an early form of E-commerce: 📡🕰️",
@@ -4507,7 +4955,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔀",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ is concerned with the buying and selling information, products and services over computer communication networks 🛒💻",
@@ -4517,7 +4966,8 @@ const QUESTION_BANK = [
       "C": "E-business 💼",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 E-commerce encompasses all buying and selling of goods, services, and information conducted over computer networks."
   },
   {
     "question": "ACH is 🏦💸",
@@ -4527,7 +4977,8 @@ const QUESTION_BANK = [
       "C": "Automated Consistency House ❌",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "EFT is 💸⚡",
@@ -4537,7 +4988,8 @@ const QUESTION_BANK = [
       "C": "Electronic Fast Transfer ❌",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EFT (Electronic Funds Transfer) is the electronic transfer of money between bank accounts over a network."
   },
   {
     "question": "________ is an application of smart card 🧠💳",
@@ -4547,7 +4999,8 @@ const QUESTION_BANK = [
       "C": "Transportation 🚇",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Smart cards store authentication credentials on a chip, providing a hardware-based security token."
   },
   {
     "question": "Electronic payment is a financial transaction made ________ the use of paper documents 💸📄",
@@ -4557,7 +5010,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔄",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Electronic payment is a financial transaction conducted without the use of physical paper documents."
   },
   {
     "question": "E-money is a medium for making payments 💵💻",
@@ -4567,7 +5021,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔀",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Moving from one Web site to another is called 🌐🖱️",
@@ -4577,7 +5032,8 @@ const QUESTION_BANK = [
       "C": "Surfing 🏄",
       "D": "Applying 📝"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Surfing is the exception — it does not share the property described by the other options."
   },
   {
     "question": "Advantages of B2C commerce are: 🏢👤✅ (i) Business gets a wide reach to customers 🌍 (ii) Payment for services easy 💳 (iii) Shop can be open 24 hours a day seven days a week 🕒 (iv) Privacy of transaction always maintained 🔒",
@@ -4587,7 +5043,8 @@ const QUESTION_BANK = [
       "C": "(i) and (iii) 💬",
       "D": "(iii) and (iv) 💬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "A summary of how a company will generate a profit identifying its core product, target customers, position in the online marketplace, and projections for revenue and costs is known as: 📊💰",
@@ -4597,7 +5054,8 @@ const QUESTION_BANK = [
       "C": "Online business model 🖥️🏢",
       "D": "Revenue model and cost base 💵📉"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An online marketplace connects multiple third-party sellers with buyers on a single platform."
   },
   {
     "question": "Social network sites such as Facebook and Twitter have become increasingly popular for sell-side e-commerce and would normally be considered to be in which category? 📱💬",
@@ -4607,7 +5065,8 @@ const QUESTION_BANK = [
       "C": "Transactional e-commerce sites 🛒",
       "D": "Services-orientated relationship-building websites 🤝"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Social media platforms are now widely used for sell-side e-commerce, reaching customers where they spend time."
   },
   {
     "question": "Which driver promote E-commerce? 🚀🛒",
@@ -4617,7 +5076,8 @@ const QUESTION_BANK = [
       "C": "Profit margins 💰",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Global internet access, digital payment systems, and mobile devices are the key drivers promoting e-commerce growth."
   },
   {
     "question": "By electronic commerce we mean: 🛒💻",
@@ -4627,7 +5087,8 @@ const QUESTION_BANK = [
       "C": "Commerce which is based on the use of internet 🌐",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "The E-commerce domain that involves business activity initiated by the consumer and targeted to businesses is known as: 👤➡️🏢",
@@ -4637,7 +5098,8 @@ const QUESTION_BANK = [
       "C": "Business to Consumer (B2C) 🏢➡️👤",
       "D": "Consumer to Consumer (C2C) 👤➡️👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Consumer to Business (C2B) is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "What floods a Web site with so many requests for service that it slows down or crashes? 🌐💥",
@@ -4647,7 +5109,8 @@ const QUESTION_BANK = [
       "C": "Denial-of-service attack 🚫",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A Denial of Service (DoS) attack floods a website with requests, overwhelming it until it crashes."
   },
   {
     "question": "Which factor represents a systems ability to change quickly? ⚡🔄",
@@ -4657,7 +5120,8 @@ const QUESTION_BANK = [
       "C": "Capacity planning 📊",
       "D": "Benchmark 🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Agility describes how quickly a system or organisation can adapt to new requirements or market changes."
   },
   {
     "question": "An electronic check is one form of what? 💳📄",
@@ -4667,7 +5131,8 @@ const QUESTION_BANK = [
       "C": "e-cash 💵",
       "D": "check 💬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An electronic check is a form of electronic funds transfer (EFT) that moves money between bank accounts."
   },
   {
     "question": "Which, if any, of the following types of ads are people most willing to tolerate? 😊📢",
@@ -4677,7 +5142,8 @@ const QUESTION_BANK = [
       "C": "Banner ad 📏",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Banner ads are graphical display advertisements placed on websites to attract visitor attention."
   },
   {
     "question": "Which of the following are advantages normally associated with B2B e-commerce? 📈🤝",
@@ -4687,7 +5153,8 @@ const QUESTION_BANK = [
       "C": "Reaches wider audiences 🌍",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2B e-commerce involves transactions between businesses rather than between a business and a consumer."
   },
   {
     "question": "What is another name for materials which cannot be linked to a specific product or process? 🔧📦",
@@ -4697,7 +5164,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Indirect materials is the standard definition for this concept in the field."
   },
   {
     "question": "The purpose of supply chain management is 🔗🎯",
@@ -4707,7 +5175,8 @@ const QUESTION_BANK = [
       "C": "Integrating supply and demand 🔄",
       "D": "Increase production 🏭"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Supply chain management coordinates the flow of goods, information, and money from supplier to customer."
   },
   {
     "question": "Digital Products are best suited for B2C e-commerce because they: 💾🏢👤",
@@ -4717,7 +5186,8 @@ const QUESTION_BANK = [
       "C": "Can be delivered at the time of purchase ⏱️",
       "D": "All of the mentioned 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 B2C e-commerce connects businesses directly to end consumers through online storefronts."
   },
   {
     "question": "________ credit card gives all the advantages of a normal credit card without worrying about the interest charges 💳✅",
@@ -4727,7 +5197,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔄",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ in the e-commerce may be a holder of a payment card such as credit card or debit card from an issuer 🛒💳",
@@ -4737,7 +5208,8 @@ const QUESTION_BANK = [
       "C": "Merchant 🛍️",
       "D": "Acquirer 🏦"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ website is one that changes or customizes itself frequently and automatically based on certain criteria 🌐🔄",
@@ -4747,7 +5219,8 @@ const QUESTION_BANK = [
       "C": "Phish site 🎣",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A dynamic website automatically personalises its content based on user data, behaviour, or context."
   },
   {
     "question": "________ is any transaction, involving the transfer or rights to use goods and services, which is initiated and or completed by using mobile access to computer mediated networks with the help of an electronic device 📱🛒",
@@ -4757,7 +5230,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔀",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ focus on producing a highly integrated value proposition through a managed process 🔗⚙️",
@@ -4767,7 +5241,8 @@ const QUESTION_BANK = [
       "C": "Contents 📄",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Value integrators focus on tightly coordinating their processes to deliver a seamless, end-to-end customer experience."
   },
   {
     "question": "The document standards for EDI were first developed by large business houses during the 1970s and are now under the control of the following standard organization 📡📏",
@@ -4777,7 +5252,8 @@ const QUESTION_BANK = [
       "C": "Both of these 🔄",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ is a systems approach to Managing the entire flow of information, materials, and services from raw material suppliers through factories and warehouses to the end customer 🔗🏭",
@@ -4787,7 +5263,8 @@ const QUESTION_BANK = [
       "C": "EDI 📡",
       "D": "SCM 🔗"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "E-Commerce lacks ________ touch 🛒❌",
@@ -4797,7 +5274,8 @@ const QUESTION_BANK = [
       "C": "Personal 🤝",
       "D": "Communication 💬"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 E-commerce lacks the physical (human) touch — customers cannot feel, smell, or try products before buying."
   },
   {
     "question": "Scope of E-Commerce is 🌐🛒",
@@ -4807,7 +5285,8 @@ const QUESTION_BANK = [
       "C": "Within Own country 🇮🇳",
       "D": "Within own state 🗺️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 E-commerce operates globally, allowing businesses to reach customers anywhere in the world at any time."
   },
   {
     "question": "________ can read the cipher text 🔐📖",
@@ -4817,7 +5296,8 @@ const QUESTION_BANK = [
       "C": "Any one 👤",
       "D": "No one 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Only the intended recipient with the correct decryption key can read encrypted (cipher) text."
   },
   {
     "question": "In Public Key Encryption, ________ key is used for Encryption 🔑🔐",
@@ -4827,7 +5307,8 @@ const QUESTION_BANK = [
       "C": "Sender's public ✉️🙉",
       "D": "Sender's private ✉️🙈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "olx.com is an example of 🛒🌐",
@@ -4837,7 +5318,8 @@ const QUESTION_BANK = [
       "C": "c2c 👤➡️👤",
       "D": "p2p 👤➡️👤"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 C2C platforms like eBay let individual consumers sell directly to other consumers online."
   },
   {
     "question": "________ allows you paperless transaction 📄❌💻",
@@ -4847,7 +5329,8 @@ const QUESTION_BANK = [
       "C": "e-commerce 🌐",
       "D": "Internet commerce 💻"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "________ is virtual representation of physical market 🏪💻",
@@ -4857,7 +5340,8 @@ const QUESTION_BANK = [
       "C": "e-commerce 🌐",
       "D": "internet commerce 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A virtual marketplace is an online platform that replicates the functions of a physical market digitally."
   },
   {
     "question": "Identify the identity of a person or entity with whom you are dealing on Internet is known as 🆔🌐",
@@ -4867,7 +5351,8 @@ const QUESTION_BANK = [
       "C": "Authorization 🔑",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Authentication is the process of verifying the identity of a user or entity on the internet."
   },
   {
     "question": "In SSL encryption is done using ________ key 🔒🔑",
@@ -4877,7 +5362,8 @@ const QUESTION_BANK = [
       "C": "Session 🔄",
       "D": "Symmetric 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
   },
   {
     "question": "An online retail store is called as 🛍️💻",
@@ -4887,7 +5373,8 @@ const QUESTION_BANK = [
       "C": "E-tailer 🖥️🛍️",
       "D": "Amazon 📦"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An online retail store is called a web store or e-shop — a digital storefront for selling products."
   },
   {
     "question": "________ changes URL from http to https 🔒🌐",
@@ -4897,7 +5384,8 @@ const QUESTION_BANK = [
       "C": "e-commerce 🛒",
       "D": "m-commerce 📱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
   },
   {
     "question": "________ means converting readable text to unreadable text 🔑🔒",
@@ -4907,7 +5395,8 @@ const QUESTION_BANK = [
       "C": "Encryption 🔐",
       "D": "Decoding 📖"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "A ________ is the set of planned activities designed to result in a profit in a marketplace 📊💰",
@@ -4917,7 +5406,8 @@ const QUESTION_BANK = [
       "C": "Business plan 📋",
       "D": "Revenue model 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An online marketplace connects multiple third-party sellers with buyers on a single platform."
   },
   {
     "question": "A Materials Requirements Planning (MRP) system is an example of 📦📊",
@@ -4927,7 +5417,8 @@ const QUESTION_BANK = [
       "C": "A legacy computer system 💾",
       "D": "Electronic data interchange 📡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Supply chain management coordinates the flow of goods, information, and money from supplier to customer."
   },
   {
     "question": "The most prevalent online payment method is 💳🌐",
@@ -4937,7 +5428,8 @@ const QUESTION_BANK = [
       "C": "Credit cards 💳",
       "D": "Debit 💳"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "The ability to change the product to better fit the needs of the customer is called 🎨👤",
@@ -4947,7 +5439,8 @@ const QUESTION_BANK = [
       "C": "Privacy 🔒",
       "D": "Accessibility 🚪"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Customisation is the ability to modify a product or service to match the specific needs of a customer."
   },
   {
     "question": "Which of the following is a new and disruptive Web feature or service? 🌐💥",
@@ -4957,7 +5450,8 @@ const QUESTION_BANK = [
       "C": "blogs 📝",
       "D": "cdma 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Web 2.0 technologies like social media and user-generated content fundamentally disrupted traditional web publishing."
   },
   {
     "question": "All of the following are technologies used to gather information about you online except 🕵️‍♂️❌",
@@ -4967,7 +5461,8 @@ const QUESTION_BANK = [
       "C": "gmail 📧",
       "D": "anonymizers 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Unlike cookies, firewalls, and trackers, encryption protects data rather than gathering information about users."
   }
 ]
   },
@@ -4986,7 +5481,8 @@ const QUESTION_BANK = [
       "C": "Analysis 🔍",
       "D": "Data 💾"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A database is a structured collection of related information organised for easy retrieval and management."
   },
   {
     "question": "Machine learning is a subset of: 🤖",
@@ -4996,7 +5492,8 @@ const QUESTION_BANK = [
       "C": "Artificial intelligence 🌐",
       "D": "None of the above 🚫"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Identify the key data science skills among the following: 🛠️",
@@ -5006,7 +5503,8 @@ const QUESTION_BANK = [
       "C": "Statistics 📉",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Which is not a tool for Statistical Data Analysis? 🧮",
@@ -5016,7 +5514,8 @@ const QUESTION_BANK = [
       "C": "Linear and Non-linear regression 📉",
       "D": "ANOVA 🔬"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A histogram shows the distribution of a variable by grouping values into bins and counting occurrences."
   },
   {
     "question": "What is the mean of test scores? {70, 70, 80, 85, 85, 90, 95, 95, 100, 100} ➗",
@@ -5026,7 +5525,8 @@ const QUESTION_BANK = [
       "C": "85 📉",
       "D": "70, 85, 95 and 100 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Which of the following steps are performed by data scientists after acquiring the data? 🔄",
@@ -5036,7 +5536,8 @@ const QUESTION_BANK = [
       "C": "Data mining ⛏️",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 After acquiring data, scientists clean and preprocess it to remove errors before analysis begins."
   },
   {
     "question": "Data that lies near/outside the boundary of the cluster is called as: 🎯",
@@ -5046,7 +5547,8 @@ const QUESTION_BANK = [
       "C": "Spike 📈",
       "D": "Cluster Head 👑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Outliers are extreme values that can distort model training if not detected and handled appropriately."
   },
   {
     "question": "Which of the following is characteristic of Processed Data? ⚙️",
@@ -5056,7 +5558,8 @@ const QUESTION_BANK = [
       "C": "Data has been replicated 🔄",
       "D": "None of these 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Processed data has been cleaned, organised, and transformed into a meaningful format for analysis."
   },
   {
     "question": "Audio data is: 🎵",
@@ -5066,7 +5569,8 @@ const QUESTION_BANK = [
       "C": "Unstructured 🗃️",
       "D": "Cannot be determined ❓"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Audio data is unstructured data consisting of sound wave recordings that require special processing to analyse."
   },
   {
     "question": "What does K stand for in K-means algorithm? 🔢",
@@ -5076,7 +5580,8 @@ const QUESTION_BANK = [
       "C": "Number of attributes 🏷️",
       "D": "Number of iterations 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 K-means assigns each data point to its nearest cluster centre and iteratively refines the groupings."
   },
   {
     "question": "The shape of the Normal Curve is: 📈",
@@ -5086,7 +5591,8 @@ const QUESTION_BANK = [
       "C": "Circular ⚪",
       "D": "Spiked 📌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "In Standard normal distribution, the value of mode is: 📊",
@@ -5096,7 +5602,8 @@ const QUESTION_BANK = [
       "C": "0 🎯",
       "D": "Not fixed ❓"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is the mean and variance for standard normal distribution? 🔢",
@@ -5106,7 +5613,8 @@ const QUESTION_BANK = [
       "C": "Mean is 0 and variance is ∞ ♾️",
       "D": "Mean is ∞ and variance is 0 ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "__________ is the simplest possible measure of dispersion and equal to the difference of extreme values of the series. 📏",
@@ -5116,7 +5624,8 @@ const QUESTION_BANK = [
       "C": "Mean deviation 🎯",
       "D": "Skewness 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The range is the simplest dispersion measure — the difference between the largest and smallest values in a dataset."
   },
   {
     "question": "Two unbiased coins are tossed. What's the probability of getting at most one head? 🪙",
@@ -5126,7 +5635,8 @@ const QUESTION_BANK = [
       "C": "1/2 🪙",
       "D": "1/3 📊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 At most one head includes zero heads (1/4) and one head (1/2), giving a combined probability of 3/4."
   },
   {
     "question": "The trade off between overfitting and underfitting training data is called: ⚖️",
@@ -5136,7 +5646,8 @@ const QUESTION_BANK = [
       "C": "The residual sum of squares 📐",
       "D": "The null deviance 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Overfitting occurs when a model memorises training data and fails to generalise to unseen data."
   },
   {
     "question": "For the Karl Pearson's skewness coefficient the value of skewness must be in limits: 📊",
@@ -5146,7 +5657,8 @@ const QUESTION_BANK = [
       "C": "+/-2 🔢",
       "D": "+/-5 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Karl Pearson's skewness coefficient must lie between -3 and +3 to be considered a valid measure."
   },
   {
     "question": "The distribution is considered leptokurtic if: 📈",
@@ -5156,7 +5668,8 @@ const QUESTION_BANK = [
       "C": "If β2 >3 🎯",
       "D": "If β2 <2 📉"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A leptokurtic distribution has a kurtosis greater than 3, meaning it has a sharper peak and fatter tails."
   },
   {
     "question": "A dataset has missing values for important features. What is the best approach? 🔧",
@@ -5166,7 +5679,8 @@ const QUESTION_BANK = [
       "C": "Drop the feature ❌",
       "D": "Ignore the missing data 🙈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which method in scikit-learn is used for dimensionality reduction? 📉",
@@ -5176,7 +5690,8 @@ const QUESTION_BANK = [
       "C": "KMeans() 🔢",
       "D": "OneHotEncoder() 🏷️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Dimensionality reduction compresses high-dimensional data into fewer features while preserving key information."
   },
   {
     "question": "What is the primary goal of feature engineering? 🛠️",
@@ -5186,7 +5701,8 @@ const QUESTION_BANK = [
       "C": "Enhance model performance 🚀",
       "D": "Avoid overfitting 🛡️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Feature engineering transforms raw data into informative inputs that help models learn better."
   },
   {
     "question": "After training a regression model, the residuals show a clear pattern. What does this imply? 📈",
@@ -5196,7 +5712,8 @@ const QUESTION_BANK = [
       "C": "Feature scaling is wrong 📏",
       "D": "Data is balanced ⚖️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "Which Python library is used for creating basic visualizations such as line and bar charts? 📊",
@@ -5206,7 +5723,8 @@ const QUESTION_BANK = [
       "C": "Matplotlib 📈",
       "D": "Seaborn 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Matplotlib is a Python library for creating static, animated, and interactive data visualisations."
   },
   {
     "question": "What does the standard deviation indicate in a dataset? 📏",
@@ -5216,7 +5734,8 @@ const QUESTION_BANK = [
       "C": "The skewness 📉",
       "D": "The correlation 🔗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Standard deviation measures how spread out values are around the mean in a dataset."
   },
   {
     "question": "In Python, which Pandas method removes rows with missing values? 🗑️",
@@ -5226,7 +5745,8 @@ const QUESTION_BANK = [
       "C": "fillna() ✏️",
       "D": "replace() 🔁"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Imputing or removing missing values prevents models from learning incorrect patterns from incomplete data."
   },
   {
     "question": "Which preprocessing step ensures categorical variables are suitable for numerical models? 🔢",
@@ -5236,7 +5756,8 @@ const QUESTION_BANK = [
       "C": "Outlier detection 🚫",
       "D": "Normalization 📏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is the primary goal of data cleaning? 🧹",
@@ -5246,7 +5767,8 @@ const QUESTION_BANK = [
       "C": "To identify and fix data quality issues 🔧",
       "D": "To split data 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Data cleaning removes errors, inconsistencies, and missing values to improve model training quality."
   },
   {
     "question": "Which step in the Data Science Life Cycle involves feature engineering and transformation? 🔄",
@@ -5256,7 +5778,8 @@ const QUESTION_BANK = [
       "C": "Data Preparation 🛠️",
       "D": "Evaluation 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Feature engineering transforms raw data into informative inputs that help models learn better."
   },
   {
     "question": "Which of the following statements is not true about neural networks? 🧠",
@@ -5266,7 +5789,8 @@ const QUESTION_BANK = [
       "C": "These are capable of fitting almost any hypotheses 📈",
       "D": "NN has lots of interconnected nodes which are organized in layers 🔗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Neural networks are composed of interconnected layers of nodes that learn representations from data."
   },
   {
     "question": "Which of the following statements is not true about the structure of a neural network? 🔗",
@@ -5276,7 +5800,8 @@ const QUESTION_BANK = [
       "C": "The processing elements in the neural network are known as neurons 🧠",
       "D": "A set of thresholds or activation is used ⚡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Neural networks are composed of interconnected layers of nodes that learn representations from data."
   },
   {
     "question": "Which of the following is false? ❌",
@@ -5286,7 +5811,8 @@ const QUESTION_BANK = [
       "C": "Neural networks learn by examples 📚",
       "D": "None of these 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 The false statement contradicts a well-established statistical or data science principle — check each option carefully."
   },
   {
     "question": "Which algorithm is best suited for a binary classification problem? 🎯",
@@ -5296,7 +5822,8 @@ const QUESTION_BANK = [
       "C": "Decision Trees 🌲",
       "D": "Linear Regression 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 K-nearest Neighbors is the primary drawback or challenge associated with this approach."
   },
   {
     "question": "To which input does the learner has access to? 📚",
@@ -5306,7 +5833,8 @@ const QUESTION_BANK = [
       "C": "Training Data 🎯",
       "D": "Cross-Validation Data 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A supervised learner has access to labelled training examples consisting of input features and their correct outputs."
   },
   {
     "question": "What is the learner's output also called? 📤",
@@ -5316,7 +5844,8 @@ const QUESTION_BANK = [
       "C": "Predictor, or Trainer, or Classifier 🤖",
       "D": "Trainer, or Hypothesis, or Classifier 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What is not accessible to the learner? 🚫",
@@ -5326,7 +5855,8 @@ const QUESTION_BANK = [
       "C": "Labeling Function 🎯",
       "D": "Domain Set 🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Labeling Function is the standard definition for this concept in the field."
   },
   {
     "question": "What are the possible values of A, B, and C in the following diagram? (Assuming standard ML pipeline diagram: Data → [A] → Model → [B] → Evaluation → [C])",
@@ -5336,7 +5866,8 @@ const QUESTION_BANK = [
       "C": "A - Training Set, B - Test Set, C - Domain Set 🌐",
       "D": "A - Test Set, B - Domain Set, C - Training Set 📚"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Cross-validation averages performance across multiple data splits for a more reliable model evaluation."
   },
   {
     "question": "The shape of the Normal Curve is: 📈",
@@ -5346,7 +5877,8 @@ const QUESTION_BANK = [
       "C": "Circular ⚪",
       "D": "Spiked 📌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "Normal Distribution is applied for: 📊",
@@ -5356,7 +5888,8 @@ const QUESTION_BANK = [
       "C": "Irregular Random Variable 🎲",
       "D": "All of these 🌟"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The normal distribution models continuous data that clusters symmetrically around a mean, like height or weight."
   },
   {
     "question": "Normal Distribution is symmetric about: 🎯",
@@ -5366,7 +5899,8 @@ const QUESTION_BANK = [
       "C": "Standard deviation 📏",
       "D": "Covariance 🔗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "The area under a standard normal curve is: 📐",
@@ -5376,7 +5910,8 @@ const QUESTION_BANK = [
       "C": "∞ ♾️",
       "D": "not defined ❓"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The total area under a standard normal probability curve always equals exactly 1 (or 100%)."
   },
   {
     "question": "Normal Distribution is also known as: 📊",
@@ -5386,7 +5921,8 @@ const QUESTION_BANK = [
       "C": "Gaussian Distribution 🎯",
       "D": "Lagrangian Distribution 🔢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The normal distribution is also called the Gaussian distribution, named after mathematician Carl Friedrich Gauss."
   },
   {
     "question": "Skewness of Normal distribution is: 📉",
@@ -5396,7 +5932,8 @@ const QUESTION_BANK = [
       "C": "Undefined ❓",
       "D": "0 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A perfect normal distribution is perfectly symmetric, so its skewness is exactly 0."
   },
   {
     "question": "For a normal distribution its mean, median, mode are equal: 🔢",
@@ -5406,7 +5943,8 @@ const QUESTION_BANK = [
       "C": "Sometimes True sometimes False ⚖️",
       "D": "Depending upon the data 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "In Normal distribution, the highest value of ordinate occurs at: 📈",
@@ -5416,7 +5954,8 @@ const QUESTION_BANK = [
       "C": "Extremes 🏔️",
       "D": "Same value occurs at all points 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "The shape of the normal curve depends on its: 📊",
@@ -5426,7 +5965,8 @@ const QUESTION_BANK = [
       "C": "Quartile deviation 🔢",
       "D": "Correlation 🔗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Standard deviation measures how spread out values are around the mean in a dataset."
   },
   {
     "question": "In Standard normal distribution, the value of mode is: 📊",
@@ -5436,7 +5976,8 @@ const QUESTION_BANK = [
       "C": "0 🎯",
       "D": "Not fixed ❓"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is the mean and variance for standard normal distribution? 🔢",
@@ -5446,7 +5987,8 @@ const QUESTION_BANK = [
       "C": "Mean is 0 and variance is ∞ ♾️",
       "D": "Mean is ∞ and variance is 0 ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Standard deviation is the square root of variance: 📐",
@@ -5456,7 +5998,8 @@ const QUESTION_BANK = [
       "C": "Depending upon the standard deviation 📏",
       "D": "Depending upon the data 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Standard deviation measures how spread out values are around the mean in a dataset."
   },
   {
     "question": "Find the mean and variance of X: X: 0 1 2 3 4, f(x): 1/9 2/9 3/9 2/9 1/9 🧮",
@@ -5466,7 +6009,8 @@ const QUESTION_BANK = [
       "C": "2, 2/3 📉",
       "D": "3, 2/3 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "__________ is the simplest possible measure of dispersion and equal to the difference of extreme values of the series. 📏",
@@ -5476,7 +6020,8 @@ const QUESTION_BANK = [
       "C": "Mean deviation 🎯",
       "D": "Skewness 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The range is the simplest dispersion measure — the difference between the largest and smallest values in a dataset."
   },
   {
     "question": "Quartile deviation is the _______ of/between the third and first quartile values. 📊",
@@ -5486,7 +6031,8 @@ const QUESTION_BANK = [
       "C": "difference 📏",
       "D": "minimum 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Average is the correct first step because the process must begin this way."
   },
   {
     "question": "When the values in the series do not have equal importance, we calculate: ⚖️",
@@ -5496,7 +6042,8 @@ const QUESTION_BANK = [
       "C": "Weighted mean 🎯",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Which of the following is not a disadvantage of using mean? ❌",
@@ -5506,7 +6053,8 @@ const QUESTION_BANK = [
       "C": "It cannot be computed in grouped data with open ended class intervals 📊",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "For calculating the median, all the items of the series must be arranged in a/an: 📊",
@@ -5516,7 +6064,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🎯",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Mode refers to the value in the series, that occurs _______ number of times. 🔢",
@@ -5526,7 +6075,8 @@ const QUESTION_BANK = [
       "C": "at least 3 🎲",
       "D": "maximum 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "The value of extreme items don't influence the average for: 📊",
@@ -5536,7 +6086,8 @@ const QUESTION_BANK = [
       "C": "mode 🔢",
       "D": "none of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "__________ is not a measure of central tendency. 📏",
@@ -5546,7 +6097,8 @@ const QUESTION_BANK = [
       "C": "median 🎯",
       "D": "range 📐"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 range is the exception — it does not share the property described by the other options."
   },
   {
     "question": "__________ divides the data into 100 equal parts. 📊",
@@ -5556,7 +6108,8 @@ const QUESTION_BANK = [
       "C": "Decile 📏",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Percentiles divide a dataset into 100 equal parts, showing the relative standing of any value."
   },
   {
     "question": "The sum of deviation from _________ is always 0. 🔢",
@@ -5566,7 +6119,8 @@ const QUESTION_BANK = [
       "C": "median 🎯",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Two unbiased coins are tossed. What's the probability of getting at most one head? 🪙",
@@ -5576,7 +6130,8 @@ const QUESTION_BANK = [
       "C": "1/2 🪙",
       "D": "1/3 🔢"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 At most one head includes zero heads (1/4) and one head (1/2), giving a combined probability of 3/4."
   },
   {
     "question": "K-fold cross-validation is: 🔄",
@@ -5586,7 +6141,8 @@ const QUESTION_BANK = [
       "C": "Cubic in K 🔢",
       "D": "Exponential in K ⚡"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Cross-validation averages performance across multiple data splits for a more reliable model evaluation."
   },
   {
     "question": "The following is a weakness of the tree based classifiers: 🌳",
@@ -5596,7 +6152,8 @@ const QUESTION_BANK = [
       "C": "They always overfit models 📈",
       "D": "They take a lot of time to fit models ⏰"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "The trade off between over fitting and under fitting training data is called: ⚖️",
@@ -5606,7 +6163,8 @@ const QUESTION_BANK = [
       "C": "The residual sum of squares 📐",
       "D": "The null deviance 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The bias-variance tradeoff balances model simplicity (high bias) against sensitivity to data (high variance)."
   },
   {
     "question": "If the first quartile and third quartile are as 32 and 35 respectively with the median of 20, then distribution is skewed to: 📊",
@@ -5616,7 +6174,8 @@ const QUESTION_BANK = [
       "C": "Upper tail ⬆️",
       "D": "Closed end tail 🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "If for a distribution the difference of first quartile and median is greater than difference of median and third quartile, then the distribution is classified as: 📊",
@@ -5626,7 +6185,8 @@ const QUESTION_BANK = [
       "C": "Not skewed at all ⚖️",
       "D": "Absolute open ended 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "If the β1 = 9, β2 = 11, then coefficient of skewness is: 📊",
@@ -5636,7 +6196,8 @@ const QUESTION_BANK = [
       "C": "+/-8 🔢",
       "D": "+/-9 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Given β1 = 9 and β2 = 11, the skewness coefficient is calculated as β2 - 3β1 = 11 - 27 = -16 simplified."
   },
   {
     "question": "The measurement techniques used to measure the extent of skewness in data set values are called: 📏",
@@ -5646,7 +6207,8 @@ const QUESTION_BANK = [
       "C": "Measure of distribution width 📐",
       "D": "Measure of skewness 📊"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Measures of skewness quantify how asymmetric a distribution is around its mean."
   },
   {
     "question": "The statistical measures such as average deviation, standard deviation and mean are classified as part of: 📊",
@@ -5656,7 +6218,8 @@ const QUESTION_BANK = [
       "C": "Quartile system 🔢",
       "D": "Percentile system 💯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "The method of calculating skewness which is based on the positions of quartiles and median in a distribution is called: 📊",
@@ -5666,7 +6229,8 @@ const QUESTION_BANK = [
       "C": "Sharma's coefficient of skewness 🧘",
       "D": "Jack Karl's coefficient of skewness 🃏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "The median of a skewed distribution is 8, third quartile is 12, first quartile is 8 and interquartile range is 4, then relative coefficient of skewness is: 📊",
@@ -5676,7 +6240,8 @@ const QUESTION_BANK = [
       "C": "0.689 📉",
       "D": "0.489 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "The moment about mean which is indication whether distribution is symmetrical or asymmetrical is considered as: 📊",
@@ -5686,7 +6251,8 @@ const QUESTION_BANK = [
       "C": "First moment 🥇",
       "D": "Fourth moment 🏅"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "The frequency distribution is considered as negatively skewed if all the values of distribution moves to: 📉",
@@ -5696,7 +6262,8 @@ const QUESTION_BANK = [
       "C": "Median tail 🎯",
       "D": "Lower tail ⬇️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Negative skewness means the left tail is longer — most values cluster on the right, with a few very low outliers."
   },
   {
     "question": "In measures of skewness, the absolute skewness is equal to: 📊",
@@ -5706,7 +6273,8 @@ const QUESTION_BANK = [
       "C": "mean + mode ➗➕🔢",
       "D": "mean + median ➗➕🎯"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "How many dependent variables does a two-way ANOVA have? 📊",
@@ -5716,7 +6284,8 @@ const QUESTION_BANK = [
       "C": "2 🔢",
       "D": "0 ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A two-way ANOVA tests the effect of two independent factors on a single continuous dependent variable."
   },
   {
     "question": "What type of data are best analyzed in ANOVA? 📊",
@@ -5726,7 +6295,8 @@ const QUESTION_BANK = [
       "C": "Experimental 🧪",
       "D": "Simple 🔢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 ANOVA is designed for continuous numerical data to test whether group means differ significantly."
   },
   {
     "question": "Which of the following are data security considerations? 🔒",
@@ -5736,7 +6306,8 @@ const QUESTION_BANK = [
       "C": "Archival Storage 📦",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Data security considerations include encryption, access control, backups, and protection against unauthorised access."
   },
   {
     "question": "What is data privacy? 🔏",
@@ -5746,7 +6317,8 @@ const QUESTION_BANK = [
       "C": "The ability of individuals to determine who can access their personal information 👤",
       "D": "All of the above mentioned 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Privacy policies inform users how their personal data is collected, stored, and used by a website."
   },
   {
     "question": "What do you mean by data science? 🧬",
@@ -5756,7 +6328,8 @@ const QUESTION_BANK = [
       "C": "It is a study that deals with a huge amount of all types of data structured, unstructured, or semi-structured 🗃️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "For the Karl Pearson's skewness coefficient the value of skewness must be in limits: 📏",
@@ -5766,7 +6339,8 @@ const QUESTION_BANK = [
       "C": "+/-2 📊",
       "D": "+/-5 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Karl Pearson's skewness coefficient must lie between -3 and +3 to be considered a valid measure."
   },
   {
     "question": "ANOVAs cannot be used when testing data collected in educational research as it cannot be applied to social science: 📚",
@@ -5776,7 +6350,8 @@ const QUESTION_BANK = [
       "C": "Sometimes True and sometimes False ⚖️",
       "D": "Cannot be sure ❓"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 False is the exception — it does not share the property described by the other options."
   },
   {
     "question": "What is structured data? 🗃️",
@@ -5786,7 +6361,8 @@ const QUESTION_BANK = [
       "C": "Structured data is a type of data that has inaccurate values but can be stored in rows and columns 🔄",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Structured data is a type of data that is comparatively less in number and can be stored in proper rows and columns is the standard definition for this concept in the field."
   },
   {
     "question": "Data used to build a data mining model are: 🏗️",
@@ -5796,7 +6372,8 @@ const QUESTION_BANK = [
       "C": "Test data 🧪",
       "D": "Hidden data 🙈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Data mining discovers hidden patterns in large datasets to extract business insights and predictions."
   },
   {
     "question": "The distribution is considered leptokurtic if: 📈",
@@ -5806,7 +6383,8 @@ const QUESTION_BANK = [
       "C": "If β2 >3 🎯",
       "D": "If β2 <2 📉"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A leptokurtic distribution has a kurtosis greater than 3, meaning it has a sharper peak and fatter tails."
   },
   {
     "question": "Among the following examples, which would you address using a supervised learning Algorithm? 👨‍🏫",
@@ -5816,7 +6394,8 @@ const QUESTION_BANK = [
       "C": "Given a database of customer data, automatically discover market segments and group customers into different market segments 🛒",
       "D": "None of these ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Spam is unsolicited bulk email sent to many recipients, usually for advertising or malicious purposes."
   },
   {
     "question": "In kurtosis, the beta is greater than three and quartile range is preferred for: 📊",
@@ -5826,7 +6405,8 @@ const QUESTION_BANK = [
       "C": "Mega curve distribution 🌊",
       "D": "Platykurtic distribution 🏞️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Time Objective (RTO) is the maximum time allowed to restore systems after a disruption."
   },
   {
     "question": "Which of the following is a good test dataset characteristic? 🧪",
@@ -5836,7 +6416,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔄",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A good test dataset is representative of real-world data and has not been used during model training."
   },
   {
     "question": "Following are the types of supervised learning: 👨‍🏫",
@@ -5846,7 +6427,8 @@ const QUESTION_BANK = [
       "C": "Subgroup discovery 🔍",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "The distance metrics used in clustering: 📏",
@@ -5856,7 +6438,8 @@ const QUESTION_BANK = [
       "C": "Square distance 🔲",
       "D": "Both (A) and (B) 🎯"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Clustering groups similar data points together without predefined labels, revealing natural structure."
   },
   {
     "question": "The output of training process in machine learning is: 🤖",
@@ -5866,7 +6449,8 @@ const QUESTION_BANK = [
       "C": "Null ❌",
       "D": "Accuracy 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "A feature F1 can take certain value: A, B, C, D, E, & F and represents grade of students from a college. Here feature type is: 🎓",
@@ -5876,7 +6460,8 @@ const QUESTION_BANK = [
       "C": "Categorical 🗃️",
       "D": "Boolean 🔘"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 When a feature has no natural numeric order (like letter grades), it should be label encoded for ML models."
   },
   {
     "question": "Prediction is: 🔮",
@@ -5886,7 +6471,8 @@ const QUESTION_BANK = [
       "C": "value entered in database by expert 👨‍💻",
       "D": "independent of data 🚫"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "The kurtosis defines the peakness of the curve in the region which is: 📈",
@@ -5896,7 +6482,8 @@ const QUESTION_BANK = [
       "C": "Around the mean ➗",
       "D": "Around the mode 🔢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Some companies want to segment their customers into distinct groups, this is an example of: 🛒",
@@ -5906,7 +6493,8 @@ const QUESTION_BANK = [
       "C": "Unsupervised learning 🔓",
       "D": "Data extraction 📤"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "You are given seismic data and you want to predict next earthquake, this is an example of: 🌍",
@@ -5916,7 +6504,8 @@ const QUESTION_BANK = [
       "C": "Unsupervised learning 🔓",
       "D": "Dimensionality reduction 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Imagine a Newly-Born starts to learn walking. It will try to find a suitable policy to learn walking after repeated falling and getting up. Specify what type of machine learning is suited? 👶",
@@ -5926,7 +6515,8 @@ const QUESTION_BANK = [
       "C": "k-means algorithm 🔢",
       "D": "Reinforcement learning 🎮"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "In multiclass classification number of classes must be: 🏷️",
@@ -5936,7 +6526,8 @@ const QUESTION_BANK = [
       "C": "greater than two 🎯",
       "D": "Both (A) and (B) 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Multiclass classification requires three or more distinct output classes for the model to distinguish between."
   },
   {
     "question": "A perceptron adds up all the weighted inputs it receives, and if it exceeds a certain value, it outputs a 1, otherwise it just outputs a 0: 🧠",
@@ -5946,7 +6537,8 @@ const QUESTION_BANK = [
       "C": "sometimes - it can also output intermediate values as well 🔄",
       "D": "can't say ❓"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A perceptron outputs 1 if the weighted sum of inputs exceeds a threshold, otherwise it outputs 0."
   },
   {
     "question": "Analysis of variance performs which type of test? 📊",
@@ -5956,7 +6548,8 @@ const QUESTION_BANK = [
       "C": "z-test 📈",
       "D": "xy-test ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Variance measures the average squared deviation from the mean, indicating data spread."
   },
   {
     "question": "You trained a binary classifier model which gives very high accuracy on the training data, but much lower accuracy on validation data. Which is FALSE? ❌",
@@ -5966,7 +6559,8 @@ const QUESTION_BANK = [
       "C": "The training was not well regularized ⚠️",
       "D": "The training and testing examples may be sampled from different distributions 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "Which statement about outliers is TRUE? 🚫",
@@ -5976,7 +6570,8 @@ const QUESTION_BANK = [
       "C": "The nature of the problem determines how outliers are used ⚖️",
       "D": "Outliers should be part of the test dataset but should not be present in the training data 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Outliers are extreme values that can distort model training if not detected and handled appropriately."
   },
   {
     "question": "Why is stationarity important in time series analysis? ⏰",
@@ -5986,7 +6581,8 @@ const QUESTION_BANK = [
       "C": "It allows for accurate forecasting 🔮",
       "D": "It reduces data size 📏"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Time series data is collected at successive time points, capturing trends and seasonal patterns."
   },
   {
     "question": "Which of the following is commonly used to detect seasonality in time series data? 📅",
@@ -5996,7 +6592,8 @@ const QUESTION_BANK = [
       "C": "Scatter plot 📍",
       "D": "PCA 📉"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Correlation quantifies the linear relationship between two variables, ranging from -1 to +1."
   },
   {
     "question": "What is a key characteristic of time series data? ⏱️",
@@ -6006,7 +6603,8 @@ const QUESTION_BANK = [
       "C": "Sequential observations over time 📅",
       "D": "Categorical data 🏷️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Time series data is collected at successive time points, capturing trends and seasonal patterns."
   },
   {
     "question": "A dataset has missing values for important features. What is the best approach to address this? 🔧",
@@ -6016,7 +6614,8 @@ const QUESTION_BANK = [
       "C": "Drop the feature ❌",
       "D": "Ignore the missing data 🙈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "A numerical feature has a skewed distribution. What transformation can address this? 📊",
@@ -6026,7 +6625,8 @@ const QUESTION_BANK = [
       "C": "One-hot encoding 🔢",
       "D": "Normalize values ⚖️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Applying a log transformation to a skewed feature compresses large values and makes the distribution more normal."
   },
   {
     "question": "A dataset has highly correlated features. How should you handle this issue? 🔗",
@@ -6036,7 +6636,8 @@ const QUESTION_BANK = [
       "C": "Encode features 🔢",
       "D": "Use PCA 📉"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Removing one of two highly correlated features prevents multicollinearity and reduces redundant information."
   },
   {
     "question": "Which method in scikit-learn is used for dimensionality reduction? 📉",
@@ -6046,7 +6647,8 @@ const QUESTION_BANK = [
       "C": "KMeans() 🔢",
       "D": "OneHotEncoder() 🏷️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Dimensionality reduction compresses high-dimensional data into fewer features while preserving key information."
   },
   {
     "question": "What is the main purpose of sampling in data science? 🎲",
@@ -6056,7 +6658,8 @@ const QUESTION_BANK = [
       "C": "To make inferences about a population using a subset 📊",
       "D": "To create complex models 🏗️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which scikit-learn function is used to normalize data? ⚖️",
@@ -6066,7 +6669,8 @@ const QUESTION_BANK = [
       "C": "scale() 🔢",
       "D": "transform() 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Scikit-learn offers a consistent API for a wide range of classical machine learning algorithms in Python."
   },
   {
     "question": "When should feature extraction be used instead of feature selection? 🔧",
@@ -6076,7 +6680,8 @@ const QUESTION_BANK = [
       "C": "When data is balanced ⚖️",
       "D": "When model accuracy is high 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Feature selection retains only the most useful variables, reducing noise and improving model efficiency."
   },
   {
     "question": "What is feature selection? 🎯",
@@ -6086,7 +6691,8 @@ const QUESTION_BANK = [
       "C": "Removing outliers 🗑️",
       "D": "Scaling data 📏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Feature selection retains only the most useful variables, reducing noise and improving model efficiency."
   },
   {
     "question": "Why is feature scaling important in machine learning? ⚖️",
@@ -6096,7 +6702,8 @@ const QUESTION_BANK = [
       "C": "Handles missing values ❓",
       "D": "Reduces overfitting 🚫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which technique is commonly used to handle categorical data in feature engineering? 🏷️",
@@ -6106,7 +6713,8 @@ const QUESTION_BANK = [
       "C": "PCA 📉",
       "D": "Standardization 📏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Feature engineering transforms raw data into informative inputs that help models learn better."
   },
   {
     "question": "What is the primary goal of feature engineering in machine learning? 🛠️",
@@ -6116,7 +6724,8 @@ const QUESTION_BANK = [
       "C": "Enhance model performance 🚀",
       "D": "Avoid overfitting 🛡️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "After applying KMeans, one cluster has very few data points. What should you consider next? 🔢",
@@ -6126,7 +6735,8 @@ const QUESTION_BANK = [
       "C": "Visualize clusters 👁️",
       "D": "Change the algorithm 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "A clustering model produces inconsistent results. What could be the likely cause? 🔄",
@@ -6136,7 +6746,8 @@ const QUESTION_BANK = [
       "C": "High accuracy 📈",
       "D": "Balanced dataset ⚖️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Clustering groups similar data points together without predefined labels, revealing natural structure."
   },
   {
     "question": "A supervised model performs poorly on unseen data. What is the likely issue? 🤔",
@@ -6146,7 +6757,8 @@ const QUESTION_BANK = [
       "C": "Incorrect loss function 📊",
       "D": "Missing labels 🏷️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Underfitting happens when a model is too simple to capture the underlying pattern in the data."
   },
   {
     "question": "How do you specify the number of clusters in the KMeans algorithm using scikit-learn? 🔢",
@@ -6156,7 +6768,8 @@ const QUESTION_BANK = [
       "C": "KMeans(n=n) ❌",
       "D": "KMeans(n_cluster=n) ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Scikit-learn offers a consistent API for a wide range of classical machine learning algorithms in Python."
   },
   {
     "question": "In systematic sampling, if the sampling interval is 10, what does it mean? 🔢",
@@ -6166,7 +6779,8 @@ const QUESTION_BANK = [
       "C": "10 elements are skipped after each selection 🔄",
       "D": "The first 10 elements are taken 🥇"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "Which of the following techniques ensures each subgroup in the population is properly represented? 📊",
@@ -6176,7 +6790,8 @@ const QUESTION_BANK = [
       "C": "Stratified Sampling 🎯",
       "D": "Snowball Sampling ⛄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which Python library provides the K-Means function for clustering? 🐍",
@@ -6186,7 +6801,8 @@ const QUESTION_BANK = [
       "C": "scikit-learn 🤖",
       "D": "Matplotlib 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Clustering groups similar data points together without predefined labels, revealing natural structure."
   },
   {
     "question": "Why is clustering considered an unsupervised learning technique? 🔓",
@@ -6196,7 +6812,8 @@ const QUESTION_BANK = [
       "C": "It finds patterns in unlabeled data 🎯",
       "D": "It predicts outcomes 🔮"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "What metric is commonly used to evaluate a regression model in supervised learning? 📈",
@@ -6206,7 +6823,8 @@ const QUESTION_BANK = [
       "C": "Precision 📏",
       "D": "Silhouette score 🔢"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "Which task is best suited for unsupervised learning? 🔓",
@@ -6216,7 +6834,8 @@ const QUESTION_BANK = [
       "C": "Spam classification 📧",
       "D": "Stock price prediction 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "Which of the following is an example of a supervised learning algorithm? 👨‍🏫",
@@ -6226,7 +6845,8 @@ const QUESTION_BANK = [
       "C": "Hierarchical Clustering 🌳",
       "D": "PCA 📉"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "What is the key difference between supervised and unsupervised learning? 🔑",
@@ -6236,7 +6856,8 @@ const QUESTION_BANK = [
       "C": "Both use unlabeled data ❌",
       "D": "Unsupervised requires labels ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "After training a regression model, the residuals show a clear pattern. What does this imply? 📈",
@@ -6246,7 +6867,8 @@ const QUESTION_BANK = [
       "C": "Feature scaling is wrong ⚖️",
       "D": "Data is balanced ⚖️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "A classification model achieves 99% accuracy on the training set but only 60% on the test set. What is the issue? 📊",
@@ -6256,7 +6878,8 @@ const QUESTION_BANK = [
       "C": "Data imbalance ⚖️",
       "D": "Feature scaling 📏"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "A model's predictions have high bias. What could be the likely issue? 🎯",
@@ -6266,7 +6889,8 @@ const QUESTION_BANK = [
       "C": "Feature scaling ⚖️",
       "D": "Incorrect testing data 🧪"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which scikit-learn function is used to calculate the accuracy of a classification model? 📊",
@@ -6276,7 +6900,8 @@ const QUESTION_BANK = [
       "C": "score 🎲",
       "D": "confusion_matrix 🔢"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Scikit-learn offers a consistent API for a wide range of classical machine learning algorithms in Python."
   },
   {
     "question": "Which of the following is a probability sampling method? 🎲",
@@ -6286,7 +6911,8 @@ const QUESTION_BANK = [
       "C": "Simple Random Sampling 🎯",
       "D": "Quota Sampling 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Stratified random sampling divides a population into groups and samples each proportionally."
   },
   {
     "question": "Which Python library provides the train_test_split function? 🐍",
@@ -6296,7 +6922,8 @@ const QUESTION_BANK = [
       "C": "Scikit-learn 🤖",
       "D": "Matplotlib 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Scikit-learn offers a consistent API for a wide range of classical machine learning algorithms in Python."
   },
   {
     "question": "Why is it important to split data into training and testing datasets? 🔄",
@@ -6306,7 +6933,8 @@ const QUESTION_BANK = [
       "C": "To clean data 🧹",
       "D": "To preprocess features 🛠️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is the purpose of a loss function in machine learning? 📉",
@@ -6316,7 +6944,8 @@ const QUESTION_BANK = [
       "C": "To improve visualization 📊",
       "D": "To standardize data ⚖️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What is overfitting in machine learning? 📈",
@@ -6326,7 +6955,8 @@ const QUESTION_BANK = [
       "C": "Model is too simple 🔢",
       "D": "Model has no bias ⚖️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Which of the following is a supervised learning algorithm? 👨‍🏫",
@@ -6336,7 +6966,8 @@ const QUESTION_BANK = [
       "C": "DBSCAN 🔍",
       "D": "Principal Component Analysis 📉"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Supervised learning trains a model on labelled input-output pairs to predict outcomes for new data."
   },
   {
     "question": "What is the primary objective of machine learning? 🎯",
@@ -6346,7 +6977,8 @@ const QUESTION_BANK = [
       "C": "To create databases 🗃️",
       "D": "To improve hardware 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "A line chart is difficult to interpret due to too many data points. What is the best approach to simplify it? 📈",
@@ -6356,7 +6988,8 @@ const QUESTION_BANK = [
       "C": "Use larger axes 📏",
       "D": "Switch to bar chart 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "A scatter plot shows overlapping points, making it hard to interpret. What can improve its readability? 📍",
@@ -6366,7 +6999,8 @@ const QUESTION_BANK = [
       "C": "Use smaller axes 📏",
       "D": "Change chart type 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 ERP systems integrate all business processes — finance, HR, supply chain — into one unified platform."
   },
   {
     "question": "A pie chart in Matplotlib displays incorrect proportions. What could be the issue? 🥧",
@@ -6376,7 +7010,8 @@ const QUESTION_BANK = [
       "C": "Incorrect sum of values ➗",
       "D": "Invalid chart type ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Matplotlib is a Python library for creating static, animated, and interactive data visualisations."
   },
   {
     "question": "Which Python library allows for creating highly interactive visualizations with minimal coding? 🐍",
@@ -6386,7 +7021,8 @@ const QUESTION_BANK = [
       "C": "Plotly 🎮",
       "D": "Pandas 🐼"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Plotly creates rich, interactive charts in Python with minimal code, ideal for web-based dashboards."
   },
   {
     "question": "How do you create a bar chart in Matplotlib? 📊",
@@ -6396,7 +7032,8 @@ const QUESTION_BANK = [
       "C": "plt.hist(x) 📊",
       "D": "plt.scatter(x, y) 📍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Matplotlib is a Python library for creating static, animated, and interactive data visualisations."
   },
   {
     "question": "Which Matplotlib function is used to create a simple line chart? 📈",
@@ -6406,7 +7043,8 @@ const QUESTION_BANK = [
       "C": "plt.plot() 🎯",
       "D": "plt.bar() 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Matplotlib is a Python library for creating static, animated, and interactive data visualisations."
   },
   {
     "question": "Which of the following is a common mistake in data visualization? ❌",
@@ -6416,7 +7054,8 @@ const QUESTION_BANK = [
       "C": "Overloading charts with data 🗃️",
       "D": "Labeling axes 🏷️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Overloading charts with data is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "What does a boxplot help identify in a dataset? 📦",
@@ -6426,7 +7065,8 @@ const QUESTION_BANK = [
       "C": "Clusters 🔢",
       "D": "Trends 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Outliers are extreme values that can distort model training if not detected and handled appropriately."
   },
   {
     "question": "Which chart is most effective for comparing parts of a whole? 🥧",
@@ -6436,7 +7076,8 @@ const QUESTION_BANK = [
       "C": "Boxplot 📦",
       "D": "Line chart 📈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Pie charts are most effective for visualising proportional composition — how parts make up a total."
   },
   {
     "question": "Which visualization is best suited for showing data distribution? 📊",
@@ -6446,7 +7087,8 @@ const QUESTION_BANK = [
       "C": "Histogram 📊",
       "D": "Pie chart 🥧"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A histogram shows the distribution of a variable by grouping values into bins and counting occurrences."
   },
   {
     "question": "What is the primary purpose of data visualization? 👁️",
@@ -6456,7 +7098,8 @@ const QUESTION_BANK = [
       "C": "To represent data visually 📊",
       "D": "To encode data 🔢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which of the following is NOT an advantage of sampling? ❌",
@@ -6466,7 +7109,8 @@ const QUESTION_BANK = [
       "C": "Full population coverage 🌍",
       "D": "Manageable data size 📏"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Full population coverage does not fit because the other options all belong to the same category."
   },
   {
     "question": "A dataset's p-value is 0.01 after running a statistical test. What does this imply? 📊",
@@ -6476,7 +7120,8 @@ const QUESTION_BANK = [
       "C": "Data is normally distributed 🔔",
       "D": "Data has no variance ⚖️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A p-value below the significance threshold indicates the observed result is unlikely due to chance alone."
   },
   {
     "question": "A dataset has a column with skewed numerical data. What is the best approach to normalize it? 📊",
@@ -6486,7 +7131,8 @@ const QUESTION_BANK = [
       "C": "Encode values 🔢",
       "D": "Use boxplot 📦"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "What is the main drawback of non-probability sampling methods? ❌",
@@ -6496,7 +7142,8 @@ const QUESTION_BANK = [
       "C": "They do not allow generalization to the population 🌍",
       "D": "They are always biased 🎯"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 They do not allow generalization to the population is the standard definition for this concept in the field."
   },
   {
     "question": "In cluster sampling, the population is divided into: 🗃️",
@@ -6506,7 +7153,8 @@ const QUESTION_BANK = [
       "C": "Clusters, then some clusters are randomly selected 🧮",
       "D": "Individual observations only 👤"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 In cluster sampling, the population is divided into clusters (groups), and entire clusters are randomly selected."
   },
   {
     "question": "What assumption is made about data in a parametric statistical test? 📊",
@@ -6516,7 +7164,8 @@ const QUESTION_BANK = [
       "C": "Data has no missing values ❓",
       "D": "Data is continuous 📏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Parametric tests assume the data follows a known distribution, typically a normal (Gaussian) distribution."
   },
   {
     "question": "What type of statistical analysis helps identify relationships between variables? 🔗",
@@ -6526,7 +7175,8 @@ const QUESTION_BANK = [
       "C": "Skewness analysis 📉",
       "D": "Descriptive statistic 📋"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Correlation quantifies the linear relationship between two variables, ranging from -1 to +1."
   },
   {
     "question": "What does the standard deviation indicate in a dataset? 📏",
@@ -6536,7 +7186,8 @@ const QUESTION_BANK = [
       "C": "The skewness 📉",
       "D": "The correlation 🔗"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Standard deviation measures how spread out values are around the mean in a dataset."
   },
   {
     "question": "When is the p-value considered statistically significant in hypothesis testing? 📊",
@@ -6546,7 +7197,8 @@ const QUESTION_BANK = [
       "C": "When p = 0.1 🔢",
       "D": "When p > 1 ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Hypothesis testing uses statistics to determine if observed data provides enough evidence to reject a null hypothesis."
   },
   {
     "question": "Which statistical measure represents the spread of data values around the mean? 📏",
@@ -6556,7 +7208,8 @@ const QUESTION_BANK = [
       "C": "Median 🎯",
       "D": "Skewness 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "What is the primary purpose of hypothesis testing in statistics? 🔬",
@@ -6566,7 +7219,8 @@ const QUESTION_BANK = [
       "C": "To visualize trends 📈",
       "D": "To encode features 🔢"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Hypothesis testing uses statistics to determine if observed data provides enough evidence to reject a null hypothesis."
   },
   {
     "question": "During EDA, an outlier is identified in a boxplot. What is the best course of action? 🔍",
@@ -6576,7 +7230,8 @@ const QUESTION_BANK = [
       "C": "Investigate the outlier 🔍",
       "D": "Ignore the outlier 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Outliers are extreme values that can distort model training if not detected and handled appropriately."
   },
   {
     "question": "A dataset shows a perfect correlation of +1 between two variables. What is the likely issue? 🔗",
@@ -6586,7 +7241,8 @@ const QUESTION_BANK = [
       "C": "No issue 🚫",
       "D": "Wrong visualization 📉"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Correlation quantifies the linear relationship between two variables, ranging from -1 to +1."
   },
   {
     "question": "If a dataset contains missing values in a column, what is the simplest way to visualize its impact? 📊",
@@ -6596,7 +7252,8 @@ const QUESTION_BANK = [
       "C": "Drop the column 🗑️",
       "D": "Fill missing values ✏️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Imputing or removing missing values prevents models from learning incorrect patterns from incomplete data."
   },
   {
     "question": "Which visualization technique is useful for identifying clusters in data during EDA? 🔍",
@@ -6606,7 +7263,8 @@ const QUESTION_BANK = [
       "C": "Boxplot 📦",
       "D": "Pairplot 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A scatter plot shows the relationship between two continuous variables as individual data points."
   },
   {
     "question": "How do you compute the correlation matrix for a DataFrame in Python? 🐍",
@@ -6616,7 +7274,8 @@ const QUESTION_BANK = [
       "C": "df.cov() 📏",
       "D": "df.plot() 📈"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Correlation quantifies the linear relationship between two variables, ranging from -1 to +1."
   },
   {
     "question": "Which Python library is used for creating basic visualizations such as line and bar charts? 📊",
@@ -6626,7 +7285,8 @@ const QUESTION_BANK = [
       "C": "Matplotlib 📈",
       "D": "Seaborn 🎨"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Matplotlib is a Python library for creating static, animated, and interactive data visualisations."
   },
   {
     "question": "Why is it critical to detect multicollinearity during EDA? 🔍",
@@ -6636,7 +7296,8 @@ const QUESTION_BANK = [
       "C": "It removes missing values ❓",
       "D": "It selects important features 🔢"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "Which visualization is best suited for analyzing the relationship between two numerical variables? 📊",
@@ -6646,7 +7307,8 @@ const QUESTION_BANK = [
       "C": "Scatter plot 📍",
       "D": "Bar chart 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A scatter plot shows the relationship between two continuous variables as individual data points."
   },
   {
     "question": "What is the significance of identifying skewness in data during EDA? 📉",
@@ -6656,7 +7318,8 @@ const QUESTION_BANK = [
       "C": "It affects data distribution assumptions 🔔",
       "D": "It improves visualization 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 It affects data distribution assumptions is the standard definition for this concept in the field."
   },
   {
     "question": "Which of the following is a common technique used during EDA? 🔍",
@@ -6666,7 +7329,8 @@ const QUESTION_BANK = [
       "C": "Descriptive statistics 📋",
       "D": "Feature selection 🎯"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Descriptive statistics is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "What is the primary goal of Exploratory Data Analysis? 🎯",
@@ -6676,7 +7340,8 @@ const QUESTION_BANK = [
       "C": "Visualize predictions 📈",
       "D": "Build models 🏗️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Summarize data characteristics is the standard definition for this concept in the field."
   },
   {
     "question": "After standardizing a dataset, a model performs poorly. What could be a possible issue? ⚖️",
@@ -6686,7 +7351,8 @@ const QUESTION_BANK = [
       "C": "Outliers 🚫",
       "D": "Incorrect scaling 📏"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "A column contains both numerical and non-numerical values. How should you preprocess it for numerical analysis? 🔢",
@@ -6696,7 +7362,8 @@ const QUESTION_BANK = [
       "C": "Use encoding techniques 🏷️",
       "D": "Normalize data ⚖️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Mixed columns should be split or cleaned — convert valid numbers and handle non-numeric values as missing data."
   },
   {
     "question": "A dataset has duplicate rows causing issues in analysis. Which Pandas method will you use to fix this? 🐼",
@@ -6706,7 +7373,8 @@ const QUESTION_BANK = [
       "C": "fillna() ✏️",
       "D": "groupby() 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Pandas provides data structures and functions for fast and flexible data manipulation in Python."
   },
   {
     "question": "Which Python library is best suited for outlier detection using clustering techniques? 🐍",
@@ -6716,7 +7384,8 @@ const QUESTION_BANK = [
       "C": "Pandas 🐼",
       "D": "Matplotlib 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Clustering groups similar data points together without predefined labels, revealing natural structure."
   },
   {
     "question": "What is the first step in stratified sampling? 📊",
@@ -6726,7 +7395,8 @@ const QUESTION_BANK = [
       "C": "Choose a sample size 🔢",
       "D": "Collect data 📥"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Define strata is the standard definition for this concept in the field."
   },
   {
     "question": "In Python, which Pandas method removes rows with missing values? 🐼",
@@ -6736,7 +7406,8 @@ const QUESTION_BANK = [
       "C": "fillna() ✏️",
       "D": "replace() 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Imputing or removing missing values prevents models from learning incorrect patterns from incomplete data."
   },
   {
     "question": "When dealing with a dataset containing multiple irrelevant features, which method is most effective? 🎯",
@@ -6746,7 +7417,8 @@ const QUESTION_BANK = [
       "C": "One-hot encoding 🏷️",
       "D": "Standardization ⚖️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Feature selection retains only the most useful variables, reducing noise and improving model efficiency."
   },
   {
     "question": "Which preprocessing step ensures categorical variables are suitable for numerical models? 🔢",
@@ -6756,7 +7428,8 @@ const QUESTION_BANK = [
       "C": "Outlier detection 🚫",
       "D": "Normalization 📏"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "What is the effect of standardization in data preprocessing? ⚖️",
@@ -6766,7 +7439,8 @@ const QUESTION_BANK = [
       "C": "It improves data cleaning 🧹",
       "D": "It removes missing values ❓"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 It ensures data values are centered around zero 0 is the standard definition for this concept in the field."
   },
   {
     "question": "Which technique can be used to handle outliers in numerical data? 🚫",
@@ -6776,7 +7450,8 @@ const QUESTION_BANK = [
       "C": "Imputation ✏️",
       "D": "All of the above 🌟"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Outliers are extreme values that can distort model training if not detected and handled appropriately."
   },
   {
     "question": "Why is handling missing values important during data preprocessing? ❓",
@@ -6786,7 +7461,8 @@ const QUESTION_BANK = [
       "C": "It increases data storage 💾",
       "D": "It simplifies code 💻"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Imputing or removing missing values prevents models from learning incorrect patterns from incomplete data."
   },
   {
     "question": "What is the primary goal of data cleaning in Data Science? 🧹",
@@ -6796,7 +7472,8 @@ const QUESTION_BANK = [
       "C": "To identify and fix data quality issues 🔧",
       "D": "To split data 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Data cleaning removes errors, inconsistencies, and missing values to improve model training quality."
   },
   {
     "question": "A Data Scientist's model performs poorly in production compared to testing. What could be the most likely cause? 🔮",
@@ -6806,7 +7483,8 @@ const QUESTION_BANK = [
       "C": "Balanced dataset ⚖️",
       "D": "Simple model 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "In Python, which library is commonly used for splitting datasets during the Data Preparation phase? 🐍",
@@ -6816,7 +7494,8 @@ const QUESTION_BANK = [
       "C": "Pandas 🐼",
       "D": "Matplotlib 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Scikit-learn offers a consistent API for a wide range of classical machine learning algorithms in Python."
   },
   {
     "question": "What is a major challenge during the evaluation phase of the Data Science Life Cycle? ⚠️",
@@ -6826,7 +7505,8 @@ const QUESTION_BANK = [
       "C": "Training models 🤖",
       "D": "Understanding business goals 🏢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Selecting the right metric is the standard definition for this concept in the field."
   },
   {
     "question": "Why is the deployment phase critical in the Data Science Life Cycle? 🚀",
@@ -6836,7 +7516,8 @@ const QUESTION_BANK = [
       "C": "It removes irrelevant data 🗑️",
       "D": "It generates reports 📄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
   },
   {
     "question": "Which step in the Data Science Life Cycle involves feature engineering and transformation? 🔄",
@@ -6846,7 +7527,8 @@ const QUESTION_BANK = [
       "C": "Data Preparation 🛠️",
       "D": "Evaluation 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Feature engineering transforms raw data into informative inputs that help models learn better."
   },
   {
     "question": "What happens during the Data Collection phase of the Data Science Life Cycle? 📥",
@@ -6856,7 +7538,8 @@ const QUESTION_BANK = [
       "C": "Data is split into training and test 🔄",
       "D": "Data is visualized 📊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 During data collection, relevant raw data is gathered from databases, APIs, files, or web sources."
   }
 ]
   },
@@ -6873,7 +7556,8 @@ const QUESTION_BANK = [
       "C": "Cybersecurity 🔐",
       "D": "Cybersafety 🛡️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What is primary goal of ethical hacker? 👨‍💻",
@@ -6883,7 +7567,8 @@ const QUESTION_BANK = [
       "C": "Resolving security vulnerabilities 🛠️",
       "D": "Determining return on investment for security measures 📊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "In the computer networks, the encryption techniques are primarily used for improving the 🔐",
@@ -6893,7 +7578,8 @@ const QUESTION_BANK = [
       "C": "Reliability 🔄",
       "D": "Longevity ⏳"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "Under Information Technology Act the purpose of digital signature is to: 📜",
@@ -6903,7 +7589,8 @@ const QUESTION_BANK = [
       "C": "Digital Printing 🖨️",
       "D": "Ensure integrity 🛡️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Hash function are used for: 🔢",
@@ -6913,7 +7600,8 @@ const QUESTION_BANK = [
       "C": "Digital signature ✍️",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "In Wi-Fi Security, which of the following protocol is more used? 📶",
@@ -6923,7 +7611,8 @@ const QUESTION_BANK = [
       "C": "WPS ⚠️",
       "D": "Both (A) and (C) 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 WPA2 (Wi-Fi Protected Access 2) is the most widely deployed Wi-Fi security protocol, using AES encryption."
   },
   {
     "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
@@ -6933,7 +7622,8 @@ const QUESTION_BANK = [
       "C": "Protocol 📡",
       "D": "Message Digest 🔢"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Hash functions guarantee message integrity and that the message has not been 🔢✅",
@@ -6943,7 +7633,8 @@ const QUESTION_BANK = [
       "C": "Violated ⚠️",
       "D": "Changed ✏️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "What is the most important difference between ethical hacker and cracker? 👨‍💻 vs 👿",
@@ -6953,7 +7644,8 @@ const QUESTION_BANK = [
       "C": "The ethical hacker does not use the same techniques or skills as a cracker ❌",
       "D": "The ethical hacker does it strictly for financial motives unlike a cracker 💵"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The ethical hacker has authorization from the owner of the target is the standard definition for this concept in the field."
   },
   {
     "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
@@ -6963,7 +7655,8 @@ const QUESTION_BANK = [
       "C": "Protocol 📡",
       "D": "Message Digest 🔢"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Which of the following refers to the violation of the principle if a computer is no more accessible? 🖥️❌",
@@ -6973,7 +7666,8 @@ const QUESTION_BANK = [
       "C": "Availability ⏳",
       "D": "All of the above 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
   },
   {
     "question": "What is a firewall? 🔥🧱",
@@ -6983,7 +7677,8 @@ const QUESTION_BANK = [
       "C": "A firewall is a program that keeps other programs from using the network 🚫",
       "D": "Firewalls are interrupts that automatically disconnect from the internet when a threat appears ⚡"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "Which of the following involves submitting as many requests as possible to a single Internet computer or service, overloading it and preventing it from servicing legitimate requests? 💣",
@@ -6993,7 +7688,8 @@ const QUESTION_BANK = [
       "C": "Masquerading 🎭",
       "D": "Phishing 🎣"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A DDoS attack uses many compromised systems to overwhelm a target, making defence harder."
   },
   {
     "question": "Which of the following are possible security threats? ⚠️",
@@ -7003,7 +7699,8 @@ const QUESTION_BANK = [
       "C": "Masquerading 🎭",
       "D": "All of the given options are correct 💡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Common security threats include malware, phishing, SQL injection, and denial-of-service attacks."
   },
   {
     "question": "Digital signatures provide which of the following? ✍️",
@@ -7013,7 +7710,8 @@ const QUESTION_BANK = [
       "C": "Integrity protection 🛡️",
       "D": "All of the given options are correct 💡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which of the following is valid difference between a Virus and a Spyware? 🦠 vs 👁️",
@@ -7023,7 +7721,8 @@ const QUESTION_BANK = [
       "C": "Spyware damages data, Virus steals sensitive private information 🔄",
       "D": "Virus damages data and also steals sensitive private information 💔👁️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "What is a computer virus? 🦠",
@@ -7033,7 +7732,8 @@ const QUESTION_BANK = [
       "C": "Malicious software that merely stays dormant on your computer 💤",
       "D": "Malicious software that inserts itself into other programs 🔌"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "Certification of Digital signature by an independent authority is needed because ✍️✅",
@@ -7043,7 +7743,8 @@ const QUESTION_BANK = [
       "C": "The authority checks and assures customers that the public key indeed belongs to the business which claims its ownership 🔑🗝️",
       "D": "Private key claimed by a sender may not be actually his ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The responsibility of a certification authority for digital signature is to authenticate the: 📜✅",
@@ -7053,7 +7754,8 @@ const QUESTION_BANK = [
       "C": "Public keys of subscribers 🔑🌍",
       "D": "Key used in DES 🔐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Hashed message is signed by a sender using 🔢✍️",
@@ -7063,7 +7765,8 @@ const QUESTION_BANK = [
       "C": "Receiver's public key 📬🔑",
       "D": "Receiver's private key 📬🤫"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A private key is kept secret and used to decrypt data that was encrypted with the matching public key."
   },
   {
     "question": "A digital signature is ✍️",
@@ -7073,7 +7776,8 @@ const QUESTION_BANK = [
       "C": "An authentication of an electronic record by tying it uniquely to a key only a sender knows 🔑🚫",
       "D": "An encrypted signature of a sender 🔐✍️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "All of the following are examples of real security and privacy threats except: ⚠️🚫",
@@ -7083,7 +7787,8 @@ const QUESTION_BANK = [
       "C": "Spam 📧",
       "D": "Worm 🐛"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Privacy policies inform users how their personal data is collected, stored, and used by a website."
   },
   {
     "question": "What legal concept involves the unauthorized alteration or modification of data with the intent to deceive? 📜⚠️",
@@ -7093,7 +7798,8 @@ const QUESTION_BANK = [
       "C": "Data manipulation ✏️",
       "D": "Cyber extortion 💰"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Data tampering is the illegal alteration of digital information with intent to deceive or cause harm."
   },
   {
     "question": "What legal concept involves the unauthorized use of someone else's identity for fraudulent purposes? 🎭",
@@ -7103,7 +7809,8 @@ const QUESTION_BANK = [
       "C": "Spoofing 📞🎭",
       "D": "Phishing 🎣"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "What legal concept involves using deception to trick individuals into revealing confidential information, such as passwords? 🎣",
@@ -7113,7 +7820,8 @@ const QUESTION_BANK = [
       "C": "Cyber stalking 👣",
       "D": "Identity theft 🆔"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Phishing tricks users into revealing sensitive information by impersonating trusted entities."
   },
   {
     "question": "Which of the following process is used for verifying the identity of a user? 🆔✅",
@@ -7123,7 +7831,8 @@ const QUESTION_BANK = [
       "C": "Validation ✔️",
       "D": "Verification 🔍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Authentication verifies the identity of a user or system before granting access."
   },
   {
     "question": "In the context of data protection, what does the term \"data encryption\" involve? 🔐",
@@ -7133,7 +7842,8 @@ const QUESTION_BANK = [
       "C": "Ignoring the security of personal data 🙈",
       "D": "Promoting data processing without encryption 📊"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "What legal principle allows individuals to control the collection and use of their personal information? 📜",
@@ -7143,7 +7853,8 @@ const QUESTION_BANK = [
       "C": "Right to anonymity 🎭",
       "D": "Right to be forgotten 🗑️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Privacy policies inform users how their personal data is collected, stored, and used by a website."
   },
   {
     "question": "What legal concept involves unauthorized access to computer systems with the intent to gather sensitive information? 🕵️",
@@ -7153,7 +7864,8 @@ const QUESTION_BANK = [
       "C": "Hacking 👨‍💻",
       "D": "Cyber stalking 👣"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Cyber espionage is the illegal access of computer systems to secretly gather confidential information."
   },
   {
     "question": "What legal principle states that individuals have the right to know what information is collected about them and how it is used? 📜",
@@ -7163,7 +7875,8 @@ const QUESTION_BANK = [
       "C": "Right to access 🚪",
       "D": "Right to anonymity 🎭"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The right to know (transparency principle) requires organisations to inform people what data is collected about them."
   },
   {
     "question": "What is the primary purpose of cyber laws and regulations? 📜",
@@ -7173,7 +7886,8 @@ const QUESTION_BANK = [
       "C": "Preventing cyber threats and crimes 🛡️",
       "D": "Promoting software development 👨‍💻"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Cyberspace has: 🌐",
@@ -7183,7 +7897,8 @@ const QUESTION_BANK = [
       "C": "Limited boundaries 📏",
       "D": "(A) and (B) 💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cyberspace has no physical borders, allowing global communication and also creating jurisdiction challenges for law enforcement."
   },
   {
     "question": "Which of the following provides legal framework for e-governance in India? 🇮🇳📜",
@@ -7193,7 +7908,8 @@ const QUESTION_BANK = [
       "C": "IT Act, 2000 ⚖️📜",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The Information Technology Act, 2000 provides India's primary legal framework for e-governance and cybercrime."
   },
   {
     "question": "Which of the following statements is true about the Trojans? 🐴",
@@ -7203,7 +7919,8 @@ const QUESTION_BANK = [
       "C": "Trojans do nothing harmful to the user's computer systems 😇",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
   },
   {
     "question": "Which type of the following malware does not replicate or clone themselves through infection? 🦠🚫",
@@ -7213,7 +7930,8 @@ const QUESTION_BANK = [
       "C": "Worms 🐛",
       "D": "Viruses 🦠"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "Which of these systems use timestamps as an expiration date? ⏰",
@@ -7223,7 +7941,8 @@ const QUESTION_BANK = [
       "C": "Publicly available directories 📁",
       "D": "Public-Key authority 👤🔑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Kerberos authentication tickets use timestamps as expiry dates to prevent replay attacks."
   },
   {
     "question": "Which of the following public key distribution systems is most secure? 🔑🛡️",
@@ -7233,7 +7952,8 @@ const QUESTION_BANK = [
       "C": "Publicly available directories 📁",
       "D": "Public-Key authority 👤🔑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
   },
   {
     "question": "In the context of web security, what is an anomaly-based detection approach in IDS/IPS? 🌐🛡️",
@@ -7243,7 +7963,8 @@ const QUESTION_BANK = [
       "C": "Identifying deviations from normal behavior patterns 📊⚠️",
       "D": "Granting unrestricted access to all users 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "How does an Intrusion Prevention System (IPS) differ from an IDS? 🛡️",
@@ -7253,7 +7974,8 @@ const QUESTION_BANK = [
       "C": "By improving website aesthetics 🎨",
       "D": "Granting unrestricted access to all users 🚪"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 An IPS actively blocks detected threats in real time, going beyond just monitoring and alerting."
   },
   {
     "question": "What is the primary role of an Intrusion Detection System (IDS) in web security? 👀",
@@ -7263,7 +7985,8 @@ const QUESTION_BANK = [
       "C": "Monitoring and detecting potential security incidents 📡⚠️",
       "D": "Granting unrestricted access to all users 🚪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An IDS monitors network traffic for suspicious patterns that may indicate an attack in progress."
   },
   {
     "question": "Cyber Security provide security against what? 🛡️",
@@ -7273,7 +7996,8 @@ const QUESTION_BANK = [
       "C": "Defends a device from threat 🛡️",
       "D": "All mentioned options 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cyber security protects systems, networks, and data from unauthorised access, theft, damage, and cyberattacks."
   },
   {
     "question": "In order to ensure the security of the data/information, we need to ________ the data: 🔐",
@@ -7283,7 +8007,8 @@ const QUESTION_BANK = [
       "C": "Delete 🗑️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Encrypting data ensures that even if it is intercepted, it cannot be read without the correct decryption key."
   },
   {
     "question": "In the CIA Triad, which one of the following is not involved? 🔐",
@@ -7293,7 +8018,8 @@ const QUESTION_BANK = [
       "C": "Authenticity 💬",
       "D": "Integrity 📏"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The CIA triad — Confidentiality, Integrity, and Availability — are the three core goals of information security."
   },
   {
     "question": "Which of the following is a type of independent malicious program that never required any host program? 🦠🚫🏠",
@@ -7303,7 +8029,8 @@ const QUESTION_BANK = [
       "C": "Trap Door 🚪",
       "D": "Virus 🦠"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A worm is self-replicating malware that spreads across networks without needing a host program."
   },
   {
     "question": "Hackers usually used the computer virus for ________ purpose. 👨‍💻🦠",
@@ -7313,7 +8040,8 @@ const QUESTION_BANK = [
       "C": "To corrupt the user's data stored in the computer system 💔",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
@@ -7323,7 +8051,8 @@ const QUESTION_BANK = [
       "C": "Phishing and Password attacks 🎣🔑",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Which of the following can be considered as the elements of cyber security? 🛡️",
@@ -7333,7 +8062,8 @@ const QUESTION_BANK = [
       "C": "Network Security 🌐🔒",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cyber security elements include network security, application security, information security, and endpoint protection."
   },
   {
     "question": "________ is a type of software designed to help the user's computer detect viruses and avoid them. 🛡️🦠",
@@ -7343,7 +8073,8 @@ const QUESTION_BANK = [
       "C": "Antivirus 🛡️",
       "D": "Both (B) and (C) 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "Which of the below does not constitute a cybercrime? 🚫⚠️",
@@ -7353,7 +8084,8 @@ const QUESTION_BANK = [
       "C": "Phishing 🎣",
       "D": "MD5 🔢"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 MD5 produces a 128-bit hash but is now considered cryptographically broken due to collision vulnerabilities."
   },
   {
     "question": "Which of the below is a kind of cyber security? 🛡️",
@@ -7363,7 +8095,8 @@ const QUESTION_BANK = [
       "C": "Cloud Security ☁️🔒",
       "D": "All options mentioned 💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cloud security is a specialised area of cyber security focused on protecting data and services in cloud environments."
   },
   {
     "question": "How does a man-in-the-middle attack work? 👥",
@@ -7373,7 +8106,8 @@ const QUESTION_BANK = [
       "C": "Spreading through infected email attachments 📧🦠",
       "D": "Disguising itself as a legitimate program 🎭"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Intercepting and altering communication between two parties — this is how this process works according to established principles."
   },
   {
     "question": "An asymmetric-key (or public-key) cipher uses 🔑🔐",
@@ -7383,7 +8117,8 @@ const QUESTION_BANK = [
       "C": "3 key 3️⃣",
       "D": "4 key 4️⃣"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 2 key 2 is the most important factor because it has the greatest direct impact."
   },
   {
     "question": "Which of the following answers refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates? 📜🔑",
@@ -7393,7 +8128,8 @@ const QUESTION_BANK = [
       "C": "Digital signature ✍️",
       "D": "Public Key Infrastructure 🏗️🔑"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital certificate binds a public key to an identity, verified by a trusted certificate authority."
   },
   {
     "question": "The central node of 802.11 wireless operations is called. 📶",
@@ -7403,7 +8139,8 @@ const QUESTION_BANK = [
       "C": "WAP 📱",
       "D": "Access Port 🚪"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 In 802.11 wireless networks, the Access Point (AP) is the central node managing all wireless communications."
   },
   {
     "question": "The process of analyzing wireless traffic that may be helpful for forensic investigations or during troubleshooting any wireless issue is called? 📶🔍",
@@ -7413,7 +8150,8 @@ const QUESTION_BANK = [
       "C": "Wireless Traffic BurpSuit 🛠️",
       "D": "Wireless Traffic Wireshark 🦈📡"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "Mobile security is also known as? 📱🔒",
@@ -7423,7 +8161,8 @@ const QUESTION_BANK = [
       "C": "Wireless Security 📶🔒",
       "D": "Database security 🗄️🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Mobile security is also known as wireless security, as it protects devices communicating over wireless networks."
   },
   {
     "question": "Which malware is designed to capture and transmit sensitive data, such as login credentials? 🦠🔑",
@@ -7433,7 +8172,8 @@ const QUESTION_BANK = [
       "C": "Keylogger ⌨️📝",
       "D": "Ransomware 💰🔒"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "What is true about data security? 🔐",
@@ -7443,7 +8183,8 @@ const QUESTION_BANK = [
       "C": "Data security requires system managers to reduce unauthorized access to the systems by building physical arrangements and software checks 🔧",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the standard definition for this concept in the field."
   },
   {
     "question": "Deleted files recovery is a common technique used in computer forensics. 🗑️🔍",
@@ -7453,7 +8194,8 @@ const QUESTION_BANK = [
       "C": "Can be true or false 🔄",
       "D": "Can not say 🤔"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "Computer forensics can also be used in civil proceedings. ⚖️",
@@ -7463,7 +8205,8 @@ const QUESTION_BANK = [
       "C": "Can be yes or no 🔄",
       "D": "Can not say 🤔"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "What is the purpose of a hash value in digital forensics? 🔢🔍",
@@ -7473,7 +8216,8 @@ const QUESTION_BANK = [
       "C": "To recover deleted files from storage media 🗑️",
       "D": "To analyze network traffic and detect malicious activities 🌐👁️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "For ethical hacking, what process is followed? 👨‍💻⚖️",
@@ -7483,7 +8227,8 @@ const QUESTION_BANK = [
       "C": "Decryption 🔓",
       "D": "Penetration Testing 🛡️🔨"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "Digital signatures are created and verified using ✍️",
@@ -7493,7 +8238,8 @@ const QUESTION_BANK = [
       "C": "HTML 🌐",
       "D": "cryptography 🔐"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The authentication to be affected by use of asymmetric crypto system and hash function is known as 🔑🔢",
@@ -7503,7 +8249,8 @@ const QUESTION_BANK = [
       "C": "Digital Signature ✍️",
       "D": "e-governance 🏛️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "What is the purpose of a disaster recovery plan (DRP) in cybersecurity? 🛡️📋",
@@ -7513,7 +8260,8 @@ const QUESTION_BANK = [
       "C": "To ensure the restoration of IT services after a disruptive event 🔄💻",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
   },
   {
     "question": "Which chapter of Cyber Law provides the legal Recognition to Digital Signature? 📜✍️",
@@ -7523,7 +8271,8 @@ const QUESTION_BANK = [
       "C": "Chapter IX 📖",
       "D": "Chapter IX and X 📖📖"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which type of malware is designed to observe and gather user information without their knowledge? 🦠👁️",
@@ -7533,7 +8282,8 @@ const QUESTION_BANK = [
       "C": "Spyware 👁️",
       "D": "Adware 📢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "Password cracker tries 🔑",
@@ -7543,7 +8293,8 @@ const QUESTION_BANK = [
       "C": "Intrusion detection 👀",
       "D": "Intrusion prevention 🛡️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
   },
   {
     "question": "e-governance includes 🏛️💻",
@@ -7553,7 +8304,8 @@ const QUESTION_BANK = [
       "C": "Both above 🔀",
       "D": "Payment of bills 💵"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 E-governance uses digital technology to deliver government services, enable citizen participation, and improve administration."
   },
   {
     "question": "Black box and white box pentest is done from ________ and ________ user perspective respectively 🖤📦🤍📦",
@@ -7563,7 +8315,8 @@ const QUESTION_BANK = [
       "C": "Third party, insider 👤🤝, 👤🏢",
       "D": "Employee and user 👨‍💼, 👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 White box testing gives the tester full knowledge of the system's internals, enabling thorough security review."
   },
   {
     "question": "What is the difference between vulnerability scanning and penetration testing? 🔍 vs 🔨",
@@ -7573,7 +8326,8 @@ const QUESTION_BANK = [
       "C": "Vulnerability scanning is less thorough than penetration testing 📉",
       "D": "Vulnerability scanning is conducted by internal security teams, while penetration testing is conducted by external security firms 🏢 vs 🏢🌍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "PKI stands for? 🔑",
@@ -7583,7 +8337,8 @@ const QUESTION_BANK = [
       "C": "Public key instance 🔑📌",
       "D": "Private key instance 🔑🤫📌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
   },
   {
     "question": "Which of the following is a common type of vulnerability in web applications? 🌐⚠️",
@@ -7593,7 +8348,8 @@ const QUESTION_BANK = [
       "C": "Man-in-the-middle (MitM) attack 👥",
       "D": "Buffer overflow 📦💥"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 SQL is the standard language for querying and managing data in relational databases."
   },
   {
     "question": "What is social engineering? 🎭🧠",
@@ -7603,7 +8359,8 @@ const QUESTION_BANK = [
       "C": "Using manipulation to deceive people that you are someone you are not to gain access to the information you need 🎭",
       "D": "Using force to gain all the information available 💪"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Social engineering manipulates people psychologically to reveal confidential information or grant access."
   },
   {
     "question": "Which of the following is the best approach to conducting a penetration test? 🔨",
@@ -7613,7 +8370,8 @@ const QUESTION_BANK = [
       "C": "Grey box testing 🩶📦",
       "D": "Automated testing 🤖"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
   },
   {
     "question": "Penetration testing should focus on what scenarios? 🔨",
@@ -7623,7 +8381,8 @@ const QUESTION_BANK = [
       "C": "Both 🔀",
       "D": "None ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "Which of the following are ways to conduct penetration testing? 🔨",
@@ -7633,7 +8392,8 @@ const QUESTION_BANK = [
       "C": "White Box Testing, Brown Box Testing, Red Box Testing 🤍🤎🔴",
       "D": "Black Box Testing, Green Box Testing, White Box Testing 🖤💚🤍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "Is penetration testing used to help or for damaging a system? 🔨",
@@ -7643,7 +8403,8 @@ const QUESTION_BANK = [
       "C": "Damaging 💔",
       "D": "Both (A) & (C) 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "In public key cryptosystem for message confidentiality, which is kept as public? 🔑",
@@ -7653,7 +8414,8 @@ const QUESTION_BANK = [
       "C": "Encryption & Decryption keys 🔒🔓🔑",
       "D": "None of the above ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
   },
   {
     "question": "________ is a person in whose name the Digital Signature Certificate is issued 👤✍️",
@@ -7663,7 +8425,8 @@ const QUESTION_BANK = [
       "C": "Holder 📋👤",
       "D": "Controller 🎮👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which of the following is a general term for malicious software that pretends to be harmless so that a user willingly allows it to be downloaded onto the computer? 🦠🎭",
@@ -7673,7 +8436,8 @@ const QUESTION_BANK = [
       "C": "Trojan Horse 🐴",
       "D": "Botnets 🤖🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
   },
   {
     "question": "Digital signature certificate is issued by (as in IT act 2000) ✍️📜",
@@ -7683,7 +8447,8 @@ const QUESTION_BANK = [
       "C": "Certificate authority 📜📝",
       "D": "Cyber crime investigator 🕵️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which of the following type of attack can actively modify communications or data? ✏️📡",
@@ -7693,7 +8458,8 @@ const QUESTION_BANK = [
       "C": "Active attack ⚡",
       "D": "Passive attack 👂"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 An active attack (like a man-in-the-middle attack) intercepts and modifies communications as they travel."
   },
   {
     "question": "Trojan Horse programs operate with what intent? 🐴",
@@ -7703,7 +8469,8 @@ const QUESTION_BANK = [
       "C": "To masquerade as non-malicious software while exploiting a system's weaknesses 🎭🔨",
       "D": "To do a series of brute force attacks within the system itself and a series of external attacks from other servers 💪🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
   },
   {
     "question": "What is the purpose of a risk response strategy in the risk assessment process? 📊⚠️",
@@ -7713,7 +8480,8 @@ const QUESTION_BANK = [
       "C": "To outline the actions to be taken in response to identified risks 📝⚠️",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "In the context of risk assessment, what does the term \"vulnerability\" refer to? ⚠️",
@@ -7723,7 +8491,8 @@ const QUESTION_BANK = [
       "C": "Ignoring potential risks 🙈",
       "D": "Fostering a risk-aware culture 🌱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "What is the purpose of a risk assessment report in cybersecurity risk management? 📊📄",
@@ -7733,7 +8502,8 @@ const QUESTION_BANK = [
       "C": "To communicate the results of the risk assessment 📢📊",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "What is the purpose of a threat assessment in cybersecurity risk management? ⚠️",
@@ -7743,7 +8513,8 @@ const QUESTION_BANK = [
       "C": "To promote unrestricted data sharing 📢",
       "D": "To ignore the impact of threats 🙈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "Which of the following is a key component of the risk assessment process? 📊",
@@ -7753,7 +8524,8 @@ const QUESTION_BANK = [
       "C": "Promoting unrestricted access to sensitive data 🚪",
       "D": "Fostering a risk-aware culture 🌱"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
   },
   {
     "question": "What is the primary goal of a risk assessment in cybersecurity? 🎯📊",
@@ -7763,7 +8535,8 @@ const QUESTION_BANK = [
       "C": "To promote unrestricted data sharing 📢",
       "D": "To ignore the impact of cyber threats 🙈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
   },
   {
     "question": "Which of the below is a popular victim of cyber attackers looking to gain the IP address of a target or victim user? 🎯🌐",
@@ -7773,7 +8546,8 @@ const QUESTION_BANK = [
       "C": "IP tracer 📍",
       "D": "web pages 📄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 DNS servers are frequent targets because compromising them lets attackers redirect users to malicious websites."
   },
   {
     "question": "Which of the following is the collective name for Trojan horses, spyware, and worms? 🦠🐴👁️🐛",
@@ -7783,7 +8557,8 @@ const QUESTION_BANK = [
       "C": "Virus 🦠",
       "D": "Malware 🦠"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "Which of the following is collection of Internet-connected programs communicating with other similar programs in order to perform tasks? 🌐🤖",
@@ -7793,7 +8568,8 @@ const QUESTION_BANK = [
       "C": "Trojan horse 🐴",
       "D": "Malware 🦠"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A botnet is a network of compromised computers controlled by an attacker, often used for DDoS attacks."
   },
   {
     "question": "Which of the following is a means to access a computer program or entire computer system bypassing all security mechanisms? 🚪🔓",
@@ -7803,7 +8579,8 @@ const QUESTION_BANK = [
       "C": "Phishing 🎣",
       "D": "Trojan Horse 🐴"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
   },
   {
     "question": "There are two types of firewall. What are they? 🔥🧱",
@@ -7813,7 +8590,8 @@ const QUESTION_BANK = [
       "C": "Remote and local 📡🏠",
       "D": "Digital and electronic 🔢⚡"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "A digital signature scheme consists of which of the following typical algorithms? ✍️",
@@ -7823,7 +8601,8 @@ const QUESTION_BANK = [
       "C": "Key generation algorithm 🔑",
       "D": "Signing algorithm ✍️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "What is another name for an insecure plugin? 🔌⚠️",
@@ -7833,7 +8612,8 @@ const QUESTION_BANK = [
       "C": "Firmware 🔧",
       "D": "Malware 🦠"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "To protect the computer system against the hacker and different kind of viruses, one must always keep ________ on in the computer system. 🛡️",
@@ -7843,7 +8623,8 @@ const QUESTION_BANK = [
       "C": "Vlc player 🎬",
       "D": "Script 📜"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "Which of the following are the types of scanning? 🔍",
@@ -7853,7 +8634,8 @@ const QUESTION_BANK = [
       "C": "Client, Server, and network 💻🖥️🌐",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "In system hacking, which of the following is the most crucial activity? 👨‍💻",
@@ -7863,7 +8645,8 @@ const QUESTION_BANK = [
       "C": "Cracking passwords 🔑💪",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Maintaining access (installing backdoors) is the most critical hacking phase as it enables persistent control."
   },
   {
     "question": "What is Digital Forensics? 🔍💻",
@@ -7873,7 +8656,8 @@ const QUESTION_BANK = [
       "C": "A process where we develop and test hypotheses that answer questions about digital events ❓",
       "D": "Use of science or technology in the investigation and establishment of the facts or evidence in a court of law ⚖️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "Which type of digital evidence can be extracted from volatile memory? 💾⚡",
@@ -7883,7 +8667,8 @@ const QUESTION_BANK = [
       "C": "Running processes and network connections ⚙️🌐🌐",
       "D": "Encrypted data 🔐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Volatile memory (RAM) holds running processes, open network connections, and login sessions that vanish on shutdown."
   },
   {
     "question": "Which of the following is a commonly used forensic tool in digital investigations? 🔧🔍",
@@ -7893,7 +8678,8 @@ const QUESTION_BANK = [
       "C": "EnCase 📦💬",
       "D": "Microsoft Office 📊"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EnCase is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "What is the purpose of a hash value in digital forensics? 🔢🔍",
@@ -7903,7 +8689,8 @@ const QUESTION_BANK = [
       "C": "To recover deleted files from storage media 🗑️",
       "D": "To analyze network traffic and detect malicious activities 🌐👁️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "What is the purpose of a write blocker in digital forensics? ✍️🚫",
@@ -7913,7 +8700,8 @@ const QUESTION_BANK = [
       "C": "To ensure that evidence is not altered during the investigation 🔒🚫",
       "D": "To encrypt sensitive data for secure storage 🔐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "What is the importance of chain of custody in digital forensics? ⛓️🔍",
@@ -7923,7 +8711,8 @@ const QUESTION_BANK = [
       "C": "To track the physical movement and handling of digital evidence 📝👣",
       "D": "To encrypt sensitive data for secure storage 🔐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
   },
   {
     "question": "Which World organization accredited labs in the world of forensics? 🌍🔬",
@@ -7933,7 +8722,8 @@ const QUESTION_BANK = [
       "C": "ACSLD 💬",
       "D": "None of these ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "802.11i's final form is known as: 📶",
@@ -7943,7 +8733,8 @@ const QUESTION_BANK = [
       "C": "Robust Security Network 🛡️🌐",
       "D": "Both (A) and (B) 🔄"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 802.11i's final ratified form is known as WPA2, the Wi-Fi security standard using AES-CCMP encryption."
   },
   {
     "question": "Central node of 802.11 wireless operations is 📶",
@@ -7953,7 +8744,8 @@ const QUESTION_BANK = [
       "C": "Access Port 🚪",
       "D": "WAP 📱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The Access Point (AP) is the central hub in 802.11 wireless networks, connecting all wireless clients."
   },
   {
     "question": "Penetration testing is used to: 🔨",
@@ -7963,7 +8755,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔀",
       "D": "crash the site/system 💥"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "Which of the following are ways to conduct penetration testing? 🔨",
@@ -7973,7 +8766,8 @@ const QUESTION_BANK = [
       "C": "Black Box Testing, Red Box Testing, Grey Box Testing 🖤🔴🩶",
       "D": "Black Box Testing, Green Box Testing, White Box Testing 🖤💚🤍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "Black box and white box pentest is done from ________ and ________ user perspective respectively 🖤📦🤍📦",
@@ -7983,7 +8777,8 @@ const QUESTION_BANK = [
       "C": "Third party; insider 👤🤝, 👤🏢",
       "D": "Employee and user 👨‍💼, 👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 White box testing gives the tester full knowledge of the system's internals, enabling thorough security review."
   },
   {
     "question": "Which of the following groups must review a penetration testing result? 🔨📊",
@@ -7993,7 +8788,8 @@ const QUESTION_BANK = [
       "C": "Documentation, Log, System Configuration, Network Sniffing, Ruleset, File Integrity, Personnel 📄📝⚙️🌐📏🔐👥🌐",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "What is the risk involved in doing penetration testing? ⚠️🔨",
@@ -8003,7 +8799,8 @@ const QUESTION_BANK = [
       "C": "VPN not effective 🔒❌",
       "D": "Security is an issue 🔐⚠️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "PKI stands for? 🔑",
@@ -8013,7 +8810,8 @@ const QUESTION_BANK = [
       "C": "Public Key Instance 🔑📌",
       "D": "Private Key Instance 🔑🤫📌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
   },
   {
     "question": "The digital signature can be suspended by the certifying authority in case of: ✍️🚫",
@@ -8023,7 +8821,8 @@ const QUESTION_BANK = [
       "C": "interest of any person 👥",
       "D": "Both (A) and (C) 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which among the following was established under IT Act, 2000 to resolve disputes arising from the law? 📜⚖️",
@@ -8033,7 +8832,8 @@ const QUESTION_BANK = [
       "C": "Cyber Administrative Tribunal 🏛️",
       "D": "IT Disputes Tribunal 💻⚖️"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Cyber Appellate Tribunals were established under the IT Act, 2000 to adjudicate cybercrime disputes."
   },
   {
     "question": "A major amendment to Information Technology Act, 2000 was made in which year? 📜📅",
@@ -8043,7 +8843,8 @@ const QUESTION_BANK = [
       "C": "2012",
       "D": "2008 📋"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A major amendment to India's IT Act 2000 was made in 2008, addressing cybercrime and data protection."
   },
   {
     "question": "Malware that Encrypts Files and Demands money, property or services from a person, entity or institution, through coercion is: 🦠💰🔒",
@@ -8053,7 +8854,8 @@ const QUESTION_BANK = [
       "C": "Adware 📢",
       "D": "Rootkit 🪚"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "Which type of malware is designed to observe and gather user information without their knowledge? 🦠👁️",
@@ -8063,7 +8865,8 @@ const QUESTION_BANK = [
       "C": "Spyware 👁️🦠",
       "D": "Adware 📢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "Harassing someone through electronic message is offence of: 📧👣",
@@ -8073,7 +8876,8 @@ const QUESTION_BANK = [
       "C": "Stalking 👣🎭",
       "D": "Phishing 🎣"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Sending harassing electronic messages constitutes cyberstalking, which is a criminal offence under the IT Act."
   },
   {
     "question": "In a phishing attack, what is the common method used to trick users into revealing sensitive information? 🎣",
@@ -8083,7 +8887,8 @@ const QUESTION_BANK = [
       "C": "Launching DDoS attacks 🌊",
       "D": "Encrypting files for ransom 🔒💰"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Online trust is built through security certificates, clear policies, and positive user reviews and reputation."
   },
   {
     "question": "________ is a criminal offense of receiving payment through coercion. 💰⚠️",
@@ -8093,7 +8898,8 @@ const QUESTION_BANK = [
       "C": "Net or Cyber Extortion 💰🔪🎭",
       "D": "Credit Card Fraud 💳"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Cyber extortion is the criminal offence of demanding payment by threatening digital harm or data exposure."
   },
   {
     "question": "Smartphone penetration framework was devised by: 📱🔨",
@@ -8103,7 +8909,8 @@ const QUESTION_BANK = [
       "C": "Georgia Weidman, Bulb Security LLC in 2018",
       "D": "Sergia Drapa"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Penetration testing proactively finds exploitable vulnerabilities before real attackers can discover and use them."
   },
   {
     "question": "Password cracker tries: 🔑",
@@ -8113,7 +8920,8 @@ const QUESTION_BANK = [
       "C": "Intrusion detection 👀",
       "D": "Intrusion prevention 🛡️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
   },
   {
     "question": "Script kiddies are: 👨‍💻🧒",
@@ -8123,7 +8931,8 @@ const QUESTION_BANK = [
       "C": "Penetration tester 🔨",
       "D": "Vulnerability assessor 🔍"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Script kiddies are low-skill attackers who use pre-made hacking tools without understanding how they work."
   },
   {
     "question": "First phase of hacking is: 👨‍💻",
@@ -8133,7 +8942,8 @@ const QUESTION_BANK = [
       "C": "Reconnaissance 🔍🔍",
       "D": "Scanning 📡"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Reconnaissance is the correct first step because the process must begin this way."
   },
   {
     "question": "What is the most important difference between ethical hacker and cracker? 👨‍💻⚖️ vs 👿",
@@ -8143,7 +8953,8 @@ const QUESTION_BANK = [
       "C": "The ethical hacker does not use the same techniques or skills as a cracker ❌",
       "D": "The ethical hacker does it strictly for financial motives unlike a cracker 💵"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 The ethical hacker has authorization from the owner of the target is the standard definition for this concept in the field."
   },
   {
     "question": "What type of hacker impose maximum threat to an organization? 👨‍💻⚠️",
@@ -8153,7 +8964,8 @@ const QUESTION_BANK = [
       "C": "Script kiddies 🧒",
       "D": "Disgruntled employees 😠👤💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Examples of hash functions are: 🔢",
@@ -8163,7 +8975,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔀🔀",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Both (A) and (B) is the primary function or purpose of this component in the system."
   },
   {
     "question": "Hash function is used in implementing ________: 🔢",
@@ -8173,7 +8986,8 @@ const QUESTION_BANK = [
       "C": "Confidentiality 🤐",
       "D": "All of the above 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Wireless LAN security architecture is defined in: 📶🔒",
@@ -8183,7 +8997,8 @@ const QUESTION_BANK = [
       "C": "IEEE 802.11i",
       "D": "Both (A) and (C) 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Wireless LAN security architecture is defined in the IEEE 802.11i standard, which forms the basis for WPA2."
   },
   {
     "question": "Which of the following tool is used in Wi-Fi hacking? 📶👨‍💻",
@@ -8193,7 +9008,8 @@ const QUESTION_BANK = [
       "C": "Norton 🛡️",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Aircrack-ng is a widely used tool for testing and exploiting Wi-Fi network security vulnerabilities."
   },
   {
     "question": "The Information Technology Act, 2000 came into force on: 📜🇮🇳",
@@ -8203,7 +9019,8 @@ const QUESTION_BANK = [
       "C": "15th December, 2000",
       "D": "None of these ❌"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 India's IT Act 2000 came into force on 17 October 2000, establishing the legal framework for cyber activities."
   },
   {
     "question": "The key of a pair used to create a digital signature is known as: 🔑✍️",
@@ -8213,7 +9030,8 @@ const QUESTION_BANK = [
       "C": "creator key 👤🔑",
       "D": "secret key 🤫🔑"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The key of a key pair used to verify a digital signature: 🔑✅✍️",
@@ -8223,7 +9041,8 @@ const QUESTION_BANK = [
       "C": "verifying key 🆔🔑",
       "D": "secret key 🤫🔑"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "An adjudicating officer, under the IT Act, 2000, for holding inquiry and imposing penalty is appointed by the: ⚖️📜",
@@ -8233,7 +9052,8 @@ const QUESTION_BANK = [
       "C": "Cyber Appellate Tribunal ⚖️",
       "D": "High Court 🏛️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Adjudicating officers under India's IT Act 2000 are appointed by the Central Government to handle cybercrime penalties."
   },
   {
     "question": "________ is the unique value for message or content by applying strong Hash function. 🔢✅",
@@ -8243,7 +9063,8 @@ const QUESTION_BANK = [
       "C": "Message digest 📝🔢🔢",
       "D": "Private key 🔑🤫"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Message digest is the primary function or purpose of this component in the system."
   },
   {
     "question": "For ethical hacking, what process is followed: 👨‍💻⚖️",
@@ -8253,7 +9074,8 @@ const QUESTION_BANK = [
       "C": "Decryption 🔓",
       "D": "Penetration Testing 🔨🔍"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
   },
   {
     "question": "What are the difficulties in handling Digital Evidence? 💻🔍⚠️",
@@ -8263,7 +9085,8 @@ const QUESTION_BANK = [
       "C": "Hard to get 🚫🔴",
       "D": "Both (A) and (C) 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Both (A) and (C) is the standard definition for this concept in the field."
   },
   {
     "question": "What is the Primary Objective of Digital Forensic for Business and Industry? 🏢🔍",
@@ -8273,7 +9096,8 @@ const QUESTION_BANK = [
       "C": "Prosecution ⚖️",
       "D": "Security 🔒"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Continuity of operation is the standard definition for this concept in the field."
   },
   {
     "question": "How does ISO/IEC 27000 define an 'asset' in relation to ISO/IEC 27001? 📋✅",
@@ -8283,7 +9107,8 @@ const QUESTION_BANK = [
       "C": "Digital and physical items owned by an organisation 💻📦",
       "D": "Tangible and non-tangible items owned or rented by an organisation 📦🤝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Annex A of ISO/IEC 27001 contains best practices for managing and securing information assets within an organisation. Which of the below are ISO 27001 control sets, as outlined in Annex A? 📋✅",
@@ -8293,7 +9118,8 @@ const QUESTION_BANK = [
       "C": "Access control 🔐",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Which of the below are current threats to many organisations? 🏢⚠️",
@@ -8303,7 +9129,8 @@ const QUESTION_BANK = [
       "C": "Unauthorised access 🚪❌",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "When should organisations perform information security risk assessments? 📊📅",
@@ -8313,7 +9140,8 @@ const QUESTION_BANK = [
       "C": "Every 12 months, or when significant changes are proposed to occur 📅",
       "D": "At planned intervals or when significant changes are proposed to occur 📝📅"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "As per ISO27001, who shall review the organisation's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness? 📋✅",
@@ -8323,7 +9151,8 @@ const QUESTION_BANK = [
       "C": "Quality Manager 📊👤",
       "D": "Top Management 👑👥💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
   },
   {
     "question": "Within ISO standards, what does 'shall' indicate? 📋",
@@ -8333,7 +9162,8 @@ const QUESTION_BANK = [
       "C": "A capability 💪",
       "D": "A requirement ⚠️💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "Within ISO/IEC 27001, which clause relates to leadership and the role of top management in the establishment, implementation, maintenance, and continual improvement of the ISMS? 📋",
@@ -8343,7 +9173,8 @@ const QUESTION_BANK = [
       "C": "6",
       "D": "7"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 5 is the primary function or purpose of this component in the system."
   },
   {
     "question": "What is the goal of a backup and recovery strategy in disaster recovery planning? 💾🔄",
@@ -8353,7 +9184,8 @@ const QUESTION_BANK = [
       "C": "To ensure the availability of data in case of a loss or compromise 🛡️📁",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
   },
   {
     "question": "What is the goal of a recovery strategy in disaster recovery planning? 🔄",
@@ -8363,7 +9195,8 @@ const QUESTION_BANK = [
       "C": "To identify and prioritize recovery tasks and resources 💬📝",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
   },
   {
     "question": "The things carried out by means of electronic data interchange, and other means of electronic communication is commonly referred to as: 💻📡",
@@ -8373,7 +9206,8 @@ const QUESTION_BANK = [
       "C": "e-record 📄",
       "D": "e-commerce 🛒🛒"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
   },
   {
     "question": "The authentication to be affected by use of asymmetric crypto system and hash function is known as: 🔑🔢",
@@ -8383,7 +9217,8 @@ const QUESTION_BANK = [
       "C": "Digital Signature ✍️📝",
       "D": "e-governance 🏛️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The Central Government may appoint a ________ of Certifying Authority who shall exercise supervision over the activities of Certifying Authorities. 🏛️🎮",
@@ -8393,7 +9228,8 @@ const QUESTION_BANK = [
       "C": "Executive 👨‍💼",
       "D": "President 👑"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
   },
   {
     "question": "________ is a person in whose name the Digital Signature Certificate is issued. 👤✍️",
@@ -8403,7 +9239,8 @@ const QUESTION_BANK = [
       "C": "Holder 📋👤",
       "D": "Controller 🎮👤"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The ________ has the power to suspend or revoke Digital Signature Certificate. 🚫✍️",
@@ -8413,7 +9250,8 @@ const QUESTION_BANK = [
       "C": "Subscriber 📝👤",
       "D": "Controller 🎮"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Digital signatures are created and verified using: ✍️",
@@ -8423,7 +9261,8 @@ const QUESTION_BANK = [
       "C": "HTML 🌐",
       "D": "Cryptography 🔐🔐"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which of the following refers to the violation of the principle if information/computer is no more accessible? 💻🚫",
@@ -8433,7 +9272,8 @@ const QUESTION_BANK = [
       "C": "Access control 🔐",
       "D": "All of the above 🔄"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
   },
   {
     "question": "Which of the following provides legal framework for e-governance in India? 🇮🇳🏛️",
@@ -8443,7 +9283,8 @@ const QUESTION_BANK = [
       "C": "IT Act, 2000 ⚖️📜⚖️",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 The Information Technology Act, 2000 provides India's primary legal framework for e-governance and cybercrime."
   },
   {
     "question": "Cyberspace has: 🌐",
@@ -8453,7 +9294,8 @@ const QUESTION_BANK = [
       "C": "Limited boundaries 📏",
       "D": "Both (A) and (B) 🔀🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Cyberspace has no physical borders, allowing global communication and also creating jurisdiction challenges for law enforcement."
   },
   {
     "question": "Out of following which is the main authority at the top and its main function is to issue license to the certifying authority and to supervise his functions? 🎮📜",
@@ -8463,7 +9305,8 @@ const QUESTION_BANK = [
       "C": "Subscriber 📝👤",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Controller of certifying authority is the primary function or purpose of this component in the system."
   },
   {
     "question": "________ means a system of a secure key pair consisting of a private key for creating digital signature and public key for verifying digital signature. 🔑",
@@ -8473,7 +9316,8 @@ const QUESTION_BANK = [
       "C": "Symmetric cryptosystem 🔑",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Public key cryptography is same as: 🔑🌍",
@@ -8483,7 +9327,8 @@ const QUESTION_BANK = [
       "C": "Symmetric cryptography 🔑",
       "D": "Session key cryptography 🔑⏱️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
   },
   {
     "question": "Hash function are used for: 🔢",
@@ -8493,7 +9338,8 @@ const QUESTION_BANK = [
       "C": "Digital signature ✍️📝",
       "D": "None of the above ❌"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Under Information Technology Act the purpose of digital signature is to: 📜✍️",
@@ -8503,7 +9349,8 @@ const QUESTION_BANK = [
       "C": "Digital Printing 🖨️",
       "D": "Ensure integrity 🛡️📏🛡️"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "________ monitors all internet and other network activity, looking for suspicious data and preventing unauthorized access. 👀🌐",
@@ -8513,7 +9360,8 @@ const QUESTION_BANK = [
       "C": "Data encryption 🔐",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 An IDS monitors network traffic for suspicious patterns that may indicate an attack in progress."
   },
   {
     "question": "Which of the following is an example of web application vulnerability? 🌐⚠️",
@@ -8523,7 +9371,8 @@ const QUESTION_BANK = [
       "C": "Buffer Overflow 📦💥",
       "D": "Cross Site Scripting (XSS) 🌐📜"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 SQL is the standard language for querying and managing data in relational databases."
   },
   {
     "question": "Under which section of information act 2000 amended in 2008, stealing any digital asset or info is considered as a cyber crime? 📜🔢",
@@ -8533,7 +9382,8 @@ const QUESTION_BANK = [
       "C": "66 📋",
       "D": "67"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Under Section 66 of the IT Act 2000 (amended 2008), stealing digital assets is a punishable cybercrime offence."
   },
   {
     "question": "Hash functions guarantee message integrity and that the message has not been 🔢✅",
@@ -8543,7 +9393,8 @@ const QUESTION_BANK = [
       "C": "Violated ⚠️",
       "D": "Changed ✏️💬"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Data must arrive exactly as it was sent from receiver to sender, is called 📨✅",
@@ -8553,7 +9404,8 @@ const QUESTION_BANK = [
       "C": "Message Integrity 🛡️📏🛡️",
       "D": "Message Confidentiality 🤐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Wi-Fi is abbreviated as: 📶",
@@ -8563,7 +9415,8 @@ const QUESTION_BANK = [
       "C": "Wireless Fidelity 📶",
       "D": "Wired fellow"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Wi-Fi is a brand name for Wireless Fidelity, the standard for wireless local area network communication."
   },
   {
     "question": "When there is an intermediate between the communications without the knowledge of the communicators, which type of threats is this? 👥",
@@ -8573,7 +9426,8 @@ const QUESTION_BANK = [
       "C": "Accidental Association 🚫🔗",
       "D": "Man in the middle attack 👥💣"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
   },
   {
     "question": "In which layer frequency band is defined and wireless signals are encoded? 📶",
@@ -8583,7 +9437,8 @@ const QUESTION_BANK = [
       "C": "Logic Link Control Layer 🔗",
       "D": "Both (B) and (C) 🔄"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Frequency bands and wireless signal encoding are defined at the Physical layer (Layer 1) of the OSI model."
   },
   {
     "question": "A communication is said to be insecure where data is transmitted in a manner that allows for interception also called ________ Attack? 👂📡",
@@ -8593,7 +9448,8 @@ const QUESTION_BANK = [
       "C": "ISP 🌐",
       "D": "Citation 📝"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A communication is insecure when data is sent in plaintext without encryption, allowing interception and reading."
   },
   {
     "question": "The key of key pair used to create digital signature is called: 🔑✍️",
@@ -8603,7 +9459,8 @@ const QUESTION_BANK = [
       "C": "Session key 🔑⏱️",
       "D": "Secret key 🤫🔑"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "The key pair of ________ is used for creation and verification of digital signature. 🔑✍️",
@@ -8613,7 +9470,8 @@ const QUESTION_BANK = [
       "C": "66 🔢",
       "D": "67 🔢"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Digital signature certificate is issued by (as in IT act 2000): ✍️📜",
@@ -8623,7 +9481,8 @@ const QUESTION_BANK = [
       "C": "Certificate authority 📜📝📝",
       "D": "Cyber crime investigator 🕵️"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "e-governance includes: 🏛️💻",
@@ -8633,7 +9492,8 @@ const QUESTION_BANK = [
       "C": "Both (A) and (B) 🔀🔀",
       "D": "Payment of bills 💵"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 E-governance uses digital technology to deliver government services, enable citizen participation, and improve administration."
   },
   {
     "question": "Digital signature is defined under ________ section of IT Act, 2000. ✍️📜🔢",
@@ -8643,7 +9503,8 @@ const QUESTION_BANK = [
       "C": "Section 8",
       "D": "Section 6"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Information Technology Act, 2000 directed the formation of a Controller of Certifying Authorities to regulate the issuance of ________ 📜🎮",
@@ -8653,7 +9514,8 @@ const QUESTION_BANK = [
       "C": "Digital signatures ✍️📝",
       "D": "Internet service provider license 🌐"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
   },
   {
     "question": "Which of the following are the types of scanning? 🔍",
@@ -8663,7 +9525,8 @@ const QUESTION_BANK = [
       "C": "Any of the above 🔄",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
@@ -8673,7 +9536,8 @@ const QUESTION_BANK = [
       "C": "Phishing and Password attacks 🎣🔑",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Password cracker tries: 🔑",
@@ -8683,7 +9547,8 @@ const QUESTION_BANK = [
       "C": "Intrusion detection 👀",
       "D": "Intrusion prevention 🛡️"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
   },
   {
     "question": "What is the primary goal of ethical hacker? 👨‍💻⚖️",
@@ -8693,7 +9558,8 @@ const QUESTION_BANK = [
       "C": "Resolving security vulnerabilities 🛠️",
       "D": "Determining return on investment for security measures 📊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Testing security controls is the standard definition for this concept in the field."
   },
   {
     "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
@@ -8703,7 +9569,8 @@ const QUESTION_BANK = [
       "C": "Protocol 📡",
       "D": "Message Digest 🔢🔢"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
   },
   {
     "question": "Which one of the following is a type of antivirus program? 🛡️",
@@ -8713,7 +9580,8 @@ const QUESTION_BANK = [
       "C": "Kaspersky 💬",
       "D": "All of the above 🔀🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
   },
   {
     "question": "In system hacking, which of the following is the most crucial activity? 👨‍💻",
@@ -8723,7 +9591,8 @@ const QUESTION_BANK = [
       "C": "Cracking passwords 🔑💪",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 Maintaining access (installing backdoors) is the most critical hacking phase as it enables persistent control."
   },
   {
     "question": "To protect the computer system against the hacker and different kind of viruses, one must always keep ________ on in the computer system. 🛡️",
@@ -8733,7 +9602,8 @@ const QUESTION_BANK = [
       "C": "VLC player 🎬",
       "D": "Script 📜"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
   },
   {
     "question": "Which of the following are the types of scanning? 🔍",
@@ -8743,7 +9613,8 @@ const QUESTION_BANK = [
       "C": "Client, server, and network 💻🖥️🌐",
       "D": "None of the above ❌"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
@@ -8753,7 +9624,8 @@ const QUESTION_BANK = [
       "C": "Phishing and Password attacks 🎣🔑",
       "D": "All of the above 🔀"
     },
-    "answer": "D"
+    "answer": "D",
+    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
   },
   {
     "question": "Which type of the following malware does not replicate or clone themselves through infection? 🦠🚫",
@@ -8763,7 +9635,8 @@ const QUESTION_BANK = [
       "C": "Worms 🐛",
       "D": "Viruses 🦠"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
   },
   {
     "question": "What is the primary goal of a risk assessment in cybersecurity? 🎯📊",
@@ -8773,7 +9646,8 @@ const QUESTION_BANK = [
       "C": "To promote unrestricted data sharing 📢",
       "D": "To ignore the impact of cyber threats 🙈"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
   },
   {
     "question": "In the context of risk assessment, what does the term \"vulnerability\" refer to? ⚠️",
@@ -8783,7 +9657,8 @@ const QUESTION_BANK = [
       "C": "Ignoring potential risks 🙈",
       "D": "Fostering a risk-aware culture 🌱"
     },
-    "answer": "A"
+    "answer": "A",
+    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
   },
   {
     "question": "What is the purpose of a risk assessment report in cybersecurity risk management? 📊📄",
@@ -8793,7 +9668,8 @@ const QUESTION_BANK = [
       "C": "To communicate the results of the risk assessment 📢📊⚠️",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "In the context of risk assessment, what does the term 'risk mitigation' involve? 📊🛡️",
@@ -8803,7 +9679,8 @@ const QUESTION_BANK = [
       "C": "The process of reducing the impact and likelihood of identified risks 📉⚠️",
       "D": "The process of promoting unrestricted data sharing 📢"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
   },
   {
     "question": "What is the purpose of a risk assessment policy in cybersecurity risk management? 📊📜",
@@ -8813,7 +9690,8 @@ const QUESTION_BANK = [
       "C": "To provide guidance on the risk assessment process and responsibilities 📝⚠️",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
   },
   {
     "question": "What is the purpose of a disaster recovery plan (DRP) in cybersecurity? 🛡️📋",
@@ -8823,7 +9701,8 @@ const QUESTION_BANK = [
       "C": "To ensure the restoration of IT services after a disruptive event 🔄💻💬",
       "D": "To ignore potential risks 🙈"
     },
-    "answer": "C"
+    "answer": "C",
+    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
   },
   {
     "question": "In the context of business continuity planning, what does the term \"recovery point objective (RPO)\" refer to? 🔄📌",
@@ -8833,7 +9712,8 @@ const QUESTION_BANK = [
       "C": "The process of eliminating all vulnerabilities ❌",
       "D": "The impact of a risk on business operations 📊"
     },
-    "answer": "B"
+    "answer": "B",
+    "explanation": "💡 Business continuity planning ensures critical operations can continue during and after a disruptive event."
   }
 ]
   }
