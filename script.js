@@ -7547,2176 +7547,1814 @@ const QUESTION_BANK = [
     subject: "Information & Cyber Security",
     emoji: "🔐",
     color: "#ef4444",
-    questions: [
-  {
-    "question": "Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform? 🌐",
-    "options": {
-      "A": "Cyber low 📜",
-      "B": "Cyberethics ⚖️",
-      "C": "Cybersecurity 🔐",
-      "D": "Cybersafety 🛡️"
-    },
-    "answer": "B",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "What is primary goal of ethical hacker? 👨‍💻",
-    "options": {
-      "A": "Avoiding detection 🕵️",
-      "B": "Testing security vulnerability 🔍",
-      "C": "Resolving security vulnerabilities 🛠️",
-      "D": "Determining return on investment for security measures 📊"
-    },
-    "answer": "B",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "In the computer networks, the encryption techniques are primarily used for improving the 🔐",
-    "options": {
-      "A": "Security 🛡️",
-      "B": "Performance ⚡",
-      "C": "Reliability 🔄",
-      "D": "Longevity ⏳"
-    },
-    "answer": "A",
-    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
-  },
-  {
-    "question": "Under Information Technology Act the purpose of digital signature is to: 📜",
-    "options": {
-      "A": "Forge the document ✍️❌",
-      "B": "Photocopy the document 📄",
-      "C": "Digital Printing 🖨️",
-      "D": "Ensure integrity 🛡️"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Hash function are used for: 🔢",
-    "options": {
-      "A": "Encryption 🔐",
-      "B": "Decryption 🔓",
-      "C": "Digital signature ✍️",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "In Wi-Fi Security, which of the following protocol is more used? 📶",
-    "options": {
-      "A": "WPA 🔒",
-      "B": "WPA2 🔒📶",
-      "C": "WPS ⚠️",
-      "D": "Both (A) and (C) 🔄"
-    },
-    "answer": "B",
-    "explanation": "💡 WPA2 (Wi-Fi Protected Access 2) is the most widely deployed Wi-Fi security protocol, using AES encryption."
-  },
-  {
-    "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
-    "options": {
-      "A": "Digital signature ✍️",
-      "B": "Decryption algorithm 🔓",
-      "C": "Protocol 📡",
-      "D": "Message Digest 🔢"
-    },
-    "answer": "D",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Hash functions guarantee message integrity and that the message has not been 🔢✅",
-    "options": {
-      "A": "Over view 👁️",
-      "B": "Replaced 🔄",
-      "C": "Violated ⚠️",
-      "D": "Changed ✏️"
-    },
-    "answer": "D",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "What is the most important difference between ethical hacker and cracker? 👨‍💻 vs 👿",
-    "options": {
-      "A": "The ethical hacker has authorization from the owner of the target 💣📜",
-      "B": "The ethical hacker is just a cracker who is getting paid 💰",
-      "C": "The ethical hacker does not use the same techniques or skills as a cracker ❌",
-      "D": "The ethical hacker does it strictly for financial motives unlike a cracker 💵"
-    },
-    "answer": "A",
-    "explanation": "💡 The ethical hacker has authorization from the owner of the target is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
-    "options": {
-      "A": "Digital signature ✍️",
-      "B": "Decryption algorithm 🔓",
-      "C": "Protocol 📡",
-      "D": "Message Digest 🔢"
-    },
-    "answer": "D",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Which of the following refers to the violation of the principle if a computer is no more accessible? 🖥️❌",
-    "options": {
-      "A": "Access control 🔐",
-      "B": "Confidentiality 🤐",
-      "C": "Availability ⏳",
-      "D": "All of the above 🔄"
-    },
-    "answer": "C",
-    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
-  },
-  {
-    "question": "What is a firewall? 🔥🧱",
-    "options": {
-      "A": "Firewalls are network-based security measures that control the flow of incoming and outgoing traffic 🚦",
-      "B": "A firewall is a program that encrypts all the programs that access the Internet 🔐",
-      "C": "A firewall is a program that keeps other programs from using the network 🚫",
-      "D": "Firewalls are interrupts that automatically disconnect from the internet when a threat appears ⚡"
-    },
-    "answer": "A",
-    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
-  },
-  {
-    "question": "Which of the following involves submitting as many requests as possible to a single Internet computer or service, overloading it and preventing it from servicing legitimate requests? 💣",
-    "options": {
-      "A": "Distributed denial-of-service attacks 🌊",
-      "B": "Backdoor 🚪",
-      "C": "Masquerading 🎭",
-      "D": "Phishing 🎣"
-    },
-    "answer": "A",
-    "explanation": "💡 A DDoS attack uses many compromised systems to overwhelm a target, making defence harder."
-  },
-  {
-    "question": "Which of the following are possible security threats? ⚠️",
-    "options": {
-      "A": "Illegitimate use 👤❌",
-      "B": "Backdoors 🚪",
-      "C": "Masquerading 🎭",
-      "D": "All of the given options are correct 💡"
-    },
-    "answer": "D",
-    "explanation": "💡 Common security threats include malware, phishing, SQL injection, and denial-of-service attacks."
-  },
-  {
-    "question": "Digital signatures provide which of the following? ✍️",
-    "options": {
-      "A": "Authentication 🆔",
-      "B": "Non-repudiation 🚫🙅",
-      "C": "Integrity protection 🛡️",
-      "D": "All of the given options are correct 💡"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which of the following is valid difference between a Virus and a Spyware? 🦠 vs 👁️",
-    "options": {
-      "A": "Spyware damages data and also steals sensitive private information 💔",
-      "B": "Virus damages data, Spyware steals sensitive private information 💔👁️",
-      "C": "Spyware damages data, Virus steals sensitive private information 🔄",
-      "D": "Virus damages data and also steals sensitive private information 💔👁️"
-    },
-    "answer": "B",
-    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
-  },
-  {
-    "question": "What is a computer virus? 🦠",
-    "options": {
-      "A": "A virus is the same as a cookie in that it is stored on your computer against your permission 🍪",
-      "B": "A virus is friendly software that is simply mislabeled 😇",
-      "C": "Malicious software that merely stays dormant on your computer 💤",
-      "D": "Malicious software that inserts itself into other programs 🔌"
-    },
-    "answer": "D",
-    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
-  },
-  {
-    "question": "Certification of Digital signature by an independent authority is needed because ✍️✅",
-    "options": {
-      "A": "It is safe 🛡️",
-      "B": "It gives confidence to a business 💼",
-      "C": "The authority checks and assures customers that the public key indeed belongs to the business which claims its ownership 🔑🗝️",
-      "D": "Private key claimed by a sender may not be actually his ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The responsibility of a certification authority for digital signature is to authenticate the: 📜✅",
-    "options": {
-      "A": "Hash function used 🔢",
-      "B": "Private keys of subscribers 🔑🤫",
-      "C": "Public keys of subscribers 🔑🌍",
-      "D": "Key used in DES 🔐"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Hashed message is signed by a sender using 🔢✍️",
-    "options": {
-      "A": "His public key 🔑🌍",
-      "B": "His private key 🔑🤫",
-      "C": "Receiver's public key 📬🔑",
-      "D": "Receiver's private key 📬🤫"
-    },
-    "answer": "B",
-    "explanation": "💡 A private key is kept secret and used to decrypt data that was encrypted with the matching public key."
-  },
-  {
-    "question": "A digital signature is ✍️",
-    "options": {
-      "A": "A bit string giving identity of a correspondent 🆔",
-      "B": "A unique identification of a sender 🆔",
-      "C": "An authentication of an electronic record by tying it uniquely to a key only a sender knows 🔑🚫",
-      "D": "An encrypted signature of a sender 🔐✍️"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "All of the following are examples of real security and privacy threats except: ⚠️🚫",
-    "options": {
-      "A": "Hackers 👨‍💻",
-      "B": "Virus 🦠",
-      "C": "Spam 📧",
-      "D": "Worm 🐛"
-    },
-    "answer": "C",
-    "explanation": "💡 Privacy policies inform users how their personal data is collected, stored, and used by a website."
-  },
-  {
-    "question": "What legal concept involves the unauthorized alteration or modification of data with the intent to deceive? 📜⚠️",
-    "options": {
-      "A": "Cyber terrorism 💣",
-      "B": "Data breach 🔓",
-      "C": "Data manipulation ✏️",
-      "D": "Cyber extortion 💰"
-    },
-    "answer": "C",
-    "explanation": "💡 Data tampering is the illegal alteration of digital information with intent to deceive or cause harm."
-  },
-  {
-    "question": "What legal concept involves the unauthorized use of someone else's identity for fraudulent purposes? 🎭",
-    "options": {
-      "A": "Cyber stalking 👣",
-      "B": "Identity theft 🆔💰",
-      "C": "Spoofing 📞🎭",
-      "D": "Phishing 🎣"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "What legal concept involves using deception to trick individuals into revealing confidential information, such as passwords? 🎣",
-    "options": {
-      "A": "Phishing 🎣",
-      "B": "Spoofing 🎭",
-      "C": "Cyber stalking 👣",
-      "D": "Identity theft 🆔"
-    },
-    "answer": "A",
-    "explanation": "💡 Phishing tricks users into revealing sensitive information by impersonating trusted entities."
-  },
-  {
-    "question": "Which of the following process is used for verifying the identity of a user? 🆔✅",
-    "options": {
-      "A": "Authentication 🆔",
-      "B": "Identification 🆔",
-      "C": "Validation ✔️",
-      "D": "Verification 🔍"
-    },
-    "answer": "A",
-    "explanation": "💡 Authentication verifies the identity of a user or system before granting access."
-  },
-  {
-    "question": "In the context of data protection, what does the term \"data encryption\" involve? 🔐",
-    "options": {
-      "A": "Protecting personal data from unauthorized access by converting it into a non readable format 🔒",
-      "B": "Allowing unrestricted access to personal data 🚪",
-      "C": "Ignoring the security of personal data 🙈",
-      "D": "Promoting data processing without encryption 📊"
-    },
-    "answer": "A",
-    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
-  },
-  {
-    "question": "What legal principle allows individuals to control the collection and use of their personal information? 📜",
-    "options": {
-      "A": "Right to privacy 🤫",
-      "B": "Right to access 🚪",
-      "C": "Right to anonymity 🎭",
-      "D": "Right to be forgotten 🗑️"
-    },
-    "answer": "A",
-    "explanation": "💡 Privacy policies inform users how their personal data is collected, stored, and used by a website."
-  },
-  {
-    "question": "What legal concept involves unauthorized access to computer systems with the intent to gather sensitive information? 🕵️",
-    "options": {
-      "A": "Cyber terrorism 💣",
-      "B": "Cyber espionage 🕵️🔍",
-      "C": "Hacking 👨‍💻",
-      "D": "Cyber stalking 👣"
-    },
-    "answer": "B",
-    "explanation": "💡 Cyber espionage is the illegal access of computer systems to secretly gather confidential information."
-  },
-  {
-    "question": "What legal principle states that individuals have the right to know what information is collected about them and how it is used? 📜",
-    "options": {
-      "A": "Right to privacy 🤫",
-      "B": "Right to information ℹ️",
-      "C": "Right to access 🚪",
-      "D": "Right to anonymity 🎭"
-    },
-    "answer": "C",
-    "explanation": "💡 The right to know (transparency principle) requires organisations to inform people what data is collected about them."
-  },
-  {
-    "question": "What is the primary purpose of cyber laws and regulations? 📜",
-    "options": {
-      "A": "Restricting internet usage 🚫",
-      "B": "Protecting computer hardware 💻",
-      "C": "Preventing cyber threats and crimes 🛡️",
-      "D": "Promoting software development 👨‍💻"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "Cyberspace has: 🌐",
-    "options": {
-      "A": "No national boundaries 🚫🗺️",
-      "B": "International jurisdiction 🌍⚖️",
-      "C": "Limited boundaries 📏",
-      "D": "(A) and (B) 💬"
-    },
-    "answer": "D",
-    "explanation": "💡 Cyberspace has no physical borders, allowing global communication and also creating jurisdiction challenges for law enforcement."
-  },
-  {
-    "question": "Which of the following provides legal framework for e-governance in India? 🇮🇳📜",
-    "options": {
-      "A": "IT (Amendment) Act, 2008 📅",
-      "B": "Indian Penal Code ⚖️",
-      "C": "IT Act, 2000 ⚖️📜",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 The Information Technology Act, 2000 provides India's primary legal framework for e-governance and cybercrime."
-  },
-  {
-    "question": "Which of the following statements is true about the Trojans? 🐴",
-    "options": {
-      "A": "Trojans perform tasks for which they are designed or programmed 🎯",
-      "B": "Trojans replicates themselves or clone themselves through an infections 🧬",
-      "C": "Trojans do nothing harmful to the user's computer systems 😇",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
-  },
-  {
-    "question": "Which type of the following malware does not replicate or clone themselves through infection? 🦠🚫",
-    "options": {
-      "A": "Rootkits 🪚",
-      "B": "Trojans 🐴",
-      "C": "Worms 🐛",
-      "D": "Viruses 🦠"
-    },
-    "answer": "B",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "Which of these systems use timestamps as an expiration date? ⏰",
-    "options": {
-      "A": "Public-Key Certificates 📜🔑",
-      "B": "Public announcements 📢",
-      "C": "Publicly available directories 📁",
-      "D": "Public-Key authority 👤🔑"
-    },
-    "answer": "A",
-    "explanation": "💡 Kerberos authentication tickets use timestamps as expiry dates to prevent replay attacks."
-  },
-  {
-    "question": "Which of the following public key distribution systems is most secure? 🔑🛡️",
-    "options": {
-      "A": "Public-Key Certificates 📜🔑",
-      "B": "Public announcements 📢",
-      "C": "Publicly available directories 📁",
-      "D": "Public-Key authority 👤🔑"
-    },
-    "answer": "A",
-    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
-  },
-  {
-    "question": "In the context of web security, what is an anomaly-based detection approach in IDS/IPS? 🌐🛡️",
-    "options": {
-      "A": "Improving website aesthetics 🎨",
-      "B": "Blocking all incoming and outgoing traffic 🚫",
-      "C": "Identifying deviations from normal behavior patterns 📊⚠️",
-      "D": "Granting unrestricted access to all users 🚪"
-    },
-    "answer": "C",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "How does an Intrusion Prevention System (IPS) differ from an IDS? 🛡️",
-    "options": {
-      "A": "By focusing on server performance ⚡",
-      "B": "By actively blocking malicious traffic in real-time 🚫⏱️",
-      "C": "By improving website aesthetics 🎨",
-      "D": "Granting unrestricted access to all users 🚪"
-    },
-    "answer": "B",
-    "explanation": "💡 An IPS actively blocks detected threats in real time, going beyond just monitoring and alerting."
-  },
-  {
-    "question": "What is the primary role of an Intrusion Detection System (IDS) in web security? 👀",
-    "options": {
-      "A": "Enhancing website aesthetics 🎨",
-      "B": "Actively blocking malicious traffic 🚫",
-      "C": "Monitoring and detecting potential security incidents 📡⚠️",
-      "D": "Granting unrestricted access to all users 🚪"
-    },
-    "answer": "C",
-    "explanation": "💡 An IDS monitors network traffic for suspicious patterns that may indicate an attack in progress."
-  },
-  {
-    "question": "Cyber Security provide security against what? 🛡️",
-    "options": {
-      "A": "Against Malware 🦠",
-      "B": "Against cyber-terrorists 💣",
-      "C": "Defends a device from threat 🛡️",
-      "D": "All mentioned options 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 Cyber security protects systems, networks, and data from unauthorised access, theft, damage, and cyberattacks."
-  },
-  {
-    "question": "In order to ensure the security of the data/information, we need to ________ the data: 🔐",
-    "options": {
-      "A": "Encrypt 🔒",
-      "B": "Decrypt 🔓",
-      "C": "Delete 🗑️",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 Encrypting data ensures that even if it is intercepted, it cannot be read without the correct decryption key."
-  },
-  {
-    "question": "In the CIA Triad, which one of the following is not involved? 🔐",
-    "options": {
-      "A": "Availability ⏳",
-      "B": "Confidentiality 🤐",
-      "C": "Authenticity 💬",
-      "D": "Integrity 📏"
-    },
-    "answer": "C",
-    "explanation": "💡 The CIA triad — Confidentiality, Integrity, and Availability — are the three core goals of information security."
-  },
-  {
-    "question": "Which of the following is a type of independent malicious program that never required any host program? 🦠🚫🏠",
-    "options": {
-      "A": "Trojan Horse 🐴",
-      "B": "Worm 🐛",
-      "C": "Trap Door 🚪",
-      "D": "Virus 🦠"
-    },
-    "answer": "B",
-    "explanation": "💡 A worm is self-replicating malware that spreads across networks without needing a host program."
-  },
-  {
-    "question": "Hackers usually used the computer virus for ________ purpose. 👨‍💻🦠",
-    "options": {
-      "A": "To log, monitor each and every user's stroke ⌨️👁️",
-      "B": "To gain access the sensitive information like user's Id and Passwords 🔑",
-      "C": "To corrupt the user's data stored in the computer system 💔",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
-  },
-  {
-    "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
-    "options": {
-      "A": "DDoS and Drive-by Downloads 🌊📥",
-      "B": "Malware & Malvertising 🦠📢",
-      "C": "Phishing and Password attacks 🎣🔑",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "Which of the following can be considered as the elements of cyber security? 🛡️",
-    "options": {
-      "A": "Application Security 📱🔒",
-      "B": "Operational Security ⚙️🔒",
-      "C": "Network Security 🌐🔒",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 Cyber security elements include network security, application security, information security, and endpoint protection."
-  },
-  {
-    "question": "________ is a type of software designed to help the user's computer detect viruses and avoid them. 🛡️🦠",
-    "options": {
-      "A": "Malware 🦠",
-      "B": "Adware 📢",
-      "C": "Antivirus 🛡️",
-      "D": "Both (B) and (C) 🔄"
-    },
-    "answer": "C",
-    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
-  },
-  {
-    "question": "Which of the below does not constitute a cybercrime? 🚫⚠️",
-    "options": {
-      "A": "Refusal of service 🚫",
-      "B": "Man in the middle 👥",
-      "C": "Phishing 🎣",
-      "D": "MD5 🔢"
-    },
-    "answer": "D",
-    "explanation": "💡 MD5 produces a 128-bit hash but is now considered cryptographically broken due to collision vulnerabilities."
-  },
-  {
-    "question": "Which of the below is a kind of cyber security? 🛡️",
-    "options": {
-      "A": "Cloud Security ☁️🔒",
-      "B": "Application Security 📱🔒",
-      "C": "Cloud Security ☁️🔒",
-      "D": "All options mentioned 💬"
-    },
-    "answer": "D",
-    "explanation": "💡 Cloud security is a specialised area of cyber security focused on protecting data and services in cloud environments."
-  },
-  {
-    "question": "How does a man-in-the-middle attack work? 👥",
-    "options": {
-      "A": "Overloading a server with traffic 🌊",
-      "B": "Intercepting and altering communication between two parties 👂✏️",
-      "C": "Spreading through infected email attachments 📧🦠",
-      "D": "Disguising itself as a legitimate program 🎭"
-    },
-    "answer": "B",
-    "explanation": "💡 Intercepting and altering communication between two parties — this is how this process works according to established principles."
-  },
-  {
-    "question": "An asymmetric-key (or public-key) cipher uses 🔑🔐",
-    "options": {
-      "A": "1 key 1️⃣",
-      "B": "2 key 2️⃣",
-      "C": "3 key 3️⃣",
-      "D": "4 key 4️⃣"
-    },
-    "answer": "B",
-    "explanation": "💡 2 key 2 is the most important factor because it has the greatest direct impact."
-  },
-  {
-    "question": "Which of the following answers refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates? 📜🔑",
-    "options": {
-      "A": "SAAS ☁️",
-      "B": "DOS 💾",
-      "C": "Digital signature ✍️",
-      "D": "Public Key Infrastructure 🏗️🔑"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital certificate binds a public key to an identity, verified by a trusted certificate authority."
-  },
-  {
-    "question": "The central node of 802.11 wireless operations is called. 📶",
-    "options": {
-      "A": "WPA 🔒",
-      "B": "Access Point 📡",
-      "C": "WAP 📱",
-      "D": "Access Port 🚪"
-    },
-    "answer": "B",
-    "explanation": "💡 In 802.11 wireless networks, the Access Point (AP) is the central node managing all wireless communications."
-  },
-  {
-    "question": "The process of analyzing wireless traffic that may be helpful for forensic investigations or during troubleshooting any wireless issue is called? 📶🔍",
-    "options": {
-      "A": "Wireless Traffic Sniffing 👃📡",
-      "B": "Wireless Traffic Maltego 🛠️",
-      "C": "Wireless Traffic BurpSuit 🛠️",
-      "D": "Wireless Traffic Wireshark 🦈📡"
-    },
-    "answer": "D",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "Mobile security is also known as? 📱🔒",
-    "options": {
-      "A": "OS Security 💻🔒",
-      "B": "APIs Security 🔌🔒",
-      "C": "Wireless Security 📶🔒",
-      "D": "Database security 🗄️🔒"
-    },
-    "answer": "C",
-    "explanation": "💡 Mobile security is also known as wireless security, as it protects devices communicating over wireless networks."
-  },
-  {
-    "question": "Which malware is designed to capture and transmit sensitive data, such as login credentials? 🦠🔑",
-    "options": {
-      "A": "Spyware 👁️",
-      "B": "Adware 📢",
-      "C": "Keylogger ⌨️📝",
-      "D": "Ransomware 💰🔒"
-    },
-    "answer": "C",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "What is true about data security? 🔐",
-    "options": {
-      "A": "Data security is the protection of programs and data in computers and communication systems against unauthorized access 🛡️",
-      "B": "It refers to the right of individuals or organizations to deny or restrict the collection and use of information 🚫",
-      "C": "Data security requires system managers to reduce unauthorized access to the systems by building physical arrangements and software checks 🔧",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 All of the above is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Deleted files recovery is a common technique used in computer forensics. 🗑️🔍",
-    "options": {
-      "A": "TRUE 💡",
-      "B": "FALSE ❌",
-      "C": "Can be true or false 🔄",
-      "D": "Can not say 🤔"
-    },
-    "answer": "A",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "Computer forensics can also be used in civil proceedings. ⚖️",
-    "options": {
-      "A": "Yes 💡",
-      "B": "No ❌",
-      "C": "Can be yes or no 🔄",
-      "D": "Can not say 🤔"
-    },
-    "answer": "A",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "What is the purpose of a hash value in digital forensics? 🔢🔍",
-    "options": {
-      "A": "To encrypt sensitive data 🔐",
-      "B": "To identify and verify the integrity of digital evidence 🆔🔍",
-      "C": "To recover deleted files from storage media 🗑️",
-      "D": "To analyze network traffic and detect malicious activities 🌐👁️"
-    },
-    "answer": "B",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "For ethical hacking, what process is followed? 👨‍💻⚖️",
-    "options": {
-      "A": "Cryptography 🔐",
-      "B": "Encryption 🔒",
-      "C": "Decryption 🔓",
-      "D": "Penetration Testing 🛡️🔨"
-    },
-    "answer": "D",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "Digital signatures are created and verified using ✍️",
-    "options": {
-      "A": "Program 💻",
-      "B": "graphical coding 🎨",
-      "C": "HTML 🌐",
-      "D": "cryptography 🔐"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The authentication to be affected by use of asymmetric crypto system and hash function is known as 🔑🔢",
-    "options": {
-      "A": "Public key 🔑🌍",
-      "B": "Private Key 🔑🤫",
-      "C": "Digital Signature ✍️",
-      "D": "e-governance 🏛️"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "What is the purpose of a disaster recovery plan (DRP) in cybersecurity? 🛡️📋",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To ensure the restoration of IT services after a disruptive event 🔄💻",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
-  },
-  {
-    "question": "Which chapter of Cyber Law provides the legal Recognition to Digital Signature? 📜✍️",
-    "options": {
-      "A": "Chapter III 📖",
-      "B": "Chapter IV 📖",
-      "C": "Chapter IX 📖",
-      "D": "Chapter IX and X 📖📖"
-    },
-    "answer": "A",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which type of malware is designed to observe and gather user information without their knowledge? 🦠👁️",
-    "options": {
-      "A": "Worm 🐛",
-      "B": "Trojan 🐴",
-      "C": "Spyware 👁️",
-      "D": "Adware 📢"
-    },
-    "answer": "C",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "Password cracker tries 🔑",
-    "options": {
-      "A": "Man in the middle attack 👥",
-      "B": "Brute force attack 💪🔑",
-      "C": "Intrusion detection 👀",
-      "D": "Intrusion prevention 🛡️"
-    },
-    "answer": "B",
-    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
-  },
-  {
-    "question": "e-governance includes 🏛️💻",
-    "options": {
-      "A": "Filing of form online, paperless 📄🛒",
-      "B": "Efficient, low cost, transparent governance 💰📊",
-      "C": "Both above 🔀",
-      "D": "Payment of bills 💵"
-    },
-    "answer": "C",
-    "explanation": "💡 E-governance uses digital technology to deliver government services, enable citizen participation, and improve administration."
-  },
-  {
-    "question": "Black box and white box pentest is done from ________ and ________ user perspective respectively 🖤📦🤍📦",
-    "options": {
-      "A": "Insider, outsider 👤🏢, 👤🌍",
-      "B": "Outsider, insider 👤🌍, 👤🏢",
-      "C": "Third party, insider 👤🤝, 👤🏢",
-      "D": "Employee and user 👨‍💼, 👤"
-    },
-    "answer": "B",
-    "explanation": "💡 White box testing gives the tester full knowledge of the system's internals, enabling thorough security review."
-  },
-  {
-    "question": "What is the difference between vulnerability scanning and penetration testing? 🔍 vs 🔨",
-    "options": {
-      "A": "Vulnerability scanning identifies vulnerabilities and penetration testing exploits them ⚠️🔍🔨",
-      "B": "Vulnerability scanning is an active process while penetration testing is passive 🔄",
-      "C": "Vulnerability scanning is less thorough than penetration testing 📉",
-      "D": "Vulnerability scanning is conducted by internal security teams, while penetration testing is conducted by external security firms 🏢 vs 🏢🌍"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "PKI stands for? 🔑",
-    "options": {
-      "A": "Public key infrastructure 🏗️🔑",
-      "B": "Private key infrastructure 🏗️🔑🤫",
-      "C": "Public key instance 🔑📌",
-      "D": "Private key instance 🔑🤫📌"
-    },
-    "answer": "A",
-    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
-  },
-  {
-    "question": "Which of the following is a common type of vulnerability in web applications? 🌐⚠️",
-    "options": {
-      "A": "Denial of service (DoS) 🚫",
-      "B": "SQL injection 🗄️💉",
-      "C": "Man-in-the-middle (MitM) attack 👥",
-      "D": "Buffer overflow 📦💥"
-    },
-    "answer": "B",
-    "explanation": "💡 SQL is the standard language for querying and managing data in relational databases."
-  },
-  {
-    "question": "What is social engineering? 🎭🧠",
-    "options": {
-      "A": "Using force to gain access to the information you need 💪",
-      "B": "Hacking either telecommunication or wireless networks to gain access to the information you need 📡",
-      "C": "Using manipulation to deceive people that you are someone you are not to gain access to the information you need 🎭",
-      "D": "Using force to gain all the information available 💪"
-    },
-    "answer": "C",
-    "explanation": "💡 Social engineering manipulates people psychologically to reveal confidential information or grant access."
-  },
-  {
-    "question": "Which of the following is the best approach to conducting a penetration test? 🔨",
-    "options": {
-      "A": "Black box testing 🖤📦",
-      "B": "White box testing 🤍📦",
-      "C": "Grey box testing 🩶📦",
-      "D": "Automated testing 🤖"
-    },
-    "answer": "C",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Penetration testing should focus on what scenarios? 🔨",
-    "options": {
-      "A": "Most likely 📈",
-      "B": "Most dangerous 💀",
-      "C": "Both 🔀",
-      "D": "None ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "Which of the following are ways to conduct penetration testing? 🔨",
-    "options": {
-      "A": "Black Box Testing, White Box Testing, Grey Box Testing 🖤🤍🩶",
-      "B": "Black Box Testing, Red Box Testing, Grey Box Testing 🖤🔴🩶",
-      "C": "White Box Testing, Brown Box Testing, Red Box Testing 🤍🤎🔴",
-      "D": "Black Box Testing, Green Box Testing, White Box Testing 🖤💚🤍"
-    },
-    "answer": "A",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "Is penetration testing used to help or for damaging a system? 🔨",
-    "options": {
-      "A": "Helping 🤝",
-      "B": "Securing 🔒",
-      "C": "Damaging 💔",
-      "D": "Both (A) & (C) 🔄"
-    },
-    "answer": "B",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "In public key cryptosystem for message confidentiality, which is kept as public? 🔑",
-    "options": {
-      "A": "Decryption keys 🔓🔑",
-      "B": "Encryption keys 🔒🔑",
-      "C": "Encryption & Decryption keys 🔒🔓🔑",
-      "D": "None of the above ❌"
-    },
-    "answer": "B",
-    "explanation": "💡 Encryption scrambles data so only authorised parties with the correct key can read it."
-  },
-  {
-    "question": "________ is a person in whose name the Digital Signature Certificate is issued 👤✍️",
-    "options": {
-      "A": "Certified authority 📝👤",
-      "B": "Subscriber 📝👤",
-      "C": "Holder 📋👤",
-      "D": "Controller 🎮👤"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which of the following is a general term for malicious software that pretends to be harmless so that a user willingly allows it to be downloaded onto the computer? 🦠🎭",
-    "options": {
-      "A": "Spyware 👁️",
-      "B": "Virus 🦠",
-      "C": "Trojan Horse 🐴",
-      "D": "Botnets 🤖🌐"
-    },
-    "answer": "C",
-    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
-  },
-  {
-    "question": "Digital signature certificate is issued by (as in IT act 2000) ✍️📜",
-    "options": {
-      "A": "Appellate tribunal ⚖️",
-      "B": "Controller of certificate authority 🎮📝",
-      "C": "Certificate authority 📜📝",
-      "D": "Cyber crime investigator 🕵️"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which of the following type of attack can actively modify communications or data? ✏️📡",
-    "options": {
-      "A": "Both Active and Passive attack 🔄",
-      "B": "Neither Active nor Passive attack ❌",
-      "C": "Active attack ⚡",
-      "D": "Passive attack 👂"
-    },
-    "answer": "C",
-    "explanation": "💡 An active attack (like a man-in-the-middle attack) intercepts and modifies communications as they travel."
-  },
-  {
-    "question": "Trojan Horse programs operate with what intent? 🐴",
-    "options": {
-      "A": "To slowly but surely infect and become your operating system until the system crashes 🐢💥",
-      "B": "To openly exploit a systems weaknesses until the user discovers it 📢",
-      "C": "To masquerade as non-malicious software while exploiting a system's weaknesses 🎭🔨",
-      "D": "To do a series of brute force attacks within the system itself and a series of external attacks from other servers 💪🌐"
-    },
-    "answer": "C",
-    "explanation": "💡 A Trojan disguises itself as legitimate software but secretly performs malicious actions when run."
-  },
-  {
-    "question": "What is the purpose of a risk response strategy in the risk assessment process? 📊⚠️",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To outline the actions to be taken in response to identified risks 📝⚠️",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "In the context of risk assessment, what does the term \"vulnerability\" refer to? ⚠️",
-    "options": {
-      "A": "A weakness that could be exploited by a threat 🔻",
-      "B": "Promoting unrestricted data sharing 📢",
-      "C": "Ignoring potential risks 🙈",
-      "D": "Fostering a risk-aware culture 🌱"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "What is the purpose of a risk assessment report in cybersecurity risk management? 📊📄",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To communicate the results of the risk assessment 📢📊",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "What is the purpose of a threat assessment in cybersecurity risk management? ⚠️",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To identify potential risks and threats 🔍⚠️",
-      "C": "To promote unrestricted data sharing 📢",
-      "D": "To ignore the impact of threats 🙈"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "Which of the following is a key component of the risk assessment process? 📊",
-    "options": {
-      "A": "Ignoring potential risks 🙈",
-      "B": "Risk acceptance ⚠️🤝",
-      "C": "Promoting unrestricted access to sensitive data 🚪",
-      "D": "Fostering a risk-aware culture 🌱"
-    },
-    "answer": "B",
-    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
-  },
-  {
-    "question": "What is the primary goal of a risk assessment in cybersecurity? 🎯📊",
-    "options": {
-      "A": "To eliminate all cyber threats ❌",
-      "B": "To identify and manage potential risks 🔍📊",
-      "C": "To promote unrestricted data sharing 📢",
-      "D": "To ignore the impact of cyber threats 🙈"
-    },
-    "answer": "B",
-    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
-  },
-  {
-    "question": "Which of the below is a popular victim of cyber attackers looking to gain the IP address of a target or victim user? 🎯🌐",
-    "options": {
-      "A": "emails 📧",
-      "B": "websites 🌐",
-      "C": "IP tracer 📍",
-      "D": "web pages 📄"
-    },
-    "answer": "C",
-    "explanation": "💡 DNS servers are frequent targets because compromising them lets attackers redirect users to malicious websites."
-  },
-  {
-    "question": "Which of the following is the collective name for Trojan horses, spyware, and worms? 🦠🐴👁️🐛",
-    "options": {
-      "A": "Spyware 👁️",
-      "B": "Botnets 🤖🌐",
-      "C": "Virus 🦠",
-      "D": "Malware 🦠"
-    },
-    "answer": "D",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "Which of the following is collection of Internet-connected programs communicating with other similar programs in order to perform tasks? 🌐🤖",
-    "options": {
-      "A": "Botnet 🤖🌐",
-      "B": "Spyware 👁️",
-      "C": "Trojan horse 🐴",
-      "D": "Malware 🦠"
-    },
-    "answer": "A",
-    "explanation": "💡 A botnet is a network of compromised computers controlled by an attacker, often used for DDoS attacks."
-  },
-  {
-    "question": "Which of the following is a means to access a computer program or entire computer system bypassing all security mechanisms? 🚪🔓",
-    "options": {
-      "A": "Backdoor 🚪",
-      "B": "Masquerading 🎭",
-      "C": "Phishing 🎣",
-      "D": "Trojan Horse 🐴"
-    },
-    "answer": "A",
-    "explanation": "💡 The mean is the average of all values, giving equal weight to every data point in the dataset."
-  },
-  {
-    "question": "There are two types of firewall. What are they? 🔥🧱",
-    "options": {
-      "A": "Internet-based and home-based 🌐🏠",
-      "B": "Hardware and software 💻🖥️",
-      "C": "Remote and local 📡🏠",
-      "D": "Digital and electronic 🔢⚡"
-    },
-    "answer": "B",
-    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
-  },
-  {
-    "question": "A digital signature scheme consists of which of the following typical algorithms? ✍️",
-    "options": {
-      "A": "Key generation, Signing and Signature verifying algorithm 🔑✍️🆔",
-      "B": "Signature verifying algorithm 🆔",
-      "C": "Key generation algorithm 🔑",
-      "D": "Signing algorithm ✍️"
-    },
-    "answer": "A",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "What is another name for an insecure plugin? 🔌⚠️",
-    "options": {
-      "A": "Hardware 💻",
-      "B": "Software 🖥️",
-      "C": "Firmware 🔧",
-      "D": "Malware 🦠"
-    },
-    "answer": "D",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "To protect the computer system against the hacker and different kind of viruses, one must always keep ________ on in the computer system. 🛡️",
-    "options": {
-      "A": "Antivirus 🦠🚫",
-      "B": "Firewall 🔥🧱",
-      "C": "Vlc player 🎬",
-      "D": "Script 📜"
-    },
-    "answer": "B",
-    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
-  },
-  {
-    "question": "Which of the following are the types of scanning? 🔍",
-    "options": {
-      "A": "Network, vulnerability, and port scanning 🌐⚠️🚪",
-      "B": "Port, network, and services 🚪🌐⚙️",
-      "C": "Client, Server, and network 💻🖥️🌐",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "In system hacking, which of the following is the most crucial activity? 👨‍💻",
-    "options": {
-      "A": "Information gathering 📡🔍",
-      "B": "Covering tracks 🧹👣",
-      "C": "Cracking passwords 🔑💪",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 Maintaining access (installing backdoors) is the most critical hacking phase as it enables persistent control."
-  },
-  {
-    "question": "What is Digital Forensics? 🔍💻",
-    "options": {
-      "A": "Process of using scientific knowledge in analysis and presentation of evidence in court ⚖️",
-      "B": "The application of computer science and investigative procedures for a legal purpose involving the analysis of digital evidence after proper search authority, a chain of custody, validation with mathematics, use of validated tools, repeatability, reporting, and possible expert presentation 🌐🔬",
-      "C": "A process where we develop and test hypotheses that answer questions about digital events ❓",
-      "D": "Use of science or technology in the investigation and establishment of the facts or evidence in a court of law ⚖️"
-    },
-    "answer": "B",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "Which type of digital evidence can be extracted from volatile memory? 💾⚡",
-    "options": {
-      "A": "Deleted files 🗑️",
-      "B": "Browser history 🌐📜",
-      "C": "Running processes and network connections ⚙️🌐🌐",
-      "D": "Encrypted data 🔐"
-    },
-    "answer": "C",
-    "explanation": "💡 Volatile memory (RAM) holds running processes, open network connections, and login sessions that vanish on shutdown."
-  },
-  {
-    "question": "Which of the following is a commonly used forensic tool in digital investigations? 🔧🔍",
-    "options": {
-      "A": "Photoshop 🎨",
-      "B": "Wireshark 🦈",
-      "C": "EnCase 📦💬",
-      "D": "Microsoft Office 📊"
-    },
-    "answer": "C",
-    "explanation": "💡 EnCase is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "What is the purpose of a hash value in digital forensics? 🔢🔍",
-    "options": {
-      "A": "To encrypt sensitive data 🔐",
-      "B": "To identify and verify the integrity of digital evidence 🆔🔍",
-      "C": "To recover deleted files from storage media 🗑️",
-      "D": "To analyze network traffic and detect malicious activities 🌐👁️"
-    },
-    "answer": "B",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "What is the purpose of a write blocker in digital forensics? ✍️🚫",
-    "options": {
-      "A": "To prevent unauthorized access to digital devices 🚫🔌",
-      "B": "To recover deleted data from storage media 🗑️",
-      "C": "To ensure that evidence is not altered during the investigation 🔒🚫",
-      "D": "To encrypt sensitive data for secure storage 🔐"
-    },
-    "answer": "C",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "What is the importance of chain of custody in digital forensics? ⛓️🔍",
-    "options": {
-      "A": "To ensure the admissibility of digital evidence in court ⚖️⚖️",
-      "B": "To prevent unauthorized access to digital devices 🚫🔌",
-      "C": "To track the physical movement and handling of digital evidence 📝👣",
-      "D": "To encrypt sensitive data for secure storage 🔐"
-    },
-    "answer": "C",
-    "explanation": "💡 Digital forensics investigates cyberattacks by analysing evidence to determine what happened and who did it."
-  },
-  {
-    "question": "Which World organization accredited labs in the world of forensics? 🌍🔬",
-    "options": {
-      "A": "AKULD ❌",
-      "B": "APIOS ❌",
-      "C": "ACSLD 💬",
-      "D": "None of these ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "802.11i's final form is known as: 📶",
-    "options": {
-      "A": "Wi-Fi Protected Access 🔒",
-      "B": "Wired Equivalency Privacy 🔐",
-      "C": "Robust Security Network 🛡️🌐",
-      "D": "Both (A) and (B) 🔄"
-    },
-    "answer": "C",
-    "explanation": "💡 802.11i's final ratified form is known as WPA2, the Wi-Fi security standard using AES-CCMP encryption."
-  },
-  {
-    "question": "Central node of 802.11 wireless operations is 📶",
-    "options": {
-      "A": "Access Point 📡📶",
-      "B": "WPA 🔒",
-      "C": "Access Port 🚪",
-      "D": "WAP 📱"
-    },
-    "answer": "A",
-    "explanation": "💡 The Access Point (AP) is the central hub in 802.11 wireless networks, connecting all wireless clients."
-  },
-  {
-    "question": "Penetration testing is used to: 🔨",
-    "options": {
-      "A": "identify vulnerabilities and weaknesses 🔍⚠️",
-      "B": "address security flaws before malicious hackers exploit them 🛡️⚖️",
-      "C": "Both (A) and (B) 🔀",
-      "D": "crash the site/system 💥"
-    },
-    "answer": "C",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "Which of the following are ways to conduct penetration testing? 🔨",
-    "options": {
-      "A": "Black Box Testing, White Box Testing, Grey Box Testing 🖤🤍🩶💬",
-      "B": "White Box Testing, Brown Box Testing, Red Box Testing 🤍🤎🔴",
-      "C": "Black Box Testing, Red Box Testing, Grey Box Testing 🖤🔴🩶",
-      "D": "Black Box Testing, Green Box Testing, White Box Testing 🖤💚🤍"
-    },
-    "answer": "A",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "Black box and white box pentest is done from ________ and ________ user perspective respectively 🖤📦🤍📦",
-    "options": {
-      "A": "Insider; outsider 👤🏢, 👤🌍",
-      "B": "Outsider; insider 👤🌍, 👤🏢💬",
-      "C": "Third party; insider 👤🤝, 👤🏢",
-      "D": "Employee and user 👨‍💼, 👤"
-    },
-    "answer": "B",
-    "explanation": "💡 White box testing gives the tester full knowledge of the system's internals, enabling thorough security review."
-  },
-  {
-    "question": "Which of the following groups must review a penetration testing result? 🔨📊",
-    "options": {
-      "A": "Documentation, Log, System Configuration, Ruleset, Network Sniffing, File Integrity 📄📝⚙️📏🌐🔐",
-      "B": "Documentation, Log, System Configuration, Network Sniffing, File Integrity 📄📝⚙️🌐🔐",
-      "C": "Documentation, Log, System Configuration, Network Sniffing, Ruleset, File Integrity, Personnel 📄📝⚙️🌐📏🔐👥🌐",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "What is the risk involved in doing penetration testing? ⚠️🔨",
-    "options": {
-      "A": "Some operations of the company might slow down 🐢🏢",
-      "B": "Skynet takes over the world 🤖🌍",
-      "C": "VPN not effective 🔒❌",
-      "D": "Security is an issue 🔐⚠️"
-    },
-    "answer": "A",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "PKI stands for? 🔑",
-    "options": {
-      "A": "Public Key Infrastructure 🏗️🔑🗝️",
-      "B": "Private Key Infrastructure 🏗️🔑🤫",
-      "C": "Public Key Instance 🔑📌",
-      "D": "Private Key Instance 🔑🤫📌"
-    },
-    "answer": "A",
-    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
-  },
-  {
-    "question": "The digital signature can be suspended by the certifying authority in case of: ✍️🚫",
-    "options": {
-      "A": "public interest 🏛️",
-      "B": "interest of user 👤",
-      "C": "interest of any person 👥",
-      "D": "Both (A) and (C) 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which among the following was established under IT Act, 2000 to resolve disputes arising from the law? 📜⚖️",
-    "options": {
-      "A": "Cyber Appellate Tribunal ⚖️⚖️",
-      "B": "Technology Disputes Bureau 🔧",
-      "C": "Cyber Administrative Tribunal 🏛️",
-      "D": "IT Disputes Tribunal 💻⚖️"
-    },
-    "answer": "A",
-    "explanation": "💡 Cyber Appellate Tribunals were established under the IT Act, 2000 to adjudicate cybercrime disputes."
-  },
-  {
-    "question": "A major amendment to Information Technology Act, 2000 was made in which year? 📜📅",
-    "options": {
-      "A": "2001",
-      "B": "2016",
-      "C": "2012",
-      "D": "2008 📋"
-    },
-    "answer": "D",
-    "explanation": "💡 A major amendment to India's IT Act 2000 was made in 2008, addressing cybercrime and data protection."
-  },
-  {
-    "question": "Malware that Encrypts Files and Demands money, property or services from a person, entity or institution, through coercion is: 🦠💰🔒",
-    "options": {
-      "A": "Spyware 👁️",
-      "B": "Ransomware 💰🔒🦠",
-      "C": "Adware 📢",
-      "D": "Rootkit 🪚"
-    },
-    "answer": "B",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "Which type of malware is designed to observe and gather user information without their knowledge? 🦠👁️",
-    "options": {
-      "A": "Worm 🐛",
-      "B": "Trojan 🐴",
-      "C": "Spyware 👁️🦠",
-      "D": "Adware 📢"
-    },
-    "answer": "C",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "Harassing someone through electronic message is offence of: 📧👣",
-    "options": {
-      "A": "Hacking 👨‍💻",
-      "B": "Squatting 🏠",
-      "C": "Stalking 👣🎭",
-      "D": "Phishing 🎣"
-    },
-    "answer": "C",
-    "explanation": "💡 Sending harassing electronic messages constitutes cyberstalking, which is a criminal offence under the IT Act."
-  },
-  {
-    "question": "In a phishing attack, what is the common method used to trick users into revealing sensitive information? 🎣",
-    "options": {
-      "A": "Distributing malware-infected files 🦠📁",
-      "B": "Impersonating a trusted entity 🎭🎭",
-      "C": "Launching DDoS attacks 🌊",
-      "D": "Encrypting files for ransom 🔒💰"
-    },
-    "answer": "B",
-    "explanation": "💡 Online trust is built through security certificates, clear policies, and positive user reviews and reputation."
-  },
-  {
-    "question": "________ is a criminal offense of receiving payment through coercion. 💰⚠️",
-    "options": {
-      "A": "Phishing 🎣",
-      "B": "Pornography 🔞",
-      "C": "Net or Cyber Extortion 💰🔪🎭",
-      "D": "Credit Card Fraud 💳"
-    },
-    "answer": "C",
-    "explanation": "💡 Cyber extortion is the criminal offence of demanding payment by threatening digital harm or data exposure."
-  },
-  {
-    "question": "Smartphone penetration framework was devised by: 📱🔨",
-    "options": {
-      "A": "Georgia Weidman, Bulb Security LLC in 2014 💬",
-      "B": "Georgia schoof by Dagah",
-      "C": "Georgia Weidman, Bulb Security LLC in 2018",
-      "D": "Sergia Drapa"
-    },
-    "answer": "A",
-    "explanation": "💡 Penetration testing proactively finds exploitable vulnerabilities before real attackers can discover and use them."
-  },
-  {
-    "question": "Password cracker tries: 🔑",
-    "options": {
-      "A": "DOS attack 🚫",
-      "B": "Brute force attack 💪🔑💣",
-      "C": "Intrusion detection 👀",
-      "D": "Intrusion prevention 🛡️"
-    },
-    "answer": "B",
-    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
-  },
-  {
-    "question": "Script kiddies are: 👨‍💻🧒",
-    "options": {
-      "A": "Individuals who want to break into computers to create damage, yet lack the advanced knowledge of computers and networks needed to do so 🚫👿",
-      "B": "Individuals doing Ethical hacking service of network security 👨‍💻⚖️",
-      "C": "Penetration tester 🔨",
-      "D": "Vulnerability assessor 🔍"
-    },
-    "answer": "A",
-    "explanation": "💡 Script kiddies are low-skill attackers who use pre-made hacking tools without understanding how they work."
-  },
-  {
-    "question": "First phase of hacking is: 👨‍💻",
-    "options": {
-      "A": "Maintaining access 🔒",
-      "B": "Gaining access 🚪",
-      "C": "Reconnaissance 🔍🔍",
-      "D": "Scanning 📡"
-    },
-    "answer": "C",
-    "explanation": "💡 Reconnaissance is the correct first step because the process must begin this way."
-  },
-  {
-    "question": "What is the most important difference between ethical hacker and cracker? 👨‍💻⚖️ vs 👿",
-    "options": {
-      "A": "The ethical hacker has authorization from the owner of the target 💣📜💣",
-      "B": "The ethical hacker is just a cracker who is getting paid 💰",
-      "C": "The ethical hacker does not use the same techniques or skills as a cracker ❌",
-      "D": "The ethical hacker does it strictly for financial motives unlike a cracker 💵"
-    },
-    "answer": "A",
-    "explanation": "💡 The ethical hacker has authorization from the owner of the target is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What type of hacker impose maximum threat to an organization? 👨‍💻⚠️",
-    "options": {
-      "A": "Black-hat hackers 👿",
-      "B": "Grey-hat hackers 🩶",
-      "C": "Script kiddies 🧒",
-      "D": "Disgruntled employees 😠👤💬"
-    },
-    "answer": "D",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "Examples of hash functions are: 🔢",
-    "options": {
-      "A": "MD5 🔢",
-      "B": "SHA-1 🔢",
-      "C": "Both (A) and (B) 🔀🔀",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 Both (A) and (B) is the primary function or purpose of this component in the system."
-  },
-  {
-    "question": "Hash function is used in implementing ________: 🔢",
-    "options": {
-      "A": "Availability ⏳",
-      "B": "Integrity 🛡️📏",
-      "C": "Confidentiality 🤐",
-      "D": "All of the above 🔄"
-    },
-    "answer": "B",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Wireless LAN security architecture is defined in: 📶🔒",
-    "options": {
-      "A": "IEEE 802.11",
-      "B": "IEEE 800.1",
-      "C": "IEEE 802.11i",
-      "D": "Both (A) and (C) 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 Wireless LAN security architecture is defined in the IEEE 802.11i standard, which forms the basis for WPA2."
-  },
-  {
-    "question": "Which of the following tool is used in Wi-Fi hacking? 📶👨‍💻",
-    "options": {
-      "A": "Air Crack-ng 💣",
-      "B": "Wireshark 🦈",
-      "C": "Norton 🛡️",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 Aircrack-ng is a widely used tool for testing and exploiting Wi-Fi network security vulnerabilities."
-  },
-  {
-    "question": "The Information Technology Act, 2000 came into force on: 📜🇮🇳",
-    "options": {
-      "A": "9th June, 2000",
-      "B": "17th October, 2000 📋",
-      "C": "15th December, 2000",
-      "D": "None of these ❌"
-    },
-    "answer": "B",
-    "explanation": "💡 India's IT Act 2000 came into force on 17 October 2000, establishing the legal framework for cyber activities."
-  },
-  {
-    "question": "The key of a pair used to create a digital signature is known as: 🔑✍️",
-    "options": {
-      "A": "public key receiver 📬🔑",
-      "B": "private key of sender ✉️🔑🤫🗝️",
-      "C": "creator key 👤🔑",
-      "D": "secret key 🤫🔑"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The key of a key pair used to verify a digital signature: 🔑✅✍️",
-    "options": {
-      "A": "public key of sender ✉️🔑🌍🗝️",
-      "B": "private key sender ✉️🔑🤫",
-      "C": "verifying key 🆔🔑",
-      "D": "secret key 🤫🔑"
-    },
-    "answer": "A",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "An adjudicating officer, under the IT Act, 2000, for holding inquiry and imposing penalty is appointed by the: ⚖️📜",
-    "options": {
-      "A": "Controller 🎮",
-      "B": "Central Government 🏛️⚖️",
-      "C": "Cyber Appellate Tribunal ⚖️",
-      "D": "High Court 🏛️"
-    },
-    "answer": "B",
-    "explanation": "💡 Adjudicating officers under India's IT Act 2000 are appointed by the Central Government to handle cybercrime penalties."
-  },
-  {
-    "question": "________ is the unique value for message or content by applying strong Hash function. 🔢✅",
-    "options": {
-      "A": "Decryption 🔓",
-      "B": "Encryption 🔒",
-      "C": "Message digest 📝🔢🔢",
-      "D": "Private key 🔑🤫"
-    },
-    "answer": "C",
-    "explanation": "💡 Message digest is the primary function or purpose of this component in the system."
-  },
-  {
-    "question": "For ethical hacking, what process is followed: 👨‍💻⚖️",
-    "options": {
-      "A": "Cryptography 🔐",
-      "B": "Encryption 🔒",
-      "C": "Decryption 🔓",
-      "D": "Penetration Testing 🔨🔍"
-    },
-    "answer": "D",
-    "explanation": "💡 Penetration testing simulates cyberattacks to identify and address security weaknesses before attackers do."
-  },
-  {
-    "question": "What are the difficulties in handling Digital Evidence? 💻🔍⚠️",
-    "options": {
-      "A": "Easy to destroy 💥🟢",
-      "B": "Easy to sustain 💪",
-      "C": "Hard to get 🚫🔴",
-      "D": "Both (A) and (C) 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 Both (A) and (C) is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What is the Primary Objective of Digital Forensic for Business and Industry? 🏢🔍",
-    "options": {
-      "A": "Availability of service ⏳",
-      "B": "Continuity of operation 🔄🔄",
-      "C": "Prosecution ⚖️",
-      "D": "Security 🔒"
-    },
-    "answer": "B",
-    "explanation": "💡 Continuity of operation is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How does ISO/IEC 27000 define an 'asset' in relation to ISO/IEC 27001? 📋✅",
-    "options": {
-      "A": "Anything that is of value to the organisation 💎🏢",
-      "B": "A physical item within the organisation 📦",
-      "C": "Digital and physical items owned by an organisation 💻📦",
-      "D": "Tangible and non-tangible items owned or rented by an organisation 📦🤝"
-    },
-    "answer": "A",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "Annex A of ISO/IEC 27001 contains best practices for managing and securing information assets within an organisation. Which of the below are ISO 27001 control sets, as outlined in Annex A? 📋✅",
-    "options": {
-      "A": "Information security policies 📜",
-      "B": "Asset management 📦",
-      "C": "Access control 🔐",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "Which of the below are current threats to many organisations? 🏢⚠️",
-    "options": {
-      "A": "Fraud 💰❌",
-      "B": "Loss of information 📁❌",
-      "C": "Unauthorised access 🚪❌",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "When should organisations perform information security risk assessments? 📊📅",
-    "options": {
-      "A": "Monthly 📅",
-      "B": "Every six months or when significant changes are proposed to occur 📅",
-      "C": "Every 12 months, or when significant changes are proposed to occur 📅",
-      "D": "At planned intervals or when significant changes are proposed to occur 📝📅"
-    },
-    "answer": "D",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "As per ISO27001, who shall review the organisation's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness? 📋✅",
-    "options": {
-      "A": "External Auditor 🧑‍💼🌍",
-      "B": "Internal Auditor 🧑‍💼🏢",
-      "C": "Quality Manager 📊👤",
-      "D": "Top Management 👑👥💬"
-    },
-    "answer": "D",
-    "explanation": "💡 GANs pit a generator against a discriminator to produce realistic synthetic data like images."
-  },
-  {
-    "question": "Within ISO standards, what does 'shall' indicate? 📋",
-    "options": {
-      "A": "A recommendation 💡",
-      "B": "A permission 💬",
-      "C": "A capability 💪",
-      "D": "A requirement ⚠️💬"
-    },
-    "answer": "D",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "Within ISO/IEC 27001, which clause relates to leadership and the role of top management in the establishment, implementation, maintenance, and continual improvement of the ISMS? 📋",
-    "options": {
-      "A": "4",
-      "B": "5 💬",
-      "C": "6",
-      "D": "7"
-    },
-    "answer": "B",
-    "explanation": "💡 5 is the primary function or purpose of this component in the system."
-  },
-  {
-    "question": "What is the goal of a backup and recovery strategy in disaster recovery planning? 💾🔄",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To ensure the availability of data in case of a loss or compromise 🛡️📁",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 Regular backups ensure data can be recovered after a ransomware attack or other data loss event."
-  },
-  {
-    "question": "What is the goal of a recovery strategy in disaster recovery planning? 🔄",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To identify and prioritize recovery tasks and resources 💬📝",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
-  },
-  {
-    "question": "The things carried out by means of electronic data interchange, and other means of electronic communication is commonly referred to as: 💻📡",
-    "options": {
-      "A": "e-communication 📧",
-      "B": "e-governance 🏛️",
-      "C": "e-record 📄",
-      "D": "e-commerce 🛒🛒"
-    },
-    "answer": "D",
-    "explanation": "💡 EDI is a standardised way for businesses to exchange documents like invoices electronically."
-  },
-  {
-    "question": "The authentication to be affected by use of asymmetric crypto system and hash function is known as: 🔑🔢",
-    "options": {
-      "A": "Public key 🔑🌍",
-      "B": "Private Key 🔑🤫",
-      "C": "Digital Signature ✍️📝",
-      "D": "e-governance 🏛️"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The Central Government may appoint a ________ of Certifying Authority who shall exercise supervision over the activities of Certifying Authorities. 🏛️🎮",
-    "options": {
-      "A": "Commissioner 👤",
-      "B": "Controller 🎮💬",
-      "C": "Executive 👨‍💼",
-      "D": "President 👑"
-    },
-    "answer": "B",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "________ is a person in whose name the Digital Signature Certificate is issued. 👤✍️",
-    "options": {
-      "A": "Certified authority 📝👤",
-      "B": "Subscriber 📝👤💬",
-      "C": "Holder 📋👤",
-      "D": "Controller 🎮👤"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The ________ has the power to suspend or revoke Digital Signature Certificate. 🚫✍️",
-    "options": {
-      "A": "Commissioner 👤",
-      "B": "Certifying Authority 📜📝",
-      "C": "Subscriber 📝👤",
-      "D": "Controller 🎮"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Digital signatures are created and verified using: ✍️",
-    "options": {
-      "A": "Program 💻",
-      "B": "Graphical coding 🎨",
-      "C": "HTML 🌐",
-      "D": "Cryptography 🔐🔐"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which of the following refers to the violation of the principle if information/computer is no more accessible? 💻🚫",
-    "options": {
-      "A": "Availability ⏳🛡️",
-      "B": "Confidentiality 🤐",
-      "C": "Access control 🔐",
-      "D": "All of the above 🔄"
-    },
-    "answer": "A",
-    "explanation": "💡 Availability ensures systems and data are accessible when needed by authorised users."
-  },
-  {
-    "question": "Which of the following provides legal framework for e-governance in India? 🇮🇳🏛️",
-    "options": {
-      "A": "IT (Amendment) Act, 2008 📅",
-      "B": "Indian Penal Code ⚖️",
-      "C": "IT Act, 2000 ⚖️📜⚖️",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 The Information Technology Act, 2000 provides India's primary legal framework for e-governance and cybercrime."
-  },
-  {
-    "question": "Cyberspace has: 🌐",
-    "options": {
-      "A": "No national boundaries 🚫🗺️🚫",
-      "B": "International jurisdiction 🌍⚖️💬",
-      "C": "Limited boundaries 📏",
-      "D": "Both (A) and (B) 🔀🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 Cyberspace has no physical borders, allowing global communication and also creating jurisdiction challenges for law enforcement."
-  },
-  {
-    "question": "Out of following which is the main authority at the top and its main function is to issue license to the certifying authority and to supervise his functions? 🎮📜",
-    "options": {
-      "A": "Controller of certifying authority 🎮📝📝",
-      "B": "Verification authority ⚖️👤",
-      "C": "Subscriber 📝👤",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 Controller of certifying authority is the primary function or purpose of this component in the system."
-  },
-  {
-    "question": "________ means a system of a secure key pair consisting of a private key for creating digital signature and public key for verifying digital signature. 🔑",
-    "options": {
-      "A": "Asymmetric Cryptography 🔑🔑🔐",
-      "B": "Cryptosystem 🔐",
-      "C": "Symmetric cryptosystem 🔑",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Public key cryptography is same as: 🔑🌍",
-    "options": {
-      "A": "Private key cryptography 🔑🤫",
-      "B": "Asymmetric cryptography 🔑🔑🔐",
-      "C": "Symmetric cryptography 🔑",
-      "D": "Session key cryptography 🔑⏱️"
-    },
-    "answer": "B",
-    "explanation": "💡 A public key can be shared openly and used by anyone to encrypt data for the key's owner."
-  },
-  {
-    "question": "Hash function are used for: 🔢",
-    "options": {
-      "A": "Encryption 🔒",
-      "B": "Decryption 🔓",
-      "C": "Digital signature ✍️📝",
-      "D": "None of the above ❌"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Under Information Technology Act the purpose of digital signature is to: 📜✍️",
-    "options": {
-      "A": "Forge the document ✍️❌",
-      "B": "Photocopy the document 📄",
-      "C": "Digital Printing 🖨️",
-      "D": "Ensure integrity 🛡️📏🛡️"
-    },
-    "answer": "D",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "________ monitors all internet and other network activity, looking for suspicious data and preventing unauthorized access. 👀🌐",
-    "options": {
-      "A": "Intrusion detection system 👀👀",
-      "B": "Firewall 🔥🧱",
-      "C": "Data encryption 🔐",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 An IDS monitors network traffic for suspicious patterns that may indicate an attack in progress."
-  },
-  {
-    "question": "Which of the following is an example of web application vulnerability? 🌐⚠️",
-    "options": {
-      "A": "SQL Injection 🗄️💉💬",
-      "B": "DNS Spoofing 🌐🎭",
-      "C": "Buffer Overflow 📦💥",
-      "D": "Cross Site Scripting (XSS) 🌐📜"
-    },
-    "answer": "A",
-    "explanation": "💡 SQL is the standard language for querying and managing data in relational databases."
-  },
-  {
-    "question": "Under which section of information act 2000 amended in 2008, stealing any digital asset or info is considered as a cyber crime? 📜🔢",
-    "options": {
-      "A": "64",
-      "B": "65",
-      "C": "66 📋",
-      "D": "67"
-    },
-    "answer": "C",
-    "explanation": "💡 Under Section 66 of the IT Act 2000 (amended 2008), stealing digital assets is a punishable cybercrime offence."
-  },
-  {
-    "question": "Hash functions guarantee message integrity and that the message has not been 🔢✅",
-    "options": {
-      "A": "Over view 👁️",
-      "B": "Replaced 🔄",
-      "C": "Violated ⚠️",
-      "D": "Changed ✏️💬"
-    },
-    "answer": "D",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Data must arrive exactly as it was sent from receiver to sender, is called 📨✅",
-    "options": {
-      "A": "Message Sending 📤",
-      "B": "Message Splashing 💦",
-      "C": "Message Integrity 🛡️📏🛡️",
-      "D": "Message Confidentiality 🤐"
-    },
-    "answer": "C",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Wi-Fi is abbreviated as: 📶",
-    "options": {
-      "A": "Wireless FLAN",
-      "B": "Wireless LAN 📶",
-      "C": "Wireless Fidelity 📶",
-      "D": "Wired fellow"
-    },
-    "answer": "C",
-    "explanation": "💡 Wi-Fi is a brand name for Wireless Fidelity, the standard for wireless local area network communication."
-  },
-  {
-    "question": "When there is an intermediate between the communications without the knowledge of the communicators, which type of threats is this? 👥",
-    "options": {
-      "A": "Network Injection 🌐💉",
-      "B": "Malicious Association 🎭🔗",
-      "C": "Accidental Association 🚫🔗",
-      "D": "Man in the middle attack 👥💣"
-    },
-    "answer": "D",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "In which layer frequency band is defined and wireless signals are encoded? 📶",
-    "options": {
-      "A": "Medium Access Layer 🔗",
-      "B": "Physical Layer 📡💬",
-      "C": "Logic Link Control Layer 🔗",
-      "D": "Both (B) and (C) 🔄"
-    },
-    "answer": "B",
-    "explanation": "💡 Frequency bands and wireless signal encoding are defined at the Physical layer (Layer 1) of the OSI model."
-  },
-  {
-    "question": "A communication is said to be insecure where data is transmitted in a manner that allows for interception also called ________ Attack? 👂📡",
-    "options": {
-      "A": "Interception 👂💬",
-      "B": "Sniffing 👃",
-      "C": "ISP 🌐",
-      "D": "Citation 📝"
-    },
-    "answer": "A",
-    "explanation": "💡 A communication is insecure when data is sent in plaintext without encryption, allowing interception and reading."
-  },
-  {
-    "question": "The key of key pair used to create digital signature is called: 🔑✍️",
-    "options": {
-      "A": "Public key 🔑🌍",
-      "B": "Private key 🔑🤫🗝️",
-      "C": "Session key 🔑⏱️",
-      "D": "Secret key 🤫🔑"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "The key pair of ________ is used for creation and verification of digital signature. 🔑✍️",
-    "options": {
-      "A": "Sender ✉️📬",
-      "B": "Receiver 📬",
-      "C": "66 🔢",
-      "D": "67 🔢"
-    },
-    "answer": "A",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Digital signature certificate is issued by (as in IT act 2000): ✍️📜",
-    "options": {
-      "A": "Appellate tribunal ⚖️",
-      "B": "Controller of certificate authority 🎮",
-      "C": "Certificate authority 📜📝📝",
-      "D": "Cyber crime investigator 🕵️"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "e-governance includes: 🏛️💻",
-    "options": {
-      "A": "Filing of form online, paperless 📄🛒",
-      "B": "Efficient, low cost, transparent governance 💰📊🗂️",
-      "C": "Both (A) and (B) 🔀🔀",
-      "D": "Payment of bills 💵"
-    },
-    "answer": "C",
-    "explanation": "💡 E-governance uses digital technology to deliver government services, enable citizen participation, and improve administration."
-  },
-  {
-    "question": "Digital signature is defined under ________ section of IT Act, 2000. ✍️📜🔢",
-    "options": {
-      "A": "Section 1",
-      "B": "Section 2 📋",
-      "C": "Section 8",
-      "D": "Section 6"
-    },
-    "answer": "B",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Information Technology Act, 2000 directed the formation of a Controller of Certifying Authorities to regulate the issuance of ________ 📜🎮",
-    "options": {
-      "A": "Data license 📄",
-      "B": "IP address in India 🌐",
-      "C": "Digital signatures ✍️📝",
-      "D": "Internet service provider license 🌐"
-    },
-    "answer": "C",
-    "explanation": "💡 A digital signature mathematically verifies that a message came from its claimed sender and was not altered."
-  },
-  {
-    "question": "Which of the following are the types of scanning? 🔍",
-    "options": {
-      "A": "Network, vulnerability, and port scanning 🌐⚠️🚪🌐",
-      "B": "Port, network, and services 🚪🌐⚙️",
-      "C": "Any of the above 🔄",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
-    "options": {
-      "A": "DDoS and Drive-by Downloads 🌊📥",
-      "B": "Malware and Malvertising 🦠📢",
-      "C": "Phishing and Password attacks 🎣🔑",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "Password cracker tries: 🔑",
-    "options": {
-      "A": "Man in the middle attack 👥",
-      "B": "Brute force attack 💪🔑💣",
-      "C": "Intrusion detection 👀",
-      "D": "Intrusion prevention 🛡️"
-    },
-    "answer": "B",
-    "explanation": "💡 A brute force attack systematically tries every possible password until the correct one is found."
-  },
-  {
-    "question": "What is the primary goal of ethical hacker? 👨‍💻⚖️",
-    "options": {
-      "A": "Avoiding detection 🕵️",
-      "B": "Testing security controls 🔍🔒💬",
-      "C": "Resolving security vulnerabilities 🛠️",
-      "D": "Determining return on investment for security measures 📊"
-    },
-    "answer": "B",
-    "explanation": "💡 Testing security controls is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
-    "options": {
-      "A": "Digital signature ✍️",
-      "B": "Decryption algorithm 🔓",
-      "C": "Protocol 📡",
-      "D": "Message Digest 🔢🔢"
-    },
-    "answer": "D",
-    "explanation": "💡 Integrity ensures data has not been altered or tampered with by unauthorised parties."
-  },
-  {
-    "question": "Which one of the following is a type of antivirus program? 🛡️",
-    "options": {
-      "A": "Quick heal 💬",
-      "B": "McAfee 💬",
-      "C": "Kaspersky 💬",
-      "D": "All of the above 🔀🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 A virus is self-replicating malware that attaches itself to legitimate programs and spreads when executed."
-  },
-  {
-    "question": "In system hacking, which of the following is the most crucial activity? 👨‍💻",
-    "options": {
-      "A": "Information gathering 📡🔍📊",
-      "B": "Covering tracks 🧹👣",
-      "C": "Cracking passwords 🔑💪",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 Maintaining access (installing backdoors) is the most critical hacking phase as it enables persistent control."
-  },
-  {
-    "question": "To protect the computer system against the hacker and different kind of viruses, one must always keep ________ on in the computer system. 🛡️",
-    "options": {
-      "A": "Antivirus 🦠🚫",
-      "B": "Firewall 🔥🧱🌐",
-      "C": "VLC player 🎬",
-      "D": "Script 📜"
-    },
-    "answer": "B",
-    "explanation": "💡 A firewall monitors and filters network traffic, blocking unauthorised access to a system."
-  },
-  {
-    "question": "Which of the following are the types of scanning? 🔍",
-    "options": {
-      "A": "Network, vulnerability, and port scanning 🌐⚠️🚪🌐",
-      "B": "Port, network, and services 🚪🌐⚙️",
-      "C": "Client, server, and network 💻🖥️🌐",
-      "D": "None of the above ❌"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
-    "options": {
-      "A": "DDoS and Drive-by Downloads 🌊📥",
-      "B": "Malware and Malvertising 🦠📢",
-      "C": "Phishing and Password attacks 🎣🔑",
-      "D": "All of the above 🔀"
-    },
-    "answer": "D",
-    "explanation": "💡 All of the above is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "Which type of the following malware does not replicate or clone themselves through infection? 🦠🚫",
-    "options": {
-      "A": "Rootkits 🪚",
-      "B": "Trojans 🐴🦠",
-      "C": "Worms 🐛",
-      "D": "Viruses 🦠"
-    },
-    "answer": "B",
-    "explanation": "💡 Malware is malicious software designed to damage, disrupt, or gain unauthorised access to a system."
-  },
-  {
-    "question": "What is the primary goal of a risk assessment in cybersecurity? 🎯📊",
-    "options": {
-      "A": "To eliminate all cyber threats ❌",
-      "B": "To identify and manage potential risks 🔍📊⚠️",
-      "C": "To promote unrestricted data sharing 📢",
-      "D": "To ignore the impact of cyber threats 🙈"
-    },
-    "answer": "B",
-    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
-  },
-  {
-    "question": "In the context of risk assessment, what does the term \"vulnerability\" refer to? ⚠️",
-    "options": {
-      "A": "A weakness that could be exploited by a threat 🔻⚠️",
-      "B": "Promoting unrestricted data sharing 📢",
-      "C": "Ignoring potential risks 🙈",
-      "D": "Fostering a risk-aware culture 🌱"
-    },
-    "answer": "A",
-    "explanation": "💡 A vulnerability is a weakness in a system that an attacker can exploit to gain unauthorised access."
-  },
-  {
-    "question": "What is the purpose of a risk assessment report in cybersecurity risk management? 📊📄",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To communicate the results of the risk assessment 📢📊⚠️",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "In the context of risk assessment, what does the term 'risk mitigation' involve? 📊🛡️",
-    "options": {
-      "A": "The process of identifying and assessing risks 🔍",
-      "B": "The process of eliminating all vulnerabilities ❌",
-      "C": "The process of reducing the impact and likelihood of identified risks 📉⚠️",
-      "D": "The process of promoting unrestricted data sharing 📢"
-    },
-    "answer": "C",
-    "explanation": "💡 Risk assessment identifies and evaluates threats to determine what controls are needed to protect assets."
-  },
-  {
-    "question": "What is the purpose of a risk assessment policy in cybersecurity risk management? 📊📜",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To provide guidance on the risk assessment process and responsibilities 📝⚠️",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "What is the purpose of a disaster recovery plan (DRP) in cybersecurity? 🛡️📋",
-    "options": {
-      "A": "To eliminate all vulnerabilities ❌",
-      "B": "To promote unrestricted data sharing 📢",
-      "C": "To ensure the restoration of IT services after a disruptive event 🔄💻💬",
-      "D": "To ignore potential risks 🙈"
-    },
-    "answer": "C",
-    "explanation": "💡 A disaster recovery plan outlines how to restore IT systems and data after a major disruption."
-  },
-  {
-    "question": "In the context of business continuity planning, what does the term \"recovery point objective (RPO)\" refer to? 🔄📌",
-    "options": {
-      "A": "The maximum acceptable downtime for critical systems ⏱️",
-      "B": "The point in time to which data must be recovered after a disruption ⏰📊",
-      "C": "The process of eliminating all vulnerabilities ❌",
-      "D": "The impact of a risk on business operations 📊"
-    },
-    "answer": "B",
-    "explanation": "💡 Business continuity planning ensures critical operations can continue during and after a disruptive event."
-  }
-]
-  }
+
+  "questions": [
+    {
+      "question": "Which of the following refers to exploring the appropriate, ethical behaviors related to the online environment and digital media platform? 🌐",
+      "options": {
+        "A": "Cyber low 📜",
+        "B": "Cyberethics ⚖️",
+        "C": "Cybersecurity 🔐",
+        "D": "Cybersafety 🛡️"
+      },
+      "answer": "B",
+      "explanation": "💡 Cyberethics refers to the study and practice of appropriate, responsible, and ethical behavior in the online environment and on digital media platforms. Cybersecurity focuses on protecting systems, cybersafety focuses on personal protection, and cyber law deals with legal regulations."
+    },
+    {
+      "question": "What is primary goal of ethical hacker? 👨‍💻",
+      "options": {
+        "A": "Avoiding detection 🕵️",
+        "B": "Testing security vulnerability 🔍",
+        "C": "Resolving security vulnerabilities 🛠️",
+        "D": "Determining return on investment for security measures 📊"
+      },
+      "answer": "B",
+      "explanation": "💡 The primary goal of an ethical hacker is to test and identify security vulnerabilities in a system, with the owner's permission. They find weaknesses before malicious hackers do — resolving them is typically the job of security engineers, not the ethical hacker's primary goal."
+    },
+    {
+      "question": "In the computer networks, the encryption techniques are primarily used for improving the 🔐",
+      "options": {
+        "A": "Security 🛡️",
+        "B": "Performance ⚡",
+        "C": "Reliability 🔄",
+        "D": "Longevity ⏳"
+      },
+      "answer": "A",
+      "explanation": "💡 Encryption scrambles data into an unreadable format so only authorized parties with the correct decryption key can read it. This directly improves security — it has no significant impact on performance, reliability, or longevity of the network."
+    },
+    {
+      "question": "Under Information Technology Act the purpose of digital signature is to: 📜",
+      "options": {
+        "A": "Forge the document ✍️❌",
+        "B": "Photocopy the document 📄",
+        "C": "Digital Printing 🖨️",
+        "D": "Ensure integrity 🛡️"
+      },
+      "answer": "D",
+      "explanation": "💡 Under the IT Act, a digital signature is used to ensure the integrity of an electronic document — it mathematically verifies that the document came from a specific sender and has not been altered in transit. It is the digital equivalent of a handwritten signature."
+    },
+    {
+      "question": "Hash function are used for: 🔢",
+      "options": {
+        "A": "Encryption 🔐",
+        "B": "Decryption 🔓",
+        "C": "Digital signature ✍️",
+        "D": "None of the above ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 Hash functions are used in creating digital signatures — the message is first hashed to produce a fixed-size digest, which is then signed with the sender's private key. Hash functions are one-way and cannot be used for encryption or decryption of data."
+    },
+    {
+      "question": "In Wi-Fi Security, which of the following protocol is more used? 📶",
+      "options": {
+        "A": "WPA 🔒",
+        "B": "WPA2 🔒📶",
+        "C": "WPS ⚠️",
+        "D": "Both (A) and (C) 🔄"
+      },
+      "answer": "B",
+      "explanation": "💡 WPA2 (Wi-Fi Protected Access 2) is the most widely deployed Wi-Fi security protocol. It uses AES (Advanced Encryption Standard) encryption, making it stronger than WPA. WPS has known security vulnerabilities and is not recommended for use."
+    },
+    {
+      "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
+      "options": {
+        "A": "Digital signature ✍️",
+        "B": "Decryption algorithm 🔓",
+        "C": "Protocol 📡",
+        "D": "Message Digest 🔢"
+      },
+      "answer": "D",
+      "explanation": "💡 A Message Digest is a fixed-size hash value produced from a message using a hash function (e.g., MD5, SHA). It is used to verify message integrity — if even one bit of the message changes, the digest changes completely, revealing tampering."
+    },
+    {
+      "question": "Hash functions guarantee message integrity and that the message has not been 🔢✅",
+      "options": {
+        "A": "Over view 👁️",
+        "B": "Replaced 🔄",
+        "C": "Violated ⚠️",
+        "D": "Changed ✏️"
+      },
+      "answer": "D",
+      "explanation": "💡 Hash functions guarantee that the message has not been changed. The hash of the original message is compared to the hash of the received message — if they match, the content is intact. Any change, however small, produces a different hash value."
+    },
+    {
+      "question": "What is the most important difference between ethical hacker and cracker? 👨‍💻 vs 👿",
+      "options": {
+        "A": "The ethical hacker has authorization from the owner of the target 💣📜",
+        "B": "The ethical hacker is just a cracker who is getting paid 💰",
+        "C": "The ethical hacker does not use the same techniques or skills as a cracker ❌",
+        "D": "The ethical hacker does it strictly for financial motives unlike a cracker 💵"
+      },
+      "answer": "A",
+      "explanation": "💡 The most important difference is that an ethical hacker has explicit authorization from the system owner to perform hacking. A cracker (malicious hacker) accesses systems without permission. Both may use the same tools and techniques — the key distinction is consent and legality."
+    },
+    {
+      "question": "Which one of the following refers to the technique used for verifying the integrity of the message? ✅",
+      "options": {
+        "A": "Digital signature ✍️",
+        "B": "Decryption algorithm 🔓",
+        "C": "Protocol 📡",
+        "D": "Message Digest 🔢"
+      },
+      "answer": "D",
+      "explanation": "💡 A Message Digest is a hash value computed from the original message. It is used to verify integrity — the receiver recomputes the hash and compares it to the sender's hash. If they match, the message was not altered during transmission."
+    },
+    {
+      "question": "Which of the following refers to the violation of the principle if a computer is no more accessible? 🖥️❌",
+      "options": {
+        "A": "Access control 🔐",
+        "B": "Confidentiality 🤐",
+        "C": "Availability ⏳",
+        "D": "All of the above 🔄"
+      },
+      "answer": "C",
+      "explanation": "💡 Availability is the principle that ensures systems and data are accessible to authorized users when needed. If a computer becomes inaccessible (e.g., due to a DDoS attack or system failure), the Availability principle of the CIA Triad is violated."
+    },
+    {
+      "question": "What is a firewall? 🔥🧱",
+      "options": {
+        "A": "Firewalls are network-based security measures that control the flow of incoming and outgoing traffic 🚦",
+        "B": "A firewall is a program that encrypts all the programs that access the Internet 🔐",
+        "C": "A firewall is a program that keeps other programs from using the network 🚫",
+        "D": "Firewalls are interrupts that automatically disconnect from the internet when a threat appears ⚡"
+      },
+      "answer": "A",
+      "explanation": "💡 A firewall is a network security device (hardware or software) that monitors and controls incoming and outgoing network traffic based on predefined security rules. It acts as a barrier between a trusted internal network and untrusted external networks."
+    },
+    {
+      "question": "Which of the following involves submitting as many requests as possible to a single Internet computer or service, overloading it and preventing it from servicing legitimate requests? 💣",
+      "options": {
+        "A": "Distributed denial-of-service attacks 🌊",
+        "B": "Backdoor 🚪",
+        "C": "Masquerading 🎭",
+        "D": "Phishing 🎣"
+      },
+      "answer": "A",
+      "explanation": "💡 A Distributed Denial-of-Service (DDoS) attack floods a target server or service with massive traffic from many compromised systems, overwhelming it so it cannot respond to legitimate user requests. Backdoors, masquerading, and phishing are different types of attacks with different goals."
+    },
+    {
+      "question": "Which of the following are possible security threats? ⚠️",
+      "options": {
+        "A": "Illegitimate use 👤❌",
+        "B": "Backdoors 🚪",
+        "C": "Masquerading 🎭",
+        "D": "All of the given options are correct 💡"
+      },
+      "answer": "D",
+      "explanation": "💡 All of the listed options are valid security threats. Illegitimate use refers to unauthorized access, backdoors are hidden entry points into systems, and masquerading is when an attacker pretends to be a legitimate user. All three are recognized cybersecurity threats."
+    },
+    {
+      "question": "Digital signatures provide which of the following? ✍️",
+      "options": {
+        "A": "Authentication 🆔",
+        "B": "Non-repudiation 🚫🙅",
+        "C": "Integrity protection 🛡️",
+        "D": "All of the given options are correct 💡"
+      },
+      "answer": "D",
+      "explanation": "💡 Digital signatures provide all three security services: Authentication (proves who sent the message), Non-repudiation (the sender cannot deny sending it), and Integrity (any alteration to the message invalidates the signature). This makes them a powerful security tool."
+    },
+    {
+      "question": "Which of the following is valid difference between a Virus and a Spyware? 🦠 vs 👁️",
+      "options": {
+        "A": "Spyware damages data and also steals sensitive private information 💔",
+        "B": "Virus damages data, Spyware steals sensitive private information 💔👁️",
+        "C": "Spyware damages data, Virus steals sensitive private information 🔄",
+        "D": "Virus damages data and also steals sensitive private information 💔👁️"
+      },
+      "answer": "B",
+      "explanation": "💡 A virus is malware that attaches to programs and replicates, often damaging or destroying data. Spyware silently monitors user activity and collects sensitive information (like passwords or browsing history) without the user's knowledge — it is designed to steal, not damage."
+    },
+    {
+      "question": "What is a computer virus? 🦠",
+      "options": {
+        "A": "A virus is the same as a cookie in that it is stored on your computer against your permission 🍪",
+        "B": "A virus is friendly software that is simply mislabeled 😇",
+        "C": "Malicious software that merely stays dormant on your computer 💤",
+        "D": "Malicious software that inserts itself into other programs 🔌"
+      },
+      "answer": "D",
+      "explanation": "💡 A computer virus is malicious software that inserts its code into other programs or files. When the infected program runs, the virus executes and can spread to other programs. Unlike dormant malware, viruses actively replicate and often cause harm."
+    },
+    {
+      "question": "Certification of Digital signature by an independent authority is needed because ✍️✅",
+      "options": {
+        "A": "It is safe 🛡️",
+        "B": "It gives confidence to a business 💼",
+        "C": "The authority checks and assures customers that the public key indeed belongs to the business which claims its ownership 🔑🗝️",
+        "D": "Private key claimed by a sender may not be actually his ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 An independent Certificate Authority (CA) verifies and certifies that a public key truly belongs to the entity claiming it. Without this certification, anyone could generate a public key and falsely claim it belongs to a trusted business, enabling impersonation attacks."
+    },
+    {
+      "question": "The responsibility of a certification authority for digital signature is to authenticate the: 📜✅",
+      "options": {
+        "A": "Hash function used 🔢",
+        "B": "Private keys of subscribers 🔑🤫",
+        "C": "Public keys of subscribers 🔑🌍",
+        "D": "Key used in DES 🔐"
+      },
+      "answer": "C",
+      "explanation": "💡 A Certificate Authority (CA) is responsible for authenticating and certifying the public keys of subscribers. It binds a public key to an individual's or organization's identity through a digital certificate. Private keys are kept secret and are never shared with or certified by the CA."
+    },
+    {
+      "question": "Hashed message is signed by a sender using 🔢✍️",
+      "options": {
+        "A": "His public key 🔑🌍",
+        "B": "His private key 🔑🤫",
+        "C": "Receiver's public key 📬🔑",
+        "D": "Receiver's private key 📬🤫"
+      },
+      "answer": "B",
+      "explanation": "💡 In a digital signature scheme, the sender hashes the message and then encrypts (signs) the hash using their own private key. The receiver decrypts it using the sender's public key to verify. Only the sender possesses their private key, ensuring authenticity."
+    },
+    {
+      "question": "A digital signature is ✍️",
+      "options": {
+        "A": "A bit string giving identity of a correspondent 🆔",
+        "B": "A unique identification of a sender 🆔",
+        "C": "An authentication of an electronic record by tying it uniquely to a key only a sender knows 🔑🚫",
+        "D": "An encrypted signature of a sender 🔐✍️"
+      },
+      "answer": "C",
+      "explanation": "💡 A digital signature authenticates an electronic record by cryptographically tying it to the sender's private key — a key only the sender knows. This proves both the origin and integrity of the message. It is more than just identification; it provides non-repudiation."
+    },
+    {
+      "question": "All of the following are examples of real security and privacy threats except: ⚠️🚫",
+      "options": {
+        "A": "Hackers 👨‍💻",
+        "B": "Virus 🦠",
+        "C": "Spam 📧",
+        "D": "Worm 🐛"
+      },
+      "answer": "C",
+      "explanation": "💡 Spam (unsolicited bulk email) is generally considered an annoyance and privacy nuisance, but is not classified as a direct security threat like hackers (who exploit vulnerabilities), viruses (malware that damages systems), or worms (self-replicating malware that spreads across networks)."
+    },
+    {
+      "question": "What legal concept involves the unauthorized alteration or modification of data with the intent to deceive? 📜⚠️",
+      "options": {
+        "A": "Cyber terrorism 💣",
+        "B": "Data breach 🔓",
+        "C": "Data manipulation ✏️",
+        "D": "Cyber extortion 💰"
+      },
+      "answer": "C",
+      "explanation": "💡 Data manipulation (also called data tampering) is the illegal alteration or modification of digital data with the intent to deceive. A data breach involves unauthorized access or exposure of data, cyber terrorism involves politically motivated attacks, and cyber extortion involves threats for financial gain."
+    },
+    {
+      "question": "What legal concept involves the unauthorized use of someone else's identity for fraudulent purposes? 🎭",
+      "options": {
+        "A": "Cyber stalking 👣",
+        "B": "Identity theft 🆔💰",
+        "C": "Spoofing 📞🎭",
+        "D": "Phishing 🎣"
+      },
+      "answer": "B",
+      "explanation": "💡 Identity theft is the fraudulent acquisition and use of someone else's personal information (such as name, ID number, or financial details) without their consent, typically for financial gain. Spoofing involves faking an identity for deception, and phishing is used to obtain credentials."
+    },
+    {
+      "question": "What legal concept involves using deception to trick individuals into revealing confidential information, such as passwords? 🎣",
+      "options": {
+        "A": "Phishing 🎣",
+        "B": "Spoofing 🎭",
+        "C": "Cyber stalking 👣",
+        "D": "Identity theft 🆔"
+      },
+      "answer": "A",
+      "explanation": "💡 Phishing is a social engineering attack where cybercriminals impersonate trusted entities (banks, companies, etc.) through fake emails or websites to trick users into revealing confidential information like passwords or credit card numbers. Spoofing is a related but broader technique of faking an identity."
+    },
+    {
+      "question": "Which of the following process is used for verifying the identity of a user? 🆔✅",
+      "options": {
+        "A": "Authentication 🆔",
+        "B": "Identification 🆔",
+        "C": "Validation ✔️",
+        "D": "Verification 🔍"
+      },
+      "answer": "A",
+      "explanation": "💡 Authentication is the process of verifying the identity of a user, device, or system. It confirms that someone is who they claim to be, typically through passwords, biometrics, or tokens. Identification simply means claiming an identity — authentication proves it."
+    },
+    {
+      "question": "In the context of data protection, what does the term \"data encryption\" involve? 🔐",
+      "options": {
+        "A": "Protecting personal data from unauthorized access by converting it into a non readable format 🔒",
+        "B": "Allowing unrestricted access to personal data 🚪",
+        "C": "Ignoring the security of personal data 🙈",
+        "D": "Promoting data processing without encryption 📊"
+      },
+      "answer": "A",
+      "explanation": "💡 Data encryption involves converting readable data (plaintext) into an unreadable format (ciphertext) using an algorithm and a key. Only authorized parties with the correct decryption key can read it. This protects data from unauthorized access even if intercepted."
+    },
+    {
+      "question": "What legal principle allows individuals to control the collection and use of their personal information? 📜",
+      "options": {
+        "A": "Right to privacy 🤫",
+        "B": "Right to access 🚪",
+        "C": "Right to anonymity 🎭",
+        "D": "Right to be forgotten 🗑️"
+      },
+      "answer": "A",
+      "explanation": "💡 The Right to Privacy is a fundamental legal principle that gives individuals control over the collection, storage, and use of their personal information. Right to access means being able to see what data is held, right to anonymity means not being identified, and right to be forgotten means requesting data deletion."
+    },
+    {
+      "question": "What legal concept involves unauthorized access to computer systems with the intent to gather sensitive information? 🕵️",
+      "options": {
+        "A": "Cyber terrorism 💣",
+        "B": "Cyber espionage 🕵️🔍",
+        "C": "Hacking 👨‍💻",
+        "D": "Cyber stalking 👣"
+      },
+      "answer": "B",
+      "explanation": "💡 Cyber espionage is the unauthorized access to computer systems specifically to secretly gather confidential or sensitive information, often for political, military, or economic advantage. It differs from general hacking (which may have various goals) and cyber terrorism (which aims to cause disruption or fear)."
+    },
+    {
+      "question": "What legal principle states that individuals have the right to know what information is collected about them and how it is used? 📜",
+      "options": {
+        "A": "Right to privacy 🤫",
+        "B": "Right to information ℹ️",
+        "C": "Right to access 🚪",
+        "D": "Right to anonymity 🎭"
+      },
+      "answer": "C",
+      "explanation": "💡 The Right to Access (also called the transparency principle in data protection law) gives individuals the right to know what personal data organizations collect about them and how it is used. This is a core principle in data protection regulations like GDPR. Right to privacy is broader; right to information relates to government records."
+    },
+    {
+      "question": "What is the primary purpose of cyber laws and regulations? 📜",
+      "options": {
+        "A": "Restricting internet usage 🚫",
+        "B": "Protecting computer hardware 💻",
+        "C": "Preventing cyber threats and crimes 🛡️",
+        "D": "Promoting software development 👨‍💻"
+      },
+      "answer": "C",
+      "explanation": "💡 The primary purpose of cyber laws and regulations is to prevent cyber threats and crimes such as hacking, identity theft, fraud, and data breaches. They establish legal frameworks for prosecution of cybercriminals and protection of digital assets — not to restrict internet usage or protect hardware."
+    },
+    {
+      "question": "Cyberspace has: 🌐",
+      "options": {
+        "A": "No national boundaries 🚫🗺️",
+        "B": "International jurisdiction 🌍⚖️",
+        "C": "Limited boundaries 📏",
+        "D": "(A) and (B) 💬"
+      },
+      "answer": "D",
+      "explanation": "💡 Cyberspace has no national physical boundaries — information crosses borders instantly. At the same time, international jurisdiction applies because crimes committed online can affect users in multiple countries, making it subject to international law enforcement cooperation. Both A and B are correct."
+    },
+    {
+      "question": "Which of the following provides legal framework for e-governance in India? 🇮🇳📜",
+      "options": {
+        "A": "IT (Amendment) Act, 2008 📅",
+        "B": "Indian Penal Code ⚖️",
+        "C": "IT Act, 2000 ⚖️📜",
+        "D": "None of the above ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 The Information Technology Act, 2000 (IT Act, 2000) provides India's primary legal framework for e-governance, giving legal recognition to electronic records and digital signatures. The 2008 amendment strengthened cybercrime provisions but the original 2000 Act established the e-governance framework."
+    },
+    {
+      "question": "Which of the following statements is true about the Trojans? 🐴",
+      "options": {
+        "A": "Trojans perform tasks for which they are designed or programmed 🎯",
+        "B": "Trojans replicates themselves or clone themselves through an infections 🧬",
+        "C": "Trojans do nothing harmful to the user's computer systems 😇",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 Trojans perform the malicious tasks for which they are secretly designed, while appearing as legitimate software. Unlike viruses or worms, Trojans do NOT replicate themselves — replication is a key characteristic of viruses and worms. Trojans are definitely harmful, contrary to option C."
+    },
+    {
+      "question": "Which type of the following malware does not replicate or clone themselves through infection? 🦠🚫",
+      "options": {
+        "A": "Rootkits 🪚",
+        "B": "Trojans 🐴",
+        "C": "Worms 🐛",
+        "D": "Viruses 🦠"
+      },
+      "answer": "B",
+      "explanation": "💡 Trojans do not replicate themselves — they rely on users to download and run them by disguising as legitimate software. Viruses attach to programs and replicate when executed, worms self-replicate across networks, and rootkits can hide other malware but the defining trait of Trojans is their deceptive delivery, not self-replication."
+    },
+    {
+      "question": "Which of these systems use timestamps as an expiration date? ⏰",
+      "options": {
+        "A": "Public-Key Certificates 📜🔑",
+        "B": "Public announcements 📢",
+        "C": "Publicly available directories 📁",
+        "D": "Public-Key authority 👤🔑"
+      },
+      "answer": "A",
+      "explanation": "💡 Public-Key Certificates include timestamps as validity periods (valid from / valid to dates). When the expiration timestamp is reached, the certificate is no longer trusted and must be renewed. This prevents old, potentially compromised keys from being used indefinitely."
+    },
+    {
+      "question": "Which of the following public key distribution systems is most secure? 🔑🛡️",
+      "options": {
+        "A": "Public-Key Certificates 📜🔑",
+        "B": "Public announcements 📢",
+        "C": "Publicly available directories 📁",
+        "D": "Public-Key authority 👤🔑"
+      },
+      "answer": "A",
+      "explanation": "💡 Public-Key Certificates issued by a trusted Certificate Authority (CA) are the most secure method of distributing public keys. Public announcements and publicly available directories can be tampered with (man-in-the-middle attacks), while a CA-signed certificate cryptographically binds a public key to a verified identity."
+    },
+    {
+      "question": "In the context of web security, what is an anomaly-based detection approach in IDS/IPS? 🌐🛡️",
+      "options": {
+        "A": "Improving website aesthetics 🎨",
+        "B": "Blocking all incoming and outgoing traffic 🚫",
+        "C": "Identifying deviations from normal behavior patterns 📊⚠️",
+        "D": "Granting unrestricted access to all users 🚪"
+      },
+      "answer": "C",
+      "explanation": "💡 Anomaly-based detection in an IDS/IPS establishes a baseline of normal network behavior and then identifies deviations from that baseline as potential threats. This approach can detect new, unknown attacks unlike signature-based detection which only recognizes known attack patterns."
+    },
+    {
+      "question": "How does an Intrusion Prevention System (IPS) differ from an IDS? 🛡️",
+      "options": {
+        "A": "By focusing on server performance ⚡",
+        "B": "By actively blocking malicious traffic in real-time 🚫⏱️",
+        "C": "By improving website aesthetics 🎨",
+        "D": "Granting unrestricted access to all users 🚪"
+      },
+      "answer": "B",
+      "explanation": "💡 An IDS (Intrusion Detection System) only monitors and alerts on suspicious activity. An IPS (Intrusion Prevention System) goes further by actively blocking or preventing the detected malicious traffic in real-time. The key difference is detection vs. active prevention."
+    },
+    {
+      "question": "What is the primary role of an Intrusion Detection System (IDS) in web security? 👀",
+      "options": {
+        "A": "Enhancing website aesthetics 🎨",
+        "B": "Actively blocking malicious traffic 🚫",
+        "C": "Monitoring and detecting potential security incidents 📡⚠️",
+        "D": "Granting unrestricted access to all users 🚪"
+      },
+      "answer": "C",
+      "explanation": "💡 An IDS monitors network or system traffic and logs/alerts on suspicious patterns that may indicate a security incident or attack. It does NOT actively block traffic — that is the role of an IPS (Intrusion Prevention System). An IDS is a passive detection tool."
+    },
+    {
+      "question": "Cyber Security provide security against what? 🛡️",
+      "options": {
+        "A": "Against Malware 🦠",
+        "B": "Against cyber-terrorists 💣",
+        "C": "Defends a device from threat 🛡️",
+        "D": "All mentioned options 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Cyber security is a broad discipline that protects systems against all types of digital threats — including malware (viruses, ransomware, spyware), cyber-terrorists, hackers, and any other threats to devices, networks, and data. All the listed options fall within the scope of cyber security."
+    },
+    {
+      "question": "In order to ensure the security of the data/information, we need to ________ the data: 🔐",
+      "options": {
+        "A": "Encrypt 🔒",
+        "B": "Decrypt 🔓",
+        "C": "Delete 🗑️",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 To ensure data security, we encrypt the data. Encryption converts data into ciphertext that cannot be read without the correct key, protecting it from unauthorized access. Decryption is the reverse process (for authorized access), and deleting data does not secure it."
+    },
+    {
+      "question": "In the CIA Triad, which one of the following is not involved? 🔐",
+      "options": {
+        "A": "Availability ⏳",
+        "B": "Confidentiality 🤐",
+        "C": "Authenticity 💬",
+        "D": "Integrity 📏"
+      },
+      "answer": "C",
+      "explanation": "💡 The CIA Triad consists of three core information security principles: Confidentiality (keeping data private), Integrity (ensuring data is accurate and unaltered), and Availability (ensuring data is accessible when needed). Authenticity is not part of the CIA Triad — it is a separate, related security concept."
+    },
+    {
+      "question": "Which of the following is a type of independent malicious program that never required any host program? 🦠🚫🏠",
+      "options": {
+        "A": "Trojan Horse 🐴",
+        "B": "Worm 🐛",
+        "C": "Trap Door 🚪",
+        "D": "Virus 🦠"
+      },
+      "answer": "B",
+      "explanation": "💡 A worm is a standalone malicious program that self-replicates and spreads across networks without needing to attach to a host program. In contrast, a virus must attach itself to a legitimate program (host) to spread. Trojans also need user execution but don't self-replicate."
+    },
+    {
+      "question": "Hackers usually used the computer virus for ________ purpose. 👨‍💻🦠",
+      "options": {
+        "A": "To log, monitor each and every user's stroke ⌨️👁️",
+        "B": "To gain access the sensitive information like user's Id and Passwords 🔑",
+        "C": "To corrupt the user's data stored in the computer system 💔",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Hackers use viruses for multiple malicious purposes: keylogging to capture user keystrokes, stealing sensitive information like IDs and passwords, and corrupting or destroying data. Viruses are versatile tools used for many different types of attacks."
+    },
+    {
+      "question": "Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system? 👨‍💻⚠️",
+      "options": {
+        "A": "DDoS and Drive-by Downloads 🌊📥",
+        "B": "Malware & Malvertising 🦠📢",
+        "C": "Phishing and Password attacks 🎣🔑",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 All of the listed attack types are common methods used by hackers: DDoS attacks overwhelm servers, drive-by downloads install malware without user consent, malvertising embeds malware in ads, phishing deceives users into revealing credentials, and password attacks crack or steal passwords."
+    },
+    {
+      "question": "Which of the following can be considered as the elements of cyber security? 🛡️",
+      "options": {
+        "A": "Application Security 📱🔒",
+        "B": "Operational Security ⚙️🔒",
+        "C": "Network Security 🌐🔒",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Cyber security encompasses multiple domains: Application Security (securing software from vulnerabilities), Operational Security (protecting processes and procedures), and Network Security (protecting network infrastructure). All three, along with information security and endpoint security, are recognized elements of cyber security."
+    },
+    {
+      "question": "________ is a type of software designed to help the user's computer detect viruses and avoid them. 🛡️🦠",
+      "options": {
+        "A": "Malware 🦠",
+        "B": "Adware 📢",
+        "C": "Antivirus 🛡️",
+        "D": "Both (B) and (C) 🔄"
+      },
+      "answer": "C",
+      "explanation": "💡 Antivirus software is specifically designed to detect, prevent, and remove malicious software including viruses from a computer. Malware is harmful software (the threat itself), and adware displays unwanted advertisements — neither detects or protects against viruses."
+    },
+    {
+      "question": "Which of the below does not constitute a cybercrime? 🚫⚠️",
+      "options": {
+        "A": "Refusal of service 🚫",
+        "B": "Man in the middle 👥",
+        "C": "Phishing 🎣",
+        "D": "MD5 🔢"
+      },
+      "answer": "D",
+      "explanation": "💡 MD5 is a cryptographic hash function — it is a legitimate algorithm used in computer science. It is not a cybercrime. Denial of service attacks, man-in-the-middle attacks, and phishing are all illegal cybercrimes. MD5 may be used by criminals but the algorithm itself is not a crime."
+    },
+    {
+      "question": "Which of the below is a kind of cyber security? 🛡️",
+      "options": {
+        "A": "Cloud Security ☁️🔒",
+        "B": "Application Security 📱🔒",
+        "C": "Cloud Security ☁️🔒",
+        "D": "All options mentioned 💬"
+      },
+      "answer": "D",
+      "explanation": "💡 Cloud Security (protecting cloud-based infrastructure and data) and Application Security (securing software applications from vulnerabilities) are both recognized types of cyber security. All the listed options represent valid domains within the broader field of cyber security."
+    },
+    {
+      "question": "How does a man-in-the-middle attack work? 👥",
+      "options": {
+        "A": "Overloading a server with traffic 🌊",
+        "B": "Intercepting and altering communication between two parties 👂✏️",
+        "C": "Spreading through infected email attachments 📧🦠",
+        "D": "Disguising itself as a legitimate program 🎭"
+      },
+      "answer": "B",
+      "explanation": "💡 In a man-in-the-middle (MitM) attack, the attacker secretly intercepts and potentially alters communication between two parties who believe they are communicating directly with each other. Overloading a server is a DoS attack, spreading via email is how some viruses work, and disguising as a legitimate program is a Trojan."
+    },
+    {
+      "question": "An asymmetric-key (or public-key) cipher uses 🔑🔐",
+      "options": {
+        "A": "1 key 1️⃣",
+        "B": "2 key 2️⃣",
+        "C": "3 key 3️⃣",
+        "D": "4 key 4️⃣"
+      },
+      "answer": "B",
+      "explanation": "💡 Asymmetric-key (public-key) cryptography uses 2 mathematically related keys: a public key (shared openly, used to encrypt) and a private key (kept secret, used to decrypt). This is in contrast to symmetric encryption which uses only 1 shared key for both encryption and decryption."
+    },
+    {
+      "question": "Which of the following answers refers to a hierarchical system for the creation, management, storage, distribution, and revocation of digital certificates? 📜🔑",
+      "options": {
+        "A": "SAAS ☁️",
+        "B": "DOS 💾",
+        "C": "Digital signature ✍️",
+        "D": "Public Key Infrastructure 🏗️🔑"
+      },
+      "answer": "D",
+      "explanation": "💡 Public Key Infrastructure (PKI) is a hierarchical system that manages the creation, distribution, storage, and revocation of digital certificates. It includes Certificate Authorities (CAs), registration authorities, and certificate stores. A digital signature is just one component produced using PKI."
+    },
+    {
+      "question": "The central node of 802.11 wireless operations is called. 📶",
+      "options": {
+        "A": "WPA 🔒",
+        "B": "Access Point 📡",
+        "C": "WAP 📱",
+        "D": "Access Port 🚪"
+      },
+      "answer": "B",
+      "explanation": "💡 In 802.11 wireless networks, the Access Point (AP) is the central node that manages all wireless client connections and acts as a bridge between wireless devices and the wired network. WPA is a security protocol, not a network node."
+    },
+    {
+      "question": "The process of analyzing wireless traffic that may be helpful for forensic investigations or during troubleshooting any wireless issue is called? 📶🔍",
+      "options": {
+        "A": "Wireless Traffic Sniffing 👃📡",
+        "B": "Wireless Traffic Maltego 🛠️",
+        "C": "Wireless Traffic BurpSuit 🛠️",
+        "D": "Wireless Traffic Wireshark 🦈📡"
+      },
+      "answer": "D",
+      "explanation": "💡 Wireshark is the most widely used tool for capturing and analyzing wireless (and wired) network traffic for forensic investigation or troubleshooting. Maltego is used for information gathering and link analysis, while Burp Suite is a web application security testing tool."
+    },
+    {
+      "question": "Mobile security is also known as? 📱🔒",
+      "options": {
+        "A": "OS Security 💻🔒",
+        "B": "APIs Security 🔌🔒",
+        "C": "Wireless Security 📶🔒",
+        "D": "Database security 🗄️🔒"
+      },
+      "answer": "C",
+      "explanation": "💡 Mobile security is also known as wireless security because mobile devices communicate primarily over wireless networks (Wi-Fi, cellular, Bluetooth). Securing mobile devices inherently involves securing wireless communication channels."
+    },
+    {
+      "question": "Which malware is designed to capture and transmit sensitive data, such as login credentials? 🦠🔑",
+      "options": {
+        "A": "Spyware 👁️",
+        "B": "Adware 📢",
+        "C": "Keylogger ⌨️📝",
+        "D": "Ransomware 💰🔒"
+      },
+      "answer": "C",
+      "explanation": "💡 A keylogger is malware specifically designed to record and transmit every keystroke a user makes, capturing login credentials, passwords, and other sensitive data. While spyware also steals data, keyloggers are the most targeted tool for capturing credentials. Ransomware encrypts files and demands payment."
+    },
+    {
+      "question": "What is true about data security? 🔐",
+      "options": {
+        "A": "Data security is the protection of programs and data in computers and communication systems against unauthorized access 🛡️",
+        "B": "It refers to the right of individuals or organizations to deny or restrict the collection and use of information 🚫",
+        "C": "Data security requires system managers to reduce unauthorized access to the systems by building physical arrangements and software checks 🔧",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 All three statements about data security are true: it involves protecting data from unauthorized access, it includes rights to control how information is collected and used, and it requires both physical security measures and software controls. Data security is a comprehensive concept covering all these aspects."
+    },
+    {
+      "question": "Deleted files recovery is a common technique used in computer forensics. 🗑️🔍",
+      "options": {
+        "A": "TRUE 💡",
+        "B": "FALSE ❌",
+        "C": "Can be true or false 🔄",
+        "D": "Can not say 🤔"
+      },
+      "answer": "A",
+      "explanation": "💡 TRUE. Deleted file recovery is a fundamental and common technique in digital forensics. When a file is deleted, it is often not immediately overwritten — the space is just marked as available. Forensic tools can recover these files, which may serve as critical evidence in investigations."
+    },
+    {
+      "question": "Computer forensics can also be used in civil proceedings. ⚖️",
+      "options": {
+        "A": "Yes 💡",
+        "B": "No ❌",
+        "C": "Can be yes or no 🔄",
+        "D": "Can not say 🤔"
+      },
+      "answer": "A",
+      "explanation": "💡 Yes. Computer forensics is used in both criminal and civil legal proceedings. In civil cases, digital evidence such as emails, documents, browsing history, and metadata may be used in disputes like employment litigation, intellectual property cases, or breach of contract claims."
+    },
+    {
+      "question": "What is the purpose of a hash value in digital forensics? 🔢🔍",
+      "options": {
+        "A": "To encrypt sensitive data 🔐",
+        "B": "To identify and verify the integrity of digital evidence 🆔🔍",
+        "C": "To recover deleted files from storage media 🗑️",
+        "D": "To analyze network traffic and detect malicious activities 🌐👁️"
+      },
+      "answer": "B",
+      "explanation": "💡 In digital forensics, a hash value (e.g., MD5 or SHA-256) is calculated from digital evidence to verify its integrity. If the evidence is not tampered with, the hash remains the same. This proves that the evidence presented in court is identical to what was originally collected."
+    },
+    {
+      "question": "For ethical hacking, what process is followed? 👨‍💻⚖️",
+      "options": {
+        "A": "Cryptography 🔐",
+        "B": "Encryption 🔒",
+        "C": "Decryption 🔓",
+        "D": "Penetration Testing 🛡️🔨"
+      },
+      "answer": "D",
+      "explanation": "💡 Ethical hacking follows the process of penetration testing — a structured, authorized simulation of cyberattacks to identify and report vulnerabilities before malicious hackers can exploit them. Cryptography, encryption, and decryption are tools that may be used within security, but the overall process is penetration testing."
+    },
+    {
+      "question": "Digital signatures are created and verified using ✍️",
+      "options": {
+        "A": "Program 💻",
+        "B": "graphical coding 🎨",
+        "C": "HTML 🌐",
+        "D": "cryptography 🔐"
+      },
+      "answer": "D",
+      "explanation": "💡 Digital signatures are created and verified using cryptography — specifically asymmetric cryptography. The sender uses their private key (cryptographic operation) to sign a hash of the message, and the receiver uses the sender's public key to verify the signature."
+    },
+    {
+      "question": "The authentication to be affected by use of asymmetric crypto system and hash function is known as 🔑🔢",
+      "options": {
+        "A": "Public key 🔑🌍",
+        "B": "Private Key 🔑🤫",
+        "C": "Digital Signature ✍️",
+        "D": "e-governance 🏛️"
+      },
+      "answer": "C",
+      "explanation": "💡 When authentication is achieved by combining an asymmetric cryptosystem (public/private key pair) with a hash function, the result is a Digital Signature. The hash ensures message integrity, and the asymmetric keys provide authentication and non-repudiation."
+    },
+    {
+      "question": "What is the purpose of a disaster recovery plan (DRP) in cybersecurity? 🛡️📋",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To ensure the restoration of IT services after a disruptive event 🔄💻",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 A Disaster Recovery Plan (DRP) outlines the procedures and resources needed to restore IT systems and data after a disruptive event such as a cyberattack, natural disaster, or hardware failure. Its goal is business continuity and minimal downtime — not eliminating vulnerabilities (that's risk management)."
+    },
+    {
+      "question": "Which chapter of Cyber Law provides the legal Recognition to Digital Signature? 📜✍️",
+      "options": {
+        "A": "Chapter III 📖",
+        "B": "Chapter IV 📖",
+        "C": "Chapter IX 📖",
+        "D": "Chapter IX and X 📖📖"
+      },
+      "answer": "A",
+      "explanation": "💡 Chapter III of the Information Technology Act, 2000 provides legal recognition to digital signatures in India. It defines digital signatures, their legal validity, and the framework for their use in electronic records and transactions."
+    },
+    {
+      "question": "Which type of malware is designed to observe and gather user information without their knowledge? 🦠👁️",
+      "options": {
+        "A": "Worm 🐛",
+        "B": "Trojan 🐴",
+        "C": "Spyware 👁️",
+        "D": "Adware 📢"
+      },
+      "answer": "C",
+      "explanation": "💡 Spyware is malware specifically designed to silently monitor and gather user information — such as browsing habits, keystrokes, and login credentials — without the user's knowledge or consent. Worms self-replicate, Trojans disguise themselves as legitimate software, and adware displays unwanted advertisements."
+    },
+    {
+      "question": "Password cracker tries 🔑",
+      "options": {
+        "A": "Man in the middle attack 👥",
+        "B": "Brute force attack 💪🔑",
+        "C": "Intrusion detection 👀",
+        "D": "Intrusion prevention 🛡️"
+      },
+      "answer": "B",
+      "explanation": "💡 A password cracker uses a brute force attack, which systematically tries every possible combination of characters until the correct password is found. Other approaches include dictionary attacks (trying common words) and rainbow table attacks. Man-in-the-middle is a different type of attack unrelated to password cracking."
+    },
+    {
+      "question": "e-governance includes 🏛️💻",
+      "options": {
+        "A": "Filing of form online, paperless 📄🛒",
+        "B": "Efficient, low cost, transparent governance 💰📊",
+        "C": "Both above 🔀",
+        "D": "Payment of bills 💵"
+      },
+      "answer": "C",
+      "explanation": "💡 E-governance includes both online/paperless services (like filing forms digitally) and the broader goal of efficient, low-cost, and transparent governance through digital technology. Both A and B are correct aspects of e-governance — C combines them. Bill payment (D) is just one specific service, not the complete definition."
+    },
+    {
+      "question": "Black box and white box pentest is done from ________ and ________ user perspective respectively 🖤📦🤍📦",
+      "options": {
+        "A": "Insider, outsider 👤🏢, 👤🌍",
+        "B": "Outsider, insider 👤🌍, 👤🏢",
+        "C": "Third party, insider 👤🤝, 👤🏢",
+        "D": "Employee and user 👨‍💼, 👤"
+      },
+      "answer": "B",
+      "explanation": "💡 Black box testing simulates an outsider's perspective — the tester has no prior knowledge of the system. White box testing simulates an insider's perspective — the tester has full knowledge of the system's internal structure, code, and architecture. The order in the question matches: black = outsider, white = insider."
+    },
+    {
+      "question": "What is the difference between vulnerability scanning and penetration testing? 🔍 vs 🔨",
+      "options": {
+        "A": "Vulnerability scanning identifies vulnerabilities and penetration testing exploits them ⚠️🔍🔨",
+        "B": "Vulnerability scanning is an active process while penetration testing is passive 🔄",
+        "C": "Vulnerability scanning is less thorough than penetration testing 📉",
+        "D": "Vulnerability scanning is conducted by internal security teams, while penetration testing is conducted by external security firms 🏢 vs 🏢🌍"
+      },
+      "answer": "A",
+      "explanation": "💡 Vulnerability scanning automatically identifies potential weaknesses in a system but does not exploit them. Penetration testing goes further by actively exploiting identified vulnerabilities to determine their real-world impact. Scanning is automated and non-intrusive; penetration testing is manual and simulates an actual attack."
+    },
+    {
+      "question": "PKI stands for? 🔑",
+      "options": {
+        "A": "Public key infrastructure 🏗️🔑",
+        "B": "Private key infrastructure 🏗️🔑🤫",
+        "C": "Public key instance 🔑📌",
+        "D": "Private key instance 🔑🤫📌"
+      },
+      "answer": "A",
+      "explanation": "💡 PKI stands for Public Key Infrastructure — a framework of policies, technologies, and procedures used to create, manage, distribute, and revoke digital certificates and public keys. It enables secure electronic communication over networks."
+    },
+    {
+      "question": "Which of the following is a common type of vulnerability in web applications? 🌐⚠️",
+      "options": {
+        "A": "Denial of service (DoS) 🚫",
+        "B": "SQL injection 🗄️💉",
+        "C": "Man-in-the-middle (MitM) attack 👥",
+        "D": "Buffer overflow 📦💥"
+      },
+      "answer": "B",
+      "explanation": "💡 SQL injection is one of the most common and dangerous vulnerabilities in web applications. It allows attackers to insert malicious SQL code into input fields, manipulating the database to expose, modify, or delete data. DoS and MitM are network-level attacks, while buffer overflow is a memory vulnerability in software."
+    },
+    {
+      "question": "What is social engineering? 🎭🧠",
+      "options": {
+        "A": "Using force to gain access to the information you need 💪",
+        "B": "Hacking either telecommunication or wireless networks to gain access to the information you need 📡",
+        "C": "Using manipulation to deceive people that you are someone you are not to gain access to the information you need 🎭",
+        "D": "Using force to gain all the information available 💪"
+      },
+      "answer": "C",
+      "explanation": "💡 Social engineering is the psychological manipulation of people to deceive them into revealing confidential information or performing actions that compromise security. It exploits human trust rather than technical vulnerabilities. Phishing, pretexting, and baiting are all forms of social engineering."
+    },
+    {
+      "question": "Which of the following is the best approach to conducting a penetration test? 🔨",
+      "options": {
+        "A": "Black box testing 🖤📦",
+        "B": "White box testing 🤍📦",
+        "C": "Grey box testing 🩶📦",
+        "D": "Automated testing 🤖"
+      },
+      "answer": "C",
+      "explanation": "💡 Grey box testing is generally considered the best approach for penetration testing because it combines elements of both black box (outsider perspective, no knowledge) and white box (full knowledge). The tester has partial knowledge, simulating a realistic attacker who has done some reconnaissance, providing thorough yet realistic results."
+    },
+    {
+      "question": "Penetration testing should focus on what scenarios? 🔨",
+      "options": {
+        "A": "Most likely 📈",
+        "B": "Most dangerous 💀",
+        "C": "Both 🔀",
+        "D": "None ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 Effective penetration testing should focus on both the most likely attack scenarios (common attack vectors that are probable) and the most dangerous scenarios (high-impact attacks, even if less probable). Ignoring either category would leave critical security gaps."
+    },
+    {
+      "question": "Which of the following are ways to conduct penetration testing? 🔨",
+      "options": {
+        "A": "Black Box Testing, White Box Testing, Grey Box Testing 🖤🤍🩶",
+        "B": "Black Box Testing, Red Box Testing, Grey Box Testing 🖤🔴🩶",
+        "C": "White Box Testing, Brown Box Testing, Red Box Testing 🤍🤎🔴",
+        "D": "Black Box Testing, Green Box Testing, White Box Testing 🖤💚🤍"
+      },
+      "answer": "A",
+      "explanation": "💡 The three established types of penetration testing are: Black Box (no prior knowledge, outsider perspective), White Box (full knowledge, insider perspective), and Grey Box (partial knowledge, combination of both). Red, Brown, and Green box are not standard penetration testing types."
+    },
+    {
+      "question": "Is penetration testing used to help or for damaging a system? 🔨",
+      "options": {
+        "A": "Helping 🤝",
+        "B": "Securing 🔒",
+        "C": "Damaging 💔",
+        "D": "Both (A) & (C) 🔄"
+      },
+      "answer": "B",
+      "explanation": "💡 Penetration testing is used to secure a system. While it simulates attacks to find weaknesses, its purpose is to strengthen security by identifying vulnerabilities before real attackers do. It is done with authorization and with the intent of improving, not damaging, the target system."
+    },
+    {
+      "question": "In public key cryptosystem for message confidentiality, which is kept as public? 🔑",
+      "options": {
+        "A": "Decryption keys 🔓🔑",
+        "B": "Encryption keys 🔒🔑",
+        "C": "Encryption & Decryption keys 🔒🔓🔑",
+        "D": "None of the above ❌"
+      },
+      "answer": "B",
+      "explanation": "💡 In a public key cryptosystem for message confidentiality, the encryption key (public key) is made publicly available so anyone can encrypt a message to the owner. The decryption key (private key) is kept secret by the owner. Only the private key holder can decrypt messages encrypted with their public key."
+    },
+    {
+      "question": "________ is a person in whose name the Digital Signature Certificate is issued 👤✍️",
+      "options": {
+        "A": "Certified authority 📝👤",
+        "B": "Subscriber 📝👤",
+        "C": "Holder 📋👤",
+        "D": "Controller 🎮👤"
+      },
+      "answer": "B",
+      "explanation": "💡 Under the IT Act, 2000, a Subscriber is the person in whose name the Digital Signature Certificate is issued. The Certificate Authority (CA) issues the certificate, the Controller regulates the CAs, but the subscriber is the individual or entity that holds and uses the certificate."
+    },
+    {
+      "question": "Which of the following is a general term for malicious software that pretends to be harmless so that a user willingly allows it to be downloaded onto the computer? 🦠🎭",
+      "options": {
+        "A": "Spyware 👁️",
+        "B": "Virus 🦠",
+        "C": "Trojan Horse 🐴",
+        "D": "Botnets 🤖🌐"
+      },
+      "answer": "C",
+      "explanation": "💡 A Trojan Horse disguises itself as legitimate, harmless software to trick users into willingly downloading and running it. Once installed, it performs malicious actions. Unlike viruses, it does not self-replicate. The name comes from the Greek myth of the wooden horse used to deceive the Trojans."
+    },
+    {
+      "question": "Digital signature certificate is issued by (as in IT act 2000) ✍️📜",
+      "options": {
+        "A": "Appellate tribunal ⚖️",
+        "B": "Controller of certificate authority 🎮📝",
+        "C": "Certificate authority 📜📝",
+        "D": "Cyber crime investigator 🕵️"
+      },
+      "answer": "C",
+      "explanation": "💡 Under the IT Act, 2000, Digital Signature Certificates are issued by a Certifying Authority (Certificate Authority). The Controller of Certifying Authorities supervises and licenses CAs but does not directly issue certificates. Appellate Tribunals handle legal disputes."
+    },
+    {
+      "question": "Which of the following type of attack can actively modify communications or data? ✏️📡",
+      "options": {
+        "A": "Both Active and Passive attack 🔄",
+        "B": "Neither Active nor Passive attack ❌",
+        "C": "Active attack ⚡",
+        "D": "Passive attack 👂"
+      },
+      "answer": "C",
+      "explanation": "💡 An active attack involves actively modifying or disrupting communications or data — examples include man-in-the-middle attacks, replay attacks, and denial-of-service attacks. A passive attack only involves eavesdropping or monitoring without modifying data (e.g., traffic analysis, sniffing)."
+    },
+    {
+      "question": "Trojan Horse programs operate with what intent? 🐴",
+      "options": {
+        "A": "To slowly but surely infect and become your operating system until the system crashes 🐢💥",
+        "B": "To openly exploit a systems weaknesses until the user discovers it 📢",
+        "C": "To masquerade as non-malicious software while exploiting a system's weaknesses 🎭🔨",
+        "D": "To do a series of brute force attacks within the system itself and a series of external attacks from other servers 💪🌐"
+      },
+      "answer": "C",
+      "explanation": "💡 Trojan Horse programs masquerade (disguise themselves) as legitimate, non-malicious software while secretly exploiting the system's weaknesses. The user is tricked into running them. They do not self-replicate or openly advertise their presence — stealth and deception are their defining characteristics."
+    },
+    {
+      "question": "What is the purpose of a risk response strategy in the risk assessment process? 📊⚠️",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To outline the actions to be taken in response to identified risks 📝⚠️",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 A risk response strategy outlines the specific actions an organization will take in response to identified risks — such as risk avoidance, mitigation, transfer (e.g., insurance), or acceptance. It is not about eliminating all vulnerabilities (which is impossible) but managing them appropriately."
+    },
+    {
+      "question": "In the context of risk assessment, what does the term \"vulnerability\" refer to? ⚠️",
+      "options": {
+        "A": "A weakness that could be exploited by a threat 🔻",
+        "B": "Promoting unrestricted data sharing 📢",
+        "C": "Ignoring potential risks 🙈",
+        "D": "Fostering a risk-aware culture 🌱"
+      },
+      "answer": "A",
+      "explanation": "💡 In risk assessment, a vulnerability is a weakness or gap in a system, process, or control that could be exploited by a threat (such as a hacker or malware) to cause harm. Threats exploit vulnerabilities — risks are the combination of threats, vulnerabilities, and potential impact."
+    },
+    {
+      "question": "What is the purpose of a risk assessment report in cybersecurity risk management? 📊📄",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To communicate the results of the risk assessment 📢📊",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 A risk assessment report documents and communicates the results of the risk assessment process — including identified risks, their likelihood, potential impact, and recommended controls — to stakeholders and decision-makers so appropriate action can be taken."
+    },
+    {
+      "question": "What is the purpose of a threat assessment in cybersecurity risk management? ⚠️",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To identify potential risks and threats 🔍⚠️",
+        "C": "To promote unrestricted data sharing 📢",
+        "D": "To ignore the impact of threats 🙈"
+      },
+      "answer": "B",
+      "explanation": "💡 A threat assessment identifies and analyzes potential threats to an organization's systems and data — such as hackers, malware, insider threats, or natural disasters — so that appropriate security controls can be implemented. Eliminating all vulnerabilities is not realistic."
+    },
+    {
+      "question": "Which of the following is a key component of the risk assessment process? 📊",
+      "options": {
+        "A": "Ignoring potential risks 🙈",
+        "B": "Risk acceptance ⚠️🤝",
+        "C": "Promoting unrestricted access to sensitive data 🚪",
+        "D": "Fostering a risk-aware culture 🌱"
+      },
+      "answer": "B",
+      "explanation": "💡 Risk acceptance is a key component of the risk assessment process — it is a deliberate decision to accept a risk because the cost of mitigating it outweighs the potential impact. Key components include risk identification, analysis, evaluation, treatment (which includes acceptance, mitigation, transfer, or avoidance)."
+    },
+    {
+      "question": "What is the primary goal of a risk assessment in cybersecurity? 🎯📊",
+      "options": {
+        "A": "To eliminate all cyber threats ❌",
+        "B": "To identify and manage potential risks 🔍📊",
+        "C": "To promote unrestricted data sharing 📢",
+        "D": "To ignore the impact of cyber threats 🙈"
+      },
+      "answer": "B",
+      "explanation": "💡 The primary goal of a risk assessment is to identify, analyze, and manage potential risks to an organization's information assets. It helps organizations prioritize their security efforts and allocate resources effectively. Eliminating all threats is not feasible — the goal is to manage and reduce risk to an acceptable level."
+    },
+    {
+      "question": "Which of the below is a popular victim of cyber attackers looking to gain the IP address of a target or victim user? 🎯🌐",
+      "options": {
+        "A": "emails 📧",
+        "B": "websites 🌐",
+        "C": "IP tracer 📍",
+        "D": "web pages 📄"
+      },
+      "answer": "C",
+      "explanation": "💡 IP tracers (online tools that reveal a user's IP address when they click a link) are commonly exploited by attackers to discover a victim's IP address. Attackers send targets a link generated by an IP logger/tracer service, and when the victim clicks it, their IP is captured."
+    },
+    {
+      "question": "Which of the following is the collective name for Trojan horses, spyware, and worms? 🦠🐴👁️🐛",
+      "options": {
+        "A": "Spyware 👁️",
+        "B": "Botnets 🤖🌐",
+        "C": "Virus 🦠",
+        "D": "Malware 🦠"
+      },
+      "answer": "D",
+      "explanation": "💡 Malware (malicious software) is the collective term for all types of harmful software, including Trojan horses, spyware, worms, viruses, ransomware, and adware. Botnets are networks of infected machines, and a virus is just one specific type of malware."
+    },
+    {
+      "question": "Which of the following is collection of Internet-connected programs communicating with other similar programs in order to perform tasks? 🌐🤖",
+      "options": {
+        "A": "Botnet 🤖🌐",
+        "B": "Spyware 👁️",
+        "C": "Trojan horse 🐴",
+        "D": "Malware 🦠"
+      },
+      "answer": "A",
+      "explanation": "💡 A Botnet is a network of internet-connected computers (bots) that have been infected with malware and are controlled remotely by an attacker. These compromised machines communicate with each other and with the command-and-control server to carry out coordinated tasks like DDoS attacks or spam campaigns."
+    },
+    {
+      "question": "Which of the following is a means to access a computer program or entire computer system bypassing all security mechanisms? 🚪🔓",
+      "options": {
+        "A": "Backdoor 🚪",
+        "B": "Masquerading 🎭",
+        "C": "Phishing 🎣",
+        "D": "Trojan Horse 🐴"
+      },
+      "answer": "A",
+      "explanation": "💡 A backdoor is a secret, hidden method of bypassing normal authentication and security mechanisms to gain unauthorized access to a computer system or program. It can be intentionally built in by developers or maliciously installed by attackers. Masquerading and phishing are social deception techniques."
+    },
+    {
+      "question": "There are two types of firewall. What are they? 🔥🧱",
+      "options": {
+        "A": "Internet-based and home-based 🌐🏠",
+        "B": "Hardware and software 💻🖥️",
+        "C": "Remote and local 📡🏠",
+        "D": "Digital and electronic 🔢⚡"
+      },
+      "answer": "B",
+      "explanation": "💡 The two main types of firewalls are Hardware firewalls (physical devices placed between the network and gateway) and Software firewalls (programs installed on individual computers). Both filter network traffic, but hardware firewalls protect entire networks while software firewalls protect individual devices."
+    },
+    {
+      "question": "A digital signature scheme consists of which of the following typical algorithms? ✍️",
+      "options": {
+        "A": "Key generation, Signing and Signature verifying algorithm 🔑✍️🆔",
+        "B": "Signature verifying algorithm 🆔",
+        "C": "Key generation algorithm 🔑",
+        "D": "Signing algorithm ✍️"
+      },
+      "answer": "A",
+      "explanation": "💡 A complete digital signature scheme consists of three algorithms: Key Generation (creates the public/private key pair), Signing (uses the private key to sign the message hash), and Signature Verification (uses the public key to verify the signature). All three are necessary for a functional digital signature system."
+    },
+    {
+      "question": "What is another name for an insecure plugin? 🔌⚠️",
+      "options": {
+        "A": "Hardware 💻",
+        "B": "Software 🖥️",
+        "C": "Firmware 🔧",
+        "D": "Malware 🦠"
+      },
+      "answer": "D",
+      "explanation": "💡 An insecure or malicious plugin can be classified as malware — software that performs unauthorized and harmful actions on the user's system. Insecure plugins often serve as entry points for attackers to inject malicious code, making them functionally equivalent to malware."
+    },
+    {
+      "question": "To protect the computer system against the hacker and different kind of viruses, one must always keep ________ on in the computer system. 🛡️",
+      "options": {
+        "A": "Antivirus 🦠🚫",
+        "B": "Firewall 🔥🧱",
+        "C": "Vlc player 🎬",
+        "D": "Script 📜"
+      },
+      "answer": "B",
+      "explanation": "💡 A Firewall should always be kept on to protect a computer system from hackers and viruses by filtering incoming and outgoing network traffic. While antivirus is also important, a firewall is the primary defense against network-based intrusions and unauthorized access attempts."
+    },
+    {
+      "question": "Which of the following are the types of scanning? 🔍",
+      "options": {
+        "A": "Network, vulnerability, and port scanning 🌐⚠️🚪",
+        "B": "Port, network, and services 🚪🌐⚙️",
+        "C": "Client, Server, and network 💻🖥️🌐",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 The three main types of scanning in ethical hacking are: Network scanning (identifies active hosts on a network), Vulnerability scanning (finds security weaknesses in systems), and Port scanning (identifies open ports and services on a host). These are standard reconnaissance techniques in penetration testing."
+    },
+    {
+      "question": "In system hacking, which of the following is the most crucial activity? 👨‍💻",
+      "options": {
+        "A": "Information gathering 📡🔍",
+        "B": "Covering tracks 🧹👣",
+        "C": "Cracking passwords 🔑💪",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 Information gathering (reconnaissance) is the most crucial activity in system hacking as it forms the foundation of all subsequent attack stages. Without detailed information about the target — its systems, vulnerabilities, and topology — no other attack phase can be effectively executed."
+    },
+    {
+      "question": "What is Digital Forensics? 🔍💻",
+      "options": {
+        "A": "Process of using scientific knowledge in analysis and presentation of evidence in court ⚖️",
+        "B": "The application of computer science and investigative procedures for a legal purpose involving the analysis of digital evidence after proper search authority, a chain of custody, validation with mathematics, use of validated tools, repeatability, reporting, and possible expert presentation 🌐🔬",
+        "C": "A process where we develop and test hypotheses that answer questions about digital events ❓",
+        "D": "Use of science or technology in the investigation and establishment of the facts or evidence in a court of law ⚖️"
+      },
+      "answer": "B",
+      "explanation": "💡 Digital Forensics is the comprehensive process of applying computer science and investigative procedures for a legal purpose — it requires proper search authority (warrant), maintaining a chain of custody, mathematical validation (hash values), using validated tools, repeatability of results, formal reporting, and expert testimony if required."
+    },
+    {
+      "question": "Which type of digital evidence can be extracted from volatile memory? 💾⚡",
+      "options": {
+        "A": "Deleted files 🗑️",
+        "B": "Browser history 🌐📜",
+        "C": "Running processes and network connections ⚙️🌐🌐",
+        "D": "Encrypted data 🔐"
+      },
+      "answer": "C",
+      "explanation": "💡 Volatile memory (RAM) stores data only while the computer is powered on. Evidence that can be extracted from RAM includes currently running processes, open network connections, logged-in user sessions, and encryption keys in use. This data is lost permanently when the system is shut down."
+    },
+    {
+      "question": "Which of the following is a commonly used forensic tool in digital investigations? 🔧🔍",
+      "options": {
+        "A": "Photoshop 🎨",
+        "B": "Wireshark 🦈",
+        "C": "EnCase 📦💬",
+        "D": "Microsoft Office 📊"
+      },
+      "answer": "C",
+      "explanation": "💡 EnCase is one of the most widely used and court-accepted digital forensics tools. It is used for disk imaging, evidence analysis, file recovery, and reporting in criminal and civil investigations. Wireshark is a network analysis tool, while Photoshop and Microsoft Office are not forensic tools."
+    },
+    {
+      "question": "What is the purpose of a write blocker in digital forensics? ✍️🚫",
+      "options": {
+        "A": "To prevent unauthorized access to digital devices 🚫🔌",
+        "B": "To recover deleted data from storage media 🗑️",
+        "C": "To ensure that evidence is not altered during the investigation 🔒🚫",
+        "D": "To encrypt sensitive data for secure storage 🔐"
+      },
+      "answer": "C",
+      "explanation": "💡 A write blocker is a hardware or software tool used in digital forensics to prevent any data from being written to a storage device during examination. This ensures that the original evidence remains unaltered, preserving its integrity and admissibility in court."
+    },
+    {
+      "question": "What is the importance of chain of custody in digital forensics? ⛓️🔍",
+      "options": {
+        "A": "To ensure the admissibility of digital evidence in court ⚖️⚖️",
+        "B": "To prevent unauthorized access to digital devices 🚫🔌",
+        "C": "To track the physical movement and handling of digital evidence 📝👣",
+        "D": "To encrypt sensitive data for secure storage 🔐"
+      },
+      "answer": "C",
+      "explanation": "💡 Chain of custody is the documented record of who collected, handled, transferred, and accessed digital evidence from collection to court. Tracking this physical movement and handling is crucial — it proves the evidence was not tampered with, which is necessary for its admissibility and credibility in legal proceedings."
+    },
+    {
+      "question": "Which World organization accredited labs in the world of forensics? 🌍🔬",
+      "options": {
+        "A": "AKULD ❌",
+        "B": "APIOS ❌",
+        "C": "ACSLD 💬",
+        "D": "None of these ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 ACSLD (American College of Forensic Examiners/associated body) is associated with accrediting forensic laboratories. Forensic lab accreditation ensures that laboratories meet internationally recognized standards for competence and quality in conducting forensic examinations."
+    },
+    {
+      "question": "802.11i's final form is known as: 📶",
+      "options": {
+        "A": "Wi-Fi Protected Access 🔒",
+        "B": "Wired Equivalency Privacy 🔐",
+        "C": "Robust Security Network 🛡️🌐",
+        "D": "Both (A) and (B) 🔄"
+      },
+      "answer": "C",
+      "explanation": "💡 The IEEE 802.11i standard, in its final ratified form, is formally known as the Robust Security Network (RSN). It is implemented commercially as WPA2. WEP (Wired Equivalent Privacy) was the older, insecure predecessor that 802.11i was designed to replace."
+    },
+    {
+      "question": "Central node of 802.11 wireless operations is 📶",
+      "options": {
+        "A": "Access Point 📡📶",
+        "B": "WPA 🔒",
+        "C": "Access Port 🚪",
+        "D": "WAP 📱"
+      },
+      "answer": "A",
+      "explanation": "💡 The Access Point (AP) is the central node in 802.11 wireless network architecture. It connects wireless client devices to the wired network infrastructure and manages all wireless communications within its coverage area. WPA is a security protocol, not a network component."
+    },
+    {
+      "question": "Penetration testing is used to: 🔨",
+      "options": {
+        "A": "identify vulnerabilities and weaknesses 🔍⚠️",
+        "B": "address security flaws before malicious hackers exploit them 🛡️⚖️",
+        "C": "Both (A) and (B) 🔀",
+        "D": "crash the site/system 💥"
+      },
+      "answer": "C",
+      "explanation": "💡 Penetration testing serves both purposes: it identifies vulnerabilities and security weaknesses in systems, AND it helps organizations address and fix those flaws before real attackers can exploit them. It is a proactive security measure — not intended to crash or damage systems."
+    },
+    {
+      "question": "Which of the following groups must review a penetration testing result? 🔨📊",
+      "options": {
+        "A": "Documentation, Log, System Configuration, Ruleset, Network Sniffing, File Integrity 📄📝⚙️📏🌐🔐",
+        "B": "Documentation, Log, System Configuration, Network Sniffing, File Integrity 📄📝⚙️🌐🔐",
+        "C": "Documentation, Log, System Configuration, Network Sniffing, Ruleset, File Integrity, Personnel 📄📝⚙️🌐📏🔐👥🌐",
+        "D": "None of the above ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 A comprehensive penetration test review should cover: Documentation (policies, procedures), Logs (system and access logs), System Configuration, Network Sniffing (traffic capture), Ruleset (firewall/IDS rules), File Integrity (hash verification), and Personnel (insider threat assessment). Option C is the most complete list."
+    },
+    {
+      "question": "What is the risk involved in doing penetration testing? ⚠️🔨",
+      "options": {
+        "A": "Some operations of the company might slow down 🐢🏢",
+        "B": "Skynet takes over the world 🤖🌍",
+        "C": "VPN not effective 🔒❌",
+        "D": "Security is an issue 🔐⚠️"
+      },
+      "answer": "A",
+      "explanation": "💡 A real risk of penetration testing is that some business operations may slow down or become temporarily unavailable during testing. Penetration testing involves simulated attacks that can consume system resources, trigger security alerts, or inadvertently disrupt services — which is why tests are typically scheduled during off-peak hours."
+    },
+    {
+      "question": "The digital signature can be suspended by the certifying authority in case of: ✍️🚫",
+      "options": {
+        "A": "public interest 🏛️",
+        "B": "interest of user 👤",
+        "C": "interest of any person 👥",
+        "D": "Both (A) and (C) 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Under the IT Act, 2000, a Certifying Authority can suspend a Digital Signature Certificate in the interest of public interest or the interest of any person. Both A (public interest) and C (any person's interest) are valid grounds — the subscriber's (user's) interest alone is not the complete answer."
+    },
+    {
+      "question": "Which among the following was established under IT Act, 2000 to resolve disputes arising from the law? 📜⚖️",
+      "options": {
+        "A": "Cyber Appellate Tribunal ⚖️⚖️",
+        "B": "Technology Disputes Bureau 🔧",
+        "C": "Cyber Administrative Tribunal 🏛️",
+        "D": "IT Disputes Tribunal 💻⚖️"
+      },
+      "answer": "A",
+      "explanation": "💡 The Cyber Appellate Tribunal (now called the Telecom Disputes Settlement and Appellate Tribunal, TDSAT) was established under the IT Act, 2000 to hear and resolve disputes, appeals, and complaints arising under the Act, including decisions made by the Controller and Adjudicating Officers."
+    },
+    {
+      "question": "A major amendment to Information Technology Act, 2000 was made in which year? 📜📅",
+      "options": {
+        "A": "2001",
+        "B": "2016",
+        "C": "2012",
+        "D": "2008 📋"
+      },
+      "answer": "D",
+      "explanation": "💡 The major amendment to India's Information Technology Act, 2000 was made in 2008 (IT Amendment Act, 2008). This amendment introduced provisions for cybercrime, data protection, intermediary liability, and addressed emerging threats such as identity theft, cyberstalking, and phishing."
+    },
+    {
+      "question": "Malware that Encrypts Files and Demands money, property or services from a person, entity or institution, through coercion is: 🦠💰🔒",
+      "options": {
+        "A": "Spyware 👁️",
+        "B": "Ransomware 💰🔒🦠",
+        "C": "Adware 📢",
+        "D": "Rootkit 🪚"
+      },
+      "answer": "B",
+      "explanation": "💡 Ransomware is malware that encrypts the victim's files and demands a ransom payment (money, cryptocurrency, or services) to decrypt them. Famous examples include WannaCry and NotPetya. Spyware steals data silently, adware shows ads, and rootkits hide malicious activity — none of them encrypt files for ransom."
+    },
+    {
+      "question": "Harassing someone through electronic message is offence of: 📧👣",
+      "options": {
+        "A": "Hacking 👨‍💻",
+        "B": "Squatting 🏠",
+        "C": "Stalking 👣🎭",
+        "D": "Phishing 🎣"
+      },
+      "answer": "C",
+      "explanation": "💡 Harassing someone through electronic messages (emails, texts, social media) constitutes cyberstalking. Under the IT Act, 2000 (Section 66A, though later struck down) and IPC Section 354D, sending harassing electronic communications is a criminal offense of stalking. Phishing is about deceiving users to steal credentials."
+    },
+    {
+      "question": "In a phishing attack, what is the common method used to trick users into revealing sensitive information? 🎣",
+      "options": {
+        "A": "Distributing malware-infected files 🦠📁",
+        "B": "Impersonating a trusted entity 🎭🎭",
+        "C": "Launching DDoS attacks 🌊",
+        "D": "Encrypting files for ransom 🔒💰"
+      },
+      "answer": "B",
+      "explanation": "💡 Phishing attacks primarily work by impersonating a trusted entity — such as a bank, government agency, or popular website — through fake emails, websites, or messages. This deception builds false trust so users willingly enter their credentials or sensitive information."
+    },
+    {
+      "question": "________ is a criminal offense of receiving payment through coercion. 💰⚠️",
+      "options": {
+        "A": "Phishing 🎣",
+        "B": "Pornography 🔞",
+        "C": "Net or Cyber Extortion 💰🔪🎭",
+        "D": "Credit Card Fraud 💳"
+      },
+      "answer": "C",
+      "explanation": "💡 Cyber extortion (also called net extortion) is the criminal offense of demanding payment through coercion in the digital realm — for example, threatening to release stolen data or launch a cyberattack unless payment is made. Ransomware is a common tool of cyber extortion."
+    },
+    {
+      "question": "Smartphone penetration framework was devised by: 📱🔨",
+      "options": {
+        "A": "Georgia Weidman, Bulb Security LLC in 2014 💬",
+        "B": "Georgia schoof by Dagah",
+        "C": "Georgia Weidman, Bulb Security LLC in 2018",
+        "D": "Sergia Drapa"
+      },
+      "answer": "A",
+      "explanation": "💡 The smartphone penetration testing framework was devised by Georgia Weidman of Bulb Security LLC in 2014. She is a prominent security researcher and author of 'Penetration Testing: A Hands-On Introduction to Hacking'. This framework provides a systematic approach to testing mobile device security."
+    },
+    {
+      "question": "Script kiddies are: 👨‍💻🧒",
+      "options": {
+        "A": "Individuals who want to break into computers to create damage, yet lack the advanced knowledge of computers and networks needed to do so 🚫👿",
+        "B": "Individuals doing Ethical hacking service of network security 👨‍💻⚖️",
+        "C": "Penetration tester 🔨",
+        "D": "Vulnerability assessor 🔍"
+      },
+      "answer": "A",
+      "explanation": "💡 Script kiddies are unskilled individuals who attempt to hack systems using pre-built scripts, tools, or exploits created by more experienced hackers — without understanding how they work. They want to cause damage but lack the technical knowledge of real hackers. They are not ethical hackers or penetration testers."
+    },
+    {
+      "question": "First phase of hacking is: 👨‍💻",
+      "options": {
+        "A": "Maintaining access 🔒",
+        "B": "Gaining access 🚪",
+        "C": "Reconnaissance 🔍🔍",
+        "D": "Scanning 📡"
+      },
+      "answer": "C",
+      "explanation": "💡 Reconnaissance (also called footprinting) is the first phase of hacking. In this phase, the attacker gathers as much information as possible about the target before launching an attack. The standard five phases are: Reconnaissance → Scanning → Gaining Access → Maintaining Access → Covering Tracks."
+    },
+    {
+      "question": "What type of hacker impose maximum threat to an organization? 👨‍💻⚠️",
+      "options": {
+        "A": "Black-hat hackers 👿",
+        "B": "Grey-hat hackers 🩶",
+        "C": "Script kiddies 🧒",
+        "D": "Disgruntled employees 😠👤💬"
+      },
+      "answer": "D",
+      "explanation": "💡 Disgruntled (unhappy/angry) employees pose the maximum threat to an organization because they already have legitimate access to internal systems, know the organization's infrastructure and vulnerabilities, and are motivated by grievance. This makes insider threats far more dangerous than external hackers or script kiddies."
+    },
+    {
+      "question": "Examples of hash functions are: 🔢",
+      "options": {
+        "A": "MD5 🔢",
+        "B": "SHA-1 🔢",
+        "C": "Both (A) and (B) 🔀🔀",
+        "D": "None of the above ❌"
+      },
+      "answer": "C",
+      "explanation": "💡 Both MD5 (Message Digest 5) and SHA-1 (Secure Hash Algorithm 1) are well-known hash functions. MD5 produces a 128-bit hash and SHA-1 produces a 160-bit hash. Both are now considered cryptographically weak for security use, but both are valid examples of hash functions."
+    },
+    {
+      "question": "Hash function is used in implementing ________: 🔢",
+      "options": {
+        "A": "Availability ⏳",
+        "B": "Integrity 🛡️📏",
+        "C": "Confidentiality 🤐",
+        "D": "All of the above 🔄"
+      },
+      "answer": "B",
+      "explanation": "💡 Hash functions are primarily used to implement Integrity — ensuring that data has not been altered. By comparing hash values before and after transmission, any modification to the data is immediately detectable. Hash functions are one-way and do not encrypt data, so they do not provide confidentiality."
+    },
+    {
+      "question": "Wireless LAN security architecture is defined in: 📶🔒",
+      "options": {
+        "A": "IEEE 802.11",
+        "B": "IEEE 800.1",
+        "C": "IEEE 802.11i",
+        "D": "Both (A) and (C) 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Wireless LAN security architecture is defined across both IEEE 802.11 (the base wireless standard, which includes basic security features) and IEEE 802.11i (the specific security amendment that introduced RSN/WPA2 with AES-CCMP). Both standards together define the complete WLAN security architecture."
+    },
+    {
+      "question": "Which of the following tool is used in Wi-Fi hacking? 📶👨‍💻",
+      "options": {
+        "A": "Air Crack-ng 💣",
+        "B": "Wireshark 🦈",
+        "C": "Norton 🛡️",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 Aircrack-ng is a well-known Wi-Fi security testing and hacking tool used to crack WEP and WPA/WPA2 keys. It captures wireless packets and performs statistical analysis to recover the encryption key. Wireshark is a general network analyzer, and Norton is an antivirus — neither are Wi-Fi hacking tools."
+    },
+    {
+      "question": "The Information Technology Act, 2000 came into force on: 📜🇮🇳",
+      "options": {
+        "A": "9th June, 2000",
+        "B": "17th October, 2000 📋",
+        "C": "15th December, 2000",
+        "D": "None of these ❌"
+      },
+      "answer": "B",
+      "explanation": "💡 India's Information Technology Act, 2000 came into force on 17th October, 2000. It was passed by the Indian Parliament in May 2000 and received Presidential assent on June 9, 2000, but officially came into effect (commenced) on October 17, 2000."
+    },
+    {
+      "question": "The key of a pair used to create a digital signature is known as: 🔑✍️",
+      "options": {
+        "A": "public key receiver 📬🔑",
+        "B": "private key of sender ✉️🔑🤫🗝️",
+        "C": "creator key 👤🔑",
+        "D": "secret key 🤫🔑"
+      },
+      "answer": "B",
+      "explanation": "💡 The private key of the sender is used to create (sign) a digital signature. The sender encrypts the hash of the message using their own private key. The corresponding public key (shared openly) is used by receivers to verify the signature. The private key must remain secret to ensure only the sender can create valid signatures."
+    },
+    {
+      "question": "The key of a key pair used to verify a digital signature: 🔑✅✍️",
+      "options": {
+        "A": "public key of sender ✉️🔑🌍🗝️",
+        "B": "private key sender ✉️🔑🤫",
+        "C": "verifying key 🆔🔑",
+        "D": "secret key 🤫🔑"
+      },
+      "answer": "A",
+      "explanation": "💡 The public key of the sender is used to verify a digital signature. After the sender signs with their private key, any receiver can use the sender's public key (which is shared openly) to decrypt and verify the signature. If verification succeeds, it confirms authenticity and integrity."
+    },
+    {
+      "question": "An adjudicating officer, under the IT Act, 2000, for holding inquiry and imposing penalty is appointed by the: ⚖️📜",
+      "options": {
+        "A": "Controller 🎮",
+        "B": "Central Government 🏛️⚖️",
+        "C": "Cyber Appellate Tribunal ⚖️",
+        "D": "High Court 🏛️"
+      },
+      "answer": "B",
+      "explanation": "💡 Under the IT Act, 2000, Adjudicating Officers are appointed by the Central Government. They hold the rank of not below a Director to the Government of India and are empowered to hold inquiries and impose penalties for contraventions of the Act."
+    },
+    {
+      "question": "________ is the unique value for message or content by applying strong Hash function. 🔢✅",
+      "options": {
+        "A": "Decryption 🔓",
+        "B": "Encryption 🔒",
+        "C": "Message digest 📝🔢🔢",
+        "D": "Private key 🔑🤫"
+      },
+      "answer": "C",
+      "explanation": "💡 A Message Digest is the unique fixed-size value (hash) produced when a strong hash function is applied to a message. It acts as a fingerprint of the message — even a tiny change in the original message produces a completely different digest. It is used to verify message integrity."
+    },
+    {
+      "question": "What are the difficulties in handling Digital Evidence? 💻🔍⚠️",
+      "options": {
+        "A": "Easy to destroy 💥🟢",
+        "B": "Easy to sustain 💪",
+        "C": "Hard to get 🚫🔴",
+        "D": "Both (A) and (C) 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Digital evidence presents two major difficulties: it is easy to destroy (volatile data disappears on shutdown, files can be overwritten, logs can be deleted) and it is hard to get (requires proper legal authority, specialized tools, and technical expertise to locate and extract). Both A and C are correct challenges."
+    },
+    {
+      "question": "What is the Primary Objective of Digital Forensic for Business and Industry? 🏢🔍",
+      "options": {
+        "A": "Availability of service ⏳",
+        "B": "Continuity of operation 🔄🔄",
+        "C": "Prosecution ⚖️",
+        "D": "Security 🔒"
+      },
+      "answer": "B",
+      "explanation": "💡 For businesses and industry, the primary objective of digital forensics is continuity of operation — identifying and responding to incidents quickly to minimize disruption and maintain business processes. While prosecution is a goal in criminal cases, businesses prioritize getting systems back online and preventing future incidents."
+    },
+    {
+      "question": "How does ISO/IEC 27000 define an 'asset' in relation to ISO/IEC 27001? 📋✅",
+      "options": {
+        "A": "Anything that is of value to the organisation 💎🏢",
+        "B": "A physical item within the organisation 📦",
+        "C": "Digital and physical items owned by an organisation 💻📦",
+        "D": "Tangible and non-tangible items owned or rented by an organisation 📦🤝"
+      },
+      "answer": "A",
+      "explanation": "💡 ISO/IEC 27000 defines an 'asset' simply as 'anything that has value to the organization.' This broad definition includes physical assets (hardware), information assets (data), software, services, people, and intangible assets like reputation. It is not limited to physical or owned items."
+    },
+    {
+      "question": "Annex A of ISO/IEC 27001 contains best practices for managing and securing information assets within an organisation. Which of the below are ISO 27001 control sets, as outlined in Annex A? 📋✅",
+      "options": {
+        "A": "Information security policies 📜",
+        "B": "Asset management 📦",
+        "C": "Access control 🔐",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 Annex A of ISO/IEC 27001 contains 14 control categories (domains). Information security policies, Asset management, and Access control are all recognized control sets within Annex A. All three are correct — making 'All of the above' the right answer."
+    },
+    {
+      "question": "Which of the below are current threats to many organisations? 🏢⚠️",
+      "options": {
+        "A": "Fraud 💰❌",
+        "B": "Loss of information 📁❌",
+        "C": "Unauthorised access 🚪❌",
+        "D": "All of the above 🔀"
+      },
+      "answer": "D",
+      "explanation": "💡 All three are recognized current threats to organizations: Fraud (financial deception by internal or external actors), Loss of information (data breaches, accidental disclosure), and Unauthorized access (hacking, insider threats). ISO 27001 addresses all these threat categories."
+    },
+    {
+      "question": "When should organisations perform information security risk assessments? 📊📅",
+      "options": {
+        "A": "Monthly 📅",
+        "B": "Every six months or when significant changes are proposed to occur 📅",
+        "C": "Every 12 months, or when significant changes are proposed to occur 📅",
+        "D": "At planned intervals or when significant changes are proposed to occur 📝📅"
+      },
+      "answer": "D",
+      "explanation": "💡 ISO/IEC 27001 requires organizations to perform risk assessments 'at planned intervals or when significant changes are proposed or occur.' It does not prescribe a fixed frequency (monthly, quarterly, or annually) — the interval is determined by the organization based on their risk environment."
+    },
+    {
+      "question": "As per ISO27001, who shall review the organisation's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness? 📋✅",
+      "options": {
+        "A": "External Auditor 🧑‍💼🌍",
+        "B": "Internal Auditor 🧑‍💼🏢",
+        "C": "Quality Manager 📊👤",
+        "D": "Top Management 👑👥💬"
+      },
+      "answer": "D",
+      "explanation": "💡 ISO 27001 Clause 9.3 (Management Review) requires Top Management to review the ISMS at planned intervals. This is specifically the responsibility of senior leadership — not auditors or quality managers — to ensure the ISMS remains suitable, adequate, and effective in achieving its objectives."
+    },
+    {
+      "question": "Within ISO standards, what does 'shall' indicate? 📋",
+      "options": {
+        "A": "A recommendation 💡",
+        "B": "A permission 💬",
+        "C": "A capability 💪",
+        "D": "A requirement ⚠️💬"
+      },
+      "answer": "D",
+      "explanation": "💡 In ISO standards, 'shall' indicates a mandatory requirement that organizations must comply with. 'Should' indicates a recommendation, 'may' indicates a permission, and 'can' indicates a capability or possibility. This distinction is important for compliance — 'shall' = must do it."
+    },
+    {
+      "question": "Within ISO/IEC 27001, which clause relates to leadership and the role of top management in the establishment, implementation, maintenance, and continual improvement of the ISMS? 📋",
+      "options": {
+        "A": "4",
+        "B": "5 💬",
+        "C": "6",
+        "D": "7"
+      },
+      "answer": "B",
+      "explanation": "💡 Clause 5 of ISO/IEC 27001 addresses Leadership — it defines the responsibilities of top management in demonstrating leadership and commitment to the ISMS, establishing the information security policy, and assigning organizational roles and responsibilities for information security."
+    },
+    {
+      "question": "What is the goal of a backup and recovery strategy in disaster recovery planning? 💾🔄",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To ensure the availability of data in case of a loss or compromise 🛡️📁",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 The goal of a backup and recovery strategy is to ensure data availability after a loss event — such as ransomware, hardware failure, or accidental deletion. Regular backups allow organizations to restore data to a known good state, minimizing data loss and downtime during disaster recovery."
+    },
+    {
+      "question": "What is the goal of a recovery strategy in disaster recovery planning? 🔄",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To identify and prioritize recovery tasks and resources 💬📝",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 A recovery strategy in disaster recovery planning identifies and prioritizes the tasks, systems, and resources needed to restore business operations after a disruption. It defines recovery time objectives (RTO), recovery point objectives (RPO), and the sequence of restoring systems to minimize downtime."
+    },
+    {
+      "question": "The things carried out by means of electronic data interchange, and other means of electronic communication is commonly referred to as: 💻📡",
+      "options": {
+        "A": "e-communication 📧",
+        "B": "e-governance 🏛️",
+        "C": "e-record 📄",
+        "D": "e-commerce 🛒🛒"
+      },
+      "answer": "D",
+      "explanation": "💡 E-commerce refers to commercial transactions (buying, selling goods and services) carried out by means of electronic data interchange (EDI) and other electronic communication methods over the internet. The IT Act, 2000 provides the legal framework for e-commerce in India."
+    },
+    {
+      "question": "The Central Government may appoint a ________ of Certifying Authority who shall exercise supervision over the activities of Certifying Authorities. 🏛️🎮",
+      "options": {
+        "A": "Commissioner 👤",
+        "B": "Controller 🎮💬",
+        "C": "Executive 👨‍💼",
+        "D": "President 👑"
+      },
+      "answer": "B",
+      "explanation": "💡 Under Section 17 of the IT Act, 2000, the Central Government may appoint a Controller of Certifying Authorities (CCA) who supervises the activities of all Certifying Authorities in India, issues licenses, and ensures compliance with the Act."
+    },
+    {
+      "question": "The ________ has the power to suspend or revoke Digital Signature Certificate. 🚫✍️",
+      "options": {
+        "A": "Commissioner 👤",
+        "B": "Certifying Authority 📜📝",
+        "C": "Subscriber 📝👤",
+        "D": "Controller 🎮"
+      },
+      "answer": "B",
+      "explanation": "💡 Under the IT Act, 2000, the Certifying Authority (CA) has the power to suspend or revoke a Digital Signature Certificate — for example, if it was issued based on false information, or if the private key is compromised, or in the public interest. The subscriber can also request revocation."
+    },
+    {
+      "question": "Which of the following refers to the violation of the principle if information/computer is no more accessible? 💻🚫",
+      "options": {
+        "A": "Availability ⏳🛡️",
+        "B": "Confidentiality 🤐",
+        "C": "Access control 🔐",
+        "D": "All of the above 🔄"
+      },
+      "answer": "A",
+      "explanation": "💡 If a computer or information system becomes inaccessible, the Availability principle of the CIA Triad is violated. Availability ensures that authorized users can access systems and data when needed. Attacks like DDoS specifically target availability."
+    },
+    {
+      "question": "Out of following which is the main authority at the top and its main function is to issue license to the certifying authority and to supervise his functions? 🎮📜",
+      "options": {
+        "A": "Controller of certifying authority 🎮📝📝",
+        "B": "Verification authority ⚖️👤",
+        "C": "Subscriber 📝👤",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 The Controller of Certifying Authorities (CCA) is the top-level authority in India's digital signature infrastructure. Its primary functions are to issue licenses to Certifying Authorities, supervise their activities, and ensure compliance with the IT Act. It acts as the root of trust in India's PKI hierarchy."
+    },
+    {
+      "question": "________ means a system of a secure key pair consisting of a private key for creating digital signature and public key for verifying digital signature. 🔑",
+      "options": {
+        "A": "Asymmetric Cryptography 🔑🔑🔐",
+        "B": "Cryptosystem 🔐",
+        "C": "Symmetric cryptosystem 🔑",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 Asymmetric Cryptography (also called public-key cryptography) uses a secure key pair — a private key (kept secret, used to create digital signatures) and a corresponding public key (shared openly, used to verify digital signatures). Symmetric cryptography uses a single shared key for both operations."
+    },
+    {
+      "question": "Public key cryptography is same as: 🔑🌍",
+      "options": {
+        "A": "Private key cryptography 🔑🤫",
+        "B": "Asymmetric cryptography 🔑🔑🔐",
+        "C": "Symmetric cryptography 🔑",
+        "D": "Session key cryptography 🔑⏱️"
+      },
+      "answer": "B",
+      "explanation": "💡 Public key cryptography is the same as asymmetric cryptography — both terms refer to the system that uses two mathematically related keys (a public key and a private key). It is the opposite of symmetric cryptography, which uses a single shared key for both encryption and decryption."
+    },
+    {
+      "question": "Digital signature is defined under ________ section of IT Act, 2000. ✍️📜🔢",
+      "options": {
+        "A": "Section 1",
+        "B": "Section 2 📋",
+        "C": "Section 8",
+        "D": "Section 6"
+      },
+      "answer": "B",
+      "explanation": "💡 Digital Signature is defined under Section 2(p) of the IT Act, 2000. Section 2 is the 'Definitions' section of the Act, which provides definitions for key terms including 'digital signature,' 'electronic record,' 'certifying authority,' and others."
+    },
+    {
+      "question": "Information Technology Act, 2000 directed the formation of a Controller of Certifying Authorities to regulate the issuance of ________ 📜🎮",
+      "options": {
+        "A": "Data license 📄",
+        "B": "IP address in India 🌐",
+        "C": "Digital signatures ✍️📝",
+        "D": "Internet service provider license 🌐"
+      },
+      "answer": "C",
+      "explanation": "💡 The IT Act, 2000 directed the formation of the Controller of Certifying Authorities (CCA) specifically to regulate the issuance and management of digital signatures (through Certifying Authorities). The CCA oversees the entire digital signature infrastructure in India."
+    },
+    {
+      "question": "________ monitors all internet and other network activity, looking for suspicious data and preventing unauthorized access. 👀🌐",
+      "options": {
+        "A": "Intrusion detection system 👀👀",
+        "B": "Firewall 🔥🧱",
+        "C": "Data encryption 🔐",
+        "D": "None of the above ❌"
+      },
+      "answer": "A",
+      "explanation": "💡 An Intrusion Detection System (IDS) monitors all network and system activity, analyzing traffic for suspicious patterns that may indicate unauthorized access or attacks. While a firewall blocks based on rules, an IDS performs deeper analysis and generates alerts for suspicious behavior."
+    },
+    {
+      "question": "Which of the following is an example of web application vulnerability? 🌐⚠️",
+      "options": {
+        "A": "SQL Injection 🗄️💉💬",
+        "B": "DNS Spoofing 🌐🎭",
+        "C": "Buffer Overflow 📦💥",
+        "D": "Cross Site Scripting (XSS) 🌐📜"
+      },
+      "answer": "A",
+      "explanation": "💡 SQL Injection is the most classic and common web application vulnerability, where attackers inject malicious SQL code through input fields to manipulate the backend database. XSS is also a web vulnerability, but SQL Injection is the most widely recognized answer in this context. DNS Spoofing is a network attack, and buffer overflow is a memory vulnerability."
+    },
+    {
+      "question": "Under which section of information act 2000 amended in 2008, stealing any digital asset or info is considered as a cyber crime? 📜🔢",
+      "options": {
+        "A": "64",
+        "B": "65",
+        "C": "66 📋",
+        "D": "67"
+      },
+      "answer": "C",
+      "explanation": "💡 Section 66 of the IT Act, 2000 (amended in 2008) deals with computer-related offenses including stealing digital assets and information. It states that if anyone dishonestly or fraudulently does any act specified in Section 43 (unauthorized access/damage), they can be punished with imprisonment and fines."
+    },
+    {
+      "question": "Data must arrive exactly as it was sent from receiver to sender, is called 📨✅",
+      "options": {
+        "A": "Message Sending 📤",
+        "B": "Message Splashing 💦",
+        "C": "Message Integrity 🛡️📏🛡️",
+        "D": "Message Confidentiality 🤐"
+      },
+      "answer": "C",
+      "explanation": "💡 Message Integrity means that data must arrive at the receiver exactly as it was sent — unchanged and unaltered. If even one bit of the message is modified during transmission, integrity is violated. Hash functions and Message Authentication Codes (MACs) are used to ensure message integrity."
+    },
+    {
+      "question": "Wi-Fi is abbreviated as: 📶",
+      "options": {
+        "A": "Wireless FLAN",
+        "B": "Wireless LAN 📶",
+        "C": "Wireless Fidelity 📶",
+        "D": "Wired fellow"
+      },
+      "answer": "C",
+      "explanation": "💡 Wi-Fi stands for Wireless Fidelity. It is a brand name coined by the Wi-Fi Alliance for the family of IEEE 802.11 wireless networking standards. Although the original term was meant to be similar to 'Hi-Fi' (High Fidelity), 'Wireless Fidelity' became the accepted full form."
+    },
+    {
+      "question": "When there is an intermediate between the communications without the knowledge of the communicators, which type of threats is this? 👥",
+      "options": {
+        "A": "Network Injection 🌐💉",
+        "B": "Malicious Association 🎭🔗",
+        "C": "Accidental Association 🚫🔗",
+        "D": "Man in the middle attack 👥💣"
+      },
+      "answer": "D",
+      "explanation": "💡 A Man-in-the-Middle (MitM) attack occurs when an attacker secretly intercepts and relays communication between two parties who believe they are communicating directly with each other. Neither party is aware of the attacker's presence — the attacker can eavesdrop or even alter messages."
+    },
+    {
+      "question": "In which layer frequency band is defined and wireless signals are encoded? 📶",
+      "options": {
+        "A": "Medium Access Layer 🔗",
+        "B": "Physical Layer 📡💬",
+        "C": "Logic Link Control Layer 🔗",
+        "D": "Both (B) and (C) 🔄"
+      },
+      "answer": "B",
+      "explanation": "💡 The Physical Layer (Layer 1 of the OSI model) is where frequency bands are defined and wireless signals are encoded. In IEEE 802.11 wireless networks, the Physical Layer specifies the radio frequencies used (2.4 GHz, 5 GHz), modulation techniques, and signal encoding methods."
+    },
+    {
+      "question": "A communication is said to be insecure where data is transmitted in a manner that allows for interception also called ________ Attack? 👂📡",
+      "options": {
+        "A": "Interception 👂💬",
+        "B": "Sniffing 👃",
+        "C": "ISP 🌐",
+        "D": "Citation 📝"
+      },
+      "answer": "A",
+      "explanation": "💡 When data is transmitted without encryption in a way that allows unauthorized parties to capture and read it, this is called an Interception attack. The attacker secretly intercepts the communication between two parties. This is why encrypting data in transit (e.g., using HTTPS or VPNs) is essential."
+    },
+    {
+      "question": "The key of key pair used to create digital signature is called: 🔑✍️",
+      "options": {
+        "A": "Public key 🔑🌍",
+        "B": "Private key 🔑🤫🗝️",
+        "C": "Session key 🔑⏱️",
+        "D": "Secret key 🤫🔑"
+      },
+      "answer": "B",
+      "explanation": "💡 The private key is the key used to create (sign) a digital signature. The sender uses their private key to encrypt the hash of the message, creating the digital signature. The private key is kept secret — only the owner should have access to it, ensuring only they can create valid signatures in their name."
+    },
+    {
+      "question": "The key pair of ________ is used for creation and verification of digital signature. 🔑✍️",
+      "options": {
+        "A": "Sender ✉️📬",
+        "B": "Receiver 📬",
+        "C": "66 🔢",
+        "D": "67 🔢"
+      },
+      "answer": "A",
+      "explanation": "💡 The key pair of the Sender is used for both creation and verification of a digital signature. The sender's private key creates the signature, and the sender's public key (shared with everyone) is used to verify it. The receiver's keys are not involved in digital signature operations."
+    },
+    {
+      "question": "In the context of business continuity planning, what does the term \"recovery point objective (RPO)\" refer to? 🔄📌",
+      "options": {
+        "A": "The maximum acceptable downtime for critical systems ⏱️",
+        "B": "The point in time to which data must be recovered after a disruption ⏰📊",
+        "C": "The process of eliminating all vulnerabilities ❌",
+        "D": "The impact of a risk on business operations 📊"
+      },
+      "answer": "B",
+      "explanation": "💡 Recovery Point Objective (RPO) defines the maximum age of data that must be recovered after a disruption — i.e., how far back in time the recovered data can be. For example, an RPO of 4 hours means data must be recoverable up to 4 hours before the disaster. Recovery Time Objective (RTO) is about downtime, not RPO."
+    },
+    {
+      "question": "In the context of risk assessment, what does the term 'risk mitigation' involve? 📊🛡️",
+      "options": {
+        "A": "The process of identifying and assessing risks 🔍",
+        "B": "The process of eliminating all vulnerabilities ❌",
+        "C": "The process of reducing the impact and likelihood of identified risks 📉⚠️",
+        "D": "The process of promoting unrestricted data sharing 📢"
+      },
+      "answer": "C",
+      "explanation": "💡 Risk mitigation involves taking actions to reduce the likelihood and/or impact of identified risks to an acceptable level. This can include implementing security controls, patching vulnerabilities, or changing processes. It does not aim to eliminate all vulnerabilities (impossible) but to reduce risk to a manageable level."
+    },
+    {
+      "question": "What is the purpose of a risk assessment policy in cybersecurity risk management? 📊📜",
+      "options": {
+        "A": "To eliminate all vulnerabilities ❌",
+        "B": "To promote unrestricted data sharing 📢",
+        "C": "To provide guidance on the risk assessment process and responsibilities 📝⚠️",
+        "D": "To ignore potential risks 🙈"
+      },
+      "answer": "C",
+      "explanation": "💡 A risk assessment policy provides organizational guidance on how risk assessments should be conducted — including the methodology, frequency, roles and responsibilities, and criteria for evaluating risks. It ensures consistency and accountability in the risk management process."
+    }
+  ]
+}
 ];
 
 /* ─── 2. MOTIVATIONAL MESSAGES ─── */
