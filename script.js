@@ -1060,7 +1060,7 @@ const QUESTION_BANK = [
   {
     "question": "When considering standards in IoT architecture, why are they important? 📏",
     "options": {
-      "A": "To limit innovation 🚫",
+      "A": "To limit innovation ",
       "B": "To hinder interoperability 🔗",
       "C": "To ensure security and compatibility 🔐",
       "D": "To increase data silos 🏢"
