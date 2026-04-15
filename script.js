@@ -11,2208 +11,2210 @@ const QUESTION_BANK = [
     subject: "Internet Of Things",
     emoji: "📡",
     color: "#6366f1",
-    questions:[
-  {
-    "question": "What role does power efficiency play in the selection of hardware components for IoT applications? 🔋",
-    "options": {
-      "A": "Impact on data security 🔐",
-      "B": "Influence on device lifespan ⏳",
-      "C": "Correlation with data accuracy 📊",
-      "D": "Relationship with network speed 🌐"
-    },
-    "answer": "B",
-    "explanation": "💡 More power-efficient hardware consumes less energy, directly extending IoT device battery lifespan."
-  },
-  {
-    "question": "What is a common issue related to the wireless medium access in IoT communication? 📡",
-    "options": {
-      "A": "Limited battery life of devices 🔋",
-      "B": "High security protocols 🔐",
-      "C": "Large bandwidth availability 📶",
-      "D": "Low data transmission speed 🐢"
-    },
-    "answer": "A",
-    "explanation": "💡 Wireless IoT devices are battery-powered, so limited battery life is the key medium access challenge."
-  },
-  {
-    "question": "Which MAC protocol is commonly used in IoT networks for low power consumption? 💤",
-    "options": {
-      "A": "Carrier Sense Multiple Access (CSMA) 📡",
-      "B": "Time Division Multiple Access (TDMA) ⏰",
-      "C": "Code Division Multiple Access (CDMA) 🔢",
-      "D": "Frequency Division Multiple Access (FDMA) 📶"
-    },
-    "answer": "A",
-    "explanation": "💡 CSMA checks for channel activity before transmitting, reducing collisions and wasting less energy."
-  },
-  {
-    "question": "What is a primary concern when surveying routing protocols for IoT applications? 🗺️",
-    "options": {
-      "A": "Scalability 📈",
-      "B": "Software compatibility 💻",
-      "C": "Hardware complexity 🧩",
-      "D": "Real-time data processing ⚡"
-    },
-    "answer": "A",
-    "explanation": "💡 Scalability is the standard definition for this concept in the field."
-  },
-  {
-    "question": "When deploying sensors in IoT networks, what is crucial for effective coverage and data collection? 📍",
-    "options": {
-      "A": "Placing sensors in isolated areas 🏝️",
-      "B": "Ensure sensors are tightly packed together 📦",
-      "C": "Randomly scattering sensors 🎲",
-      "D": "Strategic sensor placement 🎯"
-    },
-    "answer": "D",
-    "explanation": "💡 Strategic placement ensures every area is monitored without costly overlap or blind spots."
-  },
-  {
-    "question": "What is a key challenge associated with node discovery in IoT environments? 🔍",
-    "options": {
-      "A": "Limited network congestion 🚦",
-      "B": "Quick identification of nearby nodes ⚡",
-      "C": "Nodes being too easily detectable 👁️",
-      "D": "Node mobility 🚶‍♂️"
-    },
-    "answer": "D",
-    "explanation": "💡 Node mobility is the standard definition for this concept in the field."
-  },
-  {
-    "question": "In IoT, which type of routing protocol is commonly used for constrained devices with low power? 🔋",
-    "options": {
-      "A": "Proactive ⚡",
-      "B": "Reactive 🔄",
-      "C": "Hybrid 🔀",
-      "D": "Static 📌"
-    },
-    "answer": "B",
-    "explanation": "💡 Reactive protocols build routes only when needed, avoiding the energy cost of maintaining full tables."
-  },
-  {
-    "question": "What is a disadvantage of using contention-based MAC protocols in IoT networks? ⚠️",
-    "options": {
-      "A": "Low energy efficiency 🔋",
-      "B": "High collision rates 💥",
-      "C": "Simplified device synchronization 🔄",
-      "D": "Increased data throughput 📈"
-    },
-    "answer": "B",
-    "explanation": "💡 High collision rates is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which technology in IoT is used for the unique identification and tracking of items using radio waves? 📡",
-    "options": {
-      "A": "NFC (Near Field Communication) 📱",
-      "B": "Bluetooth 🎧",
-      "C": "RFID (Radio Frequency Identification) 🏷️",
-      "D": "GPS (Global Positioning System) 🛰️"
-    },
-    "answer": "C",
-    "explanation": "💡 RFID uses radio waves to read tags on objects from a distance, enabling automatic item identification."
-  },
-  {
-    "question": "What type of networks are commonly used in IoT for connecting various devices wirelessly? 🌐",
-    "options": {
-      "A": "Local Area Networks (LANs) 🏢",
-      "B": "Wide Area Networks (WANs) 🌍",
-      "C": "Wireless Sensor Networks (WSNs) 📡",
-      "D": "Metropolitan Area Networks (MANs) 🏙️"
-    },
-    "answer": "C",
-    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
-  },
-  {
-    "question": "Participatory sensing technology in IoT involves: 👥",
-    "options": {
-      "A": "Passive data collection by sensors 📊",
-      "B": "Active involvement of users in data collection 🙋",
-      "C": "Centralized data processing 💻",
-      "D": "Real-time data transmission ⚡"
-    },
-    "answer": "B",
-    "explanation": "💡 In participatory sensing, users actively contribute data through their own mobile devices."
-  },
-  {
-    "question": "Which of the following is NOT an example of an embedded computing basic in the context of IoT? 💻",
-    "options": {
-      "A": "Microcontrollers 🧠",
-      "B": "Sensors 📡",
-      "C": "Real-time operating systems ⏰",
-      "D": "Firmware 🔧"
-    },
-    "answer": "C",
-    "explanation": "💡 Real-time operating systems are software, not a hardware embedded computing basic like sensors or microcontrollers."
-  },
-  {
-    "question": "What is the primary role of hardware platforms in IoT ecosystems? 🖥️",
-    "options": {
-      "A": "Data analysis and interpretation 📊",
-      "B": "Physical computing and data collection 📡",
-      "C": "Cloud storage management ☁️",
-      "D": "Software development 💻"
-    },
-    "answer": "B",
-    "explanation": "💡 Physical computing and data collection is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which type of embedded platform is specifically designed to support IoT applications and technologies? 🔧",
-    "options": {
-      "A": "Wearable devices ⌚",
-      "B": "Smartphones 📱",
-      "C": "Single-board computers 🖥️",
-      "D": "Gaming consoles 🎮"
-    },
-    "answer": "C",
-    "explanation": "💡 Single-board computers integrate CPU, memory, and I/O on one board, perfect for IoT development."
-  },
-  {
-    "question": "What does an embedded computing system use to interact with the outside world? 🌍",
-    "options": {
-      "A": "Bluetooth 📶",
-      "B": "GPIO (General Purpose Input/Output) pins 🔌",
-      "C": "USB ports 🔌",
-      "D": "HDMI cables 🖥️"
-    },
-    "answer": "B",
-    "explanation": "💡 GPIO pins allow embedded systems to electrically connect to and control physical sensors and actuators."
-  },
-  {
-    "question": "In IoT, what is the purpose of a power management system in embedded platforms? 🔋",
-    "options": {
-      "A": "Data encryption 🔐",
-      "B": "Ensuring data integrity ✓",
-      "C": "Regulating power consumption ⚡",
-      "D": "Communication with cloud servers ☁️"
-    },
-    "answer": "C",
-    "explanation": "💡 Power management systems regulate energy consumption, keeping battery-powered IoT devices running longer."
-  },
-  {
-    "question": "Which MAC protocol is known for its simplicity and effectiveness in IoT networks with low traffic? 📡",
-    "options": {
-      "A": "Token Passing 🎫",
-      "B": "Pure ALOHA 📡",
-      "C": "Reservation ALOHA 📅",
-      "D": "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) 🚦"
-    },
-    "answer": "B",
-    "explanation": "💡 Pure ALOHA is the simplest MAC protocol and works well when transmissions are infrequent."
-  },
-  {
-    "question": "What is a benefit of using proactive routing protocols in IoT networks? ⚡",
-    "options": {
-      "A": "Reduced control message overhead 📉",
-      "B": "Minimal routing table maintenance 📋",
-      "C": "Quick response to network changes 🔄",
-      "D": "Low initial setup complexity 🔧"
-    },
-    "answer": "C",
-    "explanation": "💡 Quick response to network changes is the standard definition for this concept in the field."
-  },
-  {
-    "question": "When choosing a MAC protocol for IoT, what impact does contention-based protocols have on network efficiency? 📡",
-    "options": {
-      "A": "Higher energy consumption 🔋",
-      "B": "Lower collision rates 📉",
-      "C": "Improved real-time data transmission ⚡",
-      "D": "Enhanced scalability 📈"
-    },
-    "answer": "A",
-    "explanation": "💡 Contention-based access causes frequent collisions and retransmissions, increasing overall energy consumption."
-  },
-  {
-    "question": "How does node discovery contribute to energy efficiency in IoT networks? 🔍",
-    "options": {
-      "A": "Reducing redundant data transmissions 📉",
-      "B": "Increasing network bandwidth 📶",
-      "C": "Extending device battery life 🔋",
-      "D": "Enhancing data encryption 🔐"
-    },
-    "answer": "A",
-    "explanation": "💡 Knowing active nodes avoids sending data through unnecessary hops, reducing wasteful transmissions."
-  },
-  {
-    "question": "Which factor is crucial for successful deployment of IoT sensor nodes? 📍",
-    "options": {
-      "A": "Strong device authentication 🔐",
-      "B": "Regular security updates 🔄",
-      "C": "Continuous data backups 💾",
-      "D": "Adequate power supply 🔋"
-    },
-    "answer": "D",
-    "explanation": "💡 Without a reliable power source, IoT sensor nodes simply stop operating in the field."
-  },
-  {
-    "question": "What is a common example of a home automation application using IoT technology? 🏠",
-    "options": {
-      "A": "Automated lighting systems 💡",
-      "B": "Bicycle manufacturing 🚲",
-      "C": "Agricultural irrigation systems 🚜",
-      "D": "Airline reservation systems ✈️"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated lighting is a classic IoT home use case, adjusting based on presence or time schedules."
-  },
-  {
-    "question": "Which of the following is an industry application of IoT? 🏭",
-    "options": {
-      "A": "Smart refrigerators 🧊",
-      "B": "Online gaming platforms 🎮",
-      "C": "Predictive maintenance in manufacturing equipment 🔧",
-      "D": "Social media networks 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
-  },
-  {
-    "question": "What is a common surveillance application of IoT technology? 📹",
-    "options": {
-      "A": "Smart thermostats 🌡️",
-      "B": "GPS navigation 🗺️",
-      "C": "Video monitoring systems 🎥",
-      "D": "E-commerce platforms 🛒"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT-connected cameras let users remotely monitor locations through live video feeds."
-  },
-  {
-    "question": "Which of the following is NOT typically considered an IoT application? ❌",
-    "options": {
-      "A": "Traffic management systems 🚦",
-      "B": "Wearable health devices ⌚",
-      "C": "Music streaming services 🎵",
-      "D": "Smart grid technology ⚡"
-    },
-    "answer": "C",
-    "explanation": "💡 Music streaming is a software service with no physical sensing component, so it is not an IoT application."
-  },
-  {
-    "question": "What is a critical aspect of securing IoT devices? 🔐",
-    "options": {
-      "A": "Keeping all security measures secret 🤫",
-      "B": "Ignoring security concerns 🙈",
-      "C": "Regularly updating device software and implementing strong authentication 🔄",
-      "D": "Blaming security breaches on aliens 👽"
-    },
-    "answer": "C",
-    "explanation": "💡 Regular firmware updates fix security holes, and strong authentication stops unauthorized device access."
-  },
-  {
-    "question": "Which technology is fundamental for enabling IoT applications in remote locations? 🏔️",
-    "options": {
-      "A": "Invisible ink ✒️",
-      "B": "Satellite communication 🛰️",
-      "C": "Carrier pigeons 🐦",
-      "D": "Telepathy 🧠"
-    },
-    "answer": "B",
-    "explanation": "💡 Satellites provide global radio coverage in areas where ground-based networks do not exist."
-  },
-  {
-    "question": "What does the term 'Edge Computing' refer to in IoT? ⚡",
-    "options": {
-      "A": "Performing data processing closer to the data source 📍",
-      "B": "Balancing on the edge of tall buildings 🏢",
-      "C": "Creating data processing centers in outer space 🚀",
-      "D": "Using a knife to cut your internet connection 🔪"
-    },
-    "answer": "A",
-    "explanation": "💡 Edge computing processes data near the source, cutting latency and reducing cloud bandwidth needs."
-  },
-  {
-    "question": "Which of the following is an example of wearable IoT technology? ⌚",
-    "options": {
-      "A": "Smartwatches ⌚",
-      "B": "Wooden clogs 👞",
-      "C": "Cowboy hats 🤠",
-      "D": "Flip phones 📱"
-    },
-    "answer": "A",
-    "explanation": "💡 Smartwatches are wearable IoT devices that track health metrics and sync data wirelessly."
-  },
-  {
-    "question": "What is the primary purpose of IoT technology in agriculture? 🚜",
-    "options": {
-      "A": "Making farmers' lives more complicated 😩",
-      "B": "Improving crop management and increasing efficiency 🌾",
-      "C": "Teaching cows to dance 🐄💃",
-      "D": "Broadcasting karaoke shows in the fields 🎤"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "What type of technology is commonly used in IoT for detecting and monitoring physical phenomena? 📡",
-    "options": {
-      "A": "Sensors 🔍",
-      "B": "Transistors 🔌",
-      "C": "Resistors ⚡",
-      "D": "Amplifiers 🔊"
-    },
-    "answer": "A",
-    "explanation": "💡 Sensors convert physical signals like temperature, light, and pressure into measurable electrical data."
-  },
-  {
-    "question": "Which of the following is an example of a digital sensor used in IoT applications? 🔢",
-    "options": {
-      "A": "Thermocouple 🌡️",
-      "B": "Photodiode 💡",
-      "C": "Accelerometer 📳",
-      "D": "Light-dependent resistor 🌞"
-    },
-    "answer": "C",
-    "explanation": "💡 Accelerometers output digital values for orientation and motion, making them key digital IoT sensors."
-  },
-  {
-    "question": "In the context of IoT, what are actuators primarily responsible for? 🎮",
-    "options": {
-      "A": "Collecting data 📊",
-      "B": "Processing data 💻",
-      "C": "Storing data 💾",
-      "D": "Executing actions ⚙️"
-    },
-    "answer": "D",
-    "explanation": "💡 Actuators receive digital commands and physically execute actions like opening valves or spinning motors."
-  },
-  {
-    "question": "Which factor is essential to consider when planning sensor deployment in IoT systems? 📍",
-    "options": {
-      "A": "Network latency ⏱️",
-      "B": "Encrypted data transmission 🔐",
-      "C": "Sensory data storage capacity 💾",
-      "D": "Communication range 📡"
-    },
-    "answer": "D",
-    "explanation": "💡 Sensors must be within communication range of a gateway or each other to relay data reliably."
-  },
-  {
-    "question": "When selecting a MAC protocol for an IoT network, what should be a priority for high device connectivity? 📡",
-    "options": {
-      "A": "Low latency ⚡",
-      "B": "High channel capacity 📶",
-      "C": "Device synchronization 🔄",
-      "D": "Energy efficiency 🔋"
-    },
-    "answer": "D",
-    "explanation": "💡 Energy efficiency is critical when many devices share a network, to prevent rapid battery drain."
-  },
-  {
-    "question": "What is a critical consideration when evaluating the performance of routing protocols in IoT? 🗺️",
-    "options": {
-      "A": "Number of network devices 🔢",
-      "B": "Distance between nodes 📏",
-      "C": "Network topology changes 🔄",
-      "D": "Data encryption methods 🔐"
-    },
-    "answer": "C",
-    "explanation": "💡 Network topology changes is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which routing protocol is designed to address the dynamic nature and scalability of IoT networks? 🔄",
-    "options": {
-      "A": "Optimized Link State Routing (OLSR) 📡",
-      "B": "Destination-Sequenced Distance Vector (DSDV) 📋",
-      "C": "Ad hoc On-Demand Distance Vector (AODV) 🚀",
-      "D": "Routing Information Protocol (RIP) 📡"
-    },
-    "answer": "C",
-    "explanation": "💡 AODV builds routes on demand and adapts to topology changes, suiting dynamic IoT deployments."
-  },
-  {
-    "question": "What is a common characteristic of sensor nodes in IoT applications? 📡",
-    "options": {
-      "A": "High processing power 🚀",
-      "B": "Large memory storage 💾",
-      "C": "Long battery life 🔋",
-      "D": "Limited processing and memory resources 🧩"
-    },
-    "answer": "D",
-    "explanation": "💡 IoT sensor nodes sacrifice processing power and memory to stay small, cheap, and energy-efficient."
-  },
-  {
-    "question": "Why is node discovery important in IoT networks? 🔍",
-    "options": {
-      "A": "To prevent unauthorized network access 🔐",
-      "B": "To optimize network security 🛡️",
-      "C": "To establish network connectivity 🌐",
-      "D": "To reduce data latency ⏱️"
-    },
-    "answer": "C",
-    "explanation": "💡 Discovering nodes establishes who is in the network, enabling devices to route data to each other."
-  },
-  {
-    "question": "In IoT, which routing protocol is more suitable for networks with changing topologies? 🔄",
-    "options": {
-      "A": "Distance Vector 📏",
-      "B": "Link State 🔗",
-      "C": "Hybrid 🔀",
-      "D": "Proactive ⚡"
-    },
-    "answer": "C",
-    "explanation": "💡 Hybrid protocols combine proactive and reactive routing, adapting well to frequently changing network layouts."
-  },
-  {
-    "question": "When deploying sensors in urban environments for IoT applications, what should be considered to enhance communication reliability? 🏙️",
-    "options": {
-      "A": "Close proximity to water sources 💧",
-      "B": "Avoiding line of sight communication 🚫",
-      "C": "Height of sensor placement 📈",
-      "D": "Random sensor placement 🎲"
-    },
-    "answer": "C",
-    "explanation": "💡 Raising sensors above obstructions improves line-of-sight radio communication in dense urban environments."
-  },
-  {
-    "question": "How does IoT impact data collection and analysis? 📊",
-    "options": {
-      "A": "It makes data collection and analysis more difficult 😩",
-      "B": "It has no impact on data processes 🚫",
-      "C": "It enhances data collection and analysis capabilities 📈",
-      "D": "It only works on weekends 📅"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT floods systems with continuous sensor data, vastly expanding the scope and speed of data analysis."
-  },
-  {
-    "question": "What does the conceptual framework of IoT outline? 🏗️",
-    "options": {
-      "A": "The best IoT memes 😂",
-      "B": "The theoretical structure and design of IoT systems 📐",
-      "C": "The rules of IoT chess ♟️",
-      "D": "The history of IoT legends 📜"
-    },
-    "answer": "B",
-    "explanation": "💡 The conceptual framework defines the structure, layers, and relationships that make up an IoT system."
-  },
-  {
-    "question": "Which statement best describes the vision of IoT? 👁️",
-    "options": {
-      "A": "To connect all devices and objects to the internet 🌐",
-      "B": "To disconnect all devices from the internet 🔌",
-      "C": "To create more confusion in the world 😵",
-      "D": "To move all devices to outer space 🚀"
-    },
-    "answer": "A",
-    "explanation": "💡 IoT's vision is a fully connected world where physical devices share data seamlessly over the internet."
-  },
-  {
-    "question": "What is the significance of the architectural view in IoT systems? 🏛️",
-    "options": {
-      "A": "It provides a physical model for IoT devices 📦",
-      "B": "It offers a blueprint for designing IoT networks 📐",
-      "C": "It predicts the future of IoT technologies 🔮",
-      "D": "It is purely decorative 🎨"
-    },
-    "answer": "B",
-    "explanation": "💡 The architectural view is a design blueprint showing how IoT components are structured and connected."
-  },
-  {
-    "question": "Which sector benefits most from IoT applications? 📈",
-    "options": {
-      "A": "Everything but the healthcare sector 🚫",
-      "B": "Only the fashion industry 👗",
-      "C": "Various industries like healthcare, agriculture, and transportation 🏥🚜🚚",
-      "D": "The bubble gum industry 🍬"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT spans every sector — from patient monitoring in healthcare to precision farming in agriculture."
-  },
-  {
-    "question": "How do IoT devices communicate with each other? 📡",
-    "options": {
-      "A": "Through telepathy 🧠",
-      "B": "Via carrier pigeons 🐦",
-      "C": "Over a network using protocols 🌐",
-      "D": "Through interpretive dance 💃"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT devices follow network protocols to format and send data reliably over wired or wireless networks."
-  },
-  {
-    "question": "What role do sensors play in IoT systems? 📡",
-    "options": {
-      "A": "Collecting data from the environment 🌍",
-      "B": "Making toast 🍞",
-      "C": "Predicting the future 🔮",
-      "D": "Creating chaos 🌪️"
-    },
-    "answer": "A",
-    "explanation": "💡 Sensors capture real-world data like temperature, motion, and humidity for IoT systems to process."
-  },
-  {
-    "question": "Which phrase best describes the concept of 'smart cities' in the context of IoT? 🏙️",
-    "options": {
-      "A": "Cities that know all your secrets 🤫",
-      "B": "Urban areas that use IoT technologies to improve services and efficiency 📈",
-      "C": "Cities made of candy 🍭",
-      "D": "Cities run entirely by robots 🤖"
-    },
-    "answer": "B",
-    "explanation": "💡 Smart cities deploy IoT sensors and connected infrastructure to make urban services more efficient."
-  },
-  {
-    "question": "How does IoT technology contribute to environmental sustainability? 🌍",
-    "options": {
-      "A": "By increasing waste production 🗑️",
-      "B": "By optimizing energy consumption ⚡",
-      "C": "By depleting natural resources ⛏️",
-      "D": "By encouraging pollution 🏭"
-    },
-    "answer": "B",
-    "explanation": "💡 By optimizing energy consumption — this is how this process works according to established principles."
-  },
-  {
-    "question": "Which of the following is a benefit of using IoT in supply chain management? 📦",
-    "options": {
-      "A": "Decreased visibility into logistics 👁️",
-      "B": "Increased operational inefficiencies 📉",
-      "C": "Improved inventory tracking 📊",
-      "D": "Limited access to real-time data 🚫"
-    },
-    "answer": "C",
-    "explanation": "💡 Supply chain management coordinates the flow of goods, information, and money from supplier to customer."
-  },
-  {
-    "question": "In which sector are smart meters commonly used as an IoT application? ⚡",
-    "options": {
-      "A": "Entertainment 🎬",
-      "B": "Telecommunications 📱",
-      "C": "Utilities 💧",
-      "D": "Hospitality 🏨"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart meters in utilities allow two-way data flow, giving real-time consumption feedback to providers and customers."
-  },
-  {
-    "question": "What is a common smart city application of IoT technology? 🏙️",
-    "options": {
-      "A": "Noise pollution sensors 🔊",
-      "B": "Ice cream production 🍦",
-      "C": "Social media platforms 📱",
-      "D": "Online shopping websites 🛒"
-    },
-    "answer": "A",
-    "explanation": "💡 Noise pollution sensors are a smart city IoT tool that monitor urban sound levels continuously."
-  },
-  {
-    "question": "Which industry often utilizes IoT for condition monitoring of equipment? 🔧",
-    "options": {
-      "A": "Fashion 👗",
-      "B": "Mining ⛏️",
-      "C": "Travel ✈️",
-      "D": "Food service 🍔"
-    },
-    "answer": "B",
-    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
-  },
-  {
-    "question": "How does IoT technology facilitate remote monitoring in the field of oil and gas? 🛢️",
-    "options": {
-      "A": "By reducing safety measures ⚠️",
-      "B": "By enabling real-time data collection 📊",
-      "C": "By increasing manual inspections 🔍",
-      "D": "By limiting communication channels 📡"
-    },
-    "answer": "B",
-    "explanation": "💡 By enabling real-time data collection — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is an example of an IoT application in smart grid technology? ⚡",
-    "options": {
-      "A": "Professional sports leagues 🏀",
-      "B": "Traffic light control systems 🚦",
-      "C": "Real-time energy consumption monitoring 📊",
-      "D": "Social networking sites 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Real-time energy consumption monitoring is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Why is data integration important in IoT architecture? 🔗",
-    "options": {
-      "A": "To create data silos 🏢",
-      "B": "To increase complexity 🧩",
-      "C": "To enhance decision-making and insights 💡",
-      "D": "To hinder communication 🚫"
-    },
-    "answer": "C",
-    "explanation": "💡 Integrating data from diverse IoT sources enables holistic analysis and better-informed decisions."
-  },
-  {
-    "question": "How do standards considerations impact the scalability of IoT solutions? 📏",
-    "options": {
-      "A": "They have no effect 🚫",
-      "B": "They limit scalability 📉",
-      "C": "They promote interoperability and scalability 📈",
-      "D": "They increase security risks ⚠️"
-    },
-    "answer": "C",
-    "explanation": "💡 Common standards let different IoT devices interoperate and allow the network to grow without redesign."
-  },
-  {
-    "question": "Which architectural approach is more focused on real-time data processing? ⚡",
-    "options": {
-      "A": "IoT 🌐",
-      "B": "M2M 🤖",
-      "C": "Both are equally focused on real-time processing ⚖️",
-      "D": "Neither focus on real-time data processing 🚫"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "What does IoT stand for? 🔤",
-    "options": {
-      "A": "Internet of Technology 💻",
-      "B": "Internet of Things 🌐",
-      "C": "Internet on Television 📺",
-      "D": "Internet of Thinking 🧠"
-    },
-    "answer": "B",
-    "explanation": "💡 IoT stands for Internet of Things — the network of physical devices connected to the internet."
-  },
-  {
-    "question": "Which of the following is a key component of IoT architecture? 🏗️",
-    "options": {
-      "A": "Microprocessors 🧠",
-      "B": "Cooking utensils 🍳",
-      "C": "Musical instruments 🎵",
-      "D": "Gardening tools 🌱"
-    },
-    "answer": "A",
-    "explanation": "💡 Microprocessors is the most important factor because it has the greatest direct impact."
-  },
-  {
-    "question": "What is M2M communication in the context of IoT? 🤖",
-    "options": {
-      "A": "Man to Man communication 👨",
-      "B": "Machine to Machine communication 💻",
-      "C": "Mind to Mind communication 🧠",
-      "D": "Map to Map communication 🗺️"
-    },
-    "answer": "B",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Which technology is commonly used for wireless communication in IoT devices? 📡",
-    "options": {
-      "A": "Morse Code •–•",
-      "B": "Zigbee 🐝",
-      "C": "Smoke Signals 💨",
-      "D": "Carrier Pigeons 🐦"
-    },
-    "answer": "B",
-    "explanation": "💡 Zigbee is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "Which of the following is NOT a potential source of IoT data? ❌",
-    "options": {
-      "A": "Sensors 📡",
-      "B": "Smartphones 📱",
-      "C": "Social Media 💬",
-      "D": "Refrigerators 🧊"
-    },
-    "answer": "C",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "In the IoT world, what does the 'Internet' refer to? 🌐",
-    "options": {
-      "A": "A vast network of interconnected computers 💻",
-      "B": "A series of tubes 📦",
-      "C": "A secret underground society 🤫",
-      "D": "A magical portal ✨"
-    },
-    "answer": "A",
-    "explanation": "💡 The 'Internet' in IoT refers to the global network linking computers and devices worldwide."
-  },
-  {
-    "question": "What is a common example of IoT technology in everyday life? 🏠",
-    "options": {
-      "A": "Smart thermostats 🌡️",
-      "B": "Manual typewriters 📇",
-      "C": "Horse-drawn carriages 🐴",
-      "D": "Abacus 🧮"
-    },
-    "answer": "A",
-    "explanation": "💡 Smart thermostats is the standard definition for this concept in the field."
-  },
-  {
-    "question": "In which industry is IoT technology commonly used for asset tracking? 📦",
-    "options": {
-      "A": "Fashion 👗",
-      "B": "Healthcare 🏥",
-      "C": "Logistics 🚚",
-      "D": "Tourism ✈️"
-    },
-    "answer": "C",
-    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
-  },
-  {
-    "question": "What is an example of an IoT application in healthcare? 🏥",
-    "options": {
-      "A": "Online shopping platforms 🛒",
-      "B": "Remote patient monitoring 📊",
-      "C": "Weather forecasting 🌤️",
-      "D": "Ride-sharing services 🚗"
-    },
-    "answer": "B",
-    "explanation": "💡 Remote patient monitoring is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How does IoT technology enhance energy efficiency in buildings? 🏢",
-    "options": {
-      "A": "By increasing water consumption 💧",
-      "B": "By optimizing HVAC systems based on occupancy 🌡️",
-      "C": "By promoting excessive energy consumption ⚡",
-      "D": "By encouraging paper wastage 📄"
-    },
-    "answer": "B",
-    "explanation": "💡 By optimizing HVAC systems based on occupancy — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a key benefit of using IoT in agriculture? 🚜",
-    "options": {
-      "A": "Increased water usage 💧",
-      "B": "Improved crop monitoring and management 🌾",
-      "C": "Decreased food production 📉",
-      "D": "Enhanced soil erosion 🌪️"
-    },
-    "answer": "B",
-    "explanation": "💡 Improved crop monitoring and management is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of the following is an example of an industrial IoT use case? 🏭",
-    "options": {
-      "A": "Inventory management in retail stores 🛒",
-      "B": "Personal fitness trackers ⌚",
-      "C": "Fleet management for transportation companies 🚚",
-      "D": "Social media applications 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Fleet management for transportation companies is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What is a potential challenge of implementing IoT in smart cities? 🏙️",
-    "options": {
-      "A": "Improved traffic flow 🚦",
-      "B": "Increased safety measures 🛡️",
-      "C": "Privacy and security concerns 🔐",
-      "D": "Enhanced communication networks 📡"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart cities deploy IoT sensors and connected infrastructure to make urban services more efficient."
-  },
-  {
-    "question": "Which industry commonly utilizes IoT for predictive maintenance of machinery? 🔧",
-    "options": {
-      "A": "Agriculture 🚜",
-      "B": "Construction 🏗️",
-      "C": "Manufacturing 🏭",
-      "D": "Entertainment 🎬"
-    },
-    "answer": "C",
-    "explanation": "💡 Predictive maintenance uses IoT sensors to detect equipment issues before costly breakdowns occur."
-  },
-  {
-    "question": "What is a unique feature of IoT applications in the automotive industry? 🚗",
-    "options": {
-      "A": "Monitoring heart rate ❤️",
-      "B": "Autonomous driving technologies 🤖",
-      "C": "Weather forecasting 🌤️",
-      "D": "Food delivery services 🍔"
-    },
-    "answer": "B",
-    "explanation": "💡 Autonomous driving technologies is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What is an example of an IoT application in retail? 🛒",
-    "options": {
-      "A": "Real-time inventory tracking 📊",
-      "B": "Recipe sharing platforms 🍳",
-      "C": "Fitness tracking apps ⌚",
-      "D": "Online dating websites 💕"
-    },
-    "answer": "A",
-    "explanation": "💡 Real-time inventory tracking is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of the following is NOT a typical capability needed in an IoT architecture? ❌",
-    "options": {
-      "A": "Real-time data analytics ⚡",
-      "B": "Device management 📱",
-      "C": "Unlimited energy usage 🔋",
-      "D": "Remote monitoring 📡"
-    },
-    "answer": "C",
-    "explanation": "💡 Unlimited energy usage does not fit because the other options all belong to the same category."
-  },
-  {
-    "question": "What should be considered when outlining an IoT architecture with regards to security? 🔐",
-    "options": {
-      "A": "Security is not important in IoT 🚫",
-      "B": "Security should be an afterthought ⏰",
-      "C": "Security should be integrated from the beginning 🔒",
-      "D": "Security can be added at the end 🏁"
-    },
-    "answer": "C",
-    "explanation": "💡 Security must be designed into IoT systems from the start, not added as an afterthought later."
-  },
-  {
-    "question": "Which of the following is a common standard in IoT technology? 📏",
-    "options": {
-      "A": "Non-standardized communication protocols 🚫",
-      "B": "Vendor-specific solutions 🏢",
-      "C": "Wi-Fi and Bluetooth only 📶",
-      "D": "MQTT and CoAP 📡"
-    },
-    "answer": "D",
-    "explanation": "💡 MQTT and CoAP is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "What is the main benefit of having a Reference Architecture in IoT? 🏛️",
-    "options": {
-      "A": "It limits scalability 📉",
-      "B": "It restricts communication 🚫",
-      "C": "It provides a common framework for development 🏗️",
-      "D": "It increases complexity 🧩"
-    },
-    "answer": "C",
-    "explanation": "💡 It provides a common framework for development is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How does a Reference Model aid in the development of IoT solutions? 📐",
-    "options": {
-      "A": "It provides no value 🚫",
-      "B": "It increases security risks ⚠️",
-      "C": "It helps to establish common terminology and concepts 📚",
-      "D": "It causes confusion 😵"
-    },
-    "answer": "C",
-    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
-  },
-  {
-    "question": "In M2M vs IoT architecture, which tends to have more diverse devices to manage? 🤖 vs 🌐",
-    "options": {
-      "A": "M2M 🤖",
-      "B": "IoT 🌐",
-      "C": "Both have the same amount ⚖️",
-      "D": "Neither have any devices to manage 🚫"
-    },
-    "answer": "B",
-    "explanation": "💡 IoT encompasses far more types of devices than traditional M2M, from wearables to industrial sensors."
-  },
-  {
-    "question": "Which of the following is NOT a primary consideration in M2M vs IoT architectural design? ❌",
-    "options": {
-      "A": "Scalability 📈",
-      "B": "Security 🔐",
-      "C": "Data Privacy 🤫",
-      "D": "Consumption of data 📊"
-    },
-    "answer": "D",
-    "explanation": "💡 Consumption of data does not fit because the other options all belong to the same category."
-  },
-  {
-    "question": "What plays a crucial role in the success of IoT deployments? 🏆",
-    "options": {
-      "A": "Non-standardized communication 🚫",
-      "B": "Limited connectivity 📡",
-      "C": "Standardized architectures and interfaces 📏",
-      "D": "Vendor lock-in 🔒"
-    },
-    "answer": "C",
-    "explanation": "💡 Standardized architectures and interfaces is the primary function or purpose of this component in the system."
-  },
-  {
-    "question": "What is a key challenge when developing an M2M architecture? 🤖",
-    "options": {
-      "A": "Enabling device communication 📡",
-      "B": "Managing data flow 📊",
-      "C": "Ensuring low latency ⚡",
-      "D": "None of the above 🚫"
-    },
-    "answer": "D",
-    "explanation": "💡 None of the above is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of the following is an example of an IoT supported hardware platform that provides a comprehensive development environment? 🖥️",
-    "options": {
-      "A": "Arduino 🤖",
-      "B": "PlayStation 🎮",
-      "C": "Laptop 💻",
-      "D": "Smartwatch ⌚"
-    },
-    "answer": "A",
-    "explanation": "💡 Arduino is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What hardware component is essential for an embedded device to communicate wirelessly in IoT applications? 📡",
-    "options": {
-      "A": "Antenna 📡",
-      "B": "Fan 💨",
-      "C": "Thermal paste 🧴",
-      "D": "Power supply 🔋"
-    },
-    "answer": "A",
-    "explanation": "💡 SSL encrypts data transmitted between a browser and a server, protecting it from interception."
-  },
-  {
-    "question": "In the context of IoT, what role does a real-time operating system (RTOS) play in embedded platforms? ⏰",
-    "options": {
-      "A": "Providing high-speed internet connectivity 🌐",
-      "B": "Enabling real-time data processing ⚡",
-      "C": "Enhancing graphic performance 🎮",
-      "D": "Improving battery life 🔋"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Time Objective (RTO) is the maximum time allowed to restore systems after a disruption."
-  },
-  {
-    "question": "Which of the following statements is true about the use of firmware in embedded systems for IoT? 🔧",
-    "options": {
-      "A": "Firmware is non-upgradable and static 🚫",
-      "B": "Firmware controls the operation of hardware components 🎮",
-      "C": "Firmware is only used for debugging purposes 🐛",
-      "D": "Firmware is interchangeable with software 🔄"
-    },
-    "answer": "B",
-    "explanation": "💡 Firmware is low-level software that controls hardware behaviour directly at the device level."
-  },
-  {
-    "question": "What is a key advantage of using embedded computing platforms for IoT applications? 💻",
-    "options": {
-      "A": "Unlimited power supply 🔋",
-      "B": "High processing speed 🚀",
-      "C": "Large form factor 📦",
-      "D": "Cost-effectiveness 💰"
-    },
-    "answer": "D",
-    "explanation": "💡 Cost-effectiveness is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which hardware component is crucial for enabling data storage and retrieval in IoT devices? 💾",
-    "options": {
-      "A": "Microphone 🎤",
-      "B": "Hard drive 💽",
-      "C": "Graphics card 🎮",
-      "D": "Memory module 🧠"
-    },
-    "answer": "D",
-    "explanation": "💡 Memory modules store the data and program code that IoT devices need to operate."
-  },
-  {
-    "question": "How do IoT devices utilize sensors and actuators for data acquisition and implementation? 📡⚙️",
-    "options": {
-      "A": "Sensors for data storage, actuators for data retrieval 💾",
-      "B": "Sensors for data processing, actuators for data analysis 💻",
-      "C": "Sensors for data collection, actuators for executing actions 📊",
-      "D": "Sensors for data transmission, actuators for communication 📡"
-    },
-    "answer": "C",
-    "explanation": "💡 Sensors for data collection, actuators for executing actions — this is how this process works according to established principles."
-  },
-  {
-    "question": "Which networking technology is commonly used for connecting IoT devices over short distances? 📡",
-    "options": {
-      "A": "Ethernet 🔌",
-      "B": "Wi-Fi 📶",
-      "C": "Zigbee 🐝",
-      "D": "Cellular 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Zigbee is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "What is a key main design principle for M2M architecture? 🤖",
-    "options": {
-      "A": "Low latency ⚡",
-      "B": "High energy consumption 🔋",
-      "C": "Limited scalability 📉",
-      "D": "Centralized data processing 💻"
-    },
-    "answer": "A",
-    "explanation": "💡 Low latency is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of the following is a needed capability in IoT architecture? 🏗️",
-    "options": {
-      "A": "Decreased data security 📉",
-      "B": "High device autonomy 🤖",
-      "C": "Standardized communication protocols 📏",
-      "D": "Singular data processing center for each organization 🏢"
-    },
-    "answer": "C",
-    "explanation": "💡 Standardised protocols let diverse IoT devices from different manufacturers communicate reliably."
-  },
-  {
-    "question": "In IoT architecture outline, what is a common approach to data communication? 📡",
-    "options": {
-      "A": "Decentralized data processing 🌐",
-      "B": "High accessibility barriers 🚧",
-      "C": "Centralized data storage 💾",
-      "D": "Low device interoperability 🔗"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "When considering standards in IoT architecture, why are they important? 📏",
-    "options": {
-      "A": "To limit innovation ",
-      "B": "To hinder interoperability 🔗",
-      "C": "To ensure security and compatibility 🔐",
-      "D": "To increase data silos 🏢"
-    },
-    "answer": "C",
-    "explanation": "💡 Standards ensure that IoT devices from different vendors can communicate securely and work together."
-  },
-  {
-    "question": "Which of the following best describes a Reference Architecture in IoT? 🏛️",
-    "options": {
-      "A": "A highly customized solution 🎨",
-      "B": "A generic blueprint providing common structures and functions 📐",
-      "C": "A rigid framework without flexibility 🔒",
-      "D": "An isolated system with no connectivity 🚫"
-    },
-    "answer": "B",
-    "explanation": "💡 A reference architecture provides a reusable blueprint that guides consistent IoT system design."
-  },
-  {
-    "question": "What is the purpose of a Reference Model in IoT architecture? 📐",
-    "options": {
-      "A": "To confuse system developers 😵",
-      "B": "To restrict design options 🚫",
-      "C": "To provide a common language and understanding 💬",
-      "D": "To stifle creativity 🎨"
-    },
-    "answer": "C",
-    "explanation": "💡 The mode is the most frequently occurring value in a dataset, useful for categorical data."
-  },
-  {
-    "question": "What does M2M stand for in the context of Architecture? 🤖",
-    "options": {
-      "A": "Many to Many 🔢",
-      "B": "Mini to Massive 📏",
-      "C": "Machine to Machine 💻",
-      "D": "Mobile to Mobile 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "How do Main design principles differ between M2M and IoT architectures? 🤖 vs 🌐",
-    "options": {
-      "A": "They are exactly the same ⚖️",
-      "B": "M2M focuses more on security, while IoT focuses on scalability 🔐📈",
-      "C": "IoT is all about energy consumption, while M2M is not 🔋",
-      "D": "There are no design principles in IoT architecture 🚫"
-    },
-    "answer": "B",
-    "explanation": "💡 M2M focuses more on security, while IoT focuses on scalability — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is the main purpose of routing in IoT networks? 🗺️",
-    "options": {
-      "A": "To play games online 🎮",
-      "B": "To send messages to friends 💬",
-      "C": "To find the best path for data to travel 🛤️",
-      "D": "To make phone calls 📞"
-    },
-    "answer": "C",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "Which of these is an example of an IoT device in your home? 🏠",
-    "options": {
-      "A": "A paper book 📖",
-      "B": "A smart thermostat 🌡️",
-      "C": "A wooden chair 🪑",
-      "D": "A regular pencil ✏️"
-    },
-    "answer": "B",
-    "explanation": "💡 A smart thermostat is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What helps IoT devices talk to each other? 💬",
-    "options": {
-      "A": "Sign language 🤟",
-      "B": "Written letters ✉️",
-      "C": "Wireless signals 📡",
-      "D": "Smoke signals 💨"
-    },
-    "answer": "C",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Why do IoT devices need to save power? 🔋",
-    "options": {
-      "A": "To help save money on electricity 💰",
-      "B": "To make them look prettier ✨",
-      "C": "To make them heavier ⚖️",
-      "D": "To make them louder 🔊"
-    },
-    "answer": "A",
-    "explanation": "💡 To help save money on electricity because this is the primary reason established in standard practice."
-  },
-  {
-    "question": "What is a network protocol? 📡",
-    "options": {
-      "A": "A set of rules for devices to communicate 📏",
-      "B": "A type of computer game 🎮",
-      "C": "A kind of internet password 🔐",
-      "D": "A charging cable 🔌"
-    },
-    "answer": "A",
-    "explanation": "💡 A set of rules for devices to communicate is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What happens when IoT devices share data? 📊",
-    "options": {
-      "A": "They make loud noises 🔊",
-      "B": "They change color 🎨",
-      "C": "They help each other work better 🤝",
-      "D": "They turn off automatically ⚡"
-    },
-    "answer": "C",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "What is an important feature of IoT routing? 🗺️",
-    "options": {
-      "A": "It needs lots of power 🔋",
-      "B": "It works with few messages 📉",
-      "C": "It only works during daytime ☀️",
-      "D": "It requires constant human help 👨"
-    },
-    "answer": "B",
-    "explanation": "💡 It works with few messages is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which is a common problem in IoT networks? ⚠️",
-    "options": {
-      "A": "Devices moving too fast 💨",
-      "B": "Battery life running low 🔋",
-      "C": "Devices being too heavy ⚖️",
-      "D": "Networks being too colorful 🎨"
-    },
-    "answer": "B",
-    "explanation": "💡 Battery life running low is the primary drawback or challenge associated with this approach."
-  },
-  {
-    "question": "How do IoT devices know where to send information? 📡",
-    "options": {
-      "A": "They guess randomly 🎲",
-      "B": "They ask a person 👨",
-      "C": "They follow routing tables 📋",
-      "D": "They always send to the same place 📍"
-    },
-    "answer": "C",
-    "explanation": "💡 They follow routing tables — this is how this process works according to established principles."
-  },
-  {
-    "question": "What makes a good IoT network? 🌟",
-    "options": {
-      "A": "Using lots of power 🔋",
-      "B": "Working reliably with little energy ⚡",
-      "C": "Having very few devices 🔢",
-      "D": "Making loud beeping sounds 🔊"
-    },
-    "answer": "B",
-    "explanation": "💡 A good IoT network operates reliably while consuming minimal energy to extend device battery life."
-  },
-  {
-    "question": "What is a sensor used for? 📡",
-    "options": {
-      "A": "To play video games 🎮",
-      "B": "To detect changes in the environment 🌍",
-      "C": "To make phone calls 📞",
-      "D": "To write messages ✍️"
-    },
-    "answer": "B",
-    "explanation": "💡 To detect changes in the environment is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of these is an example of a sensor we use every day? 📏",
-    "options": {
-      "A": "A pencil ✏️",
-      "B": "A paper clip 📎",
-      "C": "A thermometer 🌡️",
-      "D": "A rubber band 🩹"
-    },
-    "answer": "C",
-    "explanation": "💡 A thermometer is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "Where might you find a motion sensor? 🚶",
-    "options": {
-      "A": "In automatic doors at the supermarket 🚪",
-      "B": "Inside a pencil case 📦",
-      "C": "Under a desk 🪑",
-      "D": "Inside a book 📖"
-    },
-    "answer": "A",
-    "explanation": "💡 Motion sensors in automatic doors detect when a person approaches and trigger the door to open."
-  },
-  {
-    "question": "What does a temperature sensor help us know? 🌡️",
-    "options": {
-      "A": "What time it is ⏰",
-      "B": "How loud something is 🔊",
-      "C": "How hot or cold something is 🔥❄️",
-      "D": "What color something is 🎨"
-    },
-    "answer": "C",
-    "explanation": "💡 Temperature sensors convert heat measurements into electrical signals to tell us how hot or cold something is."
-  },
-  {
-    "question": "Which sensor helps keep us safe at home? 🏠",
-    "options": {
-      "A": "TV remote 📺",
-      "B": "Light switch 💡",
-      "C": "Smoke detector 🚨",
-      "D": "Door handle 🚪"
-    },
-    "answer": "C",
-    "explanation": "💡 Smoke detectors use sensors to detect combustion particles and alert residents to fire danger."
-  },
-  {
-    "question": "What can a light sensor do? 💡",
-    "options": {
-      "A": "Make sounds 🔊",
-      "B": "Turn lights on when it gets dark 🌙",
-      "C": "Cook food 🍳",
-      "D": "Clean rooms 🧹"
-    },
-    "answer": "B",
-    "explanation": "💡 Light sensors measure ambient brightness and can automatically turn lights on when it gets dark."
-  },
-  {
-    "question": "Which device uses sensors to know when you touch it? 👆",
-    "options": {
-      "A": "A regular book 📖",
-      "B": "A wooden table 🪑",
-      "C": "A tablet screen 📱",
-      "D": "A paper notebook 📓"
-    },
-    "answer": "C",
-    "explanation": "💡 Touchscreen tablets use capacitive sensors to detect the electrical charge from a finger touching the screen."
-  },
-  {
-    "question": "What might a weather sensor tell us? 🌤️",
-    "options": {
-      "A": "What movies are playing 🎬",
-      "B": "If it's going to rain ☔",
-      "C": "What time to go to bed ⏰",
-      "D": "What to eat for lunch 🍔"
-    },
-    "answer": "B",
-    "explanation": "💡 Weather sensors measure atmospheric conditions like humidity and pressure to predict if rain is coming."
-  },
-  {
-    "question": "How do sensors help our homes be 'smart'? 🏠",
-    "options": {
-      "A": "They do our homework 📚",
-      "B": "They make our lunch 🍳",
-      "C": "They detect when we need help 🆘",
-      "D": "They paint our walls 🎨"
-    },
-    "answer": "C",
-    "explanation": "💡 They detect when we need help — this is how this process works according to established principles."
-  },
-  {
-    "question": "Which sensor helps cars park safely? 🚗",
-    "options": {
-      "A": "Distance sensor 📏",
-      "B": "Time sensor ⏰",
-      "C": "Color sensor 🎨",
-      "D": "Sound sensor 🔊"
-    },
-    "answer": "A",
-    "explanation": "💡 Distance sensors detect nearby obstacles and alert the driver to avoid collisions when parking."
-  },
-  {
-    "question": "What is IoT? 🔤",
-    "options": {
-      "A": "Internet of Trees 🌳",
-      "B": "Internet of Things 🌐",
-      "C": "Internet of Time ⏰",
-      "D": "Internet of Television 📺"
-    },
-    "answer": "B",
-    "explanation": "💡 Internet of Things is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which device helps make a home 'smart'? 🏠",
-    "options": {
-      "A": "A regular light bulb 💡",
-      "B": "A smart thermostat 🌡️",
-      "C": "A regular doorbell 🔔",
-      "D": "A standard clock ⏰"
-    },
-    "answer": "B",
-    "explanation": "💡 A smart thermostat learns usage patterns and adjusts heating and cooling automatically to save energy."
-  },
-  {
-    "question": "What can a smart doorbell do? 🔔",
-    "options": {
-      "A": "Only ring when pressed 🛎️",
-      "B": "Show who is at your door on your phone 📱",
-      "C": "Make coffee ☕",
-      "D": "Clean the floor 🧹"
-    },
-    "answer": "B",
-    "explanation": "💡 Smart doorbells stream live video to your phone so you can see and speak to visitors remotely."
-  },
-  {
-    "question": "How do smart lights help at home? 💡",
-    "options": {
-      "A": "They never need to be replaced 🔄",
-      "B": "They can only turn on and off ⚪",
-      "C": "They can change colors and brightness 🎨",
-      "D": "They work without electricity ⚡"
-    },
-    "answer": "C",
-    "explanation": "💡 They can change colors and brightness — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a common use of IoT in schools? 🏫",
-    "options": {
-      "A": "Smart attendance tracking 📊",
-      "B": "Making lunch 🍳",
-      "C": "Cleaning windows 🪟",
-      "D": "Painting walls 🎨"
-    },
-    "answer": "A",
-    "explanation": "💡 Smart attendance tracking is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which is an example of IoT in healthcare? 🏥",
-    "options": {
-      "A": "Paper charts 📄",
-      "B": "Regular thermometers 🌡️",
-      "C": "Smart health monitors 📊",
-      "D": "Regular watches ⌚"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart health monitors is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "How can IoT help keep a home safe? 🏠",
-    "options": {
-      "A": "By painting the walls 🎨",
-      "B": "Through security cameras 📹",
-      "C": "By cleaning windows 🪟",
-      "D": "By watering plants 🌱"
-    },
-    "answer": "B",
-    "explanation": "💡 IoT security cameras stream live footage and send alerts, letting you monitor your home from anywhere."
-  },
-  {
-    "question": "What can smart kitchen appliances do? 🍳",
-    "options": {
-      "A": "Tell you when food is running low 📊",
-      "B": "Cook food by themselves 🤖",
-      "C": "Clean the house 🧹",
-      "D": "Drive a car 🚗"
-    },
-    "answer": "A",
-    "explanation": "💡 Smart appliances track inventory and notify you when food supplies are running low."
-  },
-  {
-    "question": "How do motion sensors work in a smart home? 🚶",
-    "options": {
-      "A": "They make coffee ☕",
-      "B": "They detect movement 🏃",
-      "C": "They cook food 🍳",
-      "D": "They clean floors 🧹"
-    },
-    "answer": "B",
-    "explanation": "💡 They detect movement — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a smart thermostat used for? 🌡️",
-    "options": {
-      "A": "Making phone calls 📞",
-      "B": "Playing music 🎵",
-      "C": "Controlling home temperature 🌡️",
-      "D": "Washing dishes 🍽️"
-    },
-    "answer": "C",
-    "explanation": "💡 Controlling home temperature is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How can IoT help in farming? 🚜",
-    "options": {
-      "A": "By controlling water and temperature 💧🌡️",
-      "B": "By painting fences 🎨",
-      "C": "By driving tractors 🚜",
-      "D": "By cleaning barns 🧹"
-    },
-    "answer": "A",
-    "explanation": "💡 IoT sensors monitor soil moisture and temperature, automatically controlling irrigation to optimise crop growth."
-  },
-  {
-    "question": "What is a benefit of smart lighting? 💡",
-    "options": {
-      "A": "It never breaks 🔧",
-      "B": "It saves energy ⚡",
-      "C": "It cooks food 🍳",
-      "D": "It cleans rooms 🧹"
-    },
-    "answer": "B",
-    "explanation": "💡 It saves energy is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How can IoT help with pet care? 🐾",
-    "options": {
-      "A": "It walks the dog 🐕",
-      "B": "It trains pets 🎓",
-      "C": "It monitors pet food and water 🍲💧",
-      "D": "It grooms pets ✂️"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT pet feeders and monitors track food, water, and activity to help you care for pets remotely."
-  },
-  {
-    "question": "What can smart watches do? ⌚",
-    "options": {
-      "A": "Cook meals 🍳",
-      "B": "Track health and exercise ❤️🏃",
-      "C": "Clean houses 🧹",
-      "D": "Drive cars 🚗"
-    },
-    "answer": "B",
-    "explanation": "💡 Smartwatches use sensors to continuously track heart rate, steps, and other health metrics."
-  },
-  {
-    "question": "How do smart refrigerators help? 🧊",
-    "options": {
-      "A": "They make ice cream 🍦",
-      "B": "They drive to the store 🚗",
-      "C": "They track food items 📊",
-      "D": "They wash dishes 🍽️"
-    },
-    "answer": "C",
-    "explanation": "💡 They track food items — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a voice assistant? 🎤",
-    "options": {
-      "A": "A robot that cleans 🤖",
-      "B": "A device that follows voice commands 🗣️",
-      "C": "A machine that cooks 🍳",
-      "D": "A tool that paints 🎨"
-    },
-    "answer": "B",
-    "explanation": "💡 A device that follows voice commands is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How can IoT help save energy? ⚡",
-    "options": {
-      "A": "By turning off unused lights 💡",
-      "B": "By cooking faster 🍳",
-      "C": "By cleaning better 🧹",
-      "D": "By painting walls 🎨"
-    },
-    "answer": "A",
-    "explanation": "💡 Smart sensors detect unoccupied rooms and automatically switch off unused lights and appliances."
-  },
-  {
-    "question": "What is a smart garden system? 🌱",
-    "options": {
-      "A": "A robot that pulls weeds 🤖",
-      "B": "A system that waters plants automatically 💧",
-      "C": "A machine that picks flowers 🌸",
-      "D": "A tool that cuts grass ✂️"
-    },
-    "answer": "B",
-    "explanation": "💡 A system that waters plants automatically is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How do smart cameras help in security? 📹",
-    "options": {
-      "A": "They cook food 🍳",
-      "B": "They clean windows 🪟",
-      "C": "They watch for unusual activity 👀",
-      "D": "They paint walls 🎨"
-    },
-    "answer": "C",
-    "explanation": "💡 They watch for unusual activity — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a smart door lock? 🔒",
-    "options": {
-      "A": "A lock that needs a key 🔑",
-      "B": "A lock you can control with your phone 📱",
-      "C": "A lock that paints itself 🎨",
-      "D": "A lock that makes noise 🔊"
-    },
-    "answer": "B",
-    "explanation": "💡 A lock you can control with your phone is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What does MAC stand for in computer networks? 🔤",
-    "options": {
-      "A": "Machine Access Code 💻",
-      "B": "Multiple Access Control 🔢",
-      "C": "Medium Access Control 📡",
-      "D": "Mobile Access Connection 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 EDI standardises business document exchange, replacing paper with structured electronic data."
-  },
-  {
-    "question": "Which of these is most like how MAC protocol works? 📡",
-    "options": {
-      "A": "Taking turns talking in class 🗣️",
-      "B": "Everyone shouting at once 📢",
-      "C": "Only one person allowed to talk all day 🚫",
-      "D": "Writing notes instead of talking ✍️"
-    },
-    "answer": "A",
-    "explanation": "💡 A MAC protocol manages who can transmit on a shared channel, like a traffic controller directing turns."
-  },
-  {
-    "question": "What is the main job of MAC protocol in IoT devices? 📡",
-    "options": {
-      "A": "To make devices faster ⚡",
-      "B": "To help devices share the network fairly ⚖️",
-      "C": "To make the internet work 🌐",
-      "D": "To save battery power only 🔋"
-    },
-    "answer": "B",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "When IoT devices want to send messages at the same time, what happens? ⏰",
-    "options": {
-      "A": "All messages get lost ❌",
-      "B": "They take turns using MAC protocol 🔄",
-      "C": "The biggest device goes first 📏",
-      "D": "They wait for the internet to work better ⏳"
-    },
-    "answer": "B",
-    "explanation": "💡 When multiple devices transmit simultaneously without coordination, their signals collide and are lost."
-  },
-  {
-    "question": "Which is an example of a simple MAC protocol rule? 📏",
-    "options": {
-      "A": "Listen before talking 👂",
-      "B": "Talk as loud as possible 📢",
-      "C": "Never stop talking 🗣️",
-      "D": "Ignore other devices 🙈"
-    },
-    "answer": "A",
-    "explanation": "💡 Listen before talking is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "How does MAC protocol help IoT devices save energy? 🔋",
-    "options": {
-      "A": "By making them work faster ⚡",
-      "B": "By turning them off completely 🔴",
-      "C": "By letting them sleep when not sending messages 💤",
-      "D": "By using more battery power 🔋"
-    },
-    "answer": "C",
-    "explanation": "💡 By letting them sleep when not sending messages — this is how this process works according to established principles."
-  },
-  {
-    "question": "What happens if IoT devices don't follow MAC protocol rules? ⚠️",
-    "options": {
-      "A": "Nothing changes 🔄",
-      "B": "Messages might crash into each other 💥",
-      "C": "The internet stops working 🚫",
-      "D": "Devices work better 📈"
-    },
-    "answer": "B",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Which is most important for MAC protocol in IoT? 🌟",
-    "options": {
-      "A": "Making devices more expensive 💰",
-      "B": "Using more energy 🔋",
-      "C": "Helping devices work together nicely 🤝",
-      "D": "Making devices bigger 📦"
-    },
-    "answer": "C",
-    "explanation": "💡 Energy efficiency is the top MAC protocol priority in IoT, where devices run on limited batteries."
-  },
-  {
-    "question": "How is MAC protocol like a traffic light? 🚦",
-    "options": {
-      "A": "It makes everything go faster ⚡",
-      "B": "It helps control when devices can send messages 📡",
-      "C": "It uses green and red lights 🟢🔴",
-      "D": "It stops all messages 🚫"
-    },
-    "answer": "B",
-    "explanation": "💡 Like a traffic light, a MAC protocol takes turns letting each device transmit without crashing into others."
-  },
-  {
-    "question": "What makes a MAC protocol good for IoT devices? 🌟",
-    "options": {
-      "A": "It uses lots of power 🔋",
-      "B": "It's very complicated 🧩",
-      "C": "It's simple and saves energy 💚",
-      "D": "It only works with big devices 📦"
-    },
-    "answer": "C",
-    "explanation": "💡 A good IoT MAC protocol uses as little energy as possible to extend the battery life of devices."
-  },
-  {
-    "question": "What is IoT? 🔤",
-    "options": {
-      "A": "A type of robot 🤖",
-      "B": "Internet of Things-devices connected to the internet 🌐",
-      "C": "A computer game 🎮",
-      "D": "A type of telephone 📞"
-    },
-    "answer": "B",
-    "explanation": "💡 Internet of Things-devices connected to the internet is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which device below is NOT usually an IoT device? ❌",
-    "options": {
-      "A": "Smart doorbell 🔔",
-      "B": "Smart light bulb 💡",
-      "C": "Paper notebook 📓",
-      "D": "Smart thermostat 🌡️"
-    },
-    "answer": "C",
-    "explanation": "💡 Paper notebook does not fit because the other options all belong to the same category."
-  },
-  {
-    "question": "What do IoT devices need to work? ⚡",
-    "options": {
-      "A": "Paint and crayons 🎨",
-      "B": "An internet connection 🌐",
-      "C": "A television 📺",
-      "D": "A radio 📻"
-    },
-    "answer": "B",
-    "explanation": "💡 IoT devices need a reliable power source — without energy, they cannot sense, compute, or communicate."
-  },
-  {
-    "question": "What helps IoT devices talk to each other? 💬",
-    "options": {
-      "A": "A platform or system 🖥️",
-      "B": "A microphone 🎤",
-      "C": "A camera 📷",
-      "D": "A speaker 🔊"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Why do we use IoT devices? 🤔",
-    "options": {
-      "A": "To play video games only 🎮",
-      "B": "To make life easier and save time ⏰",
-      "C": "To watch movies 🎬",
-      "D": "To read books 📖"
-    },
-    "answer": "B",
-    "explanation": "💡 To make life easier and save time because this is the primary reason established in standard practice."
-  },
-  {
-    "question": "Which is an example of an IoT device at home? 🏠",
-    "options": {
-      "A": "A regular light switch 🔘",
-      "B": "A wooden chair 🪑",
-      "C": "A smart refrigerator 🧊",
-      "D": "A regular doorknob 🚪"
-    },
-    "answer": "C",
-    "explanation": "💡 A smart refrigerator is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What can IoT devices help us do? 🆘",
-    "options": {
-      "A": "Only play music 🎵",
-      "B": "Only turn on lights 💡",
-      "C": "Only open doors 🚪",
-      "D": "Many different helpful tasks ✅"
-    },
-    "answer": "D",
-    "explanation": "💡 IoT devices can send emergency alerts automatically, helping people get help faster in critical situations."
-  },
-  {
-    "question": "What is important for IoT devices to work safely? 🛡️",
-    "options": {
-      "A": "They need to be painted blue 💙",
-      "B": "They need to be very big 📏",
-      "C": "They need good security 🔐",
-      "D": "They need to make noise 🔊"
-    },
-    "answer": "C",
-    "explanation": "💡 They need good security is the standard definition for this concept in the field."
-  },
-  {
-    "question": "How do people control IoT devices? 🎮",
-    "options": {
-      "A": "By dancing 💃",
-      "B": "Using apps on phones or tablets 📱",
-      "C": "By singing 🎤",
-      "D": "By jumping 🤸"
-    },
-    "answer": "B",
-    "explanation": "💡 Using apps on phones or tablets — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is a benefit of using IoT devices? 🌟",
-    "options": {
-      "A": "They make houses prettier 🏠",
-      "B": "They only work outside 🌳",
-      "C": "They need no electricity 🔌",
-      "D": "They can save energy ⚡"
-    },
-    "answer": "D",
-    "explanation": "💡 They can save energy is the standard definition for this concept in the field."
-  },
-  {
-    "question": "What is IoT mainly about? 🎯",
-    "options": {
-      "A": "Playing video games 🎮",
-      "B": "Connecting everyday objects to the internet 🌐",
-      "C": "Writing stories ✍️",
-      "D": "Making phone calls 📞"
-    },
-    "answer": "B",
-    "explanation": "💡 Connecting everyday objects to the internet is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which device below is NOT typically an IoT device? ❌",
-    "options": {
-      "A": "Smart thermostat 🌡️",
-      "B": "Paper notebook 📓",
-      "C": "Smart doorbell 🔔",
-      "D": "Smart light bulb 💡"
-    },
-    "answer": "B",
-    "explanation": "💡 Paper notebook does not fit because the other options all belong to the same category."
-  },
-  {
-    "question": "What is the main purpose of sensors in IoT devices? 📡",
-    "options": {
-      "A": "To make music 🎵",
-      "B": "To collect information 📊",
-      "C": "To play games 🎮",
-      "D": "To draw pictures 🎨"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "Which is an example of how IoT helps at home? 🏠",
-    "options": {
-      "A": "Turning lights on/off with your voice 🗣️",
-      "B": "Writing with a pencil ✏️",
-      "C": "Reading a paper book 📖",
-      "D": "Playing with toys 🧸"
-    },
-    "answer": "A",
-    "explanation": "💡 Turning lights on/off with your voice is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What does a smart home device need to work properly? ⚙️",
-    "options": {
-      "A": "Batteries only 🔋",
-      "B": "Internet connection 🌐",
-      "C": "Paint 🎨",
-      "D": "Water 💧"
-    },
-    "answer": "B",
-    "explanation": "💡 Smart home devices need a stable internet connection and power supply to function reliably."
-  },
-  {
-    "question": "How do IoT devices usually communicate with each other? 📡",
-    "options": {
-      "A": "Through mail ✉️",
-      "B": "By making sounds 🔊",
-      "C": "Through wireless networks 📶",
-      "D": "Using string 🧵"
-    },
-    "answer": "C",
-    "explanation": "💡 IoT devices follow network protocols to format and send data reliably over wired or wireless networks."
-  },
-  {
-    "question": "Which is a benefit of using IoT devices? 🌟",
-    "options": {
-      "A": "They never need power 🔋",
-      "B": "They make life easier by automating tasks 🤖",
-      "C": "They work without internet 🌐",
-      "D": "They only work during daytime ☀️"
-    },
-    "answer": "B",
-    "explanation": "💡 They make life easier by automating tasks is the key advantage offered by the approach described in the question."
-  },
-  {
-    "question": "What is an important part of IoT security? 🔐",
-    "options": {
-      "A": "Using strong passwords 🔑",
-      "B": "Leaving doors open 🚪",
-      "C": "Sharing passwords with everyone 👥",
-      "D": "Never changing passwords 🔄"
-    },
-    "answer": "A",
-    "explanation": "💡 Using strong passwords is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which is a common IoT device in many homes? 🏠",
-    "options": {
-      "A": "Wooden chair 🪑",
-      "B": "Paper calendar 📅",
-      "C": "Smart speaker 🔊",
-      "D": "Regular pencil ✏️"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart speaker is the most commonly used approach due to its reliability and wide adoption."
-  },
-  {
-    "question": "How do people usually control their IoT devices? 🎮",
-    "options": {
-      "A": "By writing letters ✉️",
-      "B": "Using smoke signals 💨",
-      "C": "By yelling loudly 📢",
-      "D": "Using smartphones or tablets 📱"
-    },
-    "answer": "D",
-    "explanation": "💡 Using smartphones or tablets — this is how this process works according to established principles."
-  },
-  {
-    "question": "What does M2M stand for in technology? 🔤",
-    "options": {
-      "A": "Machine-to-Mouse 🖱️",
-      "B": "Machine-to-Machine 💻",
-      "C": "Mouse-to-Machine 🖱️",
-      "D": "Message-to-Message 💬"
-    },
-    "answer": "B",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Which of these is an example of M2M communication? 🤖",
-    "options": {
-      "A": "A person sending a text message to another person 👨",
-      "B": "A smart thermostat automatically adjusting the temperature 🌡️",
-      "C": "Writing a letter to a friend ✉️",
-      "D": "Talking on the phone 📞"
-    },
-    "answer": "B",
-    "explanation": "💡 A smart thermostat automatically adjusting the temperature is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "Why is M2M communication important in our daily lives? 🌟",
-    "options": {
-      "A": "It helps machines work together without human help 🤖",
-      "B": "It makes video games more fun 🎮",
-      "C": "It helps people write faster ✍️",
-      "D": "It makes computers bigger 📦"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Which device below uses M2M communication? 📱",
-    "options": {
-      "A": "A regular pencil ✏️",
-      "B": "A paper notebook 📓",
-      "C": "A smart watch tracking your steps ⌚",
-      "D": "A regular wristwatch ⌚"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart meters communicate usage data directly to utility providers without any human intervention."
-  },
-  {
-    "question": "In a smart home, what might M2M communication control? 🏠",
-    "options": {
-      "A": "Paper books 📖",
-      "B": "Wooden furniture 🪑",
-      "C": "Smart lights 💡",
-      "D": "Regular windows 🪟"
-    },
-    "answer": "C",
-    "explanation": "💡 M2M communication can automatically adjust lighting, heating, and appliances based on sensor data."
-  },
-  {
-    "question": "How does M2M communication help in weather stations? 🌤️",
-    "options": {
-      "A": "It makes rain fall faster ☔",
-      "B": "It helps collect and send weather data automatically 📊",
-      "C": "It makes clouds move ☁️",
-      "D": "It changes the temperature outside 🌡️"
-    },
-    "answer": "B",
-    "explanation": "💡 It helps collect and send weather data automatically — this is how this process works according to established principles."
-  },
-  {
-    "question": "What is one benefit of M2M communication? 🌟",
-    "options": {
-      "A": "It makes computers heavier ⚖️",
-      "B": "It uses more electricity ⚡",
-      "C": "It needs more human workers 👨",
-      "D": "It saves time and reduces errors ✅"
-    },
-    "answer": "D",
-    "explanation": "💡 It saves time and reduces errors is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of these is NOT an example of M2M communication? ❌",
-    "options": {
-      "A": "A vending machine reporting its inventory 🥤",
-      "B": "A person writing with a pencil ✏️",
-      "C": "A security camera sending alerts 📹",
-      "D": "A smart meter reading electricity usage ⚡"
-    },
-    "answer": "B",
-    "explanation": "💡 A person writing with a pencil does not fit because the other options all belong to the same category."
-  },
-  {
-    "question": "What do machines need to communicate with each other? 🤖",
-    "options": {
-      "A": "Special sensors and internet connection 📡🌐",
-      "B": "Paint and brushes 🎨",
-      "C": "Paper and pencils 📄✏️",
-      "D": "Books and magazines 📚"
-    },
-    "answer": "A",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "How does M2M communication help in schools? 🏫",
-    "options": {
-      "A": "It makes textbooks heavier 📚",
-      "B": "It helps attendance systems work automatically ✅",
-      "C": "It makes chairs more comfortable 🪑",
-      "D": "It makes walls stronger 🧱"
-    },
-    "answer": "B",
-    "explanation": "💡 It helps attendance systems work automatically — this is how this process works according to established principles."
-  },
-  {
-    "question": "What helps devices talk to each other? 💬",
-    "options": {
-      "A": "Magic spells ✨",
-      "B": "The internet 🌐",
-      "C": "Paper airplanes ✈️",
-      "D": "Loud noises 🔊"
-    },
-    "answer": "B",
-    "explanation": "💡 Automated Clearing House (ACH) processes electronic financial transactions between bank accounts in batches."
-  },
-  {
-    "question": "Which of these is a smart device? 🧠",
-    "options": {
-      "A": "A regular light bulb 💡",
-      "B": "A wooden chair 🪑",
-      "C": "A smart speaker 🔊",
-      "D": "A regular pencil ✏️"
-    },
-    "answer": "C",
-    "explanation": "💡 A smart speaker connects to the internet and responds to voice commands using AI."
-  },
-  {
-    "question": "What do we call it when two devices share information? 🔄",
-    "options": {
-      "A": "Connection 🔗",
-      "B": "Dancing 💃",
-      "C": "Walking 🚶",
-      "D": "Jumping 🤸"
-    },
-    "answer": "A",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "Which device helps us connect to the internet at home? 🏠",
-    "options": {
-      "A": "Toaster 🍞",
-      "B": "Router 📡",
-      "C": "Lamp 💡",
-      "D": "Clock ⏰"
-    },
-    "answer": "B",
-    "explanation": "💡 A Wi-Fi router wirelessly connects all home devices to the internet through a broadband connection."
-  },
-  {
-    "question": "What do smart devices need to work? ⚡",
-    "options": {
-      "A": "Sunshine ☀️",
-      "B": "Water 💧",
-      "C": "Electricity ⚡",
-      "D": "Paint 🎨"
-    },
-    "answer": "C",
-    "explanation": "💡 Smart devices need electricity to power their hardware and internet connectivity to communicate."
-  },
-  {
-    "question": "Which is an example of devices working together? 🤝",
-    "options": {
-      "A": "A book on a shelf 📖",
-      "B": "A smart light turning on when you get home 💡",
-      "C": "A pencil in a drawer ✏️",
-      "D": "A plant in the garden 🌱"
-    },
-    "answer": "B",
-    "explanation": "💡 A smart light turning on when you get home is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What helps keep our smart devices safe? 🛡️",
-    "options": {
-      "A": "A blanket 🛌",
-      "B": "A password 🔐",
-      "C": "A hat 🧢",
-      "D": "A door 🚪"
-    },
-    "answer": "B",
-    "explanation": "💡 Regular software updates patch security vulnerabilities, protecting smart devices from cyberattacks."
-  },
-  {
-    "question": "What do we call a group of connected devices? 🔗",
-    "options": {
-      "A": "A network 🌐",
-      "B": "A family 👨‍👩‍👧",
-      "C": "A team ⚽",
-      "D": "A crowd 🧑‍🤝‍🧑"
-    },
-    "answer": "A",
-    "explanation": "💡 A network is a group of interconnected devices that can share data and resources with each other."
-  },
-  {
-    "question": "Which device can control other smart devices? 🎮",
-    "options": {
-      "A": "Regular watch ⌚",
-      "B": "Paper notebook 📓",
-      "C": "Smartphone 📱",
-      "D": "Regular doorbell 🔔"
-    },
-    "answer": "C",
-    "explanation": "💡 A smart hub acts as a central controller, allowing one app or voice command to manage all devices."
-  },
-  {
-    "question": "What do smart devices use to understand our commands? 🗣️",
-    "options": {
-      "A": "Mind reading 🧠",
-      "B": "Special software 💻",
-      "C": "Guessing 🤔",
-      "D": "Drawing pictures 🎨"
-    },
-    "answer": "B",
-    "explanation": "💡 Smart devices use voice recognition AI to interpret and respond to spoken instructions."
-  },
-  {
-    "question": "What is a digital sensor used for? 📡",
-    "options": {
-      "A": "To play video games 🎮",
-      "B": "To detect and measure changes in the environment 🌍",
-      "C": "To make phone calls 📞",
-      "D": "To watch movies 🎬"
-    },
-    "answer": "B",
-    "explanation": "💡 To detect and measure changes in the environment is the standard definition for this concept in the field."
-  },
-  {
-    "question": "Which of these is an example of an actuator? ⚙️",
-    "options": {
-      "A": "A thermometer 🌡️",
-      "B": "A camera 📷",
-      "C": "An electric motor ⚡",
-      "D": "A microphone 🎤"
-    },
-    "answer": "C",
-    "explanation": "💡 An electric motor is a concrete real-world example of the concept described."
-  },
-  {
-    "question": "What does RFID stand for? 🔤",
-    "options": {
-      "A": "Really Fast Internet Device 🚀",
-      "B": "Radio Frequency Information Display 📡",
-      "C": "Radio Frequency Identification 🏷️",
-      "D": "Really Fun Interactive Device 🎮"
-    },
-    "answer": "C",
-    "explanation": "💡 RFID stands for Radio Frequency Identification, a technology that uses radio waves to identify objects."
-  },
-  {
-    "question": "Where might you find RFID tags being used? 🏷️",
-    "options": {
-      "A": "In library books to track them 📚",
-      "B": "In video games consoles 🎮",
-      "C": "In pencil cases 📦",
-      "D": "In paper notebooks 📓"
-    },
-    "answer": "A",
-    "explanation": "💡 RFID tags are widely used in retail stores to track inventory and prevent theft automatically."
-  },
-  {
-    "question": "Which statement about sensors is TRUE? ✅",
-    "options": {
-      "A": "Sensors only work during daytime ☀️",
-      "B": "Sensors can only measure temperature 🌡️",
-      "C": "Sensors can detect different types of changes 🔄",
-      "D": "Sensors are only used in smartphones 📱"
-    },
-    "answer": "C",
-    "explanation": "💡 Sensors detect physical changes in the environment and convert them into electrical signals for processing."
-  },
-  {
-    "question": "What is the main purpose of a wireless sensor network? 📡",
-    "options": {
-      "A": "To play video games 🎮",
-      "B": "To collect and share information about the environment 🌍",
-      "C": "To make phone calls 📞",
-      "D": "To watch television shows 📺"
-    },
-    "answer": "B",
-    "explanation": "💡 Recovery Point Objective (RPO) defines the maximum acceptable age of data that can be lost in a disaster."
-  },
-  {
-    "question": "Which of these could a wireless sensor help monitor in your school? 🏫",
-    "options": {
-      "A": "The temperature in different classrooms 🌡️",
-      "B": "What students had for lunch 🍔",
-      "C": "The color of students' shoes 👟",
-      "D": "What games students play at recess 🎮"
-    },
-    "answer": "A",
-    "explanation": "💡 Wireless sensors can monitor temperature, air quality, or occupancy in school buildings automatically."
-  },
-  {
-    "question": "What is one thing that makes wireless sensors special? 🌟",
-    "options": {
-      "A": "They need lots of wires to work 🔌",
-      "B": "They only work indoors 🏠",
-      "C": "They can work without being plugged in 🔋",
-      "D": "They must be used underwater 💧"
-    },
-    "answer": "C",
-    "explanation": "💡 They can work without being plugged in is the standard definition for this concept in the field."
-  },
-  {
-    "question": "In a wireless sensor network, how do the sensors share information? 📡",
-    "options": {
-      "A": "Through paper messages ✉️",
-      "B": "By making loud noises 🔊",
-      "C": "Through radio waves 📻",
-      "D": "By flashing lights 💡"
-    },
-    "answer": "C",
-    "explanation": "💡 SHA produces secure cryptographic hashes; SHA-256 and higher are currently considered safe."
-  },
-  {
-    "question": "Which of these is an example of where wireless sensors might be used? 📡",
-    "options": {
-      "A": "In a toy store to count toys 🧸",
-      "B": "In a forest to detect fires 🔥",
-      "C": "In a library to read books 📚",
-      "D": "In a kitchen to cook food 🍳"
-    },
-    "answer": "B",
-    "explanation": "💡 In a forest to detect fires is a concrete real-world example of the concept described."
-  }
-]
+
+  "questions": [
+    {
+      "question": "What role does power efficiency play in the selection of hardware components for IoT applications? 🔋",
+      "options": {
+        "A": "Impact on data security 🔐",
+        "B": "Influence on device lifespan ⏳",
+        "C": "Correlation with data accuracy 📊",
+        "D": "Relationship with network speed 🌐"
+      },
+      "answer": "B",
+      "explanation": "💡 Power efficiency directly influences device lifespan in IoT. The more power-efficient the hardware, the less energy it consumes, which extends the battery life of battery-powered IoT devices that cannot be easily recharged or replaced in the field."
+    },
+    {
+      "question": "What is a common issue related to the wireless medium access in IoT communication? 📡",
+      "options": {
+        "A": "Limited battery life of devices 🔋",
+        "B": "High security protocols 🔐",
+        "C": "Large bandwidth availability 📶",
+        "D": "Low data transmission speed 🐢"
+      },
+      "answer": "A",
+      "explanation": "💡 Limited battery life is the most common medium access issue in IoT wireless communication. Most IoT devices are battery-powered and deployed in remote locations, making energy consumption the biggest challenge when devices compete for channel access."
+    },
+    {
+      "question": "Which MAC protocol is commonly used in IoT networks for low power consumption? 💤",
+      "options": {
+        "A": "Carrier Sense Multiple Access (CSMA) 📡",
+        "B": "Time Division Multiple Access (TDMA) ⏰",
+        "C": "Code Division Multiple Access (CDMA) 🔢",
+        "D": "Frequency Division Multiple Access (FDMA) 📶"
+      },
+      "answer": "A",
+      "explanation": "💡 CSMA (Carrier Sense Multiple Access) is commonly used in IoT for low power consumption. It works by having devices listen to the channel before transmitting, reducing collisions and unnecessary retransmissions that waste energy. TDMA requires strict synchronization which adds overhead."
+    },
+    {
+      "question": "What is a primary concern when surveying routing protocols for IoT applications? 🗺️",
+      "options": {
+        "A": "Scalability 📈",
+        "B": "Software compatibility 💻",
+        "C": "Hardware complexity 🧩",
+        "D": "Real-time data processing ⚡"
+      },
+      "answer": "A",
+      "explanation": "💡 Scalability is the primary concern when surveying routing protocols for IoT. IoT networks can grow to millions of devices, so protocols must efficiently handle large numbers of nodes without excessive overhead or performance degradation as the network expands."
+    },
+    {
+      "question": "When deploying sensors in IoT networks, what is crucial for effective coverage and data collection? 📍",
+      "options": {
+        "A": "Placing sensors in isolated areas 🏝️",
+        "B": "Ensure sensors are tightly packed together 📦",
+        "C": "Randomly scattering sensors 🎲",
+        "D": "Strategic sensor placement 🎯"
+      },
+      "answer": "D",
+      "explanation": "💡 Strategic sensor placement is crucial for effective IoT coverage and data collection. Sensors must be positioned to cover all target areas without unnecessary overlap, avoid dead spots, and ensure reliable communication between nodes — maximizing data quality while minimizing cost."
+    },
+    {
+      "question": "What is a key challenge associated with node discovery in IoT environments? 🔍",
+      "options": {
+        "A": "Limited network congestion 🚦",
+        "B": "Quick identification of nearby nodes ⚡",
+        "C": "Nodes being too easily detectable 👁️",
+        "D": "Node mobility 🚶‍♂️"
+      },
+      "answer": "D",
+      "explanation": "💡 Node mobility is a key challenge in IoT node discovery. When devices physically move (e.g., wearables, vehicle sensors), their location and network neighbors constantly change, making it difficult to maintain accurate and current network topology information."
+    },
+    {
+      "question": "In IoT, which type of routing protocol is commonly used for constrained devices with low power? 🔋",
+      "options": {
+        "A": "Proactive ⚡",
+        "B": "Reactive 🔄",
+        "C": "Hybrid 🔀",
+        "D": "Static 📌"
+      },
+      "answer": "B",
+      "explanation": "💡 Reactive (on-demand) routing protocols are commonly used for low-power IoT devices. They only compute and build routes when data needs to be sent, rather than continuously maintaining routing tables. This saves significant energy since routing overhead is only incurred when needed."
+    },
+    {
+      "question": "What is a disadvantage of using contention-based MAC protocols in IoT networks? ⚠️",
+      "options": {
+        "A": "Low energy efficiency 🔋",
+        "B": "High collision rates 💥",
+        "C": "Simplified device synchronization 🔄",
+        "D": "Increased data throughput 📈"
+      },
+      "answer": "B",
+      "explanation": "💡 High collision rates are the main disadvantage of contention-based MAC protocols in IoT networks. When multiple devices try to transmit simultaneously without scheduling, their signals collide, requiring retransmissions that waste energy and reduce network throughput."
+    },
+    {
+      "question": "Which technology in IoT is used for the unique identification and tracking of items using radio waves? 📡",
+      "options": {
+        "A": "NFC (Near Field Communication) 📱",
+        "B": "Bluetooth 🎧",
+        "C": "RFID (Radio Frequency Identification) 🏷️",
+        "D": "GPS (Global Positioning System) 🛰️"
+      },
+      "answer": "C",
+      "explanation": "💡 RFID (Radio Frequency Identification) uses radio waves to wirelessly identify and track items. RFID tags attached to objects are read by RFID readers at various distances without requiring line-of-sight contact, enabling automatic identification in warehouses, retail, and supply chains."
+    },
+    {
+      "question": "What type of networks are commonly used in IoT for connecting various devices wirelessly? 🌐",
+      "options": {
+        "A": "Local Area Networks (LANs) 🏢",
+        "B": "Wide Area Networks (WANs) 🌍",
+        "C": "Wireless Sensor Networks (WSNs) 📡",
+        "D": "Metropolitan Area Networks (MANs) 🏙️"
+      },
+      "answer": "C",
+      "explanation": "💡 Wireless Sensor Networks (WSNs) are commonly used in IoT for wirelessly connecting devices. WSNs consist of distributed sensor nodes that collect environmental data and communicate wirelessly with each other and a gateway, making them the fundamental connectivity fabric of most IoT deployments."
+    },
+    {
+      "question": "Participatory sensing technology in IoT involves: 👥",
+      "options": {
+        "A": "Passive data collection by sensors 📊",
+        "B": "Active involvement of users in data collection 🙋",
+        "C": "Centralized data processing 💻",
+        "D": "Real-time data transmission ⚡"
+      },
+      "answer": "B",
+      "explanation": "💡 Participatory sensing involves active involvement of users in data collection. People voluntarily contribute data through their personal mobile devices (smartphones, wearables) as they go about their daily lives — for example, contributing traffic, noise, or air quality data to a shared platform."
+    },
+    {
+      "question": "Which of the following is NOT an example of an embedded computing basic in the context of IoT? 💻",
+      "options": {
+        "A": "Microcontrollers 🧠",
+        "B": "Sensors 📡",
+        "C": "Real-time operating systems ⏰",
+        "D": "Firmware 🔧"
+      },
+      "answer": "C",
+      "explanation": "💡 Real-time operating systems (RTOS) are software, not a hardware embedded computing basic. Microcontrollers, sensors, and firmware are all fundamental hardware or hardware-related components of embedded IoT systems. An RTOS runs on top of the hardware and manages tasks — it is a software layer."
+    },
+    {
+      "question": "What is the primary role of hardware platforms in IoT ecosystems? 🖥️",
+      "options": {
+        "A": "Data analysis and interpretation 📊",
+        "B": "Physical computing and data collection 📡",
+        "C": "Cloud storage management ☁️",
+        "D": "Software development 💻"
+      },
+      "answer": "B",
+      "explanation": "💡 The primary role of hardware platforms in IoT is physical computing and data collection. Hardware platforms include microcontrollers, sensors, and communication modules that physically interact with the environment to gather real-world data — which is then processed and transmitted."
+    },
+    {
+      "question": "Which type of embedded platform is specifically designed to support IoT applications and technologies? 🔧",
+      "options": {
+        "A": "Wearable devices ⌚",
+        "B": "Smartphones 📱",
+        "C": "Single-board computers 🖥️",
+        "D": "Gaming consoles 🎮"
+      },
+      "answer": "C",
+      "explanation": "💡 Single-board computers (SBCs) like Raspberry Pi are specifically designed for IoT development. They integrate the CPU, memory, storage, and I/O on a single compact board, providing a complete computing environment for building and prototyping IoT applications."
+    },
+    {
+      "question": "What does an embedded computing system use to interact with the outside world? 🌍",
+      "options": {
+        "A": "Bluetooth 📶",
+        "B": "GPIO (General Purpose Input/Output) pins 🔌",
+        "C": "USB ports 🔌",
+        "D": "HDMI cables 🖥️"
+      },
+      "answer": "B",
+      "explanation": "💡 Embedded computing systems use GPIO (General Purpose Input/Output) pins to interact with the physical world. GPIO pins can be configured as inputs (to read sensor data) or outputs (to control actuators like LEDs or motors), making them the primary interface between embedded hardware and the environment."
+    },
+    {
+      "question": "In IoT, what is the purpose of a power management system in embedded platforms? 🔋",
+      "options": {
+        "A": "Data encryption 🔐",
+        "B": "Ensuring data integrity ✓",
+        "C": "Regulating power consumption ⚡",
+        "D": "Communication with cloud servers ☁️"
+      },
+      "answer": "C",
+      "explanation": "💡 A power management system in IoT embedded platforms regulates power consumption to extend battery life. It controls when components are active, puts devices into low-power sleep modes when idle, and manages energy harvesting — critical for IoT devices deployed without regular access to power sources."
+    },
+    {
+      "question": "Which MAC protocol is known for its simplicity and effectiveness in IoT networks with low traffic? 📡",
+      "options": {
+        "A": "Token Passing 🎫",
+        "B": "Pure ALOHA 📡",
+        "C": "Reservation ALOHA 📅",
+        "D": "Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) 🚦"
+      },
+      "answer": "B",
+      "explanation": "💡 Pure ALOHA is the simplest MAC protocol and works well in IoT networks with low traffic. Devices transmit whenever they have data without checking the channel first. Because IoT devices transmit infrequently, the collision probability remains low, making Pure ALOHA's simplicity an advantage."
+    },
+    {
+      "question": "What is a benefit of using proactive routing protocols in IoT networks? ⚡",
+      "options": {
+        "A": "Reduced control message overhead 📉",
+        "B": "Minimal routing table maintenance 📋",
+        "C": "Quick response to network changes 🔄",
+        "D": "Low initial setup complexity 🔧"
+      },
+      "answer": "C",
+      "explanation": "💡 Proactive routing protocols continuously maintain up-to-date routing tables, providing quick response to network changes. Since routes are already computed and stored before data needs to be sent, there is no delay for route discovery — making them ideal when low latency is required."
+    },
+    {
+      "question": "When choosing a MAC protocol for IoT, what impact does contention-based protocols have on network efficiency? 📡",
+      "options": {
+        "A": "Higher energy consumption 🔋",
+        "B": "Lower collision rates 📉",
+        "C": "Improved real-time data transmission ⚡",
+        "D": "Enhanced scalability 📈"
+      },
+      "answer": "A",
+      "explanation": "💡 Contention-based MAC protocols cause higher energy consumption in IoT networks. Frequent collisions between simultaneously transmitting devices lead to retransmissions, and devices waste energy listening to the channel and backing off before retrying — all of which drain batteries faster."
+    },
+    {
+      "question": "How does node discovery contribute to energy efficiency in IoT networks? 🔍",
+      "options": {
+        "A": "Reducing redundant data transmissions 📉",
+        "B": "Increasing network bandwidth 📶",
+        "C": "Extending device battery life 🔋",
+        "D": "Enhancing data encryption 🔐"
+      },
+      "answer": "A",
+      "explanation": "💡 Node discovery contributes to energy efficiency by reducing redundant data transmissions. Once a device knows which neighboring nodes are active and reachable, it avoids sending data through unnecessary or inefficient paths, minimizing the total number of transmissions needed."
+    },
+    {
+      "question": "Which factor is crucial for successful deployment of IoT sensor nodes? 📍",
+      "options": {
+        "A": "Strong device authentication 🔐",
+        "B": "Regular security updates 🔄",
+        "C": "Continuous data backups 💾",
+        "D": "Adequate power supply 🔋"
+      },
+      "answer": "D",
+      "explanation": "💡 Adequate power supply is crucial for successful IoT sensor node deployment. Without a reliable and sufficient power source — whether battery, energy harvesting, or wired — the sensor nodes simply stop functioning, rendering the entire deployment useless regardless of other capabilities."
+    },
+    {
+      "question": "What is a common example of a home automation application using IoT technology? 🏠",
+      "options": {
+        "A": "Automated lighting systems 💡",
+        "B": "Bicycle manufacturing 🚲",
+        "C": "Agricultural irrigation systems 🚜",
+        "D": "Airline reservation systems ✈️"
+      },
+      "answer": "A",
+      "explanation": "💡 Automated lighting systems are a classic home automation IoT application. Smart lights can be controlled remotely via smartphone, automatically adjust based on occupancy sensors, follow schedules, or respond to voice commands — saving energy and improving convenience."
+    },
+    {
+      "question": "Which of the following is an industry application of IoT? 🏭",
+      "options": {
+        "A": "Smart refrigerators 🧊",
+        "B": "Online gaming platforms 🎮",
+        "C": "Predictive maintenance in manufacturing equipment 🔧",
+        "D": "Social media networks 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 Predictive maintenance in manufacturing equipment is a core industrial IoT application. Sensors monitor equipment health parameters like vibration, temperature, and sound, and machine learning algorithms predict failures before they occur — preventing costly downtime and unplanned breakdowns."
+    },
+    {
+      "question": "What is a common surveillance application of IoT technology? 📹",
+      "options": {
+        "A": "Smart thermostats 🌡️",
+        "B": "GPS navigation 🗺️",
+        "C": "Video monitoring systems 🎥",
+        "D": "E-commerce platforms 🛒"
+      },
+      "answer": "C",
+      "explanation": "💡 Video monitoring systems are the most common IoT surveillance application. IoT-connected cameras stream live video to the internet, enabling remote monitoring of homes, businesses, and public spaces through smartphones or web interfaces, with features like motion detection alerts."
+    },
+    {
+      "question": "Which of the following is NOT typically considered an IoT application? ❌",
+      "options": {
+        "A": "Traffic management systems 🚦",
+        "B": "Wearable health devices ⌚",
+        "C": "Music streaming services 🎵",
+        "D": "Smart grid technology ⚡"
+      },
+      "answer": "C",
+      "explanation": "💡 Music streaming services are NOT an IoT application. IoT requires physical devices that sense or interact with the real world. Music streaming is a pure software/content delivery service with no physical sensing component — it does not collect environmental data or control physical actuators."
+    },
+    {
+      "question": "What is a critical aspect of securing IoT devices? 🔐",
+      "options": {
+        "A": "Keeping all security measures secret 🤫",
+        "B": "Ignoring security concerns 🙈",
+        "C": "Regularly updating device software and implementing strong authentication 🔄",
+        "D": "Blaming security breaches on aliens 👽"
+      },
+      "answer": "C",
+      "explanation": "💡 Regularly updating device software and implementing strong authentication are critical IoT security practices. Software updates patch known vulnerabilities, while strong authentication (unique passwords, multi-factor authentication) prevents unauthorized access to IoT devices and the networks they are connected to."
+    },
+    {
+      "question": "Which technology is fundamental for enabling IoT applications in remote locations? 🏔️",
+      "options": {
+        "A": "Invisible ink ✒️",
+        "B": "Satellite communication 🛰️",
+        "C": "Carrier pigeons 🐦",
+        "D": "Telepathy 🧠"
+      },
+      "answer": "B",
+      "explanation": "💡 Satellite communication is fundamental for IoT in remote locations where terrestrial networks (Wi-Fi, cellular) do not reach. Satellites provide global coverage, enabling IoT devices in oceans, mountains, deserts, and polar regions to transmit sensor data back to central systems."
+    },
+    {
+      "question": "What does the term 'Edge Computing' refer to in IoT? ⚡",
+      "options": {
+        "A": "Performing data processing closer to the data source 📍",
+        "B": "Balancing on the edge of tall buildings 🏢",
+        "C": "Creating data processing centers in outer space 🚀",
+        "D": "Using a knife to cut your internet connection 🔪"
+      },
+      "answer": "A",
+      "explanation": "💡 Edge computing in IoT refers to performing data processing closer to the data source (at the device or gateway level) rather than sending all data to a distant cloud. This reduces latency, saves bandwidth, enables real-time responses, and reduces cloud processing costs."
+    },
+    {
+      "question": "Which of the following is an example of wearable IoT technology? ⌚",
+      "options": {
+        "A": "Smartwatches ⌚",
+        "B": "Wooden clogs 👞",
+        "C": "Cowboy hats 🤠",
+        "D": "Flip phones 📱"
+      },
+      "answer": "A",
+      "explanation": "💡 Smartwatches are a primary example of wearable IoT technology. They contain sensors (accelerometer, heart rate monitor, GPS), connect to the internet via Wi-Fi or Bluetooth, collect health and activity data, and sync that data wirelessly to smartphones and cloud services."
+    },
+    {
+      "question": "What is the primary purpose of IoT technology in agriculture? 🚜",
+      "options": {
+        "A": "Making farmers' lives more complicated 😩",
+        "B": "Improving crop management and increasing efficiency 🌾",
+        "C": "Teaching cows to dance 🐄💃",
+        "D": "Broadcasting karaoke shows in the fields 🎤"
+      },
+      "answer": "B",
+      "explanation": "💡 The primary purpose of IoT in agriculture is improving crop management and increasing efficiency. IoT sensors monitor soil moisture, temperature, humidity, and crop health in real time, enabling precision farming — applying water, fertilizers, and pesticides only where and when needed, reducing waste and maximizing yield."
+    },
+    {
+      "question": "What type of technology is commonly used in IoT for detecting and monitoring physical phenomena? 📡",
+      "options": {
+        "A": "Sensors 🔍",
+        "B": "Transistors 🔌",
+        "C": "Resistors ⚡",
+        "D": "Amplifiers 🔊"
+      },
+      "answer": "A",
+      "explanation": "💡 Sensors are the technology used in IoT for detecting and monitoring physical phenomena. They convert real-world measurements — such as temperature, pressure, light, humidity, motion, and sound — into electrical signals that can be processed and transmitted by IoT devices."
+    },
+    {
+      "question": "Which of the following is an example of a digital sensor used in IoT applications? 🔢",
+      "options": {
+        "A": "Thermocouple 🌡️",
+        "B": "Photodiode 💡",
+        "C": "Accelerometer 📳",
+        "D": "Light-dependent resistor 🌞"
+      },
+      "answer": "C",
+      "explanation": "💡 An accelerometer is a digital sensor commonly used in IoT. It measures acceleration and orientation, outputting digital values for motion, tilt, and vibration. Thermocouples, photodiodes, and light-dependent resistors are analog sensors that produce continuous voltage signals rather than digital output."
+    },
+    {
+      "question": "In the context of IoT, what are actuators primarily responsible for? 🎮",
+      "options": {
+        "A": "Collecting data 📊",
+        "B": "Processing data 💻",
+        "C": "Storing data 💾",
+        "D": "Executing actions ⚙️"
+      },
+      "answer": "D",
+      "explanation": "💡 Actuators are primarily responsible for executing actions in IoT systems. They receive digital commands from the IoT controller and convert them into physical actions — such as opening a valve, activating a motor, turning on a light, or operating a lock. Sensors collect data; actuators act on it."
+    },
+    {
+      "question": "Which factor is essential to consider when planning sensor deployment in IoT systems? 📍",
+      "options": {
+        "A": "Network latency ⏱️",
+        "B": "Encrypted data transmission 🔐",
+        "C": "Sensory data storage capacity 💾",
+        "D": "Communication range 📡"
+      },
+      "answer": "D",
+      "explanation": "💡 Communication range is essential when planning sensor deployment. Sensors must be positioned within wireless communication range of each other or a gateway to reliably transmit data. Placing sensors too far apart creates coverage gaps where data cannot be relayed to the network."
+    },
+    {
+      "question": "When selecting a MAC protocol for an IoT network, what should be a priority for high device connectivity? 📡",
+      "options": {
+        "A": "Low latency ⚡",
+        "B": "High channel capacity 📶",
+        "C": "Device synchronization 🔄",
+        "D": "Energy efficiency 🔋"
+      },
+      "answer": "D",
+      "explanation": "💡 Energy efficiency should be the priority when selecting a MAC protocol for high device connectivity in IoT. When many devices share a network, frequent channel access and potential collisions drain batteries rapidly. A MAC protocol that minimizes wasted transmissions and allows sleep modes is essential."
+    },
+    {
+      "question": "What is a critical consideration when evaluating the performance of routing protocols in IoT? 🗺️",
+      "options": {
+        "A": "Number of network devices 🔢",
+        "B": "Distance between nodes 📏",
+        "C": "Network topology changes 🔄",
+        "D": "Data encryption methods 🔐"
+      },
+      "answer": "C",
+      "explanation": "💡 Network topology changes are a critical consideration for IoT routing protocol performance. IoT environments often feature mobile nodes, failing devices, or newly added sensors, causing the network topology to change frequently. A routing protocol must adapt quickly to these changes to maintain reliable data delivery."
+    },
+    {
+      "question": "Which routing protocol is designed to address the dynamic nature and scalability of IoT networks? 🔄",
+      "options": {
+        "A": "Optimized Link State Routing (OLSR) 📡",
+        "B": "Destination-Sequenced Distance Vector (DSDV) 📋",
+        "C": "Ad hoc On-Demand Distance Vector (AODV) 🚀",
+        "D": "Routing Information Protocol (RIP) 📡"
+      },
+      "answer": "C",
+      "explanation": "💡 AODV (Ad hoc On-Demand Distance Vector) is designed for the dynamic nature and scalability of IoT networks. It builds routes only when needed (reactive), uses sequence numbers to avoid routing loops, and adapts to topology changes quickly — making it well-suited for mobile and dynamic IoT deployments."
+    },
+    {
+      "question": "What is a common characteristic of sensor nodes in IoT applications? 📡",
+      "options": {
+        "A": "High processing power 🚀",
+        "B": "Large memory storage 💾",
+        "C": "Long battery life 🔋",
+        "D": "Limited processing and memory resources 🧩"
+      },
+      "answer": "D",
+      "explanation": "💡 Limited processing and memory resources are a defining characteristic of IoT sensor nodes. To keep nodes small, inexpensive, and energy-efficient, they use low-power microcontrollers with minimal RAM and flash memory. This constraint shapes all design decisions around IoT networking protocols."
+    },
+    {
+      "question": "Why is node discovery important in IoT networks? 🔍",
+      "options": {
+        "A": "To prevent unauthorized network access 🔐",
+        "B": "To optimize network security 🛡️",
+        "C": "To establish network connectivity 🌐",
+        "D": "To reduce data latency ⏱️"
+      },
+      "answer": "C",
+      "explanation": "💡 Node discovery is important because it establishes network connectivity. Before devices can communicate, they must know which other nodes exist and are reachable. Node discovery lets devices build routing tables, form mesh networks, and identify neighbors — without it, no data can flow through the network."
+    },
+    {
+      "question": "In IoT, which routing protocol is more suitable for networks with changing topologies? 🔄",
+      "options": {
+        "A": "Distance Vector 📏",
+        "B": "Link State 🔗",
+        "C": "Hybrid 🔀",
+        "D": "Proactive ⚡"
+      },
+      "answer": "C",
+      "explanation": "💡 Hybrid routing protocols are most suitable for IoT networks with changing topologies. They combine proactive routing (maintaining routes within a local zone) and reactive routing (discovering routes on demand to distant nodes), balancing responsiveness to topology changes with energy efficiency."
+    },
+    {
+      "question": "When deploying sensors in urban environments for IoT applications, what should be considered to enhance communication reliability? 🏙️",
+      "options": {
+        "A": "Close proximity to water sources 💧",
+        "B": "Avoiding line of sight communication 🚫",
+        "C": "Height of sensor placement 📈",
+        "D": "Random sensor placement 🎲"
+      },
+      "answer": "C",
+      "explanation": "💡 Height of sensor placement is key to communication reliability in urban IoT environments. Mounting sensors at greater heights reduces signal obstruction from buildings, vehicles, and other obstacles, improving line-of-sight radio communication and extending the effective transmission range."
+    },
+    {
+      "question": "How does IoT impact data collection and analysis? 📊",
+      "options": {
+        "A": "It makes data collection and analysis more difficult 😩",
+        "B": "It has no impact on data processes 🚫",
+        "C": "It enhances data collection and analysis capabilities 📈",
+        "D": "It only works on weekends 📅"
+      },
+      "answer": "C",
+      "explanation": "💡 IoT enhances data collection and analysis capabilities dramatically. Thousands of sensors continuously collect real-world data at scale and frequency impossible for humans, feeding analytics systems with rich datasets for pattern detection, predictive modeling, and automated decision-making."
+    },
+    {
+      "question": "What does the conceptual framework of IoT outline? 🏗️",
+      "options": {
+        "A": "The best IoT memes 😂",
+        "B": "The theoretical structure and design of IoT systems 📐",
+        "C": "The rules of IoT chess ♟️",
+        "D": "The history of IoT legends 📜"
+      },
+      "answer": "B",
+      "explanation": "💡 The conceptual framework of IoT outlines the theoretical structure and design of IoT systems. It defines the layers (perception, network, application), the roles of components, and how they interact — providing a conceptual map that guides architects and developers in building IoT solutions."
+    },
+    {
+      "question": "Which statement best describes the vision of IoT? 👁️",
+      "options": {
+        "A": "To connect all devices and objects to the internet 🌐",
+        "B": "To disconnect all devices from the internet 🔌",
+        "C": "To create more confusion in the world 😵",
+        "D": "To move all devices to outer space 🚀"
+      },
+      "answer": "A",
+      "explanation": "💡 The vision of IoT is to connect all devices and objects to the internet, creating a world where everyday items — from home appliances to industrial machines — are embedded with sensors, software, and connectivity to collect and exchange data for smarter, more automated operations."
+    },
+    {
+      "question": "What is the significance of the architectural view in IoT systems? 🏛️",
+      "options": {
+        "A": "It provides a physical model for IoT devices 📦",
+        "B": "It offers a blueprint for designing IoT networks 📐",
+        "C": "It predicts the future of IoT technologies 🔮",
+        "D": "It is purely decorative 🎨"
+      },
+      "answer": "B",
+      "explanation": "💡 The architectural view offers a blueprint for designing IoT networks. It defines the system layers, component roles, communication interfaces, and data flows — giving designers a structured reference to build scalable, interoperable IoT systems without reinventing the design from scratch."
+    },
+    {
+      "question": "Which sector benefits most from IoT applications? 📈",
+      "options": {
+        "A": "Everything but the healthcare sector 🚫",
+        "B": "Only the fashion industry 👗",
+        "C": "Various industries like healthcare, agriculture, and transportation 🏥🚜🚚",
+        "D": "The bubble gum industry 🍬"
+      },
+      "answer": "C",
+      "explanation": "💡 Various industries — including healthcare, agriculture, transportation, manufacturing, and energy — all benefit significantly from IoT. Patient monitoring, precision farming, fleet management, predictive maintenance, and smart grids are all real-world IoT applications across these diverse sectors."
+    },
+    {
+      "question": "How do IoT devices communicate with each other? 📡",
+      "options": {
+        "A": "Through telepathy 🧠",
+        "B": "Via carrier pigeons 🐦",
+        "C": "Over a network using protocols 🌐",
+        "D": "Through interpretive dance 💃"
+      },
+      "answer": "C",
+      "explanation": "💡 IoT devices communicate over a network using protocols. Communication protocols like MQTT, CoAP, Zigbee, Wi-Fi, and Bluetooth define the rules for how devices format, send, and receive data — ensuring reliable and standardized communication between heterogeneous devices."
+    },
+    {
+      "question": "What role do sensors play in IoT systems? 📡",
+      "options": {
+        "A": "Collecting data from the environment 🌍",
+        "B": "Making toast 🍞",
+        "C": "Predicting the future 🔮",
+        "D": "Creating chaos 🌪️"
+      },
+      "answer": "A",
+      "explanation": "💡 Sensors collect data from the environment in IoT systems. They measure physical quantities like temperature, humidity, pressure, light, motion, and sound, converting these into electrical signals that the IoT device can process, store, and transmit to other systems or the cloud."
+    },
+    {
+      "question": "Which phrase best describes the concept of 'smart cities' in the context of IoT? 🏙️",
+      "options": {
+        "A": "Cities that know all your secrets 🤫",
+        "B": "Urban areas that use IoT technologies to improve services and efficiency 📈",
+        "C": "Cities made of candy 🍭",
+        "D": "Cities run entirely by robots 🤖"
+      },
+      "answer": "B",
+      "explanation": "💡 Smart cities are urban areas that deploy IoT technologies to improve services and efficiency. Connected sensors and systems manage traffic flow, optimize energy usage, monitor air quality, improve waste collection, enhance public safety, and deliver better city services to residents."
+    },
+    {
+      "question": "How does IoT technology contribute to environmental sustainability? 🌍",
+      "options": {
+        "A": "By increasing waste production 🗑️",
+        "B": "By optimizing energy consumption ⚡",
+        "C": "By depleting natural resources ⛏️",
+        "D": "By encouraging pollution 🏭"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT contributes to environmental sustainability by optimizing energy consumption. Smart grids, intelligent building management systems, precision agriculture, and connected transportation systems all use IoT data to reduce energy waste, lower emissions, and make more efficient use of natural resources."
+    },
+    {
+      "question": "Which of the following is a benefit of using IoT in supply chain management? 📦",
+      "options": {
+        "A": "Decreased visibility into logistics 👁️",
+        "B": "Increased operational inefficiencies 📉",
+        "C": "Improved inventory tracking 📊",
+        "D": "Limited access to real-time data 🚫"
+      },
+      "answer": "C",
+      "explanation": "💡 Improved inventory tracking is the key benefit of IoT in supply chain management. RFID tags and GPS sensors provide real-time location and status of goods throughout the supply chain — from warehouse to delivery — reducing losses, improving accuracy, and enabling just-in-time inventory management."
+    },
+    {
+      "question": "In which sector are smart meters commonly used as an IoT application? ⚡",
+      "options": {
+        "A": "Entertainment 🎬",
+        "B": "Telecommunications 📱",
+        "C": "Utilities 💧",
+        "D": "Hospitality 🏨"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart meters are commonly used in the Utilities sector (electricity, gas, water). They automatically record consumption data and communicate it to utility providers without manual meter reading, enabling real-time billing, demand management, and detection of leaks or outages."
+    },
+    {
+      "question": "What is a common smart city application of IoT technology? 🏙️",
+      "options": {
+        "A": "Noise pollution sensors 🔊",
+        "B": "Ice cream production 🍦",
+        "C": "Social media platforms 📱",
+        "D": "Online shopping websites 🛒"
+      },
+      "answer": "A",
+      "explanation": "💡 Noise pollution sensors are a real smart city IoT application. They are deployed across urban areas to continuously monitor sound levels, helping city authorities identify noisy zones, enforce regulations, plan infrastructure, and protect residents from harmful noise exposure."
+    },
+    {
+      "question": "Which industry often utilizes IoT for condition monitoring of equipment? 🔧",
+      "options": {
+        "A": "Fashion 👗",
+        "B": "Mining ⛏️",
+        "C": "Travel ✈️",
+        "D": "Food service 🍔"
+      },
+      "answer": "B",
+      "explanation": "💡 The mining industry extensively uses IoT for condition monitoring of heavy equipment. Sensors on drilling machines, conveyors, and vehicles monitor vibration, temperature, and pressure to detect early signs of wear or failure, preventing catastrophic breakdowns in environments where repairs are costly and dangerous."
+    },
+    {
+      "question": "How does IoT technology facilitate remote monitoring in the field of oil and gas? 🛢️",
+      "options": {
+        "A": "By reducing safety measures ⚠️",
+        "B": "By enabling real-time data collection 📊",
+        "C": "By increasing manual inspections 🔍",
+        "D": "By limiting communication channels 📡"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT facilitates remote monitoring in oil and gas by enabling real-time data collection. Sensors on pipelines, rigs, and refineries continuously monitor pressure, flow, temperature, and equipment status, transmitting data to control centers so operators can detect leaks, faults, or anomalies without costly physical inspections."
+    },
+    {
+      "question": "What is an example of an IoT application in smart grid technology? ⚡",
+      "options": {
+        "A": "Professional sports leagues 🏀",
+        "B": "Traffic light control systems 🚦",
+        "C": "Real-time energy consumption monitoring 📊",
+        "D": "Social networking sites 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 Real-time energy consumption monitoring is a core IoT application in smart grid technology. Smart meters and grid sensors continuously track electricity production, distribution, and consumption, enabling utilities to balance supply and demand, reduce outages, and integrate renewable energy sources more effectively."
+    },
+    {
+      "question": "Why is data integration important in IoT architecture? 🔗",
+      "options": {
+        "A": "To create data silos 🏢",
+        "B": "To increase complexity 🧩",
+        "C": "To enhance decision-making and insights 💡",
+        "D": "To hinder communication 🚫"
+      },
+      "answer": "C",
+      "explanation": "💡 Data integration is important in IoT architecture to enhance decision-making and insights. IoT systems generate data from many diverse sources (temperature, location, usage, etc.). Integrating these streams into a unified view allows for comprehensive analysis, correlation of events, and better-informed automated decisions."
+    },
+    {
+      "question": "How do standards considerations impact the scalability of IoT solutions? 📏",
+      "options": {
+        "A": "They have no effect 🚫",
+        "B": "They limit scalability 📉",
+        "C": "They promote interoperability and scalability 📈",
+        "D": "They increase security risks ⚠️"
+      },
+      "answer": "C",
+      "explanation": "💡 Standards promote interoperability and scalability of IoT solutions. When devices from different manufacturers follow common communication protocols and data formats, they can work together seamlessly. This interoperability allows the network to scale by adding new devices without redesigning the entire system."
+    },
+    {
+      "question": "Which architectural approach is more focused on real-time data processing? ⚡",
+      "options": {
+        "A": "IoT 🌐",
+        "B": "M2M 🤖",
+        "C": "Both are equally focused on real-time processing ⚖️",
+        "D": "Neither focus on real-time data processing 🚫"
+      },
+      "answer": "A",
+      "explanation": "💡 IoT architecture is more focused on real-time data processing compared to M2M. IoT integrates cloud computing, edge computing, and analytics platforms specifically designed to process continuous streams of sensor data in real time and trigger immediate responses — M2M is focused more on simple point-to-point device communication."
+    },
+    {
+      "question": "What does IoT stand for? 🔤",
+      "options": {
+        "A": "Internet of Technology 💻",
+        "B": "Internet of Things 🌐",
+        "C": "Internet on Television 📺",
+        "D": "Internet of Thinking 🧠"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT stands for Internet of Things — the global network of physical objects (things) embedded with sensors, software, and connectivity that enables them to collect and exchange data over the internet without requiring human-to-human or human-to-computer interaction."
+    },
+    {
+      "question": "Which of the following is a key component of IoT architecture? 🏗️",
+      "options": {
+        "A": "Microprocessors 🧠",
+        "B": "Cooking utensils 🍳",
+        "C": "Musical instruments 🎵",
+        "D": "Gardening tools 🌱"
+      },
+      "answer": "A",
+      "explanation": "💡 Microprocessors are a key hardware component of IoT architecture. They serve as the computational brain of IoT devices — executing code, processing sensor data, running communication stacks, and making local decisions. Without a processor, an IoT device cannot function."
+    },
+    {
+      "question": "What is M2M communication in the context of IoT? 🤖",
+      "options": {
+        "A": "Man to Man communication 👨",
+        "B": "Machine to Machine communication 💻",
+        "C": "Mind to Mind communication 🧠",
+        "D": "Map to Map communication 🗺️"
+      },
+      "answer": "B",
+      "explanation": "💡 M2M (Machine to Machine) communication refers to direct automated data exchange between devices without human involvement. In the context of IoT, M2M is the foundation that allows sensors, actuators, and systems to share information and trigger actions autonomously."
+    },
+    {
+      "question": "Which technology is commonly used for wireless communication in IoT devices? 📡",
+      "options": {
+        "A": "Morse Code •–•",
+        "B": "Zigbee 🐝",
+        "C": "Smoke Signals 💨",
+        "D": "Carrier Pigeons 🐦"
+      },
+      "answer": "B",
+      "explanation": "💡 Zigbee is a commonly used wireless communication technology for IoT devices. It operates on the 2.4 GHz band, is low-power, supports mesh networking, and is designed for short-range data exchange between small sensors and devices — making it widely used in smart home and industrial IoT applications."
+    },
+    {
+      "question": "Which of the following is NOT a potential source of IoT data? ❌",
+      "options": {
+        "A": "Sensors 📡",
+        "B": "Smartphones 📱",
+        "C": "Social Media 💬",
+        "D": "Refrigerators 🧊"
+      },
+      "answer": "C",
+      "explanation": "💡 Social Media is NOT a source of IoT data. IoT data comes from physical devices with sensors that measure the real world — such as temperature sensors, smartphones (with GPS/accelerometer), or smart appliances. Social media generates user-generated content, not physical sensor measurements."
+    },
+    {
+      "question": "In the IoT world, what does the 'Internet' refer to? 🌐",
+      "options": {
+        "A": "A vast network of interconnected computers 💻",
+        "B": "A series of tubes 📦",
+        "C": "A secret underground society 🤫",
+        "D": "A magical portal ✨"
+      },
+      "answer": "A",
+      "explanation": "💡 In IoT, the 'Internet' refers to the vast global network of interconnected computers and devices. This infrastructure provides the communication backbone over which IoT devices transmit sensor data to cloud platforms, receive commands, and interact with other systems worldwide."
+    },
+    {
+      "question": "What is a common example of IoT technology in everyday life? 🏠",
+      "options": {
+        "A": "Smart thermostats 🌡️",
+        "B": "Manual typewriters 📇",
+        "C": "Horse-drawn carriages 🐴",
+        "D": "Abacus 🧮"
+      },
+      "answer": "A",
+      "explanation": "💡 Smart thermostats are one of the most common everyday IoT examples. They connect to the internet, learn your schedule and temperature preferences, adjust heating and cooling automatically, and can be controlled remotely via smartphone — saving energy while maintaining comfort."
+    },
+    {
+      "question": "In which industry is IoT technology commonly used for asset tracking? 📦",
+      "options": {
+        "A": "Fashion 👗",
+        "B": "Healthcare 🏥",
+        "C": "Logistics 🚚",
+        "D": "Tourism ✈️"
+      },
+      "answer": "C",
+      "explanation": "💡 Logistics is the industry where IoT asset tracking is most commonly used. GPS trackers and RFID tags on shipments and vehicles provide real-time location, temperature, and condition data throughout the supply chain, improving visibility, reducing losses, and optimizing delivery routes."
+    },
+    {
+      "question": "What is an example of an IoT application in healthcare? 🏥",
+      "options": {
+        "A": "Online shopping platforms 🛒",
+        "B": "Remote patient monitoring 📊",
+        "C": "Weather forecasting 🌤️",
+        "D": "Ride-sharing services 🚗"
+      },
+      "answer": "B",
+      "explanation": "💡 Remote patient monitoring is a key IoT application in healthcare. Wearable sensors and connected medical devices continuously track patient vitals (heart rate, blood pressure, glucose levels) and transmit data to healthcare providers, enabling continuous care outside hospitals and early detection of deterioration."
+    },
+    {
+      "question": "How does IoT technology enhance energy efficiency in buildings? 🏢",
+      "options": {
+        "A": "By increasing water consumption 💧",
+        "B": "By optimizing HVAC systems based on occupancy 🌡️",
+        "C": "By promoting excessive energy consumption ⚡",
+        "D": "By encouraging paper wastage 📄"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT enhances building energy efficiency by optimizing HVAC (Heating, Ventilation, and Air Conditioning) systems based on occupancy. Sensors detect which rooms are occupied and adjust temperature accordingly — automatically reducing heating or cooling in empty spaces, which significantly cuts energy waste and costs."
+    },
+    {
+      "question": "What is a key benefit of using IoT in agriculture? 🚜",
+      "options": {
+        "A": "Increased water usage 💧",
+        "B": "Improved crop monitoring and management 🌾",
+        "C": "Decreased food production 📉",
+        "D": "Enhanced soil erosion 🌪️"
+      },
+      "answer": "B",
+      "explanation": "💡 Improved crop monitoring and management is the key benefit of IoT in agriculture. Soil moisture sensors, drone imagery, weather stations, and livestock trackers give farmers unprecedented real-time visibility of their entire operation, enabling data-driven decisions that increase yield and reduce resource waste."
+    },
+    {
+      "question": "Which of the following is an example of an industrial IoT use case? 🏭",
+      "options": {
+        "A": "Inventory management in retail stores 🛒",
+        "B": "Personal fitness trackers ⌚",
+        "C": "Fleet management for transportation companies 🚚",
+        "D": "Social media applications 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 Fleet management for transportation companies is a classic industrial IoT use case. GPS and telematics sensors on vehicles track location, speed, fuel consumption, driver behavior, and maintenance needs in real time — helping companies optimize routes, reduce fuel costs, and improve driver safety."
+    },
+    {
+      "question": "What is a potential challenge of implementing IoT in smart cities? 🏙️",
+      "options": {
+        "A": "Improved traffic flow 🚦",
+        "B": "Increased safety measures 🛡️",
+        "C": "Privacy and security concerns 🔐",
+        "D": "Enhanced communication networks 📡"
+      },
+      "answer": "C",
+      "explanation": "💡 Privacy and security concerns are the primary challenge of implementing IoT in smart cities. Thousands of sensors collecting data on citizens' movements, behaviors, and activities create significant privacy risks. Connected city infrastructure is also a target for cyberattacks that could disrupt critical services."
+    },
+    {
+      "question": "Which industry commonly utilizes IoT for predictive maintenance of machinery? 🔧",
+      "options": {
+        "A": "Agriculture 🚜",
+        "B": "Construction 🏗️",
+        "C": "Manufacturing 🏭",
+        "D": "Entertainment 🎬"
+      },
+      "answer": "C",
+      "explanation": "💡 Manufacturing is the industry that most commonly uses IoT for predictive maintenance. Vibration, temperature, and acoustic sensors on production machinery detect early signs of wear or failure, allowing maintenance to be scheduled proactively — preventing unplanned downtime that costs manufacturers millions."
+    },
+    {
+      "question": "What is a unique feature of IoT applications in the automotive industry? 🚗",
+      "options": {
+        "A": "Monitoring heart rate ❤️",
+        "B": "Autonomous driving technologies 🤖",
+        "C": "Weather forecasting 🌤️",
+        "D": "Food delivery services 🍔"
+      },
+      "answer": "B",
+      "explanation": "💡 Autonomous driving technologies are a unique IoT feature in the automotive industry. Vehicles use networks of LiDAR, radar, cameras, and GPS sensors connected through IoT systems to perceive the environment, make real-time driving decisions, and communicate with infrastructure — enabling self-driving capabilities."
+    },
+    {
+      "question": "What is an example of an IoT application in retail? 🛒",
+      "options": {
+        "A": "Real-time inventory tracking 📊",
+        "B": "Recipe sharing platforms 🍳",
+        "C": "Fitness tracking apps ⌚",
+        "D": "Online dating websites 💕"
+      },
+      "answer": "A",
+      "explanation": "💡 Real-time inventory tracking is the primary IoT application in retail. RFID tags and smart shelves automatically track stock levels as items are picked up or sold, alerting staff when items need restocking and providing retailers with accurate, real-time inventory data without manual counting."
+    },
+    {
+      "question": "Which of the following is NOT a typical capability needed in an IoT architecture? ❌",
+      "options": {
+        "A": "Real-time data analytics ⚡",
+        "B": "Device management 📱",
+        "C": "Unlimited energy usage 🔋",
+        "D": "Remote monitoring 📡"
+      },
+      "answer": "C",
+      "explanation": "💡 Unlimited energy usage is NOT a typical IoT capability — in fact, it is the opposite of a requirement. IoT architectures must include energy-efficient design because most devices run on limited batteries. Real-time analytics, device management, and remote monitoring are all genuine IoT architectural requirements."
+    },
+    {
+      "question": "What should be considered when outlining an IoT architecture with regards to security? 🔐",
+      "options": {
+        "A": "Security is not important in IoT 🚫",
+        "B": "Security should be an afterthought ⏰",
+        "C": "Security should be integrated from the beginning 🔒",
+        "D": "Security can be added at the end 🏁"
+      },
+      "answer": "C",
+      "explanation": "💡 Security should be integrated into IoT architecture from the beginning — this is called security-by-design. Retrofitting security onto already-deployed devices is difficult and often ineffective. Building in encryption, authentication, and secure boot from the design phase is far more effective and cost-efficient."
+    },
+    {
+      "question": "Which of the following is a common standard in IoT technology? 📏",
+      "options": {
+        "A": "Non-standardized communication protocols 🚫",
+        "B": "Vendor-specific solutions 🏢",
+        "C": "Wi-Fi and Bluetooth only 📶",
+        "D": "MQTT and CoAP 📡"
+      },
+      "answer": "D",
+      "explanation": "💡 MQTT (Message Queuing Telemetry Transport) and CoAP (Constrained Application Protocol) are the most widely adopted IoT communication standards. MQTT is a lightweight publish/subscribe messaging protocol, while CoAP is a web protocol optimized for constrained IoT devices — both are open standards enabling interoperability."
+    },
+    {
+      "question": "What is the main benefit of having a Reference Architecture in IoT? 🏛️",
+      "options": {
+        "A": "It limits scalability 📉",
+        "B": "It restricts communication 🚫",
+        "C": "It provides a common framework for development 🏗️",
+        "D": "It increases complexity 🧩"
+      },
+      "answer": "C",
+      "explanation": "💡 The main benefit of a Reference Architecture in IoT is that it provides a common framework for development. It offers standardized patterns, components, and guidelines that teams can reuse, reducing development time, ensuring consistency across implementations, and facilitating interoperability between different IoT solutions."
+    },
+    {
+      "question": "How does a Reference Model aid in the development of IoT solutions? 📐",
+      "options": {
+        "A": "It provides no value 🚫",
+        "B": "It increases security risks ⚠️",
+        "C": "It helps to establish common terminology and concepts 📚",
+        "D": "It causes confusion 😵"
+      },
+      "answer": "C",
+      "explanation": "💡 A Reference Model aids IoT development by establishing common terminology and concepts. When all stakeholders — developers, architects, business teams — share the same language and conceptual understanding of IoT components and relationships, communication improves and misunderstandings are reduced."
+    },
+    {
+      "question": "In M2M vs IoT architecture, which tends to have more diverse devices to manage? 🤖 vs 🌐",
+      "options": {
+        "A": "M2M 🤖",
+        "B": "IoT 🌐",
+        "C": "Both have the same amount ⚖️",
+        "D": "Neither have any devices to manage 🚫"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT tends to have far more diverse devices than M2M. M2M traditionally connects a limited set of similar machines (e.g., meters to a utility server). IoT encompasses an enormous variety — from wearables, home appliances, and vehicles to industrial robots and environmental sensors — all potentially on the same network."
+    },
+    {
+      "question": "Which of the following is NOT a primary consideration in M2M vs IoT architectural design? ❌",
+      "options": {
+        "A": "Scalability 📈",
+        "B": "Security 🔐",
+        "C": "Data Privacy 🤫",
+        "D": "Consumption of data 📊"
+      },
+      "answer": "D",
+      "explanation": "💡 Consumption of data is NOT a primary architectural design consideration in M2M vs IoT. The primary considerations are Scalability (handling growth), Security (protecting devices and data), and Data Privacy (protecting user information). Data consumption is a secondary operational metric, not a core architectural design principle."
+    },
+    {
+      "question": "What plays a crucial role in the success of IoT deployments? 🏆",
+      "options": {
+        "A": "Non-standardized communication 🚫",
+        "B": "Limited connectivity 📡",
+        "C": "Standardized architectures and interfaces 📏",
+        "D": "Vendor lock-in 🔒"
+      },
+      "answer": "C",
+      "explanation": "💡 Standardized architectures and interfaces play a crucial role in the success of IoT deployments. Standards ensure that devices from different manufacturers can communicate seamlessly, the system can scale, and organizations avoid vendor lock-in — making the deployment sustainable, interoperable, and future-proof."
+    },
+    {
+      "question": "What is a key challenge when developing an M2M architecture? 🤖",
+      "options": {
+        "A": "Enabling device communication 📡",
+        "B": "Managing data flow 📊",
+        "C": "Ensuring low latency ⚡",
+        "D": "None of the above 🚫"
+      },
+      "answer": "D",
+      "explanation": "💡 None of the above is the correct answer because all three options — enabling device communication, managing data flow, and ensuring low latency — are genuine key challenges in M2M architecture development. No single one stands out as the primary challenge; they are all critical design concerns."
+    },
+    {
+      "question": "Which of the following is an example of an IoT supported hardware platform that provides a comprehensive development environment? 🖥️",
+      "options": {
+        "A": "Arduino 🤖",
+        "B": "PlayStation 🎮",
+        "C": "Laptop 💻",
+        "D": "Smartwatch ⌚"
+      },
+      "answer": "A",
+      "explanation": "💡 Arduino is a prime example of an IoT hardware platform providing a comprehensive development environment. It offers an open-source microcontroller board, a simplified programming environment (Arduino IDE), and extensive libraries and community support — making it widely used for IoT prototyping and development."
+    },
+    {
+      "question": "What hardware component is essential for an embedded device to communicate wirelessly in IoT applications? 📡",
+      "options": {
+        "A": "Antenna 📡",
+        "B": "Fan 💨",
+        "C": "Thermal paste 🧴",
+        "D": "Power supply 🔋"
+      },
+      "answer": "A",
+      "explanation": "💡 An antenna is the essential hardware component for wireless communication in IoT embedded devices. It transmits and receives radio waves for Wi-Fi, Bluetooth, Zigbee, or cellular communication. Without an antenna, a device cannot send or receive wireless signals — making wireless IoT communication impossible."
+    },
+    {
+      "question": "In the context of IoT, what role does a real-time operating system (RTOS) play in embedded platforms? ⏰",
+      "options": {
+        "A": "Providing high-speed internet connectivity 🌐",
+        "B": "Enabling real-time data processing ⚡",
+        "C": "Enhancing graphic performance 🎮",
+        "D": "Improving battery life 🔋"
+      },
+      "answer": "B",
+      "explanation": "💡 An RTOS (Real-Time Operating System) enables real-time data processing in embedded IoT platforms. It manages task scheduling with precise timing guarantees, ensuring that critical tasks (like reading sensor data or responding to events) are executed within strict deadlines — essential for time-sensitive IoT applications."
+    },
+    {
+      "question": "Which of the following statements is true about the use of firmware in embedded systems for IoT? 🔧",
+      "options": {
+        "A": "Firmware is non-upgradable and static 🚫",
+        "B": "Firmware controls the operation of hardware components 🎮",
+        "C": "Firmware is only used for debugging purposes 🐛",
+        "D": "Firmware is interchangeable with software 🔄"
+      },
+      "answer": "B",
+      "explanation": "💡 Firmware controls the operation of hardware components in embedded IoT systems. It is low-level software permanently programmed into a device's non-volatile memory that directly manages hardware behavior, boot sequences, and communication protocols. Unlike general software, firmware is tightly coupled to specific hardware."
+    },
+    {
+      "question": "What is a key advantage of using embedded computing platforms for IoT applications? 💻",
+      "options": {
+        "A": "Unlimited power supply 🔋",
+        "B": "High processing speed 🚀",
+        "C": "Large form factor 📦",
+        "D": "Cost-effectiveness 💰"
+      },
+      "answer": "D",
+      "explanation": "💡 Cost-effectiveness is a key advantage of embedded computing platforms for IoT. Microcontrollers and single-board computers cost a few dollars to a few tens of dollars, making large-scale IoT deployments economically viable. Their low cost enables deploying hundreds or thousands of sensor nodes across a facility."
+    },
+    {
+      "question": "Which hardware component is crucial for enabling data storage and retrieval in IoT devices? 💾",
+      "options": {
+        "A": "Microphone 🎤",
+        "B": "Hard drive 💽",
+        "C": "Graphics card 🎮",
+        "D": "Memory module 🧠"
+      },
+      "answer": "D",
+      "explanation": "💡 Memory modules are crucial for data storage and retrieval in IoT devices. They store the operating firmware, program code, sensor data buffers, and configuration settings. IoT devices use both volatile RAM (for runtime data) and non-volatile flash memory (for firmware and logs) to function."
+    },
+    {
+      "question": "How do IoT devices utilize sensors and actuators for data acquisition and implementation? 📡⚙️",
+      "options": {
+        "A": "Sensors for data storage, actuators for data retrieval 💾",
+        "B": "Sensors for data processing, actuators for data analysis 💻",
+        "C": "Sensors for data collection, actuators for executing actions 📊",
+        "D": "Sensors for data transmission, actuators for communication 📡"
+      },
+      "answer": "C",
+      "explanation": "💡 In IoT, sensors collect data from the environment (temperature, motion, etc.) while actuators execute physical actions based on processed data (opening valves, activating motors, switching on lights). This sensor-actuator pairing enables IoT systems to both perceive and interact with the physical world."
+    },
+    {
+      "question": "Which networking technology is commonly used for connecting IoT devices over short distances? 📡",
+      "options": {
+        "A": "Ethernet 🔌",
+        "B": "Wi-Fi 📶",
+        "C": "Zigbee 🐝",
+        "D": "Cellular 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 Zigbee is commonly used for connecting IoT devices over short distances. It operates at low power, supports mesh networking (where devices relay signals to extend range), and is designed for low-data-rate IoT applications like smart home sensors, industrial monitoring, and building automation over distances of 10–100 meters."
+    },
+    {
+      "question": "What is a key main design principle for M2M architecture? 🤖",
+      "options": {
+        "A": "Low latency ⚡",
+        "B": "High energy consumption 🔋",
+        "C": "Limited scalability 📉",
+        "D": "Centralized data processing 💻"
+      },
+      "answer": "A",
+      "explanation": "💡 Low latency is a key design principle for M2M architecture. M2M systems are often used for automated industrial control, monitoring, and alerts where rapid machine-to-machine communication is critical. High latency in M2M could lead to delayed responses in time-sensitive processes like factory automation or utility grid control."
+    },
+    {
+      "question": "Which of the following is a needed capability in IoT architecture? 🏗️",
+      "options": {
+        "A": "Decreased data security 📉",
+        "B": "High device autonomy 🤖",
+        "C": "Standardized communication protocols 📏",
+        "D": "Singular data processing center for each organization 🏢"
+      },
+      "answer": "C",
+      "explanation": "💡 Standardized communication protocols are a needed capability in IoT architecture. Without common standards (like MQTT, CoAP, or HTTP), devices from different manufacturers cannot communicate. Standardization enables interoperability, simplifies integration, and allows the IoT ecosystem to scale across diverse devices and platforms."
+    },
+    {
+      "question": "In IoT architecture outline, what is a common approach to data communication? 📡",
+      "options": {
+        "A": "Decentralized data processing 🌐",
+        "B": "High accessibility barriers 🚧",
+        "C": "Centralized data storage 💾",
+        "D": "Low device interoperability 🔗"
+      },
+      "answer": "A",
+      "explanation": "💡 Decentralized data processing is the common modern approach in IoT architecture. Rather than sending all data to a central cloud server, edge computing distributes processing to gateways and devices closer to the data source — reducing latency, bandwidth usage, and dependency on a single point of failure."
+    },
+    {
+      "question": "When considering standards in IoT architecture, why are they important? 📏",
+      "options": {
+        "A": "To limit innovation 🚫",
+        "B": "To hinder interoperability 🔗",
+        "C": "To ensure security and compatibility 🔐",
+        "D": "To increase data silos 🏢"
+      },
+      "answer": "C",
+      "explanation": "💡 Standards in IoT architecture are important to ensure security and compatibility. Security standards define how data should be encrypted and authenticated, while compatibility standards ensure devices from different vendors can communicate. Together, they create a trustworthy and interoperable IoT ecosystem."
+    },
+    {
+      "question": "Which of the following best describes a Reference Architecture in IoT? 🏛️",
+      "options": {
+        "A": "A highly customized solution 🎨",
+        "B": "A generic blueprint providing common structures and functions 📐",
+        "C": "A rigid framework without flexibility 🔒",
+        "D": "An isolated system with no connectivity 🚫"
+      },
+      "answer": "B",
+      "explanation": "💡 A Reference Architecture in IoT is a generic blueprint providing common structures and functions. It is a reusable, high-level design template that describes the standard layers, components, and their relationships in an IoT system — guiding implementation without being so rigid that it cannot be adapted to specific use cases."
+    },
+    {
+      "question": "What is the purpose of a Reference Model in IoT architecture? 📐",
+      "options": {
+        "A": "To confuse system developers 😵",
+        "B": "To restrict design options 🚫",
+        "C": "To provide a common language and understanding 💬",
+        "D": "To stifle creativity 🎨"
+      },
+      "answer": "C",
+      "explanation": "💡 A Reference Model in IoT architecture provides a common language and understanding among stakeholders. It defines key concepts, terminology, and abstractions so that developers, architects, and business teams can discuss IoT system design consistently — reducing misunderstandings and aligning expectations."
+    },
+    {
+      "question": "What does M2M stand for in the context of Architecture? 🤖",
+      "options": {
+        "A": "Many to Many 🔢",
+        "B": "Mini to Massive 📏",
+        "C": "Machine to Machine 💻",
+        "D": "Mobile to Mobile 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 M2M stands for Machine to Machine — a communication paradigm where devices exchange data directly with each other without human involvement. In IoT architecture, M2M is the foundational communication model enabling automated data sharing between sensors, controllers, and backend systems."
+    },
+    {
+      "question": "How do Main design principles differ between M2M and IoT architectures? 🤖 vs 🌐",
+      "options": {
+        "A": "They are exactly the same ⚖️",
+        "B": "M2M focuses more on security, while IoT focuses on scalability 🔐📈",
+        "C": "IoT is all about energy consumption, while M2M is not 🔋",
+        "D": "There are no design principles in IoT architecture 🚫"
+      },
+      "answer": "B",
+      "explanation": "💡 M2M architecture focuses more on security (secure point-to-point machine communication often in industrial settings), while IoT architecture focuses on scalability (connecting diverse, massive numbers of devices across different platforms). This reflects their different origins and use cases."
+    },
+    {
+      "question": "What is the main purpose of routing in IoT networks? 🗺️",
+      "options": {
+        "A": "To play games online 🎮",
+        "B": "To send messages to friends 💬",
+        "C": "To find the best path for data to travel 🛤️",
+        "D": "To make phone calls 📞"
+      },
+      "answer": "C",
+      "explanation": "💡 The main purpose of routing in IoT networks is to find the best path for data to travel from source to destination. Routing protocols evaluate available paths based on factors like hop count, signal strength, and energy levels — choosing the most efficient route to deliver data reliably."
+    },
+    {
+      "question": "Which of these is an example of an IoT device in your home? 🏠",
+      "options": {
+        "A": "A paper book 📖",
+        "B": "A smart thermostat 🌡️",
+        "C": "A wooden chair 🪑",
+        "D": "A regular pencil ✏️"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart thermostat is a household IoT device. It connects to your home Wi-Fi, learns your temperature preferences, automatically adjusts heating and cooling, and can be controlled remotely through a smartphone app — all characteristics of an IoT device."
+    },
+    {
+      "question": "What helps IoT devices talk to each other? 💬",
+      "options": {
+        "A": "Sign language 🤟",
+        "B": "Written letters ✉️",
+        "C": "Wireless signals 📡",
+        "D": "Smoke signals 💨"
+      },
+      "answer": "C",
+      "explanation": "💡 Wireless signals help IoT devices talk to each other. Technologies like Wi-Fi, Bluetooth, Zigbee, Z-Wave, and cellular networks use radio waves to transmit data between IoT devices without physical cables, enabling flexible deployment and communication across homes, buildings, and cities."
+    },
+    {
+      "question": "Why do IoT devices need to save power? 🔋",
+      "options": {
+        "A": "To help save money on electricity 💰",
+        "B": "To make them look prettier ✨",
+        "C": "To make them heavier ⚖️",
+        "D": "To make them louder 🔊"
+      },
+      "answer": "A",
+      "explanation": "💡 IoT devices need to save power primarily to extend battery life and reduce electricity costs. Battery-powered IoT sensors deployed in remote or inaccessible locations must last months or years on a single battery. For grid-powered devices, energy efficiency reduces electricity bills and environmental impact."
+    },
+    {
+      "question": "What is a network protocol? 📡",
+      "options": {
+        "A": "A set of rules for devices to communicate 📏",
+        "B": "A type of computer game 🎮",
+        "C": "A kind of internet password 🔐",
+        "D": "A charging cable 🔌"
+      },
+      "answer": "A",
+      "explanation": "💡 A network protocol is a set of rules that govern how devices communicate with each other over a network. Protocols define how data is formatted, addressed, transmitted, received, and acknowledged — ensuring that different devices can exchange information reliably and consistently."
+    },
+    {
+      "question": "What happens when IoT devices share data? 📊",
+      "options": {
+        "A": "They make loud noises 🔊",
+        "B": "They change color 🎨",
+        "C": "They help each other work better 🤝",
+        "D": "They turn off automatically ⚡"
+      },
+      "answer": "C",
+      "explanation": "💡 When IoT devices share data, they help each other work better. For example, a motion sensor sharing data with a smart lighting system automatically turns on lights when someone enters a room. Data sharing enables coordinated, intelligent behavior across the entire IoT ecosystem."
+    },
+    {
+      "question": "What is an important feature of IoT routing? 🗺️",
+      "options": {
+        "A": "It needs lots of power 🔋",
+        "B": "It works with few messages 📉",
+        "C": "It only works during daytime ☀️",
+        "D": "It requires constant human help 👨"
+      },
+      "answer": "B",
+      "explanation": "💡 Working with few messages (low overhead) is an important feature of IoT routing. IoT devices are constrained in power and memory, so routing protocols must operate efficiently using minimal control messages. Protocols like RPL are designed specifically for this requirement in low-power IoT networks."
+    },
+    {
+      "question": "Which is a common problem in IoT networks? ⚠️",
+      "options": {
+        "A": "Devices moving too fast 💨",
+        "B": "Battery life running low 🔋",
+        "C": "Devices being too heavy ⚖️",
+        "D": "Networks being too colorful 🎨"
+      },
+      "answer": "B",
+      "explanation": "💡 Battery life running low is one of the most common problems in IoT networks. The majority of IoT sensor nodes are battery-powered and deployed in locations where battery replacement is difficult. Energy depletion causes nodes to fail, creating network coverage gaps and data loss."
+    },
+    {
+      "question": "How do IoT devices know where to send information? 📡",
+      "options": {
+        "A": "They guess randomly 🎲",
+        "B": "They ask a person 👨",
+        "C": "They follow routing tables 📋",
+        "D": "They always send to the same place 📍"
+      },
+      "answer": "C",
+      "explanation": "💡 IoT devices know where to send information by following routing tables. These tables contain information about the network topology — mapping destination addresses to the next hop that data should be forwarded to. Routing protocols automatically build and maintain these tables as the network changes."
+    },
+    {
+      "question": "What makes a good IoT network? 🌟",
+      "options": {
+        "A": "Using lots of power 🔋",
+        "B": "Working reliably with little energy ⚡",
+        "C": "Having very few devices 🔢",
+        "D": "Making loud beeping sounds 🔊"
+      },
+      "answer": "B",
+      "explanation": "💡 A good IoT network works reliably while consuming minimal energy. Reliability ensures data reaches its destination without loss, while energy efficiency extends the operational life of battery-powered devices. These two qualities together enable sustainable, long-lived IoT deployments."
+    },
+    {
+      "question": "What is a sensor used for? 📡",
+      "options": {
+        "A": "To play video games 🎮",
+        "B": "To detect changes in the environment 🌍",
+        "C": "To make phone calls 📞",
+        "D": "To write messages ✍️"
+      },
+      "answer": "B",
+      "explanation": "💡 A sensor is used to detect changes in the environment. It measures physical quantities — like temperature, light, pressure, humidity, or motion — and converts them into electrical signals that can be read, processed, and acted upon by electronic systems and IoT devices."
+    },
+    {
+      "question": "Which of these is an example of a sensor we use every day? 📏",
+      "options": {
+        "A": "A pencil ✏️",
+        "B": "A paper clip 📎",
+        "C": "A thermometer 🌡️",
+        "D": "A rubber band 🩹"
+      },
+      "answer": "C",
+      "explanation": "💡 A thermometer is an everyday example of a sensor. It contains a temperature-sensitive element that measures heat and converts it into a readable value — whether a liquid expanding in a glass tube or a digital display. Modern digital thermometers are directly used in IoT health and home applications."
+    },
+    {
+      "question": "Where might you find a motion sensor? 🚶",
+      "options": {
+        "A": "In automatic doors at the supermarket 🚪",
+        "B": "Inside a pencil case 📦",
+        "C": "Under a desk 🪑",
+        "D": "Inside a book 📖"
+      },
+      "answer": "A",
+      "explanation": "💡 Motion sensors are commonly found in automatic doors at supermarkets. They use passive infrared (PIR) or microwave sensors to detect when a person approaches, triggering the door to open automatically. Motion sensors are also widely used in IoT security systems and smart lighting."
+    },
+    {
+      "question": "What does a temperature sensor help us know? 🌡️",
+      "options": {
+        "A": "What time it is ⏰",
+        "B": "How loud something is 🔊",
+        "C": "How hot or cold something is 🔥❄️",
+        "D": "What color something is 🎨"
+      },
+      "answer": "C",
+      "explanation": "💡 A temperature sensor tells us how hot or cold something is. It measures thermal energy and converts it into an electrical signal proportional to the temperature. In IoT, temperature sensors are used in smart thermostats, weather stations, cold chain monitoring, and industrial process control."
+    },
+    {
+      "question": "Which sensor helps keep us safe at home? 🏠",
+      "options": {
+        "A": "TV remote 📺",
+        "B": "Light switch 💡",
+        "C": "Smoke detector 🚨",
+        "D": "Door handle 🚪"
+      },
+      "answer": "C",
+      "explanation": "💡 A smoke detector is the home safety sensor. It uses optical or ionization sensors to detect smoke particles from combustion. When smoke is detected, it triggers an alarm to alert residents — in smart IoT versions, it also sends alerts to your smartphone and automatically contacts emergency services."
+    },
+    {
+      "question": "What can a light sensor do? 💡",
+      "options": {
+        "A": "Make sounds 🔊",
+        "B": "Turn lights on when it gets dark 🌙",
+        "C": "Cook food 🍳",
+        "D": "Clean rooms 🧹"
+      },
+      "answer": "B",
+      "explanation": "💡 A light sensor can detect ambient light levels and trigger automatic responses like turning lights on when it gets dark. In IoT systems, light sensors (photodiodes or LDRs) feed data to smart controllers that automatically manage lighting based on natural light availability — saving energy."
+    },
+    {
+      "question": "Which device uses sensors to know when you touch it? 👆",
+      "options": {
+        "A": "A regular book 📖",
+        "B": "A wooden table 🪑",
+        "C": "A tablet screen 📱",
+        "D": "A paper notebook 📓"
+      },
+      "answer": "C",
+      "explanation": "💡 A tablet screen uses capacitive touch sensors to detect finger touches. These sensors measure the disruption in an electrostatic field created by your finger's electrical charge. This allows the tablet to precisely track touch position, enabling all touch-based interactions with the device."
+    },
+    {
+      "question": "What might a weather sensor tell us? 🌤️",
+      "options": {
+        "A": "What movies are playing 🎬",
+        "B": "If it's going to rain ☔",
+        "C": "What time to go to bed ⏰",
+        "D": "What to eat for lunch 🍔"
+      },
+      "answer": "B",
+      "explanation": "💡 Weather sensors measure atmospheric conditions like humidity, air pressure, temperature, and wind speed to help predict if it is going to rain. In IoT weather stations, these sensors continuously collect and transmit data that feeds into weather forecasting models and apps."
+    },
+    {
+      "question": "How do sensors help our homes be 'smart'? 🏠",
+      "options": {
+        "A": "They do our homework 📚",
+        "B": "They make our lunch 🍳",
+        "C": "They detect when we need help 🆘",
+        "D": "They paint our walls 🎨"
+      },
+      "answer": "C",
+      "explanation": "💡 Sensors make homes smart by detecting when we need help or when action is required. Motion sensors detect occupancy, smoke sensors detect fires, flood sensors detect leaks, and door sensors detect intrusions — all triggering automated responses or alerts that protect and assist residents."
+    },
+    {
+      "question": "Which sensor helps cars park safely? 🚗",
+      "options": {
+        "A": "Distance sensor 📏",
+        "B": "Time sensor ⏰",
+        "C": "Color sensor 🎨",
+        "D": "Sound sensor 🔊"
+      },
+      "answer": "A",
+      "explanation": "💡 Distance sensors (ultrasonic or radar proximity sensors) help cars park safely by detecting the distance to nearby obstacles. When the car gets too close to a wall or another vehicle, the sensor alerts the driver with beeping sounds or visual warnings, preventing collisions."
+    },
+    {
+      "question": "What is IoT? 🔤",
+      "options": {
+        "A": "Internet of Trees 🌳",
+        "B": "Internet of Things 🌐",
+        "C": "Internet of Time ⏰",
+        "D": "Internet of Television 📺"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT stands for Internet of Things — a network of physical objects (things) embedded with sensors, software, and connectivity that allows them to collect and exchange data over the internet, enabling automation, monitoring, and smarter decision-making in everyday life and industry."
+    },
+    {
+      "question": "Which device helps make a home 'smart'? 🏠",
+      "options": {
+        "A": "A regular light bulb 💡",
+        "B": "A smart thermostat 🌡️",
+        "C": "A regular doorbell 🔔",
+        "D": "A standard clock ⏰"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart thermostat makes a home 'smart' by connecting to the internet and learning the occupants' schedule and preferences. It automatically adjusts the heating and cooling to maintain comfort while optimizing energy use, and can be controlled remotely via smartphone."
+    },
+    {
+      "question": "What can a smart doorbell do? 🔔",
+      "options": {
+        "A": "Only ring when pressed 🛎️",
+        "B": "Show who is at your door on your phone 📱",
+        "C": "Make coffee ☕",
+        "D": "Clean the floor 🧹"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart doorbell shows who is at your door on your phone. It contains a camera and microphone that stream live video to your smartphone when the doorbell is pressed or motion is detected — allowing you to see, hear, and speak to visitors remotely from anywhere in the world."
+    },
+    {
+      "question": "How do smart lights help at home? 💡",
+      "options": {
+        "A": "They never need to be replaced 🔄",
+        "B": "They can only turn on and off ⚪",
+        "C": "They can change colors and brightness 🎨",
+        "D": "They work without electricity ⚡"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart lights can change colors and brightness, unlike regular bulbs. They can be programmed to different colors and dimmed to any level via smartphone apps or voice commands. They also respond to schedules, occupancy sensors, and can set different moods for different times of day."
+    },
+    {
+      "question": "What is a common use of IoT in schools? 🏫",
+      "options": {
+        "A": "Smart attendance tracking 📊",
+        "B": "Making lunch 🍳",
+        "C": "Cleaning windows 🪟",
+        "D": "Painting walls 🎨"
+      },
+      "answer": "A",
+      "explanation": "💡 Smart attendance tracking is a common IoT application in schools. RFID cards, facial recognition, or fingerprint scanners automatically record when students enter the building or classroom — eliminating manual roll calls, providing accurate records, and instantly alerting parents when children are absent."
+    },
+    {
+      "question": "Which is an example of IoT in healthcare? 🏥",
+      "options": {
+        "A": "Paper charts 📄",
+        "B": "Regular thermometers 🌡️",
+        "C": "Smart health monitors 📊",
+        "D": "Regular watches ⌚"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart health monitors are IoT devices in healthcare. They continuously measure vital signs like heart rate, oxygen saturation, and blood pressure, transmitting data wirelessly to medical teams or cloud platforms — enabling remote patient monitoring, early detection of health changes, and reduced hospital visits."
+    },
+    {
+      "question": "How can IoT help keep a home safe? 🏠",
+      "options": {
+        "A": "By painting the walls 🎨",
+        "B": "Through security cameras 📹",
+        "C": "By cleaning windows 🪟",
+        "D": "By watering plants 🌱"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT security cameras keep homes safe by continuously streaming live video that can be monitored remotely via smartphone. They detect motion and send instant alerts, can identify faces, record footage for evidence, and integrate with alarms and smart locks for comprehensive home security."
+    },
+    {
+      "question": "What can smart kitchen appliances do? 🍳",
+      "options": {
+        "A": "Tell you when food is running low 📊",
+        "B": "Cook food by themselves 🤖",
+        "C": "Clean the house 🧹",
+        "D": "Drive a car 🚗"
+      },
+      "answer": "A",
+      "explanation": "💡 Smart kitchen appliances can tell you when food is running low. Smart refrigerators track their contents using internal cameras and sensors, recognize items, and send notifications when supplies need replenishing — some can even automatically add items to your grocery list or order them online."
+    },
+    {
+      "question": "How do motion sensors work in a smart home? 🚶",
+      "options": {
+        "A": "They make coffee ☕",
+        "B": "They detect movement 🏃",
+        "C": "They cook food 🍳",
+        "D": "They clean floors 🧹"
+      },
+      "answer": "B",
+      "explanation": "💡 Motion sensors in a smart home detect movement using passive infrared (PIR) technology that senses body heat, or microwave sensors that detect movement through radio waves. When movement is detected, they can automatically turn on lights, trigger security alarms, or send alerts to your phone."
+    },
+    {
+      "question": "What is a smart thermostat used for? 🌡️",
+      "options": {
+        "A": "Making phone calls 📞",
+        "B": "Playing music 🎵",
+        "C": "Controlling home temperature 🌡️",
+        "D": "Washing dishes 🍽️"
+      },
+      "answer": "C",
+      "explanation": "💡 A smart thermostat is used for controlling home temperature. It connects to the heating and cooling system, learns your schedule and preferences, and automatically maintains a comfortable temperature while optimizing energy use. It can be controlled remotely and provides energy usage reports."
+    },
+    {
+      "question": "How can IoT help in farming? 🚜",
+      "options": {
+        "A": "By controlling water and temperature 💧🌡️",
+        "B": "By painting fences 🎨",
+        "C": "By driving tractors 🚜",
+        "D": "By cleaning barns 🧹"
+      },
+      "answer": "A",
+      "explanation": "💡 IoT helps in farming by controlling water and temperature through precision irrigation and climate monitoring systems. Soil moisture sensors trigger irrigation only when needed, while greenhouse temperature sensors automatically control vents and heaters — saving water and energy while maximizing crop growth."
+    },
+    {
+      "question": "What is a benefit of smart lighting? 💡",
+      "options": {
+        "A": "It never breaks 🔧",
+        "B": "It saves energy ⚡",
+        "C": "It cooks food 🍳",
+        "D": "It cleans rooms 🧹"
+      },
+      "answer": "B",
+      "explanation": "💡 A key benefit of smart lighting is that it saves energy. Smart lights automatically turn off when rooms are unoccupied, dim based on natural light availability, and use efficient LED technology — significantly reducing electricity consumption compared to traditional always-on lighting."
+    },
+    {
+      "question": "How can IoT help with pet care? 🐾",
+      "options": {
+        "A": "It walks the dog 🐕",
+        "B": "It trains pets 🎓",
+        "C": "It monitors pet food and water 🍲💧",
+        "D": "It grooms pets ✂️"
+      },
+      "answer": "C",
+      "explanation": "💡 IoT helps with pet care by monitoring pet food and water levels. Smart feeders automatically dispense food at set times, smart water fountains track water freshness and levels, and connected pet cameras let you watch and interact with your pet remotely — all controllable via smartphone."
+    },
+    {
+      "question": "What can smart watches do? ⌚",
+      "options": {
+        "A": "Cook meals 🍳",
+        "B": "Track health and exercise ❤️🏃",
+        "C": "Clean houses 🧹",
+        "D": "Drive cars 🚗"
+      },
+      "answer": "B",
+      "explanation": "💡 Smartwatches track health and exercise using built-in sensors. They continuously monitor heart rate, blood oxygen levels, step count, calories burned, sleep quality, and exercise intensity — syncing this data to smartphones and cloud platforms for health analysis and long-term trend tracking."
+    },
+    {
+      "question": "How do smart refrigerators help? 🧊",
+      "options": {
+        "A": "They make ice cream 🍦",
+        "B": "They drive to the store 🚗",
+        "C": "They track food items 📊",
+        "D": "They wash dishes 🍽️"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart refrigerators track food items using internal cameras and sensors. They can identify what is stored, track expiry dates, send alerts when items run low, suggest recipes based on available ingredients, and even create shopping lists or place online grocery orders automatically."
+    },
+    {
+      "question": "What is a voice assistant? 🎤",
+      "options": {
+        "A": "A robot that cleans 🤖",
+        "B": "A device that follows voice commands 🗣️",
+        "C": "A machine that cooks 🍳",
+        "D": "A tool that paints 🎨"
+      },
+      "answer": "B",
+      "explanation": "💡 A voice assistant is a device (or software) that listens for and follows voice commands. Using speech recognition and AI, devices like Amazon Echo or Google Home interpret spoken requests — playing music, answering questions, controlling smart home devices, setting reminders, and more."
+    },
+    {
+      "question": "How can IoT help save energy? ⚡",
+      "options": {
+        "A": "By turning off unused lights 💡",
+        "B": "By cooking faster 🍳",
+        "C": "By cleaning better 🧹",
+        "D": "By painting walls 🎨"
+      },
+      "answer": "A",
+      "explanation": "💡 IoT saves energy by automatically turning off unused lights and appliances. Occupancy sensors detect when rooms are empty and switch off lighting and electronics, smart power strips cut standby power, and intelligent scheduling ensures devices only run when needed — reducing energy waste significantly."
+    },
+    {
+      "question": "What is a smart garden system? 🌱",
+      "options": {
+        "A": "A robot that pulls weeds 🤖",
+        "B": "A system that waters plants automatically 💧",
+        "C": "A machine that picks flowers 🌸",
+        "D": "A tool that cuts grass ✂️"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart garden system automatically waters plants based on sensor data. Soil moisture sensors detect when the soil is too dry, weather APIs check for rain forecasts, and the system controls valves to deliver precisely the right amount of water — preventing over or under watering."
+    },
+    {
+      "question": "How do smart cameras help in security? 📹",
+      "options": {
+        "A": "They cook food 🍳",
+        "B": "They clean windows 🪟",
+        "C": "They watch for unusual activity 👀",
+        "D": "They paint walls 🎨"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart cameras help in security by continuously watching for unusual activity. They use motion detection, object recognition, and AI analytics to identify suspicious behavior — sending instant alerts to homeowners or security teams, recording evidence, and integrating with alarm systems for automated responses."
+    },
+    {
+      "question": "What is a smart door lock? 🔒",
+      "options": {
+        "A": "A lock that needs a key 🔑",
+        "B": "A lock you can control with your phone 📱",
+        "C": "A lock that paints itself 🎨",
+        "D": "A lock that makes noise 🔊"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart door lock is a lock you can control with your phone. It connects to Wi-Fi or Bluetooth, allowing you to lock/unlock remotely, set temporary access codes for guests, receive alerts when the door is opened, and integrate with other smart home devices like cameras and alarms."
+    },
+    {
+      "question": "What does MAC stand for in computer networks? 🔤",
+      "options": {
+        "A": "Machine Access Code 💻",
+        "B": "Multiple Access Control 🔢",
+        "C": "Medium Access Control 📡",
+        "D": "Mobile Access Connection 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 MAC stands for Medium Access Control. It is a sublayer of the Data Link Layer (Layer 2) in the OSI model that controls how devices gain access to a shared communication medium (like a wireless channel) — preventing collisions and ensuring fair, orderly data transmission."
+    },
+    {
+      "question": "Which of these is most like how MAC protocol works? 📡",
+      "options": {
+        "A": "Taking turns talking in class 🗣️",
+        "B": "Everyone shouting at once 📢",
+        "C": "Only one person allowed to talk all day 🚫",
+        "D": "Writing notes instead of talking ✍️"
+      },
+      "answer": "A",
+      "explanation": "💡 MAC protocol works most like taking turns talking in class. Just as a teacher manages who speaks to avoid everyone shouting at once, a MAC protocol manages which device transmits on the shared network medium at any given time — preventing signal collisions and ensuring orderly communication."
+    },
+    {
+      "question": "What is the main job of MAC protocol in IoT devices? 📡",
+      "options": {
+        "A": "To make devices faster ⚡",
+        "B": "To help devices share the network fairly ⚖️",
+        "C": "To make the internet work 🌐",
+        "D": "To save battery power only 🔋"
+      },
+      "answer": "B",
+      "explanation": "💡 The main job of a MAC protocol in IoT is to help devices share the network channel fairly. It regulates when each device can transmit to avoid collisions, ensures equitable access for all nodes, and minimizes interference — allowing many IoT devices to coexist on the same wireless medium."
+    },
+    {
+      "question": "When IoT devices want to send messages at the same time, what happens? ⏰",
+      "options": {
+        "A": "All messages get lost ❌",
+        "B": "They take turns using MAC protocol 🔄",
+        "C": "The biggest device goes first 📏",
+        "D": "They wait for the internet to work better ⏳"
+      },
+      "answer": "B",
+      "explanation": "💡 When IoT devices want to send messages simultaneously, the MAC protocol coordinates them so they take turns. Without this coordination, their signals would collide and both transmissions would be corrupted. MAC protocols use techniques like CSMA, TDMA, or random backoff to manage simultaneous access."
+    },
+    {
+      "question": "Which is an example of a simple MAC protocol rule? 📏",
+      "options": {
+        "A": "Listen before talking 👂",
+        "B": "Talk as loud as possible 📢",
+        "C": "Never stop talking 🗣️",
+        "D": "Ignore other devices 🙈"
+      },
+      "answer": "A",
+      "explanation": "💡 'Listen before talking' is the fundamental rule of CSMA (Carrier Sense Multiple Access) — a simple and widely used MAC protocol. Devices check whether the channel is idle before transmitting. If the channel is busy, they wait, reducing the chance of collisions with other transmitting devices."
+    },
+    {
+      "question": "How does MAC protocol help IoT devices save energy? 🔋",
+      "options": {
+        "A": "By making them work faster ⚡",
+        "B": "By turning them off completely 🔴",
+        "C": "By letting them sleep when not sending messages 💤",
+        "D": "By using more battery power 🔋"
+      },
+      "answer": "C",
+      "explanation": "💡 MAC protocols help IoT devices save energy by allowing them to enter low-power sleep modes when not transmitting or receiving. Sleep-wake scheduling (used in protocols like S-MAC and T-MAC) lets devices power down their radio transceivers when the channel is not assigned to them, dramatically reducing energy use."
+    },
+    {
+      "question": "What happens if IoT devices don't follow MAC protocol rules? ⚠️",
+      "options": {
+        "A": "Nothing changes 🔄",
+        "B": "Messages might crash into each other 💥",
+        "C": "The internet stops working 🚫",
+        "D": "Devices work better 📈"
+      },
+      "answer": "B",
+      "explanation": "💡 If IoT devices don't follow MAC protocol rules and transmit simultaneously, their signals collide (crash into each other) on the shared channel. This corrupts both transmissions, requiring costly retransmissions that waste energy and reduce network throughput — causing unreliable communication."
+    },
+    {
+      "question": "Which is most important for MAC protocol in IoT? 🌟",
+      "options": {
+        "A": "Making devices more expensive 💰",
+        "B": "Using more energy 🔋",
+        "C": "Helping devices work together nicely 🤝",
+        "D": "Making devices bigger 📦"
+      },
+      "answer": "C",
+      "explanation": "💡 The most important function of a MAC protocol in IoT is helping devices work together harmoniously on a shared network. In IoT networks with hundreds of sensors, the MAC protocol coordinates access, prevents interference, and ensures each device can transmit its data efficiently — keeping the entire network functional."
+    },
+    {
+      "question": "How is MAC protocol like a traffic light? 🚦",
+      "options": {
+        "A": "It makes everything go faster ⚡",
+        "B": "It helps control when devices can send messages 📡",
+        "C": "It uses green and red lights 🟢🔴",
+        "D": "It stops all messages 🚫"
+      },
+      "answer": "B",
+      "explanation": "💡 A MAC protocol is like a traffic light because it controls when devices can send messages on a shared channel. Just as a traffic light grants different directions the right of way in turn to prevent collisions at intersections, MAC protocols grant different devices transmission rights in turn to prevent data collisions."
+    },
+    {
+      "question": "What makes a MAC protocol good for IoT devices? 🌟",
+      "options": {
+        "A": "It uses lots of power 🔋",
+        "B": "It's very complicated 🧩",
+        "C": "It's simple and saves energy 💚",
+        "D": "It only works with big devices 📦"
+      },
+      "answer": "C",
+      "explanation": "💡 A good MAC protocol for IoT is simple and saves energy. IoT devices have limited processing power and run on small batteries, so the MAC protocol must impose minimal computational overhead and maximize time spent in low-power sleep modes rather than continuously monitoring the channel."
+    },
+    {
+      "question": "What is IoT? 🔤",
+      "options": {
+        "A": "A type of robot 🤖",
+        "B": "Internet of Things-devices connected to the internet 🌐",
+        "C": "A computer game 🎮",
+        "D": "A type of telephone 📞"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT (Internet of Things) refers to physical devices connected to the internet that collect and share data. These devices — ranging from sensors and appliances to vehicles and industrial equipment — are embedded with connectivity and intelligence, enabling automation and remote monitoring without human intervention."
+    },
+    {
+      "question": "Which device below is NOT usually an IoT device? ❌",
+      "options": {
+        "A": "Smart doorbell 🔔",
+        "B": "Smart light bulb 💡",
+        "C": "Paper notebook 📓",
+        "D": "Smart thermostat 🌡️"
+      },
+      "answer": "C",
+      "explanation": "💡 A paper notebook is NOT an IoT device. IoT devices must have sensors, processing capability, and internet connectivity. Smart doorbells, smart bulbs, and smart thermostats all connect to the internet and exchange data. A paper notebook has no electronic components, sensors, or connectivity."
+    },
+    {
+      "question": "What do IoT devices need to work? ⚡",
+      "options": {
+        "A": "Paint and crayons 🎨",
+        "B": "An internet connection 🌐",
+        "C": "A television 📺",
+        "D": "A radio 📻"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT devices fundamentally need an internet connection to function as IoT devices. The 'Internet' in IoT is what enables devices to transmit sensor data to cloud platforms, receive commands, and communicate with other devices — without connectivity, they are just standalone electronics."
+    },
+    {
+      "question": "What helps IoT devices talk to each other? 💬",
+      "options": {
+        "A": "A platform or system 🖥️",
+        "B": "A microphone 🎤",
+        "C": "A camera 📷",
+        "D": "A speaker 🔊"
+      },
+      "answer": "A",
+      "explanation": "💡 An IoT platform or communication system helps devices talk to each other. IoT platforms (like AWS IoT, Google Cloud IoT, or Azure IoT Hub) provide the infrastructure for devices to publish and subscribe to data, enabling coordinated communication and management across many devices."
+    },
+    {
+      "question": "Why do we use IoT devices? 🤔",
+      "options": {
+        "A": "To play video games only 🎮",
+        "B": "To make life easier and save time ⏰",
+        "C": "To watch movies 🎬",
+        "D": "To read books 📖"
+      },
+      "answer": "B",
+      "explanation": "💡 We use IoT devices to make life easier and save time. IoT automates routine tasks (turning lights on/off, adjusting temperature, monitoring health), provides real-time information, and enables remote control of devices — freeing people from manual monitoring and repetitive actions."
+    },
+    {
+      "question": "Which is an example of an IoT device at home? 🏠",
+      "options": {
+        "A": "A regular light switch 🔘",
+        "B": "A wooden chair 🪑",
+        "C": "A smart refrigerator 🧊",
+        "D": "A regular doorknob 🚪"
+      },
+      "answer": "C",
+      "explanation": "💡 A smart refrigerator is a home IoT device. Unlike regular appliances, it connects to the internet, tracks food inventory using cameras and sensors, alerts you when food expires or runs low, suggests recipes, and can even order groceries automatically — exemplifying IoT capabilities."
+    },
+    {
+      "question": "What can IoT devices help us do? 🆘",
+      "options": {
+        "A": "Only play music 🎵",
+        "B": "Only turn on lights 💡",
+        "C": "Only open doors 🚪",
+        "D": "Many different helpful tasks ✅"
+      },
+      "answer": "D",
+      "explanation": "💡 IoT devices can help us with many different helpful tasks. They monitor health, secure homes, automate appliances, manage energy, track assets, improve agriculture, assist elderly or disabled people, and even send emergency alerts — IoT's versatility spans virtually every aspect of life and industry."
+    },
+    {
+      "question": "What is important for IoT devices to work safely? 🛡️",
+      "options": {
+        "A": "They need to be painted blue 💙",
+        "B": "They need to be very big 📏",
+        "C": "They need good security 🔐",
+        "D": "They need to make noise 🔊"
+      },
+      "answer": "C",
+      "explanation": "💡 Good security is essential for IoT devices to work safely. Without proper security measures — encryption, strong authentication, regular firmware updates, and secure communication protocols — IoT devices are vulnerable to hacking, data theft, and being used as entry points into home or corporate networks."
+    },
+    {
+      "question": "How do people control IoT devices? 🎮",
+      "options": {
+        "A": "By dancing 💃",
+        "B": "Using apps on phones or tablets 📱",
+        "C": "By singing 🎤",
+        "D": "By jumping 🤸"
+      },
+      "answer": "B",
+      "explanation": "💡 People control IoT devices primarily using apps on phones or tablets. Manufacturers provide dedicated smartphone apps that allow users to configure, monitor, and control their IoT devices remotely — adjusting settings, viewing sensor data, receiving alerts, and automating device behavior from anywhere."
+    },
+    {
+      "question": "What is a benefit of using IoT devices? 🌟",
+      "options": {
+        "A": "They make houses prettier 🏠",
+        "B": "They only work outside 🌳",
+        "C": "They need no electricity 🔌",
+        "D": "They can save energy ⚡"
+      },
+      "answer": "D",
+      "explanation": "💡 A key benefit of IoT devices is that they can save energy. Smart thermostats optimize heating/cooling, smart lighting turns off automatically, and energy monitoring systems identify wasteful consumption — collectively reducing electricity bills and environmental impact."
+    },
+    {
+      "question": "What is IoT mainly about? 🎯",
+      "options": {
+        "A": "Playing video games 🎮",
+        "B": "Connecting everyday objects to the internet 🌐",
+        "C": "Writing stories ✍️",
+        "D": "Making phone calls 📞"
+      },
+      "answer": "B",
+      "explanation": "💡 IoT is mainly about connecting everyday objects to the internet. Physical things — from light bulbs and thermostats to cars and factory machines — are given sensors and connectivity, transforming them from passive objects into active, data-sharing participants in a globally connected digital ecosystem."
+    },
+    {
+      "question": "Which device below is NOT typically an IoT device? ❌",
+      "options": {
+        "A": "Smart thermostat 🌡️",
+        "B": "Paper notebook 📓",
+        "C": "Smart doorbell 🔔",
+        "D": "Smart light bulb 💡"
+      },
+      "answer": "B",
+      "explanation": "💡 A paper notebook is NOT an IoT device. All the other options (smart thermostat, smart doorbell, smart light bulb) contain sensors and internet connectivity. A paper notebook has no electronics, sensors, or wireless communication — it cannot connect to or exchange data over the internet."
+    },
+    {
+      "question": "What is the main purpose of sensors in IoT devices? 📡",
+      "options": {
+        "A": "To make music 🎵",
+        "B": "To collect information 📊",
+        "C": "To play games 🎮",
+        "D": "To draw pictures 🎨"
+      },
+      "answer": "B",
+      "explanation": "💡 The main purpose of sensors in IoT devices is to collect information from the physical environment. Sensors measure quantities like temperature, light, motion, humidity, and pressure, converting real-world data into digital signals that IoT systems can process, analyze, and act upon."
+    },
+    {
+      "question": "Which is an example of how IoT helps at home? 🏠",
+      "options": {
+        "A": "Turning lights on/off with your voice 🗣️",
+        "B": "Writing with a pencil ✏️",
+        "C": "Reading a paper book 📖",
+        "D": "Playing with toys 🧸"
+      },
+      "answer": "A",
+      "explanation": "💡 Turning lights on/off with your voice is a real example of IoT at home. A voice assistant (like Amazon Alexa or Google Home) receives your voice command, interprets it using AI, and sends a wireless signal to smart bulbs — demonstrating IoT's ability to connect voice interfaces with physical devices."
+    },
+    {
+      "question": "What does a smart home device need to work properly? ⚙️",
+      "options": {
+        "A": "Batteries only 🔋",
+        "B": "Internet connection 🌐",
+        "C": "Paint 🎨",
+        "D": "Water 💧"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart home device needs an internet connection to work properly. The internet connection enables the device to receive commands from smartphone apps, communicate with other smart devices, access cloud-based AI services, receive firmware updates, and send alerts and data to the homeowner."
+    },
+    {
+      "question": "How do IoT devices usually communicate with each other? 📡",
+      "options": {
+        "A": "Through mail ✉️",
+        "B": "By making sounds 🔊",
+        "C": "Through wireless networks 📶",
+        "D": "Using string 🧵"
+      },
+      "answer": "C",
+      "explanation": "💡 IoT devices usually communicate with each other through wireless networks. Technologies like Wi-Fi, Bluetooth, Zigbee, Z-Wave, and cellular networks enable cable-free data exchange between IoT devices, gateways, and cloud platforms — making flexible deployment possible anywhere."
+    },
+    {
+      "question": "Which is a benefit of using IoT devices? 🌟",
+      "options": {
+        "A": "They never need power 🔋",
+        "B": "They make life easier by automating tasks 🤖",
+        "C": "They work without internet 🌐",
+        "D": "They only work during daytime ☀️"
+      },
+      "answer": "B",
+      "explanation": "💡 A key benefit of IoT devices is that they make life easier by automating tasks. IoT automates routine activities like adjusting thermostats, watering gardens, reordering groceries, and monitoring security — freeing people from manual work and enabling more efficient, convenient daily routines."
+    },
+    {
+      "question": "What is an important part of IoT security? 🔐",
+      "options": {
+        "A": "Using strong passwords 🔑",
+        "B": "Leaving doors open 🚪",
+        "C": "Sharing passwords with everyone 👥",
+        "D": "Never changing passwords 🔄"
+      },
+      "answer": "A",
+      "explanation": "💡 Using strong, unique passwords is an important part of IoT security. Weak or default passwords are among the most common attack vectors for IoT devices. Strong passwords combined with regular firmware updates and network segmentation form the foundation of good IoT security practice."
+    },
+    {
+      "question": "Which is a common IoT device in many homes? 🏠",
+      "options": {
+        "A": "Wooden chair 🪑",
+        "B": "Paper calendar 📅",
+        "C": "Smart speaker 🔊",
+        "D": "Regular pencil ✏️"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart speakers (like Amazon Echo or Google Nest) are among the most common IoT devices in homes today. They connect to the internet, respond to voice commands, control other smart home devices, stream music, answer questions, set reminders, and integrate with virtually every other IoT ecosystem."
+    },
+    {
+      "question": "How do people usually control their IoT devices? 🎮",
+      "options": {
+        "A": "By writing letters ✉️",
+        "B": "Using smoke signals 💨",
+        "C": "By yelling loudly 📢",
+        "D": "Using smartphones or tablets 📱"
+      },
+      "answer": "D",
+      "explanation": "💡 People usually control their IoT devices using smartphones or tablets through dedicated apps. These apps provide intuitive interfaces for adjusting settings, viewing sensor data, receiving notifications, and automating device behavior — making remote control and monitoring straightforward from anywhere with internet access."
+    },
+    {
+      "question": "What does M2M stand for in technology? 🔤",
+      "options": {
+        "A": "Machine-to-Mouse 🖱️",
+        "B": "Machine-to-Machine 💻",
+        "C": "Mouse-to-Machine 🖱️",
+        "D": "Message-to-Message 💬"
+      },
+      "answer": "B",
+      "explanation": "💡 M2M stands for Machine-to-Machine — a type of communication where devices exchange data directly with each other without requiring human intervention. M2M is used in applications like utility metering, industrial control systems, and vehicle fleet management."
+    },
+    {
+      "question": "Which of these is an example of M2M communication? 🤖",
+      "options": {
+        "A": "A person sending a text message to another person 👨",
+        "B": "A smart thermostat automatically adjusting the temperature 🌡️",
+        "C": "Writing a letter to a friend ✉️",
+        "D": "Talking on the phone 📞"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart thermostat automatically adjusting temperature is M2M communication. The thermostat's sensors detect temperature, the device's processor decides an adjustment is needed, and it sends commands to the HVAC system — all machine-to-machine with no human involvement in the individual transaction."
+    },
+    {
+      "question": "Why is M2M communication important in our daily lives? 🌟",
+      "options": {
+        "A": "It helps machines work together without human help 🤖",
+        "B": "It makes video games more fun 🎮",
+        "C": "It helps people write faster ✍️",
+        "D": "It makes computers bigger 📦"
+      },
+      "answer": "A",
+      "explanation": "💡 M2M communication is important because it helps machines work together without human help. This automation enables systems to respond instantly to changing conditions — like a factory robot adjusting its speed based on sensor data, or a car reporting diagnostic faults to a service center — far faster than humans could."
+    },
+    {
+      "question": "Which device below uses M2M communication? 📱",
+      "options": {
+        "A": "A regular pencil ✏️",
+        "B": "A paper notebook 📓",
+        "C": "A smart watch tracking your steps ⌚",
+        "D": "A regular wristwatch ⌚"
+      },
+      "answer": "C",
+      "explanation": "💡 A smartwatch tracking your steps uses M2M communication. The accelerometer sensors measure movement, the watch's processor converts this to step data, and the device automatically syncs this data to your smartphone and health app without requiring any manual action from you."
+    },
+    {
+      "question": "In a smart home, what might M2M communication control? 🏠",
+      "options": {
+        "A": "Paper books 📖",
+        "B": "Wooden furniture 🪑",
+        "C": "Smart lights 💡",
+        "D": "Regular windows 🪟"
+      },
+      "answer": "C",
+      "explanation": "💡 M2M communication in a smart home controls smart lights. Motion sensors automatically signal smart bulbs to turn on when you enter a room, presence sensors dim lights as natural daylight increases, and timers schedule lights to turn off — all machine-to-machine without manual switching."
+    },
+    {
+      "question": "How does M2M communication help in weather stations? 🌤️",
+      "options": {
+        "A": "It makes rain fall faster ☔",
+        "B": "It helps collect and send weather data automatically 📊",
+        "C": "It makes clouds move ☁️",
+        "D": "It changes the temperature outside 🌡️"
+      },
+      "answer": "B",
+      "explanation": "💡 M2M communication helps weather stations automatically collect and send weather data. Temperature, humidity, wind, and pressure sensors continuously measure atmospheric conditions and transmit data to central weather servers — without any human intervention — feeding real-time weather forecasting systems."
+    },
+    {
+      "question": "What is one benefit of M2M communication? 🌟",
+      "options": {
+        "A": "It makes computers heavier ⚖️",
+        "B": "It uses more electricity ⚡",
+        "C": "It needs more human workers 👨",
+        "D": "It saves time and reduces errors ✅"
+      },
+      "answer": "D",
+      "explanation": "💡 M2M communication saves time and reduces errors. Automated machine-to-machine data exchange is faster and more accurate than human data collection and entry. Removing humans from routine data transfer eliminates transcription errors and ensures more consistent, reliable data flow."
+    },
+    {
+      "question": "Which of these is NOT an example of M2M communication? ❌",
+      "options": {
+        "A": "A vending machine reporting its inventory 🥤",
+        "B": "A person writing with a pencil ✏️",
+        "C": "A security camera sending alerts 📹",
+        "D": "A smart meter reading electricity usage ⚡"
+      },
+      "answer": "B",
+      "explanation": "💡 A person writing with a pencil is NOT M2M communication — it involves a human, not machines communicating with each other. Vending machines reporting inventory, security cameras sending alerts, and smart meters transmitting usage data all involve automated machine-to-machine data exchange without human involvement."
+    },
+    {
+      "question": "What do machines need to communicate with each other? 🤖",
+      "options": {
+        "A": "Special sensors and internet connection 📡🌐",
+        "B": "Paint and brushes 🎨",
+        "C": "Paper and pencils 📄✏️",
+        "D": "Books and magazines 📚"
+      },
+      "answer": "A",
+      "explanation": "💡 Machines need special sensors (to collect data) and an internet or network connection (to transmit that data) to communicate with each other. Sensors gather real-world information, which is then packaged and sent over the network to other machines or backend systems — the two essential components of M2M."
+    },
+    {
+      "question": "How does M2M communication help in schools? 🏫",
+      "options": {
+        "A": "It makes textbooks heavier 📚",
+        "B": "It helps attendance systems work automatically ✅",
+        "C": "It makes chairs more comfortable 🪑",
+        "D": "It makes walls stronger 🧱"
+      },
+      "answer": "B",
+      "explanation": "💡 M2M communication helps schools by making attendance systems work automatically. RFID cards or biometric scanners automatically register student attendance when they enter, transmitting records to the school management system without any manual roll call — saving time and improving accuracy."
+    },
+    {
+      "question": "What helps devices talk to each other? 💬",
+      "options": {
+        "A": "Magic spells ✨",
+        "B": "The internet 🌐",
+        "C": "Paper airplanes ✈️",
+        "D": "Loud noises 🔊"
+      },
+      "answer": "B",
+      "explanation": "💡 The internet helps devices talk to each other in IoT systems. It provides the global communication infrastructure — routers, servers, and protocols — that allows IoT devices anywhere in the world to transmit data to cloud platforms, receive commands, and exchange information with other devices."
+    },
+    {
+      "question": "Which of these is a smart device? 🧠",
+      "options": {
+        "A": "A regular light bulb 💡",
+        "B": "A wooden chair 🪑",
+        "C": "A smart speaker 🔊",
+        "D": "A regular pencil ✏️"
+      },
+      "answer": "C",
+      "explanation": "💡 A smart speaker is a smart device — it connects to the internet, uses AI to understand voice commands, plays music, controls other smart home devices, answers questions, and continuously learns from usage patterns. Regular bulbs, chairs, and pencils have no connectivity or intelligence."
+    },
+    {
+      "question": "What do we call it when two devices share information? 🔄",
+      "options": {
+        "A": "Connection 🔗",
+        "B": "Dancing 💃",
+        "C": "Walking 🚶",
+        "D": "Jumping 🤸"
+      },
+      "answer": "A",
+      "explanation": "💡 When two devices share information, it is called a connection. A network connection is established between devices, allowing data to flow between them. In IoT, these connections can be wired or wireless, using various protocols to ensure the data is transmitted correctly and securely."
+    },
+    {
+      "question": "Which device helps us connect to the internet at home? 🏠",
+      "options": {
+        "A": "Toaster 🍞",
+        "B": "Router 📡",
+        "C": "Lamp 💡",
+        "D": "Clock ⏰"
+      },
+      "answer": "B",
+      "explanation": "💡 A router connects all home devices to the internet. It receives internet signal from the modem, creates a local network (LAN), and broadcasts Wi-Fi wirelessly — allowing all IoT devices (smart bulbs, thermostats, cameras, etc.) to connect to the internet simultaneously."
+    },
+    {
+      "question": "What do smart devices need to work? ⚡",
+      "options": {
+        "A": "Sunshine ☀️",
+        "B": "Water 💧",
+        "C": "Electricity ⚡",
+        "D": "Paint 🎨"
+      },
+      "answer": "C",
+      "explanation": "💡 Smart devices need electricity to work. All electronic components — processors, sensors, communication modules, and displays — require electrical power. Smart devices are powered by batteries, USB, solar panels, or mains electricity, without which they cannot operate at all."
+    },
+    {
+      "question": "Which is an example of devices working together? 🤝",
+      "options": {
+        "A": "A book on a shelf 📖",
+        "B": "A smart light turning on when you get home 💡",
+        "C": "A pencil in a drawer ✏️",
+        "D": "A plant in the garden 🌱"
+      },
+      "answer": "B",
+      "explanation": "💡 A smart light turning on when you get home is a perfect example of IoT devices working together. A presence sensor or geofencing detects your arrival and automatically signals the smart bulb to turn on — multiple devices (sensor, controller, and light) cooperating without any manual action."
+    },
+    {
+      "question": "What helps keep our smart devices safe? 🛡️",
+      "options": {
+        "A": "A blanket 🛌",
+        "B": "A password 🔐",
+        "C": "A hat 🧢",
+        "D": "A door 🚪"
+      },
+      "answer": "B",
+      "explanation": "💡 Passwords help keep smart devices safe by preventing unauthorized access. Strong, unique passwords ensure only authorized users can control IoT devices. Combined with regular firmware updates (which patch security vulnerabilities) and encrypted communication, passwords form a critical layer of IoT security."
+    },
+    {
+      "question": "What do we call a group of connected devices? 🔗",
+      "options": {
+        "A": "A network 🌐",
+        "B": "A family 👨‍👩‍👧",
+        "C": "A team ⚽",
+        "D": "A crowd 🧑‍🤝‍🧑"
+      },
+      "answer": "A",
+      "explanation": "💡 A group of connected devices is called a network. In IoT, devices form networks (like a home network or an industrial sensor network) where they can communicate and share data with each other. The internet itself is the world's largest network connecting billions of devices globally."
+    },
+    {
+      "question": "Which device can control other smart devices? 🎮",
+      "options": {
+        "A": "Regular watch ⌚",
+        "B": "Paper notebook 📓",
+        "C": "Smartphone 📱",
+        "D": "Regular doorbell 🔔"
+      },
+      "answer": "C",
+      "explanation": "💡 A smartphone can control other smart devices through IoT apps. With the right apps, a smartphone becomes a universal remote control for smart lights, thermostats, locks, cameras, and appliances — sending commands over Wi-Fi or Bluetooth to any connected IoT device."
+    },
+    {
+      "question": "What do smart devices use to understand our commands? 🗣️",
+      "options": {
+        "A": "Mind reading 🧠",
+        "B": "Special software 💻",
+        "C": "Guessing 🤔",
+        "D": "Drawing pictures 🎨"
+      },
+      "answer": "B",
+      "explanation": "💡 Smart devices use special software (including AI, machine learning, and voice recognition algorithms) to understand our commands. This software processes spoken words, touch inputs, or app signals, interprets the intended action, and executes the appropriate response."
+    },
+    {
+      "question": "What is a digital sensor used for? 📡",
+      "options": {
+        "A": "To play video games 🎮",
+        "B": "To detect and measure changes in the environment 🌍",
+        "C": "To make phone calls 📞",
+        "D": "To watch movies 🎬"
+      },
+      "answer": "B",
+      "explanation": "💡 A digital sensor is used to detect and measure changes in the environment. Unlike analog sensors that output continuous voltages, digital sensors output discrete digital values — making them easier to interface directly with microcontrollers and IoT platforms for processing and transmission."
+    },
+    {
+      "question": "Which of these is an example of an actuator? ⚙️",
+      "options": {
+        "A": "A thermometer 🌡️",
+        "B": "A camera 📷",
+        "C": "An electric motor ⚡",
+        "D": "A microphone 🎤"
+      },
+      "answer": "C",
+      "explanation": "💡 An electric motor is an example of an actuator — a device that converts electrical signals into physical action. Motors spin fans, move robotic arms, open valves, and drive vehicles based on commands from IoT controllers. Thermometers, cameras, and microphones are sensors that measure rather than act."
+    },
+    {
+      "question": "What does RFID stand for? 🔤",
+      "options": {
+        "A": "Really Fast Internet Device 🚀",
+        "B": "Radio Frequency Information Display 📡",
+        "C": "Radio Frequency Identification 🏷️",
+        "D": "Really Fun Interactive Device 🎮"
+      },
+      "answer": "C",
+      "explanation": "💡 RFID stands for Radio Frequency Identification — a technology that uses radio waves to wirelessly identify and track objects fitted with RFID tags. Readers emit radio waves that power and communicate with nearby tags, enabling automatic identification without line-of-sight or physical contact."
+    },
+    {
+      "question": "Where might you find RFID tags being used? 🏷️",
+      "options": {
+        "A": "In library books to track them 📚",
+        "B": "In video games consoles 🎮",
+        "C": "In pencil cases 📦",
+        "D": "In paper notebooks 📓"
+      },
+      "answer": "A",
+      "explanation": "💡 RFID tags are used in library books to track them. Libraries attach RFID tags to books so automated systems can check books in and out, prevent unauthorized removal, and quickly locate items in the collection. RFID is also widely used in retail stores, warehouses, and access control systems."
+    },
+    {
+      "question": "Which statement about sensors is TRUE? ✅",
+      "options": {
+        "A": "Sensors only work during daytime ☀️",
+        "B": "Sensors can only measure temperature 🌡️",
+        "C": "Sensors can detect different types of changes 🔄",
+        "D": "Sensors are only used in smartphones 📱"
+      },
+      "answer": "C",
+      "explanation": "💡 The TRUE statement is that sensors can detect different types of changes. Sensors measure a wide variety of physical phenomena — temperature, light, sound, pressure, humidity, motion, chemical composition, magnetic fields, and more — making them incredibly versatile components used in countless IoT applications."
+    },
+    {
+      "question": "What is the main purpose of a wireless sensor network? 📡",
+      "options": {
+        "A": "To play video games 🎮",
+        "B": "To collect and share information about the environment 🌍",
+        "C": "To make phone calls 📞",
+        "D": "To watch television shows 📺"
+      },
+      "answer": "B",
+      "explanation": "💡 The main purpose of a wireless sensor network (WSN) is to collect and share information about the environment. Multiple distributed sensor nodes wirelessly gather data about temperature, humidity, light, or other physical parameters across a wide area, relaying it to a central gateway for analysis."
+    },
+    {
+      "question": "Which of these could a wireless sensor help monitor in your school? 🏫",
+      "options": {
+        "A": "The temperature in different classrooms 🌡️",
+        "B": "What students had for lunch 🍔",
+        "C": "The color of students' shoes 👟",
+        "D": "What games students play at recess 🎮"
+      },
+      "answer": "A",
+      "explanation": "💡 Wireless sensors can monitor the temperature in different classrooms, enabling smart building management. Temperature sensors in each room feed data to a central HVAC control system, which automatically adjusts heating or cooling to maintain comfort and energy efficiency throughout the building."
+    },
+    {
+      "question": "What is one thing that makes wireless sensors special? 🌟",
+      "options": {
+        "A": "They need lots of wires to work 🔌",
+        "B": "They only work indoors 🏠",
+        "C": "They can work without being plugged in 🔋",
+        "D": "They must be used underwater 💧"
+      },
+      "answer": "C",
+      "explanation": "💡 What makes wireless sensors special is that they can work without being plugged in. Battery-powered wireless sensors can be deployed almost anywhere — in forests, on mountains, in buildings, or underground — without needing wired power or data connections, making them incredibly flexible IoT tools."
+    },
+    {
+      "question": "In a wireless sensor network, how do the sensors share information? 📡",
+      "options": {
+        "A": "Through paper messages ✉️",
+        "B": "By making loud noises 🔊",
+        "C": "Through radio waves 📻",
+        "D": "By flashing lights 💡"
+      },
+      "answer": "C",
+      "explanation": "💡 Wireless sensors share information through radio waves. They use low-power radio transceivers operating on frequencies like 2.4 GHz (Zigbee, Wi-Fi) or 868/915 MHz (LoRa, Z-Wave) to transmit sensor data wirelessly to neighboring nodes or gateways that relay it to the central network."
+    },
+    {
+      "question": "Which of these is an example of where wireless sensors might be used? 📡",
+      "options": {
+        "A": "In a toy store to count toys 🧸",
+        "B": "In a forest to detect fires 🔥",
+        "C": "In a library to read books 📚",
+        "D": "In a kitchen to cook food 🍳"
+      },
+      "answer": "B",
+      "explanation": "💡 Wireless sensors in a forest to detect fires is a real-world IoT application. Temperature and smoke sensors deployed across remote forest areas continuously monitor for signs of wildfire, transmitting alerts to firefighting authorities before fires spread — enabling rapid response that saves lives and ecosystems."
+    }
+  ]
+
   },
   {
     subject: "E-Commerce",
